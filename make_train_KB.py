@@ -1,7 +1,7 @@
 import requests
 
 f = open("Knowledge base/trenitalia.pl", "a")
-f.write("train(trainID, train_type, originID, arrivalID, departure_time, arrival_time, train_stops).")
+f.write("%train(trainID, train_type, originID, arrivalID, departure_time, arrival_time, train_stops).")
 for trainID in range(1000000):
     x = requests.get(f'http://www.viaggiatreno.it/infomobilita/resteasy/viaggiatreno/cercaNumeroTreno/{trainID}')
     # Check the existence of a train with that id 
