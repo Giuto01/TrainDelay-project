@@ -1,2928 +1,2928 @@
 %station(stationID, station_name, region_name).
-station(s05700, abano_terme, veneto).
-station(s01416, abbadia_lariana, lombardia).
-station(s12873, abbasanta, sardegna).
-station(n00018, abbiate_guazzone, unavailable).
-station(s01062, abbiategrasso, lombardia).
-station(s12409, acate, sicilia).
-station(s07423, acciano, abruzzo).
-station(s09215, acerra, campania).
-station(s12328, acireale, sicilia).
-station(s08715, acqua_acetosa, lazio).
-station(s11722, acquafredda, basilicata).
-station(s09798, acquamela, unavailable).
-station(s01913, acquanegra_cremonese, lombardia).
-station(s11736, acquappesa, calabria).
-station(s12209, acquaviva, sicilia).
-station(s11504, acquaviva_delle_fonti, puglia).
-station(s12026, acquedolci_sfratello, sicilia).
-station(s00867, acqui_terme, piemonte).
-station(s11907, acri_bisignano_luzzi, calabria).
-station(s05420, adria, veneto).
-station(s11872, africo_nuovo, calabria).
-station(s00804, agliano_castelnuovo_calcea, piemonte).
-station(s12213, agrigento_bassa, sicilia).
-station(s12216, agrigento_centrale, sicilia).
-station(s11705, agropoli_castellabate, campania).
-station(s08550, aielli, unavailable).
-station(s00514, airasca, piemonte).
-station(s04481, airole, liguria).
-station(s01515, airuno, lombardia).
-station(s02049, ala, trentino_alto_adige).
-station(s07708, alanno, abruzzo).
-station(s02566, alano_fener_valdobbiadene, veneto).
-station(s04515, alassio, liguria).
-station(s00825, alba, piemonte).
-station(s07800, alba_adriatica_nereto_contr, abruzzo).
-station(s07207, albacina, marche).
-station(s01059, albairate_vermezzo, unavailable).
-station(s11453, albano_di_lucania, basilicata).
-station(s08704, albano_laziale, lazio).
-station(s01534, albano_salessandro, lombardia).
-station(s09004, albanova, campania).
-station(s02538, albaredo, veneto).
-station(s01310, albate_camerlata, lombardia).
-station(s01450, albate_trecallo, lombardia).
-station(s04516, albenga, liguria).
-station(s08001, alberese, toscana).
-station(s06067, albergo, unavailable).
-station(s08003, albinia, toscana).
-station(s04529, albisola, liguria).
-station(s01209, albizzate_solbiate_arno, lombardia).
-station(s00033, albonese, lombardia).
-station(s01863, albuzzano, lombardia).
-station(s12150, alcamo_diramazione, sicilia).
-station(s12320, alcantara, sicilia).
-station(s00470, alessandria, piemonte).
-station(s08908, alfedena_scontrone, abruzzo).
-station(s05808, alfonsine, emilia_romagna).
-station(s00809, alice_belcolle, piemonte).
-station(s09020, alife, unavailable).
-station(s12310, ali_terme, sicilia).
-station(s08202, allerona_castel_viscardo, umbria).
-station(s00216, alpignano, piemonte).
-station(s11307, altamura, puglia).
-station(s04810, altare, liguria).
-station(s09511, altavilla_irpina, campania).
-station(s12011, altavilla_m, sicilia).
-station(s02444, altavilla_tavernelle, veneto).
-station(s06407, altopascio, toscana).
-station(s08206, alviano, umbria).
-station(s09023, alvignno, unavailable).
-station(s11744, amantea, calabria).
-station(s01527, ambivere_mapello, lombardia).
-station(s11051, amendola, puglia).
-station(s11807, amendolara_oriolo, calabria).
-station(s09306, amorosi_melizzano, campania).
-station(s08658, anagni_fiuggi, lazio).
-station(s07113, ancona, marche).
-station(s07116, ancona_marittima, marche).
-station(s07114, ancona_stadio, unavailable).
-station(s07015, ancona_torrette, marche).
-station(s02141, anconetta, veneto).
-station(s04513, andora, unavailable).
-station(s09031, anfiteatro, unavailable).
-station(s09812, angri, campania).
-station(s08318, anguillara, lazio).
-station(s11870, anna, unavailable).
-station(s02769, annone_veneto, veneto).
-station(s06727, antignano, toscana).
-station(s07408, antrodoco_borgo_velino, lazio).
-station(s07435, antrodoco_centro, lazio).
-station(s08537, anversa_villalago_scanno, abruzzo).
-station(s01453, anzano_del_parco, lombardia).
-station(s08709, anzio, lazio).
-station(s08713, anzio_colonia, lazio).
-station(s05386, anzola, unavailable).
-station(s00137, aosta, valle_d_aosta).
-station(s00143, aosta_istituto, valle_d_aosta).
-station(s00146, aosta_viale_europa, valle_d_aosta).
-station(s09314, apice_sarcangelo_bonito, campania).
-station(s08328, appiano, lazio).
-station(s11024, apricena, puglia).
-station(s08705, aprilia, lazio).
-station(s09623, aquilonia, campania).
-station(s12370, aragona_caldare, sicilia).
-station(s06811, arbia, toscana).
-station(s08861, arce, lazio).
-station(s07992, archi, unavailable).
-station(s01203, arcisate, lombardia).
-station(s06006, arcola, liguria).
-station(s01510, arcore, lombardia).
-station(s12817, ardara, sardegna).
-station(s01427, ardenno_masino, lombardia).
-station(s11853, ardore, calabria).
-station(s01947, arena_po, lombardia).
-station(s04533, arenzano, liguria).
-station(s06915, arezzo, toscana).
-station(s06086, arezzo_cc, unavailable).
-station(s06063, arezzo_pescaiola, unavailable).
-station(s05804, argenta, emilia_romagna).
-station(s09316, ariano_irpino, campania).
-station(s01020, arona, piemonte).
-station(s01092, arosio, unavailable).
-station(s09017, arpaia_airola_s_agata_dei_goti, unavailable).
-station(s08859, arpino, lazio).
-station(s04207, arquata_scrivia, piemonte).
-station(s05707, arqua, veneto).
-station(s08516, arsoli, lazio).
-station(s03021, artegna, friuli_venezia_giulia).
-station(n00219, artogne___gianico, unavailable).
-station(s00134, arvier, valle_d_aosta).
-station(s11711, ascea, campania).
-station(s06813, asciano, toscana).
-station(s06825, asciano_monte_oliveto_maggiore, toscana).
-station(s07550, ascoli_piceno, marche).
-station(s11203, ascoli_satriano, puglia).
-station(s01847, asola, lombardia).
-station(s12889, assemini, sardegna).
-station(s07008, assisi, umbria).
-station(s01101, asso, lombardia).
-station(s00462, asti, piemonte).
-station(s07998, ateleta, unavailable).
-station(s09904, atena, campania).
-station(s08207, attigliano, umbria).
-station(s12345, augusta, sicilia).
-station(s09902, auletta, campania).
-station(s06168, aulla, toscana).
-station(s06013, aulla_lunigiana, toscana).
-station(s03550, aurisina, friuli_venezia_giulia).
-station(s09514, avellino, campania).
-station(s09006, aversa, campania).
-station(s08526, avezzano, abruzzo).
-station(s03087, aviano, friuli_venezia_giulia).
-station(s00214, avigliana, piemonte).
-station(s11214, avigliano_lucania, basilicata).
-station(s02050, avio, trentino_alto_adige).
-station(s00133, avise, valle_d_aosta).
-station(s12426, avola, sicilia).
-station(s11119, bari_centrale, puglia).
-station(s05043, bologna_cle, emilia_romagna).
-station(s11499, ba_policlinico, unavailable).
-station(s06081, baciano, unavailable).
-station(s03118, baden, unavailable).
-station(s02370, badia_polesine, veneto).
-station(s11841, badolato, calabria).
-station(s12008, bagheria, sicilia).
-station(s05902, bagnacavallo, emilia_romagna).
-station(s11770, bagnara, calabria).
-station(s03123, bagnaria_arsa, friuli_venezia_giulia).
-station(s00921, bagnasco, piemonte).
-station(s06308, bagni_di_lucca, toscana).
-station(s08504, bagni_di_tivoli, lazio).
-station(s09102, bagnoli_agnano_terme, campania).
-station(s09613, bagnoli_irpino, campania).
-station(s01901, bagnolo_mella, lombardia).
-station(s07224, baiano_di_spoleto, umbria).
-station(s00094, balangero, unavailable).
-station(s03418, balatonfoeldvar, unavailable).
-station(s03459, balatonlelle, unavailable).
-station(s03566, balatonszentgyorgy, unavailable).
-station(s00460, baldichieri, piemonte).
-station(s12122, balestrate, sicilia).
-station(s08856, balsorano, abruzzo).
-station(s09830, balvano_r, basilicata).
-station(s00178, balzola, piemonte).
-station(s00732, bandito, piemonte).
-station(s09832, baragiano, basilicata).
-station(s09458, baranello, molise).
-station(n00027, barasso___comerio, unavailable).
-station(s06806, barberino_val_delsa, unavailable).
-station(s01932, barbianello, lombardia).
-station(s05905, barbiano, emilia_romagna).
-station(s12971, barbusi, sardegna).
-station(s12041, barcellona, sicilia).
-station(s00202, bardonecchia, piemonte).
-station(s06303, barga_gallicano, toscana).
-station(s11118, bari_palese_macchie, puglia).
-station(s11148, bari_parco_nord, puglia).
-station(s11149, bari_parco_nord_fascio_taranto, unavailable).
-station(s11125, bari_parco_sud, puglia).
-station(s11116, bari_s_spirito, puglia).
-station(s11513, bari_sandrea, puglia).
-station(s11150, bari_sgiorgio, puglia).
-station(s11126, bari_torre_a_mare, puglia).
-station(s05419, baricetta, veneto).
-station(s11208, barile, basilicata).
-station(s01926, barlassina, unavailable).
-station(s11108, barletta, puglia).
-station(s09520, baronissi, campania).
-station(s01929, barruccana, unavailable).
-station(s08204, baschi_montecchio, umbria).
-station(s02832, basiliano, friuli_venezia_giulia).
-station(s02520, bassano_del_grappa, veneto).
-station(s08208, bassano_in_teverina, umbria).
-station(s08312, bassano_romano, lazio).
-station(s07007, bastia, umbria).
-station(s00908, bastia_mondovi, piemonte).
-station(s05702, battaglia_terme, veneto).
-station(s09823, battipaglia, campania).
-station(s12875, bauladu_milis, sardegna).
-station(s01015, baveno, piemonte).
-station(s00807, bazzana, piemonte).
-station(s00203, beaulard, piemonte).
-station(s07422, beffi, abruzzo).
-station(s00901, beinette, piemonte).
-station(s01864, belgioioso, lombardia).
-station(s01017, belgirate, piemonte).
-station(s09831, bella_muro, basilicata).
-station(s01409, bellano_tartavelle_terme, lombardia).
-station(s07902, bellante_ripattone, abruzzo).
-station(s05817, bellaria, emilia_romagna).
-station(s11512, bellavista, puglia).
-station(s00985, bellinzago, piemonte).
-station(s00300, bellinzona, unavailable).
-station(s07061, bellisio_solfare, marche).
-station(s02559, belluno, veneto).
-station(s11743, belmonte_calabro, calabria).
-station(s11732, belvedere_marittimo, calabria).
-station(s09311, benevento, campania).
-station(s09472, benevento_acquafredda, unavailable).
-station(s09011, benevento_appia, unavailable).
-station(s09530, benevento_arco_traiano, campania).
-station(s09509, benevento_porta_rufina, campania).
-station(s09012, benevento_rione_liberta, unavailable).
-station(s06158, berceto, emilia_romagna).
-station(s12859, berchidda, sardegna).
-station(s00838, bergamasco, piemonte).
-station(s01529, bergamo, lombardia).
-station(s11460, bernalda, basilicata).
-station(s01488, besana, lombardia).
-station(s01145, besnate, lombardia).
-station(s01141, besozzo, lombardia).
-station(s01007, beura_cardezza, piemonte).
-station(s04482, bevera, liguria).
-station(s02391, bevilacqua, veneto).
-station(s05119, biagioni_lagacci, emilia_romagna).
-station(s11855, bianco, calabria).
-station(s00238, bianze, piemonte).
-station(s01438, bianzone, lombardia).
-station(s01483, biassono_lesmo_parco, lombardia).
-station(s06076, bibbiena, unavailable).
-station(s06077, bibbiena_corsalone, unavailable).
-station(s00522, bibiana, piemonte).
-station(s12338, bicocca, sicilia).
-station(s00970, biella_chiavazza, piemonte).
-station(s00070, biella_spaolo, piemonte).
-station(s06611, biforco, toscana).
-station(s06950, binario_smarco_vecchio, toscana).
-station(s11113, bisceglie, puglia).
-station(s00870, bistagno, piemonte).
-station(s01202, bisuschio_viggiu, lombardia).
-station(s11501, bitetto_palo_del_colle, puglia).
-station(s03313, bivio_daurisina, friuli_venezia_giulia).
-station(n00221, boario_terme, unavailable).
-station(s09763, boccia_al_mauro, campania).
-station(s04709, bogliasco, liguria).
-station(s09453, boiano, molise).
-station(s06028, bolgheri, toscana).
-station(s01071, bollate_centro, unavailable).
-station(s01072, bollate_nord, unavailable).
-station(s05100, bologna_borgo_panigale, emilia_romagna).
-station(s05046, bologna_cle/av, emilia_romagna).
-station(s05725, bologna_corticella, emilia_romagna).
-station(s05020, bologna_fiere, emilia_romagna).
-station(s05140, bologna_mazzini, emilia_romagna).
-station(s05042, bologna_ravone, emilia_romagna).
-station(s05130, bologna_sruffillo, emilia_romagna).
-station(s05081, bologna_san_vitale, unavailable).
-station(s02026, bolzano_, trentino_alto_adige).
-station(s00014, bolzano_novarese, piemonte).
-station(s02226, bolzano_sud_, trentino_alto_adige).
-station(s07993, bomba_torricella, unavailable).
-station(s04730, bonassola, liguria).
-station(s05165, bondeno, unavailable).
-station(s09464, bonefro_scroce, molise).
-station(s02383, bonferraro, veneto).
-station(s12867, bonorva, sardegna).
-station(s04503, bordighera, liguria).
-station(s00086, borgaro, unavailable).
-station(s02051, borghetto, trentino_alto_adige).
-station(s06100, borghetto_parmense, emilia_romagna).
-station(s04518, borghetto_santo_spirito, liguria).
-station(s04521, borgio_verezzi, liguria).
-station(s09526, borgo, campania).
-station(s06410, borgo_a_buggiano, toscana).
-station(s06309, borgo_a_mozzano, toscana).
-station(s04214, borgo_fornari_per_voltaggio, liguria).
-station(s00032, borgo_lavezzaro, piemonte).
-station(s00171, borgo_revel, piemonte).
-station(n00202, borgo_s_giovanni, unavailable).
-station(s06604, borgo_s_lorenzo, toscana).
-station(s06704, borgo_slrimorelli, toscana).
-station(s00315, borgo_smartino, piemonte).
-station(s00613, borgo_san_dalmazzo, piemonte).
-station(s00981, borgo_ticino, piemonte).
-station(s06161, borgo_val_di_taro, emilia_romagna).
-station(s02313, borgo_valsugana_centro, emilia_romagna).
-station(s02314, borgo_valsugana_est, trentino_alto_adige).
-station(s00246, borgo_vercelli, piemonte).
-station(s02338, borgoforte, lombardia).
-station(s00152, borgofranco, piemonte).
-station(s01830, borgolombardo, lombardia).
-station(s00016, borgomanero, piemonte).
-station(n00208, borgonato___adro, unavailable).
-station(s00210, borgone, piemonte).
-station(s05152, borgonuovo, unavailable).
-station(s00860, borgoratto, piemonte).
-station(s00104, borgosesia, piemonte).
-station(n00207, bornato___calino, lombardia).
-station(s12872, borore, sardegna).
-station(s02390, boschi_sanna, veneto).
-station(s09452, bosco_redole, molise).
-station(s00882, bosconero, unavailable).
-station(s09754, boscoreale, campania).
-station(s11829, botricello, calabria).
-station(s03057, bottenicchio_zi, unavailable).
-station(s11860, bova_marina, calabria).
-station(s11854, bovalino, calabria).
-station(s09321, bovino_deliceto, puglia).
-station(s01085, boviso_masciago___mombello, unavailable).
-station(s02363, bovolone, veneto).
-station(s01920, bozzolo, lombardia).
-station(s00821, bra, piemonte).
-station(s08315, bracciano, lazio).
-station(s04803, bragno, liguria).
-station(s11857, brancaleone, calabria).
-station(s00231, brandizzo, piemonte).
-station(s00622, breil_sur_roya, piemonte).
-station(s01452, brenna_alzate, lombardia).
-station(s02001, brennero, trentino_alto_adige).
-station(n00226, breno, unavailable).
-station(s01717, brescia, lombardia).
-station(s01930, bressana_argine, lombardia).
-station(s01805, bressana_bottarone, lombardia).
-station(s02014, bressanone, trentino_alto_adige).
-station(s11757, briatico, calabria).
-station(s00521, bricherasio, piemonte).
-station(s11136, brindisi, puglia).
-station(s11451, brindisi_di_montagna, basilicata).
-station(s11137, brindisi_marittima, puglia).
-station(s00113, briona, piemonte).
-station(s06614, brisighella, emilia_romagna).
-station(s12031, brolo_ficarra, sicilia).
-station(s01944, broni, lombardia).
-station(s02030, bronzolo_, trentino_alto_adige).
-station(s00424, brozolo, piemonte).
-station(s02107, brunico_, trentino_alto_adige).
-station(s02018, brunico_nord, unavailable).
-station(s00837, bruno, piemonte).
-station(s00209, bruzolo, piemonte).
-station(s09828, buccino_s, campania).
-station(s06911, bucine, toscana).
-station(s03088, budoia_polcenigo, friuli_venezia_giulia).
-station(s08538, bugnara, abruzzo).
-station(s06874, buonconvento, toscana).
-station(s12016, buonfornello, sicilia).
-station(s00054, buronzo, piemonte).
-station(s04215, busalla, liguria).
-station(s00704, busca, piemonte).
-station(s02563, busche_lentiai_mel, veneto).
-station(s01963, busseto, emilia_romagna).
-station(s07704, bussi, abruzzo).
-station(s00208, bussoleno, piemonte).
-station(s01031, busto_arsizio, lombardia).
-station(s01137, busto_arsizio_n, unavailable).
-station(n00107, busto_arsizio_rfi, unavailable).
-station(s01482, buttafava, lombardia).
-station(s05301, buttapietra, veneto).
-station(s03029, buttrio, friuli_venezia_giulia).
-station(s05048, biv_venezia, unavailable).
-station(s01088, cabiate, unavailable).
-station(s05006, cadeo, emilia_romagna).
-station(n00038, cadorago, unavailable).
-station(s12891, cagliari, sardegna).
-station(s12890, cagliari_elmas, sardegna).
-station(s09025, caiazzo, unavailable).
-station(s00879, cairo_montenotte, liguria).
-station(s12851, cala_sabina, sardegna).
-station(s02550, calalzo_pieve_cadore_cortina, veneto).
-station(s00833, calamandrana, piemonte).
-station(s12321, calatabiano, sicilia).
-station(s12151, calatafimi, sicilia).
-station(s06080, calbezano, unavailable).
-station(s02307, calceranica, trentino_alto_adige).
-station(s11455, calciano, basilicata).
-station(s01712, calcio, lombardia).
-station(s01117, calde, lombardia).
-station(s02437, caldiero, veneto).
-station(s02308, caldonazzo, trentino_alto_adige).
-station(s06417, calenzano, toscana).
-station(s09620, calitri_pescopagano, campania).
-station(s02041, calliano, unavailable).
-station(s01524, calolziocorte_olginate, lombardia).
-station(s11815, calopezzati, calabria).
-station(s12270, caltagirone, sicilia).
-station(s12381, caltanissetta_centrale, sicilia).
-station(s12380, caltanissetta_xirbi, sicilia).
-station(s00020, caltignaga, piemonte).
-station(s01503, calusco, lombardia).
-station(s00158, caluso, piemonte).
-station(s01843, calvisano, lombardia).
-station(s06043, camaiore_lido_capezzano, toscana).
-station(s06804, cambiano, toscana).
-station(s00456, cambiano_santena, piemonte).
-station(s07021, camerano_aspio, unavailable).
-station(s12207, cammarata_sgiovanni_gemini, sicilia).
-station(s01316, camnago_lentate, lombardia).
-station(s04716, camogli_san_fruttuoso, liguria).
-station(s09825, campagna_serre_persano, campania).
-station(s07219, campello, umbria).
-station(s06031, campiglia_marittima, toscana).
-station(s08706, campo_di_carne, lazio).
-station(s08903, campo_di_giove, abruzzo).
-station(s08919, campo_di_giove_monte_maiella, abruzzo).
-station(s09626, campo_di_nusco, campania).
-station(s02007, campo_di_trens_, trentino_alto_adige).
-station(s09459, campobasso, molise).
-station(s12112, campobello_di_mazara, sicilia).
-station(s12385, campobello_ravanusa, sicilia).
-station(s02527, campodarsego, veneto).
-station(s12017, campofelice, sicilia).
-station(s12211, campofranco, sicilia).
-station(s09505, campolattaro, campania).
-station(s08602, campoleone, lazio).
-station(s09462, campolieto_monacilioni, molise).
-station(s04105, campoligure_masone, liguria).
-station(s11454, campomaggiore, basilicata).
-station(s11020, campomarino, molise).
-station(s12815, campomela, sardegna).
-station(s06659, campomigliaio, toscana).
-station(s11745, campora_sgiov_serra_aiello, calabria).
-station(s00889, campore, unavailable).
-station(s06324, camporgiano, toscana).
-station(s02525, camposampiero, veneto).
-station(s05314, camposanto, emilia_romagna).
-station(s06921, camucia_cortona, toscana).
-station(s07232, cancelli_di_fabriano, unavailable).
-station(s08735, cancelliera, lazio).
-station(s09213, cancello, campania).
-station(s09002, cancello_arnone, campania).
-station(s11204, candela, puglia).
-station(s00071, candelo, piemonte).
-station(s00157, candia_canavese, piemonte).
-station(s00333, candia_lomellina, lombardia).
-station(s11105, candida, puglia).
-station(s00512, candiolo, piemonte).
-station(s01011, candoglia_ornavasso, piemonte).
-station(s01034, canegrate, lombardia).
-station(s00832, canelli, piemonte).
-station(s07429, canetra, lazio).
-station(s12375, canicatti, sicilia).
-station(s12812, caniga, sardegna).
-station(s08812, canistro, unavailable).
-station(s07009, cannara, umbria).
-station(s11406, canne_della_battaglia, puglia).
-station(s01848, canneto_sulloglio, lombardia).
-station(s11402, canosa_di_puglia, puglia).
-station(s09451, cantalupo_del_sannio, molise).
-station(s01451, cantu, lombardia).
-station(s01313, cantu__cermenate, lombardia).
-station(s01099, canzo, unavailable).
-station(s01970, caorso, emilia_romagna).
-station(s11702, capaccio_roccadaspide, campania).
-station(s12128, capaci, unavailable).
-station(s08006, capalbio, toscana).
-station(s08672, capannelle, lazio).
-station(s08850, capistrello, abruzzo).
-station(s11734, capo_bonifati, calabria).
-station(n00229, capo_di_ponte, unavailable).
-station(s12030, capo_dorlando_naso, sicilia).
-station(s11858, capo_spartivento, calabria).
-station(s08804, capocroce, unavailable).
-station(s07215, capodacqua_pieve_fanonica, umbria).
-station(s06083, capolona, unavailable).
-station(s08525, cappelle_magliano, abruzzo).
-station(s01603, capralba, lombardia).
-station(s08311, capranica, lazio).
-station(s08110, caprarola, lazio).
-station(s09061, capriati_al_volturno, molise).
-station(s01622, capriolo, lombardia).
-station(s03301, capriva, friuli_venezia_giulia).
-station(s09208, capua, campania).
-station(s01486, carate_calo, lombardia).
-station(s01602, caravaggio, lombardia).
-station(s05120, carbona, emilia_romagna).
-station(s04300, carbonara_scrivia, piemonte).
-station(s12818, carbonia_serbariu, sardegna).
-station(s12972, carbonia_stato, unavailable).
-station(s12140, cardillo_zen, sicilia).
-station(s00839, carentino, piemonte).
-station(s11818, cariati, calabria).
-station(s01315, carimate, lombardia).
-station(s12127, carini, sicilia).
-station(s12799, carini_torre_ciachea, sicilia).
-station(s00055, carisio, piemonte).
-station(s00601, carmagnola, piemonte).
-station(s02532, carmignano_di_brenta, veneto).
-station(s01511, carnate_usmate, lombardia).
-station(s03016, carnia, friuli_venezia_giulia).
-station(s12025, caronia, sicilia).
-station(s01076, caronno_pertusella, unavailable).
-station(s11133, carovigno, puglia).
-station(s08914, carovilli_roccasicura, molise).
-station(s02502, carpanevalstagna, veneto).
-station(s02349, carpi, emilia_romagna).
-station(s00971, carpignano_sesia, piemonte).
-station(s09050, carpinone, molise).
-station(s06005, carrara_avenza, toscana).
-station(s08533, carrito_ortona, abruzzo).
-station(s12326, carruba, sicilia).
-station(s00738, carru_clavesana, piemonte).
-station(s08519, carsoli, abruzzo).
-station(s01091, carugo___giussano, unavailable).
-station(s08730, casabianca, lazio).
-station(s09465, casacalenda_guardialfiera, molise).
-station(s11309, casal_sabini, puglia).
-station(s07821, casalbordino_pollutri, abruzzo).
-station(s09910, casalbuono, campania).
-station(s01609, casalbuttano, lombardia).
-station(s00314, casale_monferrato, piemonte).
-station(s00179, casale_popolo, piemonte).
-station(s05101, casalecchio_di_reno, emilia_romagna).
-station(s05111, casalecchio_garibaldi, emilia_romagna).
-station(s00972, casaleggio, piemonte).
-station(s09922, casaletto, unavailable).
-station(s01604, casaletto_vaprio, lombardia).
-station(s01850, casalmaggiore, lombardia).
-station(s09216, casalnuovo, campania).
-station(s01827, casalpusterlengo, lombardia).
-station(s02059, casanova_kaiserau, unavailable).
-station(s02830, casarsa, friuli_venezia_giulia).
-station(s06505, cascina, toscana).
-station(s00087, caselle, unavailable).
-station(s00088, caselle_aeroporto, unavailable).
-station(s09211, caserta, campania).
-station(s06751, casino_di_terra, toscana).
-station(s01457, casletto_rogeno, lombardia).
-station(n00037, caslino_al_piano, unavailable).
-station(s01098, caslino_derba, unavailable).
-station(s07991, casoli, unavailable).
-station(s01029, casorate_sempione, lombardia).
-station(s09009, casoria, campania).
-station(s01490, cassago_nibionno_bulciago, lombardia).
-station(s11900, cassano_allionio, calabria).
-station(s01707, cassano_dadda, lombardia).
-station(s09611, cassano_irpino, campania).
-station(s00864, cassine, piemonte).
-station(s08671, cassino, lazio).
-station(s02506, cassola, veneto).
-station(s02368, castagnaro, veneto).
-station(s06029, castagneto_carducci, toscana).
-station(s05122, castagno, toscana).
-station(s00828, castagnole_delle_lanze, piemonte).
-station(n00050, castano_primo, unavailable).
-station(s01942, casteggio, lombardia).
-station(n00204, castegnato, unavailable).
-station(s08114, castel_bagnolo_di_orte, lazio).
-station(s08910, castel_di_sangro, abruzzo).
-station(s02382, castel_dario, lombardia).
-station(s07987, castel_frentano, unavailable).
-station(s08703, castel_gandolfo, lazio).
-station(s11212, castel_lagopesole, basilicata).
-station(s08510, castel_madama, lazio).
-station(s07407, castel_sangelo, lazio).
-station(s09704, castel_sgiorgio_roccapiemonte, campania).
-station(s01948, castel_sgiovanni, emilia_romagna).
-station(s05053, castel_spietro_terme, emilia_romagna).
-station(s02208, castelbello, trentino_alto_adige).
-station(s05056, castelbolognese, emilia_romagna).
-station(s12020, castelbuono, sicilia).
-station(s12010, casteldaccia, sicilia).
-station(s02105, casteldarne_, trentino_alto_adige).
-station(s05102, casteldebole, emilia_romagna).
-station(s07200, castelferretti, marche).
-station(s06802, castelfiorentino, toscana).
-station(s09609, castelfranci, campania).
-station(s05037, castelfranco_demilia, emilia_romagna).
-station(s09323, castelfranco_in_miscano, unavailable).
-station(s02537, castelfranco_veneto, veneto).
-station(s05012, castelguelfo, emilia_romagna).
-station(s07901, castellalto_canzano, abruzzo).
-station(s12120, castellammare_del_golfo, sicilia).
-station(s09756, castellammare_di_stabia, campania).
-station(s11507, castellaneta, unavailable).
-station(s11463, castellaneta_marina, puglia).
-station(s01136, castellanza, unavailable).
-station(s04000, castellazzo_casalcermelli, piemonte).
-station(s01606, castelleone, lombardia).
-station(s00720, castelletto_busca, piemonte).
-station(s01123, castelletto_ticino, piemonte).
-station(s06808, castellina_ch, toscana).
-station(s06024, castellina_marittima, toscana).
-station(s00741, castellino_tanaro, piemonte).
-station(s02507, castello_di_godego, veneto).
-station(s00465, castello_dannone, piemonte).
-station(s01923, castellucchio, lombardia).
-station(s09920, castelluccio, unavailable).
-station(s00343, castellalfero, piemonte).
-station(s05724, castelmaggiore, emilia_romagna).
-station(s02093, castelnuovo, veneto).
-station(s00836, castelnuovo_belbo, piemonte).
-station(s06812, castelnuovo_berardenga, toscana).
-station(s06300, castelnuovo_di_garfagnana, toscana).
-station(s07204, castelplanio_cupramontana, marche).
-station(s07302, castelraimondo_camerino, marche).
-station(s00233, castelrosso, piemonte).
-station(s04001, castelspina_portanova, piemonte).
-station(s06302, castelvecchio_pascoli, toscana).
-station(s09608, castelvetere, campania).
-station(s12113, castelvetrano, sicilia).
-station(s01960, castelvetro, emilia_romagna).
-station(s06923, castiglion_del_lago, umbria).
-station(s06920, castiglion_fiorentino, toscana).
-station(s06729, castiglioncello, toscana).
-station(s11909, castiglione_cosentino, calabria).
-station(s12362, castiglione_di_sicilia, sicilia).
-station(s08205, castiglione_in_teverina, umbria).
-station(s01429, castione_andevenno, lombardia).
-station(s01964, castione_dei_marchesi, emilia_romagna).
-station(s08663, castro_pofi, lazio).
-station(s01208, castronno, lombardia).
-station(s12337, catania_acquicella, sicilia).
-station(s12332, catania_centrale, sicilia).
-station(s12331, catania_ognina, unavailable).
-station(s11956, catanzaro, calabria).
-station(s11833, catanzaro_lido, calabria).
-station(s12244, catenanuova, sicilia).
-station(s07102, cattolica_sgiovanni_gabicce, emilia_romagna).
-station(s11846, caulonia, calabria).
-station(s00279, cava_carbonara, lombardia).
-station(s09816, cava_dei_tirreni, campania).
-station(s01804, cava_manara, lombardia).
-station(s01914, cava_tigozzi, lombardia).
-station(s00423, cavagnolo_brusasco, piemonte).
-station(s09113, cavalleggeri_aosta, campania).
-station(s00603, cavallermaggiore, piemonte).
-station(s05425, cavanella_dadige, veneto).
-station(s05422, cavanella_po, veneto).
-station(s01210, cavaria_oggiona_jerago, lombardia).
-station(s02147, cavazzale, veneto).
-station(s04724, cavi, liguria).
-station(n00238, cazzago_s_martino, unavailable).
-station(s06044, ca_di_boschetti, liguria).
-station(s08664, ceccano, lazio).
-station(s08732, cecchina, lazio).
-station(s06026, cecina, toscana).
-station(n00231, cedegolo, unavailable).
-station(s12019, cefalu, sicilia).
-station(s02665, ceggia, veneto).
-station(s08528, celano_ovindoli, abruzzo).
-station(s04530, celle, liguria).
-station(s11716, celle_bulgheria_roccagloriosa, campania).
-station(s00745, cengio, liguria).
-station(s00608, centallo, piemonte).
-station(s11715, centola, campania).
-station(s08666, ceprano_falvaterra, lazio).
-station(s78500, cerbere, unavailable).
-station(s00541, cercenasco, piemonte).
-station(s08530, cerchio, abruzzo).
-station(s06956, cercina, toscana).
-station(s12200, cerda, sicilia).
-station(s02364, cerea, veneto).
-station(s05417, ceregnano, veneto).
-station(s04517, ceriale, liguria).
-station(n00248, ceriano_laghetto_solaro, unavailable).
-station(s11103, cerignola, puglia).
-station(s01934, cerlano_laghetto, unavailable).
-station(s01513, cernusco_merate, lombardia).
-station(s07300, cerreto_desi, marche).
-station(s06803, certaldo, toscana).
-station(s01803, certosa_di_pavia, lombardia).
-station(s11200, cervaro, puglia).
-station(s05814, cervia_milano_marittima, emilia_romagna).
-station(s03207, cervignano_ag, friuli_venezia_giulia).
-station(s00546, cervignasco, piemonte).
-station(s09015, cervinara, unavailable).
-station(s04512, cervo_san_bartolomeo, liguria).
-station(s01112, cesano_boscone, unavailable).
-station(s08319, cesano_di_roma, lazio).
-station(s01086, cesano_maderno, unavailable).
-station(s01075, cesate, unavailable).
-station(s09473, cese, campania).
-station(s05066, cesena, emilia_romagna).
-station(s05815, cesenatico, emilia_romagna).
-station(n00228, ceto___cerveno, unavailable).
-station(s11735, cetraro, calabria).
-station(s00742, ceva, piemonte).
-station(s00141, chambave, valle_d_aosta).
-station(s00142, chatillon_saint_vincent, valle_d_aosta).
-station(s00733, cherasco, piemonte).
-station(s09510, chianche_ceppaloni, campania).
-station(s07201, chiaravalle, marche).
-station(s01713, chiari, lombardia).
-station(s08007, chiarone, toscana).
-station(s01301, chiasso, lombardia).
-station(s04722, chiavari, liguria).
-station(s01400, chiavenna, lombardia).
-station(s00500, chieri, piemonte).
-station(s07712, chieti, abruzzo).
-station(s11021, chieuti_serracapriola, puglia).
-station(s01868, chignolo_po, lombardia).
-station(s05428, chioggia, veneto).
-station(s00206, chiomonte, piemonte).
-station(s12899, chirialza, sardegna).
-station(s01536, chiuduno, lombardia).
-station(s01435, chiuro, lombardia).
-station(s02017, chiusa_, trentino_alto_adige).
-station(s00429, chiusano_cossombrone, piemonte).
-station(s06925, chiusi_ct, toscana).
-station(s00232, chivasso, piemonte).
-station(s08650, ciampino, lazio).
-station(s02209, ciardes, trentino_alto_adige).
-station(s12126, cinisi_terrasini, sicilia).
-station(s00090, cire, unavailable).
-station(s11730, cirella_majera, calabria).
-station(s11820, ciro, calabria).
-station(s01525, cisano_caprino_bergamasco, lombardia).
-station(n00015, cislago, unavailable).
-station(s02500, cismon_del_grappa, veneto).
-station(s08603, cisterna_di_latina, lazio).
-station(s11131, cisternino, puglia).
-station(s06154, citerna_taro, emilia_romagna).
-station(s02535, cittadella, veneto).
-station(s07406, cittaducale, lazio).
-station(s08200, citta_della_pieve, umbria).
-station(n00032, cittiglio, unavailable).
-station(s01462, civate, lombardia).
-station(s03056, cividale, unavailable).
-station(n00225, cividate___malegno, unavailable).
-station(s08211, civita_castellana, lazio).
-station(s08853, civita_dantino_morino, abruzzo).
-station(s07506, civitanova_marche, marche).
-station(s08010, civitavecchia, lazio).
-station(s08012, civitavecchia_mma, lazio).
-station(s08024, civitavecchia_viale_della_vittoria, lazio).
-station(s06066, civitella___badia_al_pino, unavailable).
-station(s06822, civitella_paganico, toscana).
-station(s08852, civitella_roveto, abruzzo).
-station(s12970, cixerri, sardegna).
-station(s05812, classe, emilia_romagna).
-station(s01540, coccaglio, lombardia).
-station(s00425, cocconato, piemonte).
-station(n00030, cocquio___trevisago, unavailable).
-station(s08534, cocullo, abruzzo).
-station(s05799, codigoro, unavailable).
-station(s01828, codogno, lombardia).
-station(s09703, codola, campania).
-station(s02831, codroipo, friuli_venezia_giulia).
-station(n00224, cogno___esine, unavailable).
-station(s04532, cogoleto, liguria).
-station(s02206, coldrano_martello, trentino_alto_adige).
-station(s08820, colfelice, unavailable).
-station(s01420, colico, lombardia).
-station(s08548, collarmele, unavailable).
-station(s02005, colle_isarco_, trentino_alto_adige).
-station(s08651, colle_mattia, lazio).
-station(s06840, colle_val_delsa, toscana).
-station(s06151, collecchio, emilia_romagna).
-station(s07994, colledimezzo, unavailable).
-station(s08657, colleferro_segni_paliano, lazio).
-station(s00217, collegno, piemonte).
-station(s06018, collesalvetti, toscana).
-station(s08221, collevecchio, lazio).
-station(s08520, colli_di_monte_bove, abruzzo).
-station(s01111, colmegna, unavailable).
-station(s01539, cologne, lombardia).
-station(s08653, colonna_galleria, unavailable).
-station(s01852, colorno, emilia_romagna).
-station(s00050, comignago, piemonte).
-station(s12411, comiso, sicilia).
-station(n00043, como_nord_borghi, unavailable).
-station(n00042, como_nord_camerlata, unavailable).
-station(n00044, como_nord_lago, unavailable).
-station(s01307, como_s_giovanni, lombardia).
-station(s06902, compiobbi, toscana).
-station(s08816, compre_svincenzo, unavailable).
-station(s05169, cona_f_c, unavailable).
-station(s11861, condofuri, calabria).
-station(s00212, condove, piemonte).
-station(s02706, conegliano, veneto).
-station(s05950, conselice, emilia_romagna).
-station(s06702, contea_londa, toscana).
-station(s12355, contesse, sicilia).
-station(s07404, contigliano, lazio).
-station(s09826, contursi_terme, campania).
-station(s09618, conza_andretta_cairano, unavailable).
-station(s01041, corbetta_s_stefano, lombardia).
-station(s05115, corbezzi, toscana).
-station(s08112, corchiano, lazio).
-station(s02661, cordovado_sesto, friuli_venezia_giulia).
-station(s11812, corigliano_calabro, calabria).
-station(n00058, cormano___brusuglio, unavailable).
-station(s01080, cormano___brusuglio, unavailable).
-station(s03300, cormons, friuli_venezia_giulia).
-station(s04734, corniglia, liguria).
-station(s03053, cornino, friuli_venezia_giulia).
-station(s02569, cornuda, veneto).
-station(s05719, coronella, unavailable).
-station(s07308, corridonia_mogliano, marche).
-station(s09324, corsano, campania).
-station(s01064, corsico, lombardia).
-station(s01865, corteolona, lombardia).
-station(s11910, cosenza, calabria).
-station(s01424, cosio_traona, lombardia).
-station(s00973, cossato, piemonte).
-station(s02375, costa, veneto).
-station(s01491, costa_masnaga, lombardia).
-station(s00348, costigliole_(motta_di), piemonte).
-station(s00829, costigliole_dasti, piemonte).
-station(s00702, costigliole_saluzzo, piemonte).
-station(s05956, cotignola, emilia_romagna).
-station(s07432, cotilia, lazio).
-station(s00888, courgne, unavailable).
-station(s11151, cozze, puglia).
-station(s00332, cozzo, lombardia).
-station(s01605, crema, lombardia).
-station(s01915, cremona, lombardia).
-station(s00172, crescentino, piemonte).
-station(s06607, crespino_del_lamone, unavailable).
-station(s00017, cressa_fontaneto, piemonte).
-station(s05316, crevalcore, emilia_romagna).
-station(s07988, crocetta, unavailable).
-station(s08317, crocicchie, lazio).
-station(s11830, cropani, calabria).
-station(s11823, crotone, calabria).
-station(s11819, crucoli, calabria).
-station(s01312, cucciago, lombardia).
-station(s00610, cuneo, piemonte).
-station(s00611, cuneo_gesso, piemonte).
-station(s00427, cunico_scandeluzza, piemonte).
-station(s08810, cupone, abruzzo).
-station(s07511, cupramarittima, marche).
-station(s00051, cureggio, piemonte).
-station(s11972, curinga, unavailable).
-station(s02700, cusano, friuli_venezia_giulia).
-station(s11826, cutro, calabria).
-station(s01010, cuzzago, piemonte).
-station(s01006, darfo_corna, unavailable).
-station(s12888, decimomannu, sardegna).
-station(s00877, dego, liguria).
-station(s04728, deiva_marina, liguria).
-station(s01422, delebio, lombardia).
-station(s00162, derby, valle_d_aosta).
-station(s01408, dervio, lombardia).
-station(s02084, desenzano, lombardia).
-station(s01320, desio, lombardia).
-station(s11731, diamante_buonvicino, calabria).
-station(s04511, diano_marina, unavailable).
-station(s06701, dicomano, toscana).
-station(s06310, diecimo___pescaglia, toscana).
-station(s12240, dittaino, sicilia).
-station(s44200, divaca, unavailable).
-station(s02113, dobbiaco_, trentino_alto_adige).
-station(s05174, dogato, unavailable).
-station(s71341, dole_ville, unavailable).
-station(s02587, dolo, veneto).
-station(s02055, domegliara, veneto).
-station(s01003, domodossola, piemonte).
-station(s04202, donna, piemonte).
-station(s12412, donnafugata, sicilia).
-station(s00148, donnaz, valle_d_aosta).
-station(s01407, dorio, lombardia).
-station(s01025, dormelletto, piemonte).
-station(s00980, dormelletto_paese, piemonte).
-station(s02330, dossobuono, veneto).
-station(s09021, dragoni, unavailable).
-station(s00722, dronero, piemonte).
-station(s01405, dubino, lombardia).
-station(s02146, dueville, veneto).
-station(s72517, dugo_selo, unavailable).
-station(s09819, duomo_via_vernieri, unavailable).
-station(s08220, devint_dd/av, lazio).
-station(s09824, eboli, campania).
-station(s00926, eca_nasago, piemonte).
-station(s11788, eccellente, calabria).
-station(n00235, edolo, lombardia).
-station(s02032, egna_termeno_, trentino_alto_adige).
-station(s11154, egnazia, puglia).
-station(s07003, ellera_corciano, umbria).
-station(s12819, elmas_aeroporto, unavailable).
-station(s06510, empoli, toscana).
-station(s12856, enas, sardegna).
-station(s12238, enna, sicilia).
-station(s11041, enziteto/catino, unavailable).
-station(s06226, equi_terme, toscana).
-station(s01096, erba, unavailable).
-station(n00222, erbanno___angone, unavailable).
-station(s02396, este, veneto).
-station(s00251, exilles, piemonte).
-station(s06421, firenze_smn, toscana).
-station(s07208, fabriano, marche).
-station(s07059, fabriano_ca_maiano, marche).
-station(s08111, fabrica_di_roma, lazio).
-station(s08201, fabro_ficulle, umbria).
-station(s05058, faenza, emilia_romagna).
-station(s02557, faefortogna, veneto).
-station(s02762, fagare, veneto).
-station(s07420, fagnano_campana, abruzzo).
-station(s09001, falciano_mondragone_car, campania).
-station(s12405, falconara, sicilia).
-station(s12440, falconara_iblea, unavailable).
-station(s07111, falconara_marittima, marche).
-station(s07117, falconara_stadio, marche).
-station(s12038, falcone, sicilia).
-station(s11747, falerna, calabria).
-station(s03083, fanna___cavasso, friuli_venezia_giulia).
-station(s07105, fano, marche).
-station(s02575, fanzolo, veneto).
-station(s00112, fara, piemonte).
-station(s08214, fara_sabina, lazio).
-station(s00737, farigliano, piemonte).
-station(s11130, fasano, puglia).
-station(s06021, fauglia___lorenzana, toscana).
-station(s11771, favazzina, calabria).
-station(s00885, favria, unavailable).
-station(s12136, federico, sicilia).
-station(s06103, felegara___sandrea_bagni, emilia_romagna).
-station(s00883, feletto, unavailable).
-station(s00468, felizzano, piemonte).
-station(s05162, felonica_po, unavailable).
-station(s02564, feltre, veneto).
-station(s08661, ferentino_supino, lazio).
-station(s01138, ferno_lonate_pozzolo, unavailable).
-station(s11952, feroleto_antica_pianopoli, calabria).
-station(s11458, ferrandina, basilicata).
-station(s04804, ferrania, liguria).
-station(s05712, ferrara, emilia_romagna).
-station(s05167, ferrara_aleotti, unavailable).
-station(s05168, ferrara_p_reno, unavailable).
-station(s00404, ferrera_lomellina, lombardia).
-station(s11856, ferruzzano, calabria).
-station(s06901, fi_rovezzano, toscana).
-station(s08235, fidene, lazio).
-station(s05009, fidenza, emilia_romagna).
-station(s12137, fiera, sicilia).
-station(s06953, fiesole_caldine, toscana).
-station(s06908, figline_valdarno, toscana).
-station(s06165, filattiera, toscana).
-station(s12277, fildidonna, sicilia).
-station(s11211, filiano, basilicata).
-station(s04522, finale_ligure_marina, liguria).
-station(n00039, fino_mornasco, unavailable).
-station(s05007, fiorenzuola, emilia_romagna).
-station(s06900, firenze_campo_marte, toscana).
-station(s06419, firenze_castello, toscana).
-station(s06420, firenze_rifredi, toscana).
-station(s06430, firenze_statuto, toscana).
-station(s09519, fisciano, campania).
-station(s11741, fiumefreddo_bruzio, calabria).
-station(s12322, fiumefreddo_di_sicilia, sicilia).
-station(s01412, fiumelatte, lombardia).
-station(s12015, fiumetorto, sicilia).
-station(s08411, fiumicino_aeroporto, lazio).
-station(s06223, fivizzano___gassano, toscana).
-station(s06222, fivizzano_rometta___soliera, toscana).
-station(s11100, foggia, puglia).
-station(s06618, fognano, unavailable).
-station(s07217, foligno, umbria).
-station(s06033, follonica, toscana).
-station(s08606, fondi___sperlonga, lazio).
-station(s00621, fontan_saorge, unavailable).
-station(s08818, fontana_liri, unavailable).
-station(s08819, fontana_liri_inferiore, unavailable).
-station(s02702, fontanafredda, friuli_venezia_giulia).
-station(s09199, fontanarosa, unavailable).
-station(s00174, fontanetto_po, piemonte).
-station(s02534, fontaniva, veneto).
-station(s06619, fontebuona, toscana).
-station(s07421, fontecchio, abruzzo).
-station(s03491, fonyod, unavailable).
-station(s11210, forenza, basilicata).
-station(s03054, forgaria_bagni_anduins, friuli_venezia_giulia).
-station(s05065, forlimpopoli, emilia_romagna).
-station(s05059, forli, emilia_romagna).
-station(s08640, formia_gaeta, lazio).
-station(s06304, fornaci_di_barga, toscana).
-station(n00232, forno_allione, unavailable).
-station(s06153, fornovo, emilia_romagna).
-station(s06011, forte_dei_marmi_serravezza_q, toscana).
-station(s02011, fortezza_, trentino_alto_adige).
-station(s06301, fosciandora___ceserana, toscana).
-station(s07819, fossacesia, abruzzo).
-station(s07018, fossacesia___torino_di_sangro, abruzzo).
-station(s02667, fossalta_di_piave, veneto).
-station(s03201, fossalta_di_portogruaro, veneto).
-station(s00606, fossano, piemonte).
-station(s07209, fossato_di_vico_gubbio, umbria).
-station(s09506, fragneto_monforte, campania).
-station(s04729, framura, liguria).
-station(s12361, francavilla, sicilia).
-station(s07813, francavilla_al_mare, abruzzo).
-station(s11752, francavilla_angitola_f, calabria).
-station(s11603, francavilla_fontana, puglia).
-station(s12139, francia, sicilia).
-station(s09842, franciosa, unavailable).
-station(s08751, frascati, lazio).
-station(s08806, frasso, unavailable).
-station(s09305, frasso_t_dugenta, campania).
-station(s02374, fratta, veneto).
-station(s09008, frattamaggiore, campania).
-station(s11053, frattarolo, puglia).
-station(s09522, fratte, campania).
-station(s02524, fratte_centro, veneto).
-station(s09524, fratte_villa_comunale, campania).
-station(s08662, frosinone, lazio).
-station(s04200, frugarolo_boscomarengo, piemonte).
-station(s07478, frutigen, unavailable).
-station(s05726, funo_centergross, emilia_romagna).
-station(s12313, furci, sicilia).
-station(s11738, fuscaldo, calabria).
-station(s04700, genova_pprincipe, liguria).
-station(s11871, gabella_grande, calabria).
-station(s12358, gaggi, sicilia).
-station(s01063, gaggiano, lombardia).
-station(s02671, gaggio, veneto).
-station(s07311, gagliole, marche).
-station(s05800, gaibanella, emilia_romagna).
-station(s07212, gaifana, umbria).
-station(s12305, galati, sicilia).
-station(s09900, galdo, campania).
-station(s01030, gallarate, lombardia).
-station(s08113, gallese_bassanello, lazio).
-station(s08210, gallese_in_teverina, lazio).
-station(n00054, galliate, unavailable).
-station(s05721, galliera, emilia_romagna).
-station(s02541, galliera_veneta_tombolo, veneto).
-station(s00861, gamalero, piemonte).
-station(s07997, gamberale_sangelo_p, unavailable).
-station(s05067, gambettola, emilia_romagna).
-station(s00274, gamboloremondo, lombardia).
-station(s00030, garbagna, piemonte).
-station(s00924, garessio, piemonte).
-station(s02218, gargazzone_, unavailable).
-station(n00090, garibaldi, unavailable).
-station(s00276, garlasco, lombardia).
-station(s05816, gatteo_a_mare, emilia_romagna).
-station(s00052, gattinara, piemonte).
-station(s08241, gavignano, unavailable).
-station(n00028, gavirate, unavailable).
-station(n00029, gavirate_verbano, unavailable).
-station(s06036, gavorrano, toscana).
-station(s01207, gazzada_schianno_morazzone, lombardia).
-station(s02381, gazzo_di_bigarello, lombardia).
-station(s01917, gazzo_pieve_s_giacomo, lombardia).
-station(s12407, gela, sicilia).
-station(s08326, gemelli, lazio).
-station(s03019, gemona_del_friuli, friuli_venezia_giulia).
-station(n00031, gemonio, unavailable).
-station(s07206, genga_svittore_terme, marche).
-station(s04107, genova_acquasanta, liguria).
-station(s04218, genova_bolzaneto, liguria).
-station(s04109, genova_borzoli, liguria).
-station(s04702, genova_brignole, liguria).
-station(s04538, genova_cornigliano, liguria).
-station(s04110, genova_costa_di_sestri_ponente, liguria).
-station(s04108, genova_granara, liguria).
-station(s04603, genova_marittima_s_limbania, liguria).
-station(s04707, genova_nervi, liguria).
-station(s04701, genova_p_principe_sotterranea, liguria).
-station(s04536, genova_pegli, liguria).
-station(s04217, genova_pontedecimo, liguria).
-station(s04535, genova_pra, liguria).
-station(s04704, genova_quarto_dei_mille, liguria).
-station(s04705, genova_quinto_al_mare, liguria).
-station(s04219, genova_rivarolo, liguria).
-station(s04222, genova_sbiagio, liguria).
-station(s04220, genova_sampierdarena, liguria).
-station(s04213, genova_san_quirico, unavailable).
-station(s04537, genova_sestri_ponente, liguria).
-station(s04703, genova_sturla, liguria).
-station(s04540, genova_vesima, liguria).
-station(s04223, genova_via_di_francia, liguria).
-station(s04534, genova_voltri, liguria).
-station(s04541, genova_voltri_mare, unavailable).
-station(n00014, gerenzano___turate, unavailable).
-station(s00096, germagnano, unavailable).
-station(s01841, ghedi, lombardia).
-station(s00110, ghemme, piemonte).
-station(s00974, ghislarengo, piemonte).
-station(s06306, ghivizzano___coreglia, toscana).
-station(s12138, giachery, sicilia).
-station(s12308, giampilieri, sicilia).
-station(s00316, giarole, piemonte).
-station(s12324, giarre_riposto, sicilia).
-station(s12866, giave, sardegna).
-station(s11462, ginosa, puglia).
-station(s11505, gioia_del_colle, puglia).
-station(s11766, gioia_tauro, calabria).
-station(s11848, gioiosa_jonica, calabria).
-station(s12033, giojosa_marea, sicilia).
-station(s06084, giovi, unavailable).
-station(s11115, giovinazzo, puglia).
-station(s00850, giubiasco, unavailable).
-station(s09100, giugliano_qualiano, campania).
-station(s07802, giulianova, abruzzo).
-station(s07225, giuncano, umbria).
-station(s06037, giuncarico, toscana).
-station(s11748, gizzeria_lido, calabria).
-station(s05809, glorie, emilia_romagna).
-station(s05904, godo, emilia_romagna).
-station(s12366, gole_di_alcantara, sicilia).
-station(s12852, golfo_aranci, sardegna).
-station(s02344, gonzaga_reggiolo, lombardia).
-station(s07474, goppestein, unavailable).
-station(s02766, gorgo_al_monticano, veneto).
-station(s08535, goriano_sicoli, abruzzo).
-station(s03304, gorizia_centrale, friuli_venezia_giulia).
-station(s00015, gozzano, piemonte).
-station(s09758, gragnano, campania).
-station(s06224, gragnola, toscana).
-station(s12272, grammichele, sicilia).
-station(s06801, granaiolo, toscana).
-station(s05955, granarolo, emilia_romagna).
-station(n00041, grandate___breccia, unavailable).
-station(s12359, graniti, sicilia).
-station(s11456, grassano, basilicata).
-station(s00007, gravellona_toce, piemonte).
-station(s11306, gravina_in_puglia, puglia).
-station(s07403, greccio, lazio).
-station(s09300, gricignano, campania).
-station(s03315, grignano, friuli_venezia_giulia).
-station(s00106, grignasco, piemonte).
-station(s02317, grigno, trentino_alto_adige).
-station(s02579, grisignano_di_zocco, veneto).
-station(s11729, grisolia_smaria, calabria).
-station(s05133, grizzana, emilia_romagna).
-station(s01927, groane, unavailable).
-station(s00277, gropello_cairoli, lombardia).
-station(s06039, grosseto, toscana).
-station(s11602, grottaglie, puglia).
-station(s07512, grottammare, marche).
-station(s12372, grotte, sicilia).
-station(s08301, grotte_sstefano, lazio).
-station(s01537, grumello_del_monte, lombardia).
-station(s11502, grumo_appula, puglia).
-station(s07211, gualdo_tadino, umbria).
-station(s11843, guardavalle, calabria).
-station(s12327, guardia_mangano_santa_venerina, sicilia).
-station(s11737, guardia_piemontese_terme, calabria).
-station(s09456, guardiaregia, molise).
-station(s08506, guidonia_montecello_sangelo, lazio).
-station(s00125, gyekenyes, unavailable).
-station(s00147, hone_bard, valle_d_aosta).
-station(s29399, horb, unavailable).
-station(s05818, igea_marina, emilia_romagna).
-station(s12950, iglesias, sardegna).
-station(s06958, il_cionfo, unavailable).
-station(s06957, il_cionfo_bin_le_cure, toscana).
-station(s06951, il_cionfo_bin_salviati, toscana).
-station(s06424, il_neto, toscana).
-station(s05054, imola, emilia_romagna).
-station(s04510, imperia_oneglia, unavailable).
-station(s04509, imperia_porto_maurizio, unavailable).
-station(s06907, incisa, toscana).
-station(s00835, incisa_scapaccino, piemonte).
-station(s11101, incoronata, puglia).
-station(s06914, indicatore, toscana).
-station(s01204, induno_olona, lombardia).
-station(s01093, inverigo, unavailable).
-station(s08330, ipogeo_degli_ottavi, lazio).
-station(s01952, iselle_di_trasquera, unavailable).
-station(n00210, iseo, lombardia).
-station(s09053, isernia, molise).
-station(s11825, isola_capo_rizzuto, calabria).
-station(s04210, isola_del_cantone, liguria).
-station(s05307, isola_della_scala, veneto).
-station(s12129, isola_delle_femmine, sicilia).
-station(s00347, isola_dasti, piemonte).
-station(s08858, isola_liri, lazio).
-station(s08665, isoletta_sgiovanni_i, lazio).
-station(s12421, ispica, sicilia).
-station(s01121, ispra, lombardia).
-station(s02539, istrana, veneto).
-station(s08607, itri, lazio).
-station(s00154, ivrea, piemonte).
-station(s01176, jenbach, unavailable).
-station(s07202, jesi, marche).
-station(s11763, joppolo, calabria).
-station(s07475, kandersteg, unavailable).
-station(s01800, karlsruhe_hbf, unavailable).
-station(s03612, knittefeld, unavailable).
-station(s02100, koeln_hbf, unavailable).
-station(s73107, krizevci, unavailable).
-station(s00634, la_brigue, unavailable).
-station(s08808, la_fiora, lazio).
-station(s08321, la_giustiniana, lazio).
-station(s08514, la_rustica_uir, unavailable).
-station(s00132, la_salle, valle_d_aosta).
-station(s06000, la_spezia_centrale, liguria).
-station(s06004, la_spezia_migliarina, liguria).
-station(s08320, la_storta, lazio).
-station(s08654, labico, unavailable).
-station(s07427, labro_moggio, lazio).
-station(s02207, laces, trentino_alto_adige).
-station(s08021, ladispoli_cerveteri, lazio).
-station(s09911, lagonegro, basilicata).
-station(s04514, laigueglia, liguria).
-station(s02029, laives_, trentino_alto_adige).
-station(s05418, lama, veneto).
-station(s05121, lama_di_reno, emilia_romagna).
-station(s01869, lambrinia, lombardia).
-station(s01094, lambrugo___lurago_derba, unavailable).
-station(s11749, lamezia_terme_centrale, calabria).
-station(s11951, lamezia_terme_nicastro, calabria).
-station(s11950, lamezia_terme_sambiase, calabria).
-station(s02219, lana_postal_, trentino_alto_adige).
-station(s02710, lancenigo, veneto).
-station(n00092, lancetti, unavailable).
-station(s07986, lanciano, unavailable).
-station(s08733, lanuvio, lazio).
-station(s09707, lanzara_fimiani, campania).
-station(s00095, lanzo, unavailable).
-station(s09604, lapio, unavailable).
-station(s09466, larino, molise).
-station(s02204, lasa, trentino_alto_adige).
-station(s12018, lascari, sicilia).
-station(s06912, laterina, toscana).
-station(s11606, latiano, puglia).
-station(s08608, latina, lazio).
-station(s03202, latisana_lignano_b, friuli_venezia_giulia).
-station(s00421, lauriano, piemonte).
-station(s04723, lavagna, liguria).
-station(s01118, laveno_mombello, lombardia).
-station(s05806, lavezzola, emilia_romagna).
-station(s05041, lavino, emilia_romagna).
-station(s02037, lavis, trentino_alto_adige).
-station(s09708, lavorate, campania).
-station(s02009, le_cave, unavailable).
-station(s06516, le_piagge, toscana).
-station(s11145, lecce, puglia).
-station(s01520, lecco, lombardia).
-station(s01522, lecco_maggianico, lombardia).
-station(s01120, leggiuno_monvalle, lombardia).
-station(s02366, legnago, veneto).
-station(s01033, legnano, lombardia).
-station(s02373, lendinara, veneto).
-station(s12341, lentini, sicilia).
-station(s12340, lentini_diramazione, sicilia).
-station(s11219, leonessa, basilicata).
-station(s12239, leonforte_pirato, sicilia).
-station(s12205, lercara_bassa, sicilia).
-station(s02578, lerino, veneto).
-station(s01018, lesa, piemonte).
-station(s00954, lesegno, piemonte).
-station(s01501, lesmo, lombardia).
-station(s12316, letojanni, sicilia).
-station(s02568, levada, veneto).
-station(s04731, levanto, liguria).
-station(s02019, levata, unavailable).
-station(s02309, levico, trentino_alto_adige).
-station(n00075, lezza___carpesino, unavailable).
-station(s12400, licata, sicilia).
-station(s05813, lido_di_classe_lido_di_savio, emilia_romagna).
-station(s08708, lido_di_lavinio, lazio).
-station(n00052, lido_di_turbigo, unavailable).
-station(s01413, lierna, lombardia).
-station(s00617, limone, piemonte).
-station(s09616, lioni, campania).
-station(s09628, lioni_valle_delle_viti, campania).
-station(s11124, liside, unavailable).
-station(s02530, lisiera, veneto).
-station(s02663, lison, veneto).
-station(s01321, lissone_muggio, lombardia).
-station(s06725, livorno_centrale, toscana).
-station(s00237, livorno_ferraris, piemonte).
-station(s04519, loano, liguria).
-station(s01801, locate_triulzi, lombardia).
-station(n00017, locate_v___carbonate, unavailable).
-station(s11851, locri, calabria).
-station(s01825, lodi, lombardia).
-station(n00036, lomazzo, unavailable).
-station(s00405, lomello, lombardia).
-station(s02083, lonato, lombardia).
-station(s02556, longarone_zoldo, veneto).
-station(s11742, longobardi, calabria).
-station(s02441, lonigo, veneto).
-station(s05423, loreo, veneto).
-station(s07503, loreto, marche).
-station(s06404, lucca, toscana).
-station(s06069, lucignano___marciano___pozzo, unavailable).
-station(s05951, lugo, emilia_romagna).
-station(s01113, luino, lombardia).
-station(s03125, lumignacco, friuli_venezia_giulia).
-station(s01806, lungavilla, lombardia).
-station(s08503, lunghezza, lazio).
-station(s06003, luni, unavailable).
-station(s09606, luogosano, campania).
-station(s00523, luserna_s_giovanni, piemonte).
-station(s76290, lyon_st_exupery, unavailable).
-station(s07414, laquila, abruzzo).
-station(s01700, milano_centrale, lombardia).
-station(s13653, maccagno, unavailable).
-station(s08020, maccarese, lazio).
-station(s07307, macerata, marche).
-station(s07313, macerata_fontescodella, marche).
-station(s01500, macherio_sovico, lombardia).
-station(s01484, macherio_canonica, lombardia).
-station(s12869, macomer, sardegna).
-station(s00607, maddalene, piemonte).
-station(s09212, maddaloni_inferiore, campania).
-station(s09303, maddaloni_superiore, campania).
-station(s01610, madignano, lombardia).
-station(s08108, madonna_del_piano, lazio).
-station(s00820, madonna_del_pilone, piemonte).
-station(s00501, madonna_della_scala, piemonte).
-station(s09773, madonna_delle_grazie, unavailable).
-station(s00083, madonna_di_campagna, unavailable).
-station(s12853, madonna_di_castro, sardegna).
-station(s02512, maerne_di_martellago, veneto).
-station(s01040, magenta, lombardia).
-station(s07002, magione, umbria).
-station(s08404, magliana, lazio).
-station(s00951, magliano_crava_morozzo, piemonte).
-station(s11042, magna_grecia, unavailable).
-station(s05159, magnacavallo, unavailable).
-station(s02033, magre__cortaccia, trentino_alto_adige).
-station(s03051, majano, friuli_venezia_giulia).
-station(s01910, maleo, lombardia).
-station(s02200, malles_venosta, trentino_alto_adige).
-station(n00023, malnate, unavailable).
-station(n00233, malonno, unavailable).
-station(s01139, malpensa, unavailable).
-station(s07555, maltignano_del_tronto, marche).
-station(s04735, manarola, liguria).
-station(s11817, mandatoriccio_campana, calabria).
-station(s08512, mandela_sambuci, lazio).
-station(s01415, mandello_del_lario, lombardia).
-station(n00203, mandolossa, unavailable).
-station(s12898, mandras, unavailable).
-station(s01902, manerbio, lombardia).
-station(s11054, manfredonia, puglia).
-station(s03084, maniago, friuli_venezia_giulia).
-station(s07710, manoppello, abruzzo).
-station(s00700, manta, piemonte).
-station(s02336, mantova, lombardia).
-station(s02380, mantova_frassine, lombardia).
-station(s03030, manzano, friuli_venezia_giulia).
-station(s08314, manziana_canale_monterano, lazio).
-station(s02142, marano, veneto).
-station(s00983, marano_ticino, piemonte).
-station(s11723, maratea, basilicata).
-station(s12104, marausa, sicilia).
-station(s01921, marcaria, lombardia).
-station(s11728, marcellina_verbicaro_orsomarso, calabria).
-station(s08507, marcellina_palombara, lazio).
-station(s11953, marcellinara, calabria).
-station(s09301, marcianise, campania).
-station(s11121, marconi, unavailable).
-station(s11800, marconia, basilicata).
-station(s08716, marechiaro, lazio).
-station(s00902, margarita, piemonte).
-station(s11107, margherita_di_sav/ofantino, puglia).
-station(s01089, mariano_comense, lombardia).
-station(s12234, marianopoli, sicilia).
-station(s09750, marigliano, campania).
-station(s08022, marina_di_cerveteri, lazio).
-station(s11724, marina_di_maratea, basilicata).
-station(s11862, marina_di_san_lorenzo, calabria).
-station(s12854, marinella, sardegna).
-station(s08701, marino, lazio).
-station(s07556, marino_del_tronto_folignano, marche).
-station(s02214, marlengo, trentino_alto_adige).
-station(s07401, marmore, umbria).
-station(n00214, marone___zone, unavailable).
-station(s07107, marotta_mondolfo, marche).
-station(s06610, marradi, toscana).
-station(s12879, marrubiu_terralba_arborea, sardegna).
-station(s12107, marsala, sicilia).
-station(s05105, marzabotto, emilia_romagna).
-station(s12444, marzamemi, sicilia).
-station(s07109, marzocca, marche).
-station(s12323, mascali, sicilia).
-station(s04811, maschio, liguria).
-station(s05171, masi_torello, unavailable).
-station(s06009, massa_centro, toscana).
-station(s05179, massafiscaglia, unavailable).
-station(s11510, massafra, puglia).
-station(s05952, massalombarda, emilia_romagna).
-station(s06350, massarosa_bozzano, toscana).
-station(s07301, matelica, marche).
-station(s00093, mathi, unavailable).
-station(s02263, matrei, unavailable).
-station(s09461, matrice_montagano, molise).
-station(s02040, mattarello, unavailable).
-station(s12110, mazara_del_vallo, sicilia).
-station(s01087, meda, unavailable).
-station(s00406, mede, lombardia).
-station(s06102, medesano, emilia_romagna).
-station(s03082, meduno, friuli_venezia_giulia).
-station(s01019, meina, piemonte).
-station(s07065, melano_marischio, marche).
-station(s04106, mele, liguria).
-station(s01822, melegnano, lombardia).
-station(s11206, melfi, basilicata).
-station(s11863, melito_di_porto_salvo, calabria).
-station(s01705, melzo, lombardia).
-station(s02215, melzo_scalo, unavailable).
-station(s06075, memmenano, unavailable).
-station(s75648, menton, unavailable).
-station(s02668, meolo, veneto).
-station(s00875, merana, piemonte).
-station(s02216, merano, trentino_alto_adige).
-station(s02217, merano_maia_bassa, trentino_alto_adige).
-station(s09706, mercato_san_severino, campania).
-station(s00156, mercenasco, piemonte).
-station(s01012, mergozzo, piemonte).
-station(s01454, merone, lombardia).
-station(s11607, mesagne, puglia).
-station(s12301, messina_centrale, sicilia).
-station(s12300, messina_marittima, sicilia).
-station(s02580, mestrino, veneto).
-station(s11461, metaponto, basilicata).
-station(s01851, mezzani_rondani, emilia_romagna).
-station(s05810, mezzano, emilia_romagna).
-station(s02035, mezzocorona, trentino_alto_adige).
-station(s01647, mi_pgarsott, lombardia).
-station(s01631, mipgenova, lombardia).
-station(s05176, migliarino, unavailable).
-station(s05178, migliaro, unavailable).
-station(s04212, mignanego, liguria).
-station(s09201, mignano_di_monte_lungo, campania).
-station(s01078, milano_affori, unavailable).
-station(s01642, milano_bovisa_fnm, lombardia).
-station(s01079, milano_bruzzano, unavailable).
-station(s01640, milano_certosa, lombardia).
-station(s01650, milano_dateo, lombardia).
-station(s01644, milano_farini, unavailable).
-station(s01326, milano_greco_pirelli, lombardia).
-station(s01701, milano_lambrate, lombardia).
-station(s01643, milano_lancetti, lombardia).
-station(s01066, milano_nord_cadorna, unavailable).
-station(s01067, milano_nord_domodossola, unavailable).
-station(s01069, milano_nord_quarto_oggiaro_, unavailable).
-station(s01645, milano_porta_garibaldi, lombardia).
-station(s01632, milano_porta_romana, lombardia).
-station(s01633, milano_porta_vittoria, lombardia).
-station(s01648, milano_repubblica, unavailable).
-station(s01820, milano_rogoredo, lombardia).
-station(s01032, milano_romolo, lombardia).
-station(s01630, milano_s_cristoforo, lombardia).
-station(s01649, milano_venezia, lombardia).
-station(s01639, milano_villapizzone, unavailable).
-station(s12042, milazzo, sicilia).
-station(s11790, mileto, calabria).
-station(s12276, militello, sicilia).
-station(s06954, mimmole, toscana).
-station(s12275, mineo, sicilia).
-station(s11403, minervino_murge, puglia).
-station(s09150, minturno, lazio).
-station(s06227, minucciano___pieve___casola, toscana).
-station(s02588, mira_mirano, veneto).
-station(s01867, miradolo_terme, lombardia).
-station(s03311, miramare, unavailable).
-station(s05311, mirandola, emilia_romagna).
-station(s11814, mirto_crosia, calabria).
-station(s07119, misano_adriatico, emilia_romagna).
-station(s00201, modane, unavailable).
-station(s00190, modane_fx, unavailable).
-station(s05032, modena, emilia_romagna).
-station(s12417, modica, sicilia).
-station(s11500, modugno, unavailable).
-station(s11515, modugno_citta, puglia).
-station(s02717, mogliano_veneto, veneto).
-station(s01456, moiana, lombardia).
-station(s03058, moimacco, unavailable).
-station(s12363, mojo_alcantara_malvagna, sicilia).
-station(s11127, mola_di_bari, puglia).
-station(s04102, molare, piemonte).
-station(s11114, molfetta, puglia).
-station(s07424, molina_castel_vecchio_subaqueo, abruzzo).
-station(s05112, molino_del_pallone, emilia_romagna).
-station(s01458, molteno, lombardia).
-station(s00873, mombaldone_roccaverano, piemonte).
-station(s00808, mombaruzzo, piemonte).
-station(s00019, momo, piemonte).
-station(s11844, monasterace_stilo, calabria).
-station(s00721, monastero_pratavecchi, piemonte).
-station(s00453, moncalieri, piemonte).
-station(s00510, moncalieri_sangone, piemonte).
-station(s00340, moncalvo, piemonte).
-station(s00735, monchiero_dogliani, piemonte).
-station(s00952, mondovi, piemonte).
-station(s04727, moneglia, liguria).
-station(s03310, monfalcone, friuli_venezia_giulia).
-station(s00801, mongardino, piemonte).
-station(s11905, mongrassano_cervicati, calabria).
-station(s02111, monguelfo_valle_di_casies, trentino_alto_adige).
-station(s11129, monopoli, puglia).
-station(s07553, monsampolo_del_tronto, marche).
-station(s05703, monselice, veneto).
-station(s02392, montagnana, veneto).
-station(s09319, montaguto_panni, campania).
-station(s06415, montale_agliana, toscana).
-station(s06856, montallese, toscana).
-station(s08008, montalto_di_castro, lazio).
-station(s00153, montalto_dora, piemonte).
-station(s11908, montalto_rose, calabria).
-station(s00160, montanaro, piemonte).
-station(s06818, monte_amiata, unavailable).
-station(s06820, monte_antico, toscana).
-station(s12973, monte_arcau, sardegna).
-station(s11805, monte_giordano, calabria).
-station(s07014, monte_melino, umbria).
-station(s06068, monte_s_savino, unavailable).
-station(s08605, monte_sbiagio, lazio).
-station(s02443, montebello, veneto).
-station(s02570, montebelluna, veneto).
-station(s09315, montecalvo_buonalbergo_casalb, campania).
-station(s06408, montecarlo_san_salvatore, toscana).
-station(s07203, montecarotto_castelbellino, marche).
-station(s06412, montecatini_centro, toscana).
-station(s06411, montecatini_terme, toscana).
-station(s00872, montechiaro_denice, piemonte).
-station(s00428, montechiaro_dasti, piemonte).
-station(s09822, montecorvino, campania).
-station(s07310, montecosaro, marche).
-station(s09602, montefalcione, campania).
-station(s08303, montefiascone, lazio).
-station(s09529, montefredane, campania).
-station(s00803, montegrosso, piemonte).
-station(s11601, monteiasi, puglia).
-station(s09612, montella, campania).
-station(s01535, montello_gorlago, lombardia).
-station(s06511, montelupo_capraia, toscana).
-station(s12203, montemaggiore, sicilia).
-station(s09610, montemarano, campania).
-station(s07110, montemarciano, marche).
-station(s09603, montemiletto, campania).
-station(s07825, montenero_petacciato, molise).
-station(s11836, montepaone___montauro, calabria).
-station(s06038, montepescali, toscana).
-station(s07554, monteprandone, marche).
-station(s06855, montepulciano, toscana).
-station(s03085, montereale_valcellina, friuli_venezia_giulia).
-station(s09057, monteroduni, molise).
-station(s06871, monteroni_darbia, toscana).
-station(s04732, monterosso, liguria).
-station(s07062, monterosso_marche, marche).
-station(s08215, monterotondo, lazio).
-station(s09909, montesano_buonabitacolo, campania).
-station(s05801, montesanto, emilia_romagna).
-station(s07808, montesilvano, abruzzo).
-station(s00422, monteu_da_po, piemonte).
-station(s06910, montevarchi_terranuova, toscana).
-station(s09624, monteverde, basilicata).
-station(s12857, monti_telti, sardegna).
-station(s09622, monticchio, basilicata).
-station(s01971, monticelli_dongina, emilia_romagna).
-station(s00823, monticello_dalba, piemonte).
-station(s00426, montiglio_murisengo, piemonte).
-station(s01840, montirone, lombardia).
-station(s00144, montjovet, valle_d_aosta).
-station(s09518, montoro_forino, campania).
-station(s09517, montoro_superiore, campania).
-station(s09528, montorsi, campania).
-station(s06601, montorsoli, toscana).
-station(s01235, montreux, unavailable).
-station(s01322, monza, lombardia).
-station(s01480, monza_sobborghi, lombardia).
-station(s06225, monzone_mdei_banchi_isolano, toscana).
-station(s05132, monzuno, emilia_romagna).
-station(s00177, morano_sul_po, piemonte).
-station(s01425, morbegno, lombardia).
-station(s09503, morcone, campania).
-station(s01710, morengo_bariano, lombardia).
-station(s12864, mores_ittireddu, sardegna).
-station(s00544, moretta, piemonte).
-station(s00131, morgex, valle_d_aosta).
-station(s02046, mori, trentino_alto_adige).
-station(s01144, mornago_cimbro, lombardia).
-station(s08660, morolo, lazio).
-station(n00026, morosolo___casciago, unavailable).
-station(s09617, morra_de_sanctis_teora, campania).
-station(s08813, morrea_castronovo_rendinara, unavailable).
-station(s07309, morrovalle_monte_sgiusto, marche).
-station(s00034, mortara, lombardia).
-station(s07904, mosciano_s_angelo, abruzzo).
-station(s03302, mossa, friuli_venezia_giulia).
-station(s12360, motta_camastra, sicilia).
-station(s02767, motta_di_livenza, veneto).
-station(s01862, motta_s_damiano, lombardia).
-station(s11865, motta_san_giovanni_lazzaro, calabria).
-station(s02339, motteggiana, lombardia).
-station(s12105, mozia_birgi, sicilia).
-station(n00016, mozzate, unavailable).
-station(s02332, mozzecane, veneto).
-station(s04713, mulinetti, liguria).
-station(s08400, muratella, lazio).
-station(s06876, murlo, toscana).
-station(s12953, musei, sardegna).
-station(s05139, musiano_pian_di_macina, emilia_romagna).
-station(s00824, mussotto, piemonte).
-station(s03204, muzzana_del_turgnano, friuli_venezia_giulia).
-station(s09218, napoli_centrale, campania).
-station(s03624, nagykanizsa, unavailable).
-station(s09103, napoli_campi_flegrei, campania).
-station(s09110, napoli_gianturco, campania).
-station(s09105, napoli_mergellina, campania).
-station(s09107, napoli_montesanto, campania).
-station(s09109, napoli_piazza_garibaldi, campania).
-station(s09104, napoli_piazza_leopardi, campania).
-station(s09800, napoli_sgiovbarra, campania).
-station(s09010, napoli_scalo_merci, unavailable).
-station(s09220, napoli_traccia, unavailable).
-station(s07230, narni_amelia, umbria).
-station(s00734, narzole, piemonte).
-station(s11600, nasisi, puglia).
-station(s02211, naturno, trentino_alto_adige).
-station(s06502, navacchio, toscana).
-station(s00827, neive, piemonte).
-station(s07229, nera_montoro, umbria).
-station(s08710, nettuno, lazio).
-station(n00227, niardo___losine, unavailable).
-station(s00976, nibbia, piemonte).
-station(s00511, nichelino, piemonte).
-station(s00273, nicorvo, lombardia).
-station(s11764, nicotera, calabria).
-station(s00739, niella, piemonte).
-station(s12392, niscemi, sicilia).
-station(s12311, nizza_di_sicilia, sicilia).
-station(s00834, nizza_monferrato, piemonte).
-station(s02510, noale_scorze, veneto).
-station(s09814, nocera_inferiore, campania).
-station(s09709, nocera_inferiore_mercato, campania).
-station(s09815, nocera_superiore, campania).
-station(s11746, nocera_tirinese, calabria).
-station(s07213, nocera_umbra, umbria).
-station(s06101, noceto, emilia_romagna).
-station(s05310, nogara, veneto).
-station(s09700, nola, campania).
-station(s09699, nola_interporto, unavailable).
-station(s00091, nole, unavailable).
-station(s00513, none, piemonte).
-station(s07903, notaresco, abruzzo).
-station(s12424, noto, sicilia).
-station(s12446, noto_bagni, unavailable).
-station(s03303, nova_gorica, unavailable).
-station(s11803, nova_siri_rotondella, basilicata).
-station(s00248, novara, piemonte).
-station(s00023, novara_ferrovia_nord_milano, unavailable).
-station(s12039, novara_montalbano_furnari, sicilia).
-station(n00055, novara_nord, unavailable).
-station(s01070, novate_milanese, unavailable).
-station(s01403, novate_mezzola, lombardia).
-station(s02734, nove, veneto).
-station(s04203, novi_ligure, piemonte).
-station(s06351, nozzano, toscana).
-station(s00920, nucetto, piemonte).
-station(s08231, nuovo_salario, lazio).
-station(s00140, nus, valle_d_aosta).
-station(s09614, nusco, campania).
-station(s05710, occhiobello, veneto).
-station(s02765, oderzo, veneto).
-station(s11968, officine_gr_saline_joniche, unavailable).
-station(s07551, offida_castel_di_lama, marche).
-station(s01460, oggiono, lombardia).
-station(s12855, olbia, sardegna).
-station(s12901, olbia_marittima_isola_bianca, sardegna).
-station(s00244, olcenengo, piemonte).
-station(s01414, olcio, lombardia).
-station(s00984, oleggio, piemonte).
-station(s00036, olevano, lombardia).
-station(s08333, olgiata, lazio).
-station(s01514, olgiate_calco_brivio, lombardia).
-station(s12037, oliveri_tindari, sicilia).
-station(s04480, olivetta_san_michele, liguria).
-station(s01905, olmeneta, lombardia).
-station(s02760, olmi_spercenigo, veneto).
-station(s01150, olten, unavailable).
-station(s00010, omegna, piemonte).
-station(s00008, omegna_crusinallo, piemonte).
-station(s11708, omignano_salento, campania).
-station(s02031, ora, trentino_alto_adige).
-station(s08004, orbetello, toscana).
-station(s06022, orciano, toscana).
-station(s11202, ordona, puglia).
-station(s11605, oria, puglia).
-station(s08518, oricola_pereto, abruzzo).
-station(s01870, orio_litta, lombardia).
-station(s08313, oriolo, lazio).
-station(s02203, oris, trentino_alto_adige).
-station(s12878, oristano, sardegna).
-station(s00927, ormea, unavailable).
-station(s00006, ornavasso, piemonte).
-station(s12121, orsa, sicilia).
-station(s02704, orsago, veneto).
-station(s09320, orsara_di_puglia, puglia).
-station(s00012, orta_miasino, piemonte).
-station(s11102, ortanova, puglia).
-station(s08209, orte, lazio).
-station(s07815, ortona, abruzzo).
-station(s08203, orvieto, umbria).
-station(s12860, oschiri, sardegna).
-station(s07502, osimo_castelfidardo, marche).
-station(s01512, osnago, lombardia).
-station(s02395, ospedaletto_euganeo, veneto).
-station(s01871, ospedaletto_lodigiano, lombardia).
-station(s07012, ospedalicchio, umbria).
-station(s02554, ospitale_di_cadore, veneto).
-station(s01922, ospitaletto_mantovano, lombardia).
-station(s01716, ospitaletto_travagliato, lombardia).
-station(s05175, ostellato, unavailable).
-station(s05302, osteria_nuova, emilia_romagna).
-station(s06160, ostia_parmense, emilia_romagna).
-station(s05304, ostiglia, lombardia).
-station(s11132, ostuni, puglia).
-station(s08324, ottavia, unavailable).
-station(s09751, ottaviano, campania).
-station(s00204, oulx_cesana_claviere_sestriere, piemonte).
-station(s04103, ovada, piemonte).
-station(s04007, ovada_nord, piemonte).
-station(s00840, oviglio, piemonte).
-station(s12862, ozieri_chilivani, sardegna).
-station(s12861, ozieri_fraigas, sardegna).
-station(s05055, ozzano_dellemilia, emilia_romagna).
-station(s00337, ozzano_monferrato, piemonte).
-station(s06152, ozzano_taro, emilia_romagna).
-station(s12002, palermo_centrale, sicilia).
-station(s05709, pccanaro, veneto).
-station(s06826, pm_badesse, toscana).
-station(s05047, pm_reno, unavailable).
-station(s09717, pmtorricchio, unavailable).
-station(s03032, pmvat, friuli_venezia_giulia).
-station(s12881, pabillonis, sardegna).
-station(s12045, pace_del_mela, sicilia).
-station(s12103, paceco, sicilia).
-station(s12445, pachino, sicilia).
-station(n00205, paderno, unavailable).
-station(s01082, paderno_dugnano, unavailable).
-station(s01502, paderno_robbiate, lombardia).
-station(s08707, padiglione, lazio).
-station(s02581, padova, veneto).
-station(s02650, padova_campo_marte, unavailable).
-station(s09908, padula, campania).
-station(s09313, paduli, campania).
-station(s02540, paese, veneto).
-station(s02602, paese_castagnole, veneto).
-station(s11703, paestum, campania).
-station(s09813, pagani, campania).
-station(s07416, paganica, abruzzo).
-station(s11508, palagianello, puglia).
-station(s11464, palagiano_chiatona, puglia).
-station(s11509, palagiano_mottola, puglia).
-station(s12279, palagonia, sicilia).
-station(s12130, palazzo_reale_orleans, sicilia).
-station(s11303, palazzo_sgervasio___montemil, basilicata).
-station(s01083, palazzolo, unavailable).
-station(s03203, palazzolo_dello_stella, friuli_venezia_giulia).
-station(s01538, palazzolo_sulloglio, lombardia).
-station(s00175, palazzolo_vercellese, piemonte).
-station(s08904, palena, abruzzo).
-station(s12055, palermo_brancaccio, sicilia).
-station(s12134, palermo_notarbartolo, sicilia).
-station(s00271, palestro, lombardia).
-station(s02343, palidano, lombardia).
-station(s11859, palizzi, calabria).
-station(s00002, pallanzeno, piemonte).
-station(s06220, pallerone, toscana).
-station(s09701, palma_sgennaro, campania).
-station(s03122, palmanova, friuli_venezia_giulia).
-station(s11769, palmi, calabria).
-station(s08018, palo_laziale, lazio).
-station(s07112, palombina, marche).
-station(s06605, panicaglia, toscana).
-station(s08699, pantanella, unavailable).
-station(s07234, pantiere_di_castelbellino, marche).
-station(s11739, paola, calabria).
-station(s01035, parabiago, lombardia).
-station(s01620, paratico_sarnico, lombardia).
-station(s08412, parco_leonardo, lazio).
-station(s08495, parco_prenestino, unavailable).
-station(s08498, parco_prenestino_bin_esterni, unavailable).
-station(s11759, parghelia, calabria).
-station(s05014, parma, emilia_romagna).
-station(s01060, parona_lomellina, lombardia).
-station(s12124, partinico, sicilia).
-station(s07001, passignano_sul_trasimeno, umbria).
-station(n00206, passirano, unavailable).
-station(s09607, paternopoli, campania).
-station(s12036, patti_san_piero_patti, sicilia).
-station(s12874, paulilatino, sardegna).
-station(s01860, pavia, lombardia).
-station(s01861, pavia_porta_garibaldi, lombardia).
-station(s08731, pavona, lazio).
-station(s07510, pedaso, marche).
-station(s02567, pederobba_cavaso_possagno, veneto).
-station(s05154, pegognaga, unavailable).
-station(s09521, pellezzano, campania).
-station(s00341, penango, piemonte).
-station(s02553, perarolo_di_cadore, veneto).
-station(s02060, perca, unavailable).
-station(s09627, percianti_arianello, unavailable).
-station(s02305, pergine, trentino_alto_adige).
-station(s07060, pergola, marche).
-station(s02052, peri, veneto).
-station(s78400, perpignan, unavailable).
-station(s00311, pertengo, piemonte).
-station(s09921, pertosa, unavailable).
-station(s07004, perugia, umbria).
-station(s07005, perugia_ponte_sgiovanni, umbria).
-station(s07013, perugia_silvestrini, unavailable).
-station(s07006, perugia_universita, unavailable).
-station(s07104, pesaro, marche).
-station(s02057, pescantina, unavailable).
-station(s07810, pescara, abruzzo).
-station(s07811, pescara_porta_nuova, abruzzo).
-station(s07017, pescara_s_marco, abruzzo).
-station(s02088, peschiera_del_garda, veneto).
-station(s06409, pescia, toscana).
-station(s08532, pescina, abruzzo).
-station(s08811, pescocanale, abruzzo).
-station(s08915, pescolanciano_chiauci, molise).
-station(s09507, pescosannita_fragneto_labate, campania).
-station(s00457, pessione, piemonte).
-station(s09901, petina, campania).
-station(s12109, petrosino_strasatti, sicilia).
-station(s00011, pettenasco, piemonte).
-station(s08901, pettorano_sul_gizio, abruzzo).
-station(s05000, piacenza, emilia_romagna).
-station(s01919, piadena, lombardia).
-station(s06952, pian_del_mugnone, toscana).
-station(n00223, pian_di_borno, unavailable).
-station(s05114, pian_di_venola, emilia_romagna).
-station(s00876, piana, liguria).
-station(s08222, piana_bella_montelibretti, lazio).
-station(s12394, piana_del_signore, sicilia).
-station(s09026, piana_di_mverna, unavailable).
-station(n00218, piancamuno___gratacasolo, unavailable).
-station(s09317, pianerottolo_di_ariano, campania).
-station(s00903, pianfei, piemonte).
-station(s07990, pianibbie, unavailable).
-station(s07714, piano_dorta_bolognano, abruzzo).
-station(s04216, piano_orizzontale_dei_giovi, liguria).
-station(s05131, pianoro, emilia_romagna).
-station(s02705, pianzano, veneto).
-station(s06325, piazza_al_serchio, toscana).
-station(s09106, piazza_amedeo, campania).
-station(s09108, piazza_cavour, campania).
-station(s09833, picerno, basilicata).
-station(s09999, piedimonte_matese, unavailable).
-station(s08680, piedimonte_vsl_aquino, unavailable).
-station(s00003, piedimulera, piemonte).
-station(s04520, pietra_ligure, liguria).
-station(s04209, pietrabissara, liguria).
-station(s11213, pietragalla, basilicata).
-station(s11816, pietrapaola, calabria).
-station(s09801, pietrarsa, campania).
-station(s06012, pietrasanta, toscana).
-station(s09508, pietrelcina, campania).
-station(s00402, pieve_albignola, lombardia).
-station(s01104, pieve_emanuele, unavailable).
-station(s04711, pieve_ligure, liguria).
-station(s00004, pieve_vergonte, piemonte).
-station(s00922, pievetta, piemonte).
-station(s09207, pignataro_maggiore, campania).
-station(n00211, pilzone, unavailable).
-station(s01931, pinarolo_po, lombardia).
-station(s00517, pinerolo, piemonte).
-station(s00082, pinerolo_olimpica, piemonte).
-station(s08334, pineto, lazio).
-station(s07806, pineto_atri, abruzzo).
-station(s13966, pino_confine, unavailable).
-station(s01110, pino_t, unavailable).
-station(s03055, pinzano, friuli_venezia_giulia).
-station(s01703, pioltello_limito, lombardia).
-station(s06770, piombino, toscana).
-station(s06775, piombino_binari_mare, toscana).
-station(s02509, piombino_dese, veneto).
-station(s01406, piona, lombardia).
-station(s05106, pioppe_di_salvaro, emilia_romagna).
-station(s02598, piove_di_sacco, unavailable).
-station(s12125, piraineto, sicilia).
-station(s06450, pisa_binari_aeroporto, toscana).
-station(s06500, pisa_centrale, toscana).
-station(s06501, pisa_san_rossore, toscana).
-station(s00515, piscina_di_pinerolo, piemonte).
-station(s09625, pisciolo, basilicata).
-station(s11712, pisciotta_palinuro, campania).
-station(n00217, pisogne, unavailable).
-station(s11459, pisticci, basilicata).
-station(s06414, pistoia, toscana).
-station(s05151, pistoia_ovest, unavailable).
-station(s05116, piteccio, toscana).
-station(s44100, pivka, unavailable).
-station(s01911, pizzighettone, lombardia).
-station(s11753, pizzo, calabria).
-station(s02212, plaus, trentino_alto_adige).
-station(s12816, ploaghe, sardegna).
-station(s11514, pm_grottalupara, unavailable).
-station(s00842, pocapaglia, piemonte).
-station(s06805, poggibonsi, toscana).
-station(s06323, poggio___careggine___vagli, toscana).
-station(s07428, poggio_fidoni, lazio).
-station(s11023, poggio_imperiale, puglia).
-station(s08213, poggio_mirteto, lazio).
-station(s05720, poggio_renatico, emilia_romagna).
-station(s05308, poggio_rusco, lombardia).
-station(s11305, poggiorsini, puglia).
-station(s01433, poggiridenti_tresivio_piateda, lombardia).
-station(s00904, pogliola, piemonte).
-station(s05708, polesella, veneto).
-station(s11718, policastro_bussentino, campania).
-station(s11802, policoro_tursi, basilicata).
-station(s11128, polignano_a_mare, puglia).
-station(s09903, polla, campania).
-station(s07305, pollenza, marche).
-station(s12021, pollina, sicilia).
-station(s01125, pombia, piemonte).
-station(s08601, pomezia___spalomba, lazio).
-station(s09810, pompei, campania).
-station(s00890, pont, liguria).
-station(s00149, pont_saint_martin, valle_d_aosta).
-station(s06904, pontassieve, toscana).
-station(s06807, ponte_a_elsa, toscana).
-station(s06312, ponte_a_moriano, toscana).
-station(s06869, ponte_a_tressa, toscana).
-station(s09325, ponte_albanito, puglia).
-station(s09309, ponte_casalduni, campania).
-station(s05123, ponte_della_venturina, emilia_romagna).
-station(s02585, ponte_di_brenta, veneto).
-station(s02763, ponte_di_piave, veneto).
-station(s01912, ponte_dadda, lombardia).
-station(s02225, ponte_dadige, trentino_alto_adige).
-station(s08403, ponte_galeria, lazio).
-station(s02020, ponte_gardena, trentino_alto_adige).
-station(s06752, ponte_ginori, toscana).
-station(s01434, ponte_in_valtellina, lombardia).
-station(s02558, ponte_nelle_alpi_polpet, veneto).
-station(s07233, ponte_parrano_di_nocera_umbra, umbria).
-station(s09841, ponte_s_cono, unavailable).
-station(s02082, ponte_smarco___calcinato, lombardia).
-station(s01528, ponte_spietro, lombardia).
-station(n00053, ponte_ticino, unavailable).
-station(s03010, pontebba, friuli_venezia_giulia).
-station(s09821, pontecagnano, campania).
-station(s05103, pontecchio_marconi, emilia_romagna).
-station(s01809, pontecurone, piemonte).
-station(s06506, pontedera_casciana_terme, toscana).
-station(s05711, pontelagoscuro, emilia_romagna).
-station(s01097, pontelambro___castelmarte, unavailable).
-station(s09504, pontelandolfo, campania).
-station(s09027, pontelatone, unavailable).
-station(s05005, pontenure, emilia_romagna).
-station(s04710, pontetto, liguria).
-station(s00871, ponti, piemonte).
-station(s06913, ponticino, toscana).
-station(s01526, pontida, lombardia).
-station(s06163, pontremoli, toscana).
-station(s00247, ponzana, piemonte).
-station(s06200, ponzano_magra, liguria).
-station(s06612, popolano, toscana).
-station(s07703, popoli_vittorito, abruzzo).
-station(s06074, poppi, unavailable).
-station(s06773, populonia, toscana).
-station(s06406, porcari, toscana).
-station(s02701, pordenone, friuli_venezia_giulia).
-station(s06073, porrena___strada___montem, unavailable).
-station(s05110, porretta__terme, emilia_romagna).
-station(n00094, porta_venezia, unavailable).
-station(s00344, portacomaro, piemonte).
-station(n00040, portichetto___luisago, unavailable).
-station(s09802, portici__ercolano, campania).
-station(s01200, porto_ceresio, lombardia).
-station(s07822, porto_di_vasto, abruzzo).
-station(s07514, porto_dascoli, marche).
-station(s12214, porto_empedocle, sicilia).
-station(s07504, porto_recanati, marche).
-station(s07507, porto_s_elpidio, marche).
-station(s07508, porto_s_giorgio_fermo, marche).
-station(s12802, porto_torres, sardegna).
-station(s01116, porto_valtravaglia, lombardia).
-station(s01124, porto_varallo_pombia, piemonte).
-station(s03200, portogruaro_caorle, veneto).
-station(s05802, portomaggiore, emilia_romagna).
-station(s11220, possidente, basilicata).
-station(s02601, postioma, veneto).
-station(s02053, posto_comunicazione_dolce, veneto).
-station(s00750, postojna, unavailable).
-station(s11420, potenza_inferiore, basilicata).
-station(s11215, potenza_macchia_romana, unavailable).
-station(s07505, potenza_picena_montelupone, marche).
-station(s11217, potenza_superiore, basilicata).
-station(s02505, pove_del_grappa_campese, veneto).
-station(s02301, povo, unavailable).
-station(s12420, pozzallo, sicilia).
-station(s04330, pozzolo_formigaro, piemonte).
-station(s09101, pozzuoli_solfatara, campania).
-station(s01722, pozzuolo_martesana, lombardia).
-station(s05113, pracchia, toscana).
-station(s11725, praja_ajeta_tortora, calabria).
-station(s04101, prasco_cremolino, piemonte).
-station(s01417, prata_camportaccio, unavailable).
-station(s09513, prata_pratola, campania).
-station(s06423, pratignone, toscana).
-station(s06426, prato_borgonuovo, toscana).
-station(s06416, prato_centrale, toscana).
-station(s06422, prato_porta_al_serraglio, toscana).
-station(s00108, prato_sesia, piemonte).
-station(s02024, prato_tires, unavailable).
-station(s07700, pratola_peligna, abruzzo).
-station(s07601, pratola_peligna_superiore, abruzzo).
-station(s06072, pratovecchio, unavailable).
-station(s06071, pratovecchio_stia, unavailable).
-station(s04003, predosa, piemonte).
-station(s02715, preganziol, veneto).
-station(s01058, pregnana_milanese, lombardia).
-station(s01009, premosello_chiovenda, piemonte).
-station(s08536, prezza, abruzzo).
-station(s00130, pre_saint_didier, valle_d_aosta).
-station(s02319, primolano, veneto).
-station(s00923, priola, piemonte).
-station(s12347, priolo_melilli, sicilia).
-station(s12393, priolo_soprano, sicilia).
-station(s08604, priverno_fossanova, lazio).
-station(s03551, prosecco, unavailable).
-station(n00209, provaglio___timoline, unavailable).
-station(s06085, puglia___ceciliano, unavailable).
-station(s12133, punta_raisi, sicilia).
-station(s05299, pde_2av, unavailable).
-station(s07996, quadri_borello, unavailable).
-station(s00102, quarona, piemonte).
-station(s00138, quart, valle_d_aosta).
-station(s05170, quartesana, unavailable).
-station(s09111, quarto_di_marano, campania).
-station(s02670, quarto_daltino, veneto).
-station(s08005, quattro_venti, lazio).
-station(s06728, quercianella, toscana).
-station(s02565, quero_vas, veneto).
-station(s04527, quiliano_vado, liguria).
-station(s00150, quincinetto, piemonte).
-station(s05156, quistello, unavailable).
-station(s08409, roma_termini, lazio).
-station(s11866, rcaeroporto, calabria).
-station(s12373, racalmuto, sicilia).
-station(s00602, racconigi, piemonte).
-station(n00181, raccordo__x, unavailable).
-station(s12414, ragusa, sicilia).
-station(s12416, ragusa_ibla, sicilia).
-station(s07600, raiano, abruzzo).
-station(s12365, randazzo, sicilia).
-station(s04720, rapallo, liguria).
-station(s06850, rapolano_terme, toscana).
-station(s11207, rapolla___lavello, unavailable).
-station(s09621, rapone_ruvo_sfele, basilicata).
-station(s06078, rassina, unavailable).
-station(s05138, rastignano, emilia_romagna).
-station(s05811, ravenna, emilia_romagna).
-station(s09302, recale, campania).
-station(s04714, recco, liguria).
-station(s03308, redipuglia, friuli_venezia_giulia).
-station(s11781, reggio_calabria_centrale, calabria).
-station(s11780, reggio_calabria_lido, calabria).
-station(s11973, reggio_di_calabria_archi, unavailable).
-station(s11969, reggio_di_calabria_bocale, unavailable).
-station(s11776, reggio_di_calabria_catona, calabria).
-station(s11777, reggio_di_calabria_gallico, calabria).
-station(s11970, reggio_di_calabria_omeca, unavailable).
-station(s11867, reggio_di_calabria_pellaro, calabria).
-station(s11975, reggio_di_calabria_scaterina, unavailable).
-station(s11868, reggio_di_calabria_sgregorio, calabria).
-station(s05023, reggio_emilia, emilia_romagna).
-station(s05254, reggio_emilia_av, emilia_romagna).
-station(s01410, regoledo, lombardia).
-station(s03059, remanzacco, unavailable).
-station(s01845, remedello_sopra, lombardia).
-station(s01846, remedello_sotto, lombardia).
-station(s01489, renate_veduggio, lombardia).
-station(n00095, repubblica, unavailable).
-station(s02508, resana, veneto).
-station(s01135, rescaldina, unavailable).
-station(s05305, revere, lombardia).
-station(s09762, reviglione_di_somma_vesuviana, campania).
-station(s01037, rho, lombardia).
-station(s01039, rho_fiera_milano, unavailable).
-station(s11845, riace, calabria).
-station(s09204, riardo, campania).
-station(s11761, ricadi, calabria).
-station(s07101, riccione, emilia_romagna).
-station(s08815, ridotti_collepiano, unavailable).
-station(s07405, rieti, lazio).
-station(s11028, rignano_garganico, puglia).
-station(s06906, rignano_sullarno_reggello, toscana).
-station(s00084, rigola___stadio, unavailable).
-station(s06401, rigoli, toscana).
-station(s06851, rigomagno, toscana).
-station(s04208, rigoroso, piemonte).
-station(s05071, rimini, emilia_romagna).
-station(s07100, rimini_miramare, emilia_romagna).
-station(s05819, rimini_torre_pedrera, emilia_romagna).
-station(s05820, rimini_viserba, emilia_romagna).
-station(s05057, riminifiera, unavailable).
-station(s02102, rio_di_pusteria, trentino_alto_adige).
-station(s04004, rio_secco, piemonte).
-station(s08517, riofreddo, lazio).
-station(s05108, riola, emilia_romagna).
-station(s04736, riomaggiore, liguria).
-station(s11209, rionero_atella_ripacandita, basilicata).
-station(s09463, ripabottoni_selia, molise).
-station(s06402, ripafratta, toscana).
-station(s06750, riparbella, toscana).
-station(s03120, risano, friuli_venezia_giulia).
-station(s04726, riva_trigoso, liguria).
-station(s04331, rivalta_scrivia, piemonte).
-station(s00884, rivarolo, unavailable).
-station(s08905, rivisondoli_pescocostanzo, abruzzo).
-station(s00272, robbio, lombardia).
-station(s01904, robecco_pontevico, lombardia).
-station(s00615, robilante, piemonte).
-station(s07410, rocca_di_corno, abruzzo).
-station(s07409, rocca_di_fondi, lazio).
-station(s09200, rocca_devandro, lazio).
-station(s11804, rocca_imperiale, calabria).
-station(s09058, rocca_ravindola, molise).
-station(s11828, roccabernarda, calabria).
-station(s00740, roccaciglie, piemonte).
-station(s00905, roccadebaldi, piemonte).
-station(s04006, roccagrimalda, piemonte).
-station(s12312, roccalumera_mandanici, sicilia).
-station(s06159, roccamurata, emilia_romagna).
-station(s12204, roccapalumba_alia, sicilia).
-station(s08906, roccaraso, abruzzo).
-station(s08668, roccasecca, lazio).
-station(s06823, roccastrada, toscana).
-station(s12046, roccavaldina, unavailable).
-station(s00614, roccavione, piemonte).
-station(s08814, roccavivi, unavailable).
-station(s11847, roccella_jonica, calabria).
-station(s00878, rocchetta_cairo, liguria).
-station(s11205, rocchetta_santlac, puglia).
-station(s00466, rocchetta_tanaro_cerro, piemonte).
-station(s00159, rodallo, piemonte).
-station(s01423, rogolo, lombardia).
-station(s02346, rolo_novi_fabbrico, emilia_romagna).
-station(s08025, roma_aurelia, lazio).
-station(s08327, roma_balduina, unavailable).
-station(s08674, roma_casilina, lazio).
-station(s08322, roma_monte_mario, lazio).
-station(s08236, roma_nomentana_ll, lazio).
-station(s08232, roma_nomentana_lm, unavailable).
-station(s08406, roma_ostiense, lazio).
-station(s08500, roma_prenestina, lazio).
-station(s08325, roma_sfilippo_neri, lazio).
-station(s08323, roma_spietro, lazio).
-station(s08217, roma_tiburtina, lazio).
-station(s08226, roma_tiburtina_piazzale_est, lazio).
-station(s08405, roma_trastevere, lazio).
-station(s08408, roma_tuscolana, lazio).
-station(s00109, romagnano_sesia, piemonte).
-station(s09829, romagnano_v, campania).
-station(s01711, romano, lombardia).
-station(s02337, romanore, lombardia).
-station(s12049, rometta_messinese, sicilia).
-station(s05303, roncanova_di_gazzo_ver, veneto).
-station(s02312, roncegno_bagni_marter, trentino_alto_adige).
-station(s03309, ronchi_dei_legionari_nord, friuli_venezia_giulia).
-station(s08109, ronciglione, lazio).
-station(s04211, ronco_scr, liguria).
-station(s06606, ronta, toscana).
-station(s11765, rosarno, calabria).
-station(s02521, rosa, veneto).
-station(s03600, rosenheim, unavailable).
-station(s11806, roseto_capo_spulico, calabria).
-station(s07804, roseto_degli_abruzzi, abruzzo).
-station(s06730, rosignano, toscana).
-station(s05424, rosolina, veneto).
-station(s12422, rosolini, sicilia).
-station(s11813, rossano, calabria).
-station(s02522, rossano_veneto, veneto).
-station(s04104, rossiglione, liguria).
-station(s00215, rosta, piemonte).
-station(s09016, rotondi_paolisi, unavailable).
-station(s29411, rotteweil, unavailable).
-station(s01950, rottofreno, emilia_romagna).
-station(s00053, rovasenda, piemonte).
-station(s00056, rovasenda_alta, piemonte).
-station(s01714, rovato, lombardia).
-station(n00237, rovato_citta, unavailable).
-station(n00035, rovellasca___manera, unavailable).
-station(n00034, rovello_porro, unavailable).
-station(s02333, roverbella, lombardia).
-station(s02044, rovereto, lombardia).
-station(s05173, rovereto___sv___medelana, unavailable).
-station(s12442, roveto_bimmisca, unavailable).
-station(s08515, roviano, lazio).
-station(s09771, rovigliano, unavailable).
-station(s05706, rovigo, veneto).
-station(s05031, rubiera, emilia_romagna).
-station(s12895, rudalza, sardegna).
-station(s06703, rufina, toscana).
-station(s05903, russi, emilia_romagna).
-station(s11707, rutino, campania).
-station(s11838, s_sostene, unavailable).
-station(s00213, s_ambrogio, piemonte).
-station(s06819, s_angelo_cinigiano, unavailable).
-station(s09030, s_angelo_in_for, unavailable).
-station(s00236, s_antonino_di_saluggia, piemonte).
-station(s00211, s_antonino_vaie, piemonte).
-station(s00881, s_benigno, unavailable).
-station(s01401, s_cassiano_valchiavenna, lombardia).
-station(s01866, s_cristina_e_bissone, lombardia).
-station(s00461, s_damiano_dasti, piemonte).
-station(s02666, s_dona_di_piave, veneto).
-station(s08739, s_eurosia, lazio).
-station(s09019, s_felice_a_cancello_arienzo, unavailable).
-station(s08737, s_gennaro, unavailable).
-station(s00243, s_germano_vercellese, piemonte).
-station(s01436, s_giacomo_di_teglio, lombardia).
-station(s01849, s_giovanni_in_croce, lombardia).
-station(s01821, s_giuliano_milanese, lombardia).
-station(s01961, s_giuliano_piacentino, emilia_romagna).
-station(s09029, s_iorio, unavailable).
-station(s06079, s_mama, unavailable).
-station(s09022, s_marco, unavailable).
-station(s04718, s_margherita_ligure_portofino, liguria).
-station(s09018, s_maria_a_vico, unavailable).
-station(s08738, s_maria_delle_mole, lazio).
-station(s09014, s_martino_vc_msarchio_prano, unavailable).
-station(s11300, s_nicola_di_melfi, basilicata).
-station(s00463, s_paolo_solbrito, piemonte).
-station(s06313, s_pietro_a_vico, toscana).
-station(s08912, s_pietro_avellana_capracotta, molise).
-station(s01428, s_pietro_berbenno, lombardia).
-station(s11141, s_pietro_vernotico, puglia).
-station(s06170, s_stefano_di_magra, liguria).
-station(s02664, s_stino_di_livenza, veneto).
-station(s06030, s_vincenzo, toscana).
-station(s07985, s_vito_chietino, unavailable).
-station(s01900, s_zeno_folzano, lombardia).
-station(s01823, s_zenone_al_lambro, lombardia).
-station(s09056, sagapito_longano, unavailable).
-station(s12027, sagata_m, sicilia).
-station(s05954, sagata_sul_santerno, emilia_romagna).
-station(s12315, salessio_siculo_forza_dagro, sicilia).
-station(s11840, sandrea_delljonio, calabria).
-station(s09615, sangelo_dei_lombardi, campania).
-station(s05411, sanna_di_chioggia, unavailable).
-station(s00434, sanna_robella, piemonte).
-station(s09007, santimo_sarpino, campania).
-station(s02334, santonio_mantovano, lombardia).
-station(s05069, sarcangelo_di_romagna, emilia_romagna).
-station(s07513, sbenedetto_del_tronto, marche).
-station(s00609, sbenigno_di_cuneo, piemonte).
-station(s05805, sbiagio, emilia_romagna).
-station(s02761, sbiagio_di_callalta, veneto).
-station(s02114, scandido, trentino_alto_adige).
-station(s06615, scassiano, emilia_romagna).
-station(s12382, scataldo, sicilia).
-station(s11842, scaterina_delljonio, calabria).
-station(s07312, sclaudio, marche).
-station(s02306, scristoforo_al_lago_ischia, trentino_alto_adige).
-station(s02735, scroce_del_lago, veneto).
-station(s09502, scroce_del_sannio, campania).
-station(s07418, sdemetrio_de_vestini, abruzzo).
-station(s01624, sdonato_milanese, unavailable).
-station(s06514, sdonnino_badia, toscana).
-station(s05704, selena___este, veneto).
-station(s06905, sellero, toscana).
-station(s06616, seufemia_di_brisighella, unavailable).
-station(s07989, seusanio_del_sangro, unavailable).
-station(s05313, sfelice_sp, emilia_romagna).
-station(s07557, sfilippo, marche).
-station(s12044, sfilippo_slucia, sicilia).
-station(s12009, sflavia, sicilia).
-station(s06504, sfrediano_a_settimo, toscana).
-station(s07220, sgiacomo_di_spoleto, umbria).
-station(s00336, sgiorgio_casale, piemonte).
-station(s02526, sgiorgio_delle_pertiche, veneto).
-station(s05723, sgiorgio_p, emilia_romagna).
-station(s03031, sgiovanni_al_natisone, friuli_venezia_giulia).
-station(s03199, sgiovanni_di_casarsa, friuli_venezia_giulia).
-station(s06816, sgiovanni_dasso, toscana).
-station(s06909, sgiovanni_valdarno, toscana).
-station(s01943, sgiuletta, lombardia).
-station(s09476, sgiuliano_del_sannio, unavailable).
-station(s01941, sgiuliano_piemonte, piemonte).
-station(s06400, sgiuliano_terme, toscana).
-station(s09752, sgiuseppe_vesuviano, campania).
-station(s02562, sgiustina_cesio, veneto).
-station(s05021, silario, emilia_romagna).
-station(s07235, sliberato, umbria).
-station(s12132, slorenzo_colli, sicilia).
-station(s12443, slorenzo_lo_vecchio, unavailable).
-station(s09308, slorenzo_maggiore, campania).
-station(s11740, slucido_marina, calabria).
-station(s09005, smarcellino_frignano, campania).
-station(s11904, smarco_roggiano, calabria).
-station(s09209, smaria_capua_vetere, campania).
-station(s09474, smaria_colle_serra, unavailable).
-station(s09804, smaria_la_bruna, campania).
-station(s03121, smaria_la_longa, friuli_venezia_giulia).
-station(s09059, smaria_oliveto, molise).
-station(s02501, smarino, veneto).
-station(s08307, smartino_al_cimino, lazio).
-station(s02435, smartino_buon_albergo, veneto).
-station(s02536, smartino_di_lupari, veneto).
-station(s06613, smartino_in_gattara, emilia_romagna).
-station(s09468, smartino_in_pensilis, molise).
-station(s09523, smichele_di_serino, campania).
-station(s01924, smichele_in_bosco, lombardia).
-station(s06509, sminiato_fucecchio, toscana).
-station(s02503, snazario, veneto).
-station(s11726, snicola_arcella, calabria).
-station(s12012, snicola_t, sicilia).
-station(s01951, snicolo, emilia_romagna).
-station(s05953, spatrizio, unavailable).
-station(s06603, spiero_a_sieve, toscana).
-station(s11750, spietro_a_maida, calabria).
-station(s05722, spietro_in_casale, emilia_romagna).
-station(s02531, spietro_in_gu, veneto).
-station(s06508, sromano_montopoli_scroce, toscana).
-station(s00420, ssebastiano_po, piemonte).
-station(s07303, sseverino_marche, marche).
-station(s00173, ssilvestro, piemonte).
-station(s00831, sstefano_belbo, piemonte).
-station(s01829, sstefano_lodigiano, lombardia).
-station(s03124, sstefano_udinese, friuli_venezia_giulia).
-station(s09630, stommaso_del_piano, basilicata).
-station(s08855, svincenzo_vr, abruzzo).
-station(s02660, svito_al_tagliamento, friuli_venezia_giulia).
-station(s11135, svito_dei_normanni, puglia).
-station(s07817, svito_lanciano, abruzzo).
-station(s00822, svittoria, piemonte).
-station(s01754, sacconago, unavailable).
-station(n00150, sacconago, unavailable).
-station(s02703, sacile, friuli_venezia_giulia).
-station(s03089, sacile_san_liberale, friuli_venezia_giulia).
-station(s03307, sagrado, friuli_venezia_giulia).
-station(s00161, saint_pierre, valle_d_aosta).
-station(s00408, sairano, lombardia).
-station(s00400, sairano_zinasco, lombardia).
-station(s01461, sala_al_barro_galbiate, lombardia).
-station(s09906, sala_consilina, campania).
-station(s11457, salandra, basilicata).
-station(s00886, salassa, unavailable).
-station(s00205, salbertrand, piemonte).
-station(s00743, sale_langhe, piemonte).
-station(n00213, sale_marasino, unavailable).
-station(s12114, salemi_gibellina, sicilia).
-station(s09818, salerno, campania).
-station(s09799, salerno_irno, unavailable).
-station(s02394, saletto, veneto).
-station(s00744, saliceto, piemonte).
-station(s11864, saline_di_reggio, calabria).
-station(s08502, salone, lazio).
-station(s02034, salorno, trentino_alto_adige).
-station(s05090, salsomaggiore_t, emilia_romagna).
-station(s00235, saluggia, piemonte).
-station(s00074, salussola, piemonte).
-station(s00547, saluzzo, unavailable).
-station(s09600, salza_irpina, campania).
-station(s02511, salzano_robegano, veneto).
-station(s12885, samassi_serrenti, sardegna).
-station(s05039, samoggia, emilia_romagna).
-station(s01402, samolaco, lombardia).
-station(s12419, sampieri, sicilia).
-station(s05155, san_benedetto_po, unavailable).
-station(s05134, san_benedetto_sambro_castpepoli, emilia_romagna).
-station(s02440, san_bonifacio, veneto).
-station(s12882, san_gavino, sardegna).
-station(s04005, san_giacomo, piemonte).
-station(s12034, san_giorgio, sicilia).
-station(s03205, san_giorgio_di_nogaro, friuli_venezia_giulia).
-station(s12804, san_giovanni, sardegna).
-station(s05319, san_giovanni_in_persiceto, emilia_romagna).
-station(s06065, san_giuliano_darezzo, unavailable).
-station(s04805, san_giuseppe_di_cairo, liguria).
-station(s11827, san_leonardo_di_cutro, calabria).
-station(s12028, san_marco_dalunzio_t, sicilia).
-station(s00089, san_maurizio, unavailable).
-station(s11714, san_mauro_la_bruca, campania).
-station(s05118, san_momme, toscana).
-station(s11700, san_nicola_varco_di_eboli, campania).
-station(s09210, san_pietro_infine, unavailable).
-station(s04505, san_remo, liguria).
-station(s05157, san_rocco_mantovano, unavailable).
-station(s11025, san_severo, puglia).
-station(s00072, sandigliano, piemonte).
-station(s00731, sanfre, piemonte).
-station(s01140, sangiano, lombardia).
-station(s11733, sangineto, calabria).
-station(s02384, sanguinetto, veneto).
-station(s12883, sanluri_stato, sardegna).
-station(s00403, sannazzaro, lombardia).
-station(s11503, sannicandro_di_bari, puglia).
-station(s11786, santa_domenica, calabria).
-station(s06023, santa_luce, toscana).
-station(s11957, santa_maria_di_catanzaro, calabria).
-station(s08015, santa_marinella, lazio).
-station(s08016, santa_severa, lazio).
-station(s12314, santa_teresa_di_riva, sicilia).
-station(s08521, sante_marie, abruzzo).
-station(s11310, santeramo, puglia).
-station(s00240, santhia, piemonte).
-station(s12024, santo_stefano_di_camastra, sicilia).
-station(s08817, santopadre, unavailable).
-station(s04802, santuario, liguria).
-station(s11201, santuario_incoronata, puglia).
-station(s12897, santanna, sardegna).
-station(s12806, santorsola, sardegna).
-station(s09629, sanzano_occhino, campania).
-station(s11721, sapri, campania).
-station(s01949, sarmato, emilia_romagna).
-station(s09702, sarno, campania).
-station(s01933, saronno, lombardia).
-station(s01077, saronno_sud, unavailable).
-station(s00136, sarre, valle_d_aosta).
-station(s00038, sartirana, lombardia).
-station(s06007, sarzana, liguria).
-station(s07413, sassa_tornimparte, abruzzo).
-station(s09907, sassano_teggiano, campania).
-station(s12807, sassari, sardegna).
-station(s09475, sassinoro, unavailable).
-station(s05104, sasso_marconi, emilia_romagna).
-station(s07063, sassoferrato_arcevia, marche).
-station(s08712, sassone, lazio).
-station(s00604, savigliano, piemonte).
-station(s09318, savignano_greci, campania).
-station(s05068, savignano_sul_rubicone, emilia_romagna).
-station(s04801, savona, liguria).
-station(s04800, savona_marittima, liguria).
-station(s07707, scafa_svalentino_caramanico_t, abruzzo).
-station(s09811, scafati, campania).
-station(s12814, scala_di_giocca, sardegna).
-station(s11727, scalea_sdomenica_talao, calabria).
-station(s00540, scalenghe, piemonte).
-station(s12309, scaletta_zanclea, sicilia).
-station(s07216, scanzano_belfiore, umbria).
-station(s11801, scanzano_j_montalbano_j, basilicata).
-station(s06035, scarlino, toscana).
-station(s07805, scerne_di_pineto, abruzzo).
-station(s03424, schaffhausen, unavailable).
-station(s02140, schio, veneto).
-station(s05158, schivenoglia, unavailable).
-station(s01179, schwaz, unavailable).
-station(s12418, scicli, sicilia).
-station(s11772, scilla, calabria).
-station(s06705, scopeti, toscana).
-station(s06164, scorcetoli, toscana).
-station(s12278, scordia, sicilia).
-station(s08524, scurcola_marsicana, abruzzo).
-station(s01826, secugnago, lombardia).
-station(s02560, sedico_bribano, veneto).
-station(s12152, segesta_tempio, sicilia).
-station(s05326, segnale_di_conf_reno_est, unavailable).
-station(s05325, segnale_di_conf_reno_ovest, unavailable).
-station(s01715, segrate, lombardia).
-station(s07411, sella_di_corno, abruzzo).
-station(n00230, sellero, unavailable).
-station(s11831, sellia_marina, calabria).
-station(s06155, selva_del_bocchetto, emilia_romagna).
-station(s02210, senales, unavailable).
-station(s07108, senigallia, marche).
-station(s09501, sepino, molise).
-station(s01318, seregno, lombardia).
-station(s01073, serenella, unavailable).
-station(s01533, seriate, lombardia).
-station(s09515, serino, campania).
-station(s05161, sermide, unavailable).
-station(s07205, serra_squirico, marche).
-station(s12383, serradifalco, sicilia).
-station(s00338, serralunga_cereseto, piemonte).
-station(s12886, serramanna_nuraminis, sardegna).
-station(s02048, serravalle, trentino_alto_adige).
-station(s00431, serravalle_dasti, piemonte).
-station(s06413, serravalle_pistoiese, toscana).
-station(s04206, serravalle_scrivia, piemonte).
-station(s06857, serre_di_rapolano, toscana).
-station(s09000, sessa_aurunca_r, campania).
-station(s08917, sessano_del_molise, molise).
-station(s01026, sesto_calende, lombardia).
-station(s09062, sesto_campano, molise).
-station(s06418, sesto_fiorentino, toscana).
-station(s01325, sesto_s_giovanni, lombardia).
-station(s04725, sestri_levante, liguria).
-station(s08216, sette_bagni, lazio).
-station(s02224, settequerce, trentino_alto_adige).
-station(s00430, settime_cinaglio_mombarone, piemonte).
-station(s00229, settimo, piemonte).
-station(s00151, settimo_tavagnasco, piemonte).
-station(s11954, settingiano, calabria).
-station(s03151, sevegliano, friuli_venezia_giulia).
-station(s01925, seveso, lombardia).
-station(s42100, sevnica, unavailable).
-station(s01000, sezana, unavailable).
-station(s08609, sezze_romano, lazio).
-station(s08659, sgurgola, lazio).
-station(s11811, sibari, calabria).
-station(s09827, sicignano_degli_alburni, campania).
-station(s11850, siderno, calabria).
-station(s06903, sieci, toscana).
-station(s06809, siena, toscana).
-station(s06867, siena_zona_industriale, toscana).
-station(s01509, sierre_siders, unavailable).
-station(s06513, signa, toscana).
-station(s02205, silandro, trentino_alto_adige).
-station(s12954, siliqua, sardegna).
-station(s05109, silla, emilia_romagna).
-station(s00978, sillavengo, piemonte).
-station(s07807, silvi, abruzzo).
-station(s11832, simeri_crichi, calabria).
-station(s06852, sinalunga, toscana).
-station(s03700, singen, unavailable).
-station(s03350, siofok, unavailable).
-station(s01225, sion, unavailable).
-station(s08300, sipicciano, lazio).
-station(s08302, sipicciano_snicola, unavailable).
-station(s11056, siponto, puglia).
-station(s12349, siracusa, sicilia).
-station(s12351, siracusa_m, sicilia).
-station(s03312, sistiana, friuli_venezia_giulia).
-station(s00111, sizzano, piemonte).
-station(s02201, sluderno_glorenza, trentino_alto_adige).
-station(s02732, soffratta, veneto).
-station(s02504, solagna, veneto).
-station(s05900, solarolo, emilia_romagna).
-station(s12876, solarussa, sardegna).
-station(s00469, solero, piemonte).
-station(s02351, soliera_modenese, emilia_romagna).
-station(s06156, solignano, emilia_romagna).
-station(s09516, solofra, campania).
-station(s09307, solopaca, campania).
-station(s01028, somma_lombardo, lombardia).
-station(s02094, sommacampagna_sona, unavailable).
-station(s00730, sommariva_bosco, piemonte).
-station(s01430, sondrio, lombardia).
-station(n00234, sonico, unavailable).
-station(s08857, sora, lazio).
-station(s01607, soresina, lombardia).
-station(s07434, sorgenti_del_peschiera, lazio).
-station(s04712, sori, liguria).
-station(s11837, soverato, calabria).
-station(s12048, spadafora, sicilia).
-station(s12106, spagnuola, sicilia).
-station(s09206, sparanise, campania).
-station(s09761, spartimento_di_scisciano, campania).
-station(s07010, spello, umbria).
-station(s11901, spezzano_albanese_terme, calabria).
-station(s07483, spiez, unavailable).
-station(s00874, spigno, piemonte).
-station(s11304, spinazzola, puglia).
-station(s07552, spinetoli_colli, marche).
-station(s01940, spinetta, piemonte).
-station(s07221, spoleto, umbria).
-station(s02202, spondigna_prato_venosta, trentino_alto_adige).
-station(s04526, spotorno_noli, liguria).
-station(s02709, spresiano, veneto).
-station(s11835, squillace, calabria).
-station(s11142, squinzano, puglia).
-station(s03633, st_veit_glan, unavailable).
-station(s00620, stdalmas_de_tende, unavailable).
-station(s06810, staggia, unavailable).
-station(s05705, stanghella, veneto).
-station(s02736, stazione_per_lalpago, veneto).
-station(s02264, steinach_tirol, unavailable).
-station(s05164, stellata_ficarolo, unavailable).
-station(s06824, sticciano, toscana).
-station(s08212, stimigliano, lazio).
-station(s06617, strada_casale, emilia_romagna).
-station(s01945, stradella, lombardia).
-station(s00155, strambino, piemonte).
-station(s03150, strassoldo, friuli_venezia_giulia).
-station(s01016, stresa, piemonte).
-station(s00866, strevi, piemonte).
-station(s02315, strigno, trentino_alto_adige).
-station(s07400, stroncone, umbria).
-station(s11822, strongoli, calabria).
-station(s03800, stuttgart_hbf, unavailable).
-station(s12896, su_canale, sardegna).
-station(s06082, subbiano, unavailable).
-station(s08539, sulmona, abruzzo).
-station(s08900, sulmona_introdacqua, abruzzo).
-station(n00212, sulzano, unavailable).
-station(s00018, suno, piemonte).
-station(s11144, surbo, unavailable).
-station(s11134, surbo_fascio_merci, unavailable).
-station(s00260, susa, piemonte).
-station(s02708, susegana, veneto).
-station(s02340, suzzara, lombardia).
-station(s05153, suzzara_vn, unavailable).
-station(s03269, szekesfehervar, unavailable).
-station(s00219, torino_pnuova, piemonte).
-station(s04506, taggia_arma, liguria).
-station(s08522, tagliacozzo, abruzzo).
-station(s01122, taino_angera, lombardia).
-station(s01426, talamona, lombardia).
-station(s08002, talamone, toscana).
-station(s12317, taormina, sicilia).
-station(s11465, taranto, puglia).
-station(s03022, tarcento, friuli_venezia_giulia).
-station(s12353, targia, sicilia).
-station(s08009, tarquinia, lazio).
-station(s11903, tarsia, calabria).
-station(s03015, tarvisio_boscoverde, friuli_venezia_giulia).
-station(s06405, tassignano, toscana).
-station(s09605, taurasi, campania).
-station(s01824, tavazzano, lombardia).
-station(s09205, teano, campania).
-station(s02662, teglio_veneto, veneto).
-station(s02213, tel, unavailable).
-station(s09326, telese_cerreto, campania).
-station(s12215, tempio_di_vulcano, unavailable).
-station(s00619, tende, unavailable).
-station(s07900, teramo, abruzzo).
-station(s02223, terlano_andriano, trentino_alto_adige).
-station(s05701, terme_euganee_abano_montegr, veneto).
-station(s12040, terme_vigliatore, sicilia).
-station(s12014, termini_imerese, sicilia).
-station(s11019, termoli, molise).
-station(s01143, ternate_varano_borghi, lombardia).
-station(s07226, terni, umbria).
-station(s07430, terni_cospea, umbria).
-station(s01504, terno, lombardia).
-station(s06922, terontola_cortona, toscana).
-station(s08809, terracina, lazio).
-station(s06167, terrarossa___tresana, toscana).
-station(s12108, terrenove, sicilia).
-station(s07425, terria, lazio).
-station(s09753, terzigno, campania).
-station(s00869, terzo_montabone, piemonte).
-station(s02318, tezze_di_grigno, trentino_alto_adige).
-station(s02143, thiene, veneto).
-station(s01250, thun, unavailable).
-station(s11869, thurio, calabria).
-station(s11216, tiera, basilicata).
-station(s07426, tione_degli_abruzzi, abruzzo).
-station(s01440, tirano, lombardia).
-station(s12813, tissi_usini, sardegna).
-station(s09834, tito, basilicata).
-station(s08508, tivoli, lazio).
-station(s07705, tocco_castiglione, abruzzo).
-station(s07304, tolentino, marche).
-station(n00216, toline, unavailable).
-station(s07814, tollo_canosa_sannita, abruzzo).
-station(s06720, tombolo, toscana).
-station(s12131, tommaso_natale, sicilia).
-station(s00342, tonco_alfiano, piemonte).
-station(s08501, tor_sapienza, lazio).
-station(s08655, tor_vergata, lazio).
-station(s09202, tora_presenzano, campania).
-station(s11906, torano_lattarico, calabria).
-station(s11706, torchiara, campania).
-station(s00224, torino_dora, piemonte).
-station(s00452, torino_lingotto, piemonte).
-station(s00035, torino_porta_susa, piemonte).
-station(s00060, torino_rebaudengo_fossata, unavailable).
-station(s00223, torino_s_paolo, piemonte).
-station(s00228, torino_stura, piemonte).
-station(s12865, torralba, sardegna).
-station(s00234, torrazza_p, piemonte).
-station(s09806, torre_annunziata_centrale, campania).
-station(s09805, torre_annunziata_citta, campania).
-station(s07706, torre_dei_passeri, abruzzo).
-station(s09803, torre_del_greco, campania).
-station(s06015, torre_del_lago_puccini, toscana).
-station(s01918, torre_de_picenardi, lombardia).
-station(s08019, torre_in_pietra_palidoro, lazio).
-station(s11821, torre_melissa, calabria).
-station(s11717, torre_orsaia, campania).
-station(s00524, torre_pellice, piemonte).
-station(s00545, torre_sgiorgio, piemonte).
-station(s00039, torreberetti, lombardia).
-station(s11971, torremezzo_di_falconara, unavailable).
-station(s06817, torrenieri, toscana).
-station(s07011, torricella, umbria).
-station(s08600, torricola, lazio).
-station(s01853, torrile_s_polo, lombardia).
-station(s06854, torrita_di_siena, toscana).
-station(s01810, tortona, piemonte).
-station(s07801, tortoreto_lido, abruzzo).
-station(s03206, torviscosa, friuli_venezia_giulia).
-station(s11961, toscano, unavailable).
-station(s12013, trabia, sicilia).
-station(n00019, tradate, unavailable).
-station(s11112, trani, puglia).
-station(s12100, trapani, sicilia).
-station(s00925, trappa, piemonte).
-station(s12123, trappeto, sicilia).
-station(s01142, travedona_biandronno, lombardia).
-station(s03081, travesio, friuli_venezia_giulia).
-station(s08308, tre_croci, lazio).
-station(s02514, trebaseleghe, veneto).
-station(s11808, trebisacce, calabria).
-station(s00252, trecate, lombardia).
-station(s01706, trecella, lombardia).
-station(s12303, tremestieri, sicilia).
-station(s02038, trento, sicilia).
-station(s11143, trepuzzi, puglia).
-station(s06821, trequanda, unavailable).
-station(s01437, tresenda_aprica_teglio, lombardia).
-station(s05172, tresigallo___correggi, unavailable).
-station(s07218, trevi, umbria).
-station(s01708, treviglio, lombardia).
-station(s01601, treviglio_ovest, lombardia).
-station(s02600, trevignano_signoressa, veneto).
-station(s02712, treviso_c, veneto).
-station(s01065, trezzano_sn, lombardia).
-station(s03023, tricesimo___san_pelagio, unavailable).
-station(s03856, trieste_aquilinia, friuli_venezia_giulia).
-station(s03317, trieste_centrale, friuli_venezia_giulia).
-station(s03854, trieste_servola, unavailable).
-station(s09028, triflisco, unavailable).
-station(s11106, trinitapoli_sferdin_di_p, puglia).
-station(s00950, trinita_bene_vagienna, piemonte).
-station(s00176, trino_vercellese, piemonte).
-station(s01485, triuggio_ponte_albiate, lombardia).
-station(s11452, trivigno, basilicata).
-station(s00455, trofarello, piemonte).
-station(s09322, troia_castelluccio_sauri, puglia).
-station(s00275, tromello, lombardia).
-station(s00239, tronzano, piemonte).
-station(s11760, tropea, calabria).
-station(s09013, tufara_valle, unavailable).
-station(s09512, tufo, campania).
-station(s07000, tuoro_sul_trasimeno, umbria).
-station(n00051, turbigo, unavailable).
-station(s12022, tusa, sicilia).
-station(s02901, tuttingen, unavailable).
-station(s11140, tuturano, puglia).
-station(s03026, udine, friuli_venezia_giulia).
-station(s03006, ugovizza_valbruna, friuli_venezia_giulia).
-station(s12880, uras_mogoro, sardegna).
-station(s07306, urbisaglia_sforzacosta, marche).
-station(s09467, ururi_rotello, molise).
-station(s02593, venezia_santa_lucia, veneto).
-station(s02430, verona_porta_nuova, veneto).
-station(s08304, viterbo_porta_fiorentina, lazio).
-station(s06025, vada, toscana).
-station(s06602, vaglia, toscana).
-station(s11450, vaglio_basilicata, basilicata).
-station(s05136, vaiano, toscana).
-station(s09203, vairano, campania).
-station(s05177, valcesura, unavailable).
-station(s02110, valdaora___anterselva, trentino_alto_adige).
-station(s05117, valdibrana, toscana).
-station(s00041, valenza, piemonte).
-station(s05160, vallazza___carbonara_po, unavailable).
-station(s08329, valle_aurelia, lazio).
-station(s09304, valle_di_maddaloni, campania).
-station(s09705, valle_di_mercato_sseverino, campania).
-station(s00037, valle_lomellina, lombardia).
-station(s04502, vallecrosia, liguria).
-station(s12231, valledolmo, sicilia).
-station(s12232, vallelunga, sicilia).
-station(s11709, vallo_della_luc_castelnuovo, campania).
-station(s01103, vallorbe, unavailable).
-station(s00042, valmadonna, piemonte).
-station(s01463, valmadrera, lombardia).
-station(s08656, valmontone, lazio).
-station(s00887, valperga, unavailable).
-station(s07214, valtopina, umbria).
-station(s02103, vandoies, trentino_alto_adige).
-station(n00049, vanzaghello___magnago, unavailable).
-station(s01036, vanzago_pogliano, lombardia).
-station(s00022, vaprio_dagogna, piemonte).
-station(s00982, varallo_pombia, piemonte).
-station(s00100, varallo_sesia, piemonte).
-station(s07500, varano, marche).
-station(s04531, varazze, liguria).
-station(s01084, varedo, unavailable).
-station(s01411, varenna_esino, lombardia).
-station(s01205, varese, lombardia).
-station(n00025, varese_casbeno, unavailable).
-station(n00024, varese_nord, unavailable).
-station(s05052, varignana, emilia_romagna).
-station(s07824, vasto_ssalvo, abruzzo).
-station(s08913, vastogirardi, molise).
-station(s02513, ve_asseggiano, veneto).
-station(n00022, vedano, unavailable).
-station(s08734, velletri, lazio).
-station(n00215, vello, unavailable).
-station(s09060, venafro, molise).
-station(s00085, venaria, unavailable).
-station(n00020, venegono_inf, unavailable).
-station(n00021, venegono_sup___castiglio, unavailable).
-station(s12047, venetico, sicilia).
-station(s02672, venezia_carpenedo, veneto).
-station(s02515, venezia_marghera_scalo, unavailable).
-station(s02594, venezia_marittima, veneto).
-station(s02589, venezia_mestre, veneto).
-station(s02592, venezia_porto_marghera, veneto).
-station(s11302, venosa___maschito, basilicata).
-station(s04501, ventimiglia, liguria).
-station(s03018, venzone, friuli_venezia_giulia).
-station(s01013, verbania_pallanza, piemonte).
-station(s01404, verceia, lombardia).
-station(s00245, vercelli, piemonte).
-station(s01523, vercurago_sgirolamo, lombardia).
-station(s01600, verdello_dalmine, lombardia).
-station(s05107, vergato, emilia_romagna).
-station(s01027, vergiate, lombardia).
-station(s00073, vergnasco, piemonte).
-station(s00616, vernante, piemonte).
-station(s04733, vernazza, liguria).
-station(s05135, vernio_montepiano_cantagallo, toscana).
-station(s01903, verolanuova, lombardia).
-station(s00170, verolengo, piemonte).
-station(s02061, verona_ca_di_david, veneto).
-station(s02058, verona_parona, unavailable).
-station(s02433, verona_porta_vescovo, veneto).
-station(s00145, verres, valle_d_aosta).
-station(s00701, verzuolo, piemonte).
-station(s00031, vespolate, piemonte).
-station(s12135, vespri, sicilia).
-station(s08309, vetralla, lazio).
-station(s06171, vezzano_ligure, liguria).
-station(s09114, via_campana, unavailable).
-station(s06064, via_chiari, unavailable).
-station(s01842, viadana_bresciana, lombardia).
-station(s06040, viareggio, toscana).
-station(s11754, vibo_marina, calabria).
-station(s11789, vibo_valenzia_pizzo, calabria).
-station(s06017, vicarello, toscana).
-station(s06700, vicchio, toscana).
-station(s02446, vicenza, veneto).
-station(s08310, vico_matrino, lazio).
-station(s06150, vicofertile, emilia_romagna).
-station(s00953, vicoforte_san_michele, piemonte).
-station(s08511, vicovaro, lazio).
-station(s01709, vidalengo, lombardia).
-station(s09817, vietri_sul_mare, campania).
-station(s00618, vievola, unavailable).
-station(s05166, vigarano_pieve, unavailable).
-station(s01061, vigevano, lombardia).
-station(s00977, vigliano_candelo, piemonte).
-station(s07412, vigliano_dabruzzo, abruzzo).
-station(s00802, vigliano_dasti, piemonte).
-station(s08316, vigna_di_valle, lazio).
-station(s00021, vignale, piemonte).
-station(s06032, vignale_riotorto, toscana).
-station(s01704, vignate, lombardia).
-station(s02528, vigodarzere, veneto).
-station(s00542, vigone, piemonte).
-station(s02586, vigonza_pianiga, veneto).
-station(s08399, villa_bonelli, lazio).
-station(s05022, villa_cade, emilia_romagna).
-station(s11608, villa_castelli, puglia).
-station(s08714, villa_claudia, lazio).
-station(s02523, villa_del_conte, veneto).
-station(s01439, villa_di_tirano, lombardia).
-station(s09003, villa_literno, campania).
-station(s03466, villa_opicina, friuli_venezia_giulia).
-station(s09024, villa_ortensia, unavailable).
-station(s01487, villa_raverio, lombardia).
-station(s11773, villa_sgcannitello, calabria).
-station(s07995, villa_smaria, unavailable).
-station(s11774, villa_san_giovanni, calabria).
-station(s08555, villa_san_michele, unavailable).
-station(s08523, villa_san_sebastiano, abruzzo).
-station(s02367, villabartolomea, veneto).
-station(s02112, villabassa___braies, trentino_alto_adige).
-station(s12006, villabate, sicilia).
-station(s00001, villadossola, piemonte).
-station(s06166, villafranca___bagnone, toscana).
-station(s00459, villafranca_c, piemonte).
-station(s02331, villafranca_di_verona, veneto).
-station(s00543, villafranca_p, piemonte).
-station(s12050, villafranca_tirrena, sicilia).
-station(s12233, villalba, sicilia).
-station(s01802, villamaggiore, lombardia).
-station(s12952, villamassargia_domusnovas, sardegna).
-station(s00458, villanova, piemonte).
-station(s00092, villanova___grosso, unavailable).
-station(s02345, villanova_di_reggiolo, emilia_romagna).
-station(s01962, villanova_darda, emilia_romagna).
-station(s00278, villanova_dardenghi, lombardia).
-station(s11809, villapiana_lido, calabria).
-station(s11810, villapiana_torre_cerchiara, calabria).
-station(s12237, villarosa, sicilia).
-station(s01481, villasanta, lombardia).
-station(s12887, villasor, sardegna).
-station(s12956, villaspeciosa_uta, sardegna).
-station(s00600, villastellone, piemonte).
-station(s02145, villaverla_montecchio, veneto).
-station(s02300, villazzano, trentino_alto_adige).
-station(s00135, villeneuve, valle_d_aosta).
-station(s08711, villetta, lazio).
-station(s01916, villetta_malagnino, lombardia).
-station(s06322, villetta_s_romano, toscana).
-station(s02222, vilpiano_nalles, trentino_alto_adige).
-station(s09457, vinchiaturo, molise).
-station(s02006, vipiteno, trentino_alto_adige).
-station(s01844, visano, lombardia).
-station(s04100, visone, piemonte).
-station(s08306, viterbo_porta_romana, lazio).
-station(s12410, vittoria, sicilia).
-station(s02733, vittorio_veneto, veneto).
-station(s01042, vittuone_arluno, lombardia).
-station(s09310, vitulano_foglianise, campania).
-station(s12391, vituso, sicilia).
-station(s12273, vizzini, sicilia).
-station(s01807, voghera, lombardia).
-station(s01008, vogogna_ossola, piemonte).
-station(s00880, volpiano, unavailable).
-station(s05807, voltana, emilia_romagna).
-station(s06753, volterra_saline___pomarance, toscana).
-station(s73110, vrbovec, unavailable).
-station(s03299, vrtojba, unavailable).
-station(s00000, x, unavailable).
-station(s99999, y, unavailable).
-station(s08652, zagarolo, lazio).
-station(s03392, zamardi, unavailable).
-station(s06425, zambra, toscana).
-station(s11758, zambrone, calabria).
-station(s12029, zappulla, sicilia).
-station(s05163, zerbinate, unavailable).
-station(s00401, zinasco_nuovo, lombardia).
-station(s04721, zoagli, liguria).
-station(s03001, zurich_altstetten, unavailable).
+station(s05700, "ABANO TERME", "Veneto").
+station(s01416, "ABBADIA LARIANA", "Lombardia").
+station(s12873, "ABBASANTA", "Sardegna").
+station(n00018, "ABBIATE GUAZZONE", "Unavailable").
+station(s01062, "ABBIATEGRASSO", "Lombardia").
+station(s12409, "ACATE", "Sicilia").
+station(s07423, "ACCIANO", "Abruzzo").
+station(s09215, "ACERRA", "Campania").
+station(s12328, "ACIREALE", "Sicilia").
+station(s08715, "ACQUA ACETOSA", "Lazio").
+station(s11722, "ACQUAFREDDA", "Basilicata").
+station(s09798, "ACQUAMELA", "Unavailable").
+station(s01913, "ACQUANEGRA CREMONESE", "Lombardia").
+station(s11736, "ACQUAPPESA", "Calabria").
+station(s12209, "ACQUAVIVA", "Sicilia").
+station(s11504, "ACQUAVIVA DELLE FONTI", "Puglia").
+station(s12026, "ACQUEDOLCI-S.FRATELLO", "Sicilia").
+station(s00867, "ACQUI TERME", "Piemonte").
+station(s11907, "ACRI BISIGNANO LUZZI", "Calabria").
+station(s05420, "ADRIA", "Veneto").
+station(s11872, "AFRICO NUOVO", "Calabria").
+station(s00804, "AGLIANO CASTELNUOVO CALCEA", "Piemonte").
+station(s12213, "AGRIGENTO BASSA", "Sicilia").
+station(s12216, "AGRIGENTO CENTRALE", "Sicilia").
+station(s11705, "AGROPOLI CASTELLABATE", "Campania").
+station(s08550, "AIELLI", "Unavailable").
+station(s00514, "AIRASCA", "Piemonte").
+station(s04481, "AIROLE", "Liguria").
+station(s01515, "AIRUNO", "Lombardia").
+station(s02049, "ALA", "Trentino Alto Adige").
+station(s07708, "ALANNO", "Abruzzo").
+station(s02566, "ALANO FENER VALDOBBIADENE", "Veneto").
+station(s04515, "ALASSIO", "Liguria").
+station(s00825, "ALBA", "Piemonte").
+station(s07800, "ALBA ADRIATICA NERETO CONTR.", "Abruzzo").
+station(s07207, "ALBACINA", "Marche").
+station(s01059, "ALBAIRATE VERMEZZO", "Unavailable").
+station(s11453, "ALBANO DI LUCANIA", "Basilicata").
+station(s08704, "ALBANO LAZIALE", "Lazio").
+station(s01534, "ALBANO S.ALESSANDRO", "Lombardia").
+station(s09004, "ALBANOVA", "Campania").
+station(s02538, "ALBAREDO", "Veneto").
+station(s01310, "ALBATE CAMERLATA", "Lombardia").
+station(s01450, "ALBATE-TRECALLO", "Lombardia").
+station(s04516, "ALBENGA", "Liguria").
+station(s08001, "ALBERESE", "Toscana").
+station(s06067, "ALBERGO", "Unavailable").
+station(s08003, "ALBINIA", "Toscana").
+station(s04529, "ALBISOLA", "Liguria").
+station(s01209, "ALBIZZATE SOLBIATE ARNO", "Lombardia").
+station(s00033, "ALBONESE", "Lombardia").
+station(s01863, "ALBUZZANO", "Lombardia").
+station(s12150, "ALCAMO DIRAMAZIONE", "Sicilia").
+station(s12320, "ALCANTARA", "Sicilia").
+station(s00470, "ALESSANDRIA", "Piemonte").
+station(s08908, "ALFEDENA-SCONTRONE", "Abruzzo").
+station(s05808, "ALFONSINE", "Emilia Romagna").
+station(s00809, "ALICE BELCOLLE", "Piemonte").
+station(s09020, "ALIFE", "Unavailable").
+station(s12310, "ALI` TERME", "Sicilia").
+station(s08202, "ALLERONA-CASTEL VISCARDO", "Umbria").
+station(s00216, "ALPIGNANO", "Piemonte").
+station(s11307, "ALTAMURA", "Puglia").
+station(s04810, "ALTARE", "Liguria").
+station(s09511, "ALTAVILLA IRPINA", "Campania").
+station(s12011, "ALTAVILLA M.", "Sicilia").
+station(s02444, "ALTAVILLA TAVERNELLE", "Veneto").
+station(s06407, "ALTOPASCIO", "Toscana").
+station(s08206, "ALVIANO", "Umbria").
+station(s09023, "ALVIGNNO", "Unavailable").
+station(s11744, "AMANTEA", "Calabria").
+station(s01527, "AMBIVERE MAPELLO", "Lombardia").
+station(s11051, "AMENDOLA", "Puglia").
+station(s11807, "AMENDOLARA ORIOLO", "Calabria").
+station(s09306, "AMOROSI MELIZZANO", "Campania").
+station(s08658, "ANAGNI-FIUGGI", "Lazio").
+station(s07113, "ANCONA", "Marche").
+station(s07116, "ANCONA MARITTIMA", "Marche").
+station(s07114, "ANCONA STADIO", "Unavailable").
+station(s07015, "ANCONA TORRETTE", "Marche").
+station(s02141, "ANCONETTA", "Veneto").
+station(s04513, "ANDORA", "Unavailable").
+station(s09031, "ANFITEATRO", "Unavailable").
+station(s09812, "ANGRI", "Campania").
+station(s08318, "ANGUILLARA", "Lazio").
+station(s11870, "ANNA'", "Unavailable").
+station(s02769, "ANNONE VENETO", "Veneto").
+station(s06727, "ANTIGNANO", "Toscana").
+station(s07408, "ANTRODOCO BORGO VELINO", "Lazio").
+station(s07435, "ANTRODOCO CENTRO", "Lazio").
+station(s08537, "ANVERSA-VILLALAGO-SCANNO", "Abruzzo").
+station(s01453, "ANZANO DEL PARCO", "Lombardia").
+station(s08709, "ANZIO", "Lazio").
+station(s08713, "ANZIO COLONIA", "Lazio").
+station(s05386, "ANZOLA", "Unavailable").
+station(s00137, "AOSTA", "Valle d'Aosta").
+station(s00143, "AOSTA ISTITUTO", "Valle d'Aosta").
+station(s00146, "AOSTA VIALE EUROPA", "Valle d'Aosta").
+station(s09314, "APICE S.ARCANGELO BONITO", "Campania").
+station(s08328, "APPIANO", "Lazio").
+station(s11024, "APRICENA", "Puglia").
+station(s08705, "APRILIA", "Lazio").
+station(s09623, "AQUILONIA", "Campania").
+station(s12370, "ARAGONA CALDARE", "Sicilia").
+station(s06811, "ARBIA", "Toscana").
+station(s08861, "ARCE", "Lazio").
+station(s07992, "ARCHI", "Unavailable").
+station(s01203, "ARCISATE", "Lombardia").
+station(s06006, "ARCOLA", "Liguria").
+station(s01510, "ARCORE", "Lombardia").
+station(s12817, "ARDARA", "Sardegna").
+station(s01427, "ARDENNO MASINO", "Lombardia").
+station(s11853, "ARDORE", "Calabria").
+station(s01947, "ARENA PO", "Lombardia").
+station(s04533, "ARENZANO", "Liguria").
+station(s06915, "AREZZO", "Toscana").
+station(s06086, "AREZZO C.C.", "Unavailable").
+station(s06063, "AREZZO PESCAIOLA", "Unavailable").
+station(s05804, "ARGENTA", "Emilia Romagna").
+station(s09316, "ARIANO IRPINO", "Campania").
+station(s01020, "ARONA", "Piemonte").
+station(s01092, "AROSIO", "Unavailable").
+station(s09017, "ARPAIA-AIROLA-S. AGATA DEI GOTI", "Unavailable").
+station(s08859, "ARPINO", "Lazio").
+station(s04207, "ARQUATA SCRIVIA", "Piemonte").
+station(s05707, "ARQUA`", "Veneto").
+station(s08516, "ARSOLI", "Lazio").
+station(s03021, "ARTEGNA", "Friuli Venezia Giulia").
+station(n00219, "ARTOGNE - GIANICO", "Unavailable").
+station(s00134, "ARVIER", "Valle d'Aosta").
+station(s11711, "ASCEA", "Campania").
+station(s06813, "ASCIANO", "Toscana").
+station(s06825, "ASCIANO MONTE OLIVETO MAGGIORE", "Toscana").
+station(s07550, "ASCOLI PICENO", "Marche").
+station(s11203, "ASCOLI SATRIANO", "Puglia").
+station(s01847, "ASOLA", "Lombardia").
+station(s12889, "ASSEMINI", "Sardegna").
+station(s07008, "ASSISI", "Umbria").
+station(s01101, "ASSO", "Lombardia").
+station(s00462, "ASTI", "Piemonte").
+station(s07998, "ATELETA", "Unavailable").
+station(s09904, "ATENA", "Campania").
+station(s08207, "ATTIGLIANO", "Umbria").
+station(s12345, "AUGUSTA", "Sicilia").
+station(s09902, "AULETTA", "Campania").
+station(s06168, "AULLA", "Toscana").
+station(s06013, "AULLA LUNIGIANA", "Toscana").
+station(s03550, "AURISINA", "Friuli Venezia Giulia").
+station(s09514, "AVELLINO", "Campania").
+station(s09006, "AVERSA", "Campania").
+station(s08526, "AVEZZANO", "Abruzzo").
+station(s03087, "AVIANO", "Friuli Venezia Giulia").
+station(s00214, "AVIGLIANA", "Piemonte").
+station(s11214, "AVIGLIANO LUCANIA", "Basilicata").
+station(s02050, "AVIO", "Trentino Alto Adige").
+station(s00133, "AVISE", "Valle d'Aosta").
+station(s12426, "AVOLA", "Sicilia").
+station(s11119, "BARI CENTRALE", "Puglia").
+station(s05043, "BOLOGNA C.LE", "Emilia Romagna").
+station(s11499, "BA POLICLINICO", "Unavailable").
+station(s06081, "BACIANO", "Unavailable").
+station(s03118, "BADEN", "Unavailable").
+station(s02370, "BADIA POLESINE", "Veneto").
+station(s11841, "BADOLATO", "Calabria").
+station(s12008, "BAGHERIA", "Sicilia").
+station(s05902, "BAGNACAVALLO", "Emilia Romagna").
+station(s11770, "BAGNARA", "Calabria").
+station(s03123, "BAGNARIA ARSA", "Friuli Venezia Giulia").
+station(s00921, "BAGNASCO", "Piemonte").
+station(s06308, "BAGNI DI LUCCA", "Toscana").
+station(s08504, "BAGNI DI TIVOLI", "Lazio").
+station(s09102, "BAGNOLI AGNANO TERME", "Campania").
+station(s09613, "BAGNOLI IRPINO", "Campania").
+station(s01901, "BAGNOLO MELLA", "Lombardia").
+station(s07224, "BAIANO DI SPOLETO", "Umbria").
+station(s00094, "BALANGERO", "Unavailable").
+station(s03418, "BALATONFOELDVAR", "Unavailable").
+station(s03459, "BALATONLELLE", "Unavailable").
+station(s03566, "BALATONSZENTGYORGY", "Unavailable").
+station(s00460, "BALDICHIERI", "Piemonte").
+station(s12122, "BALESTRATE", "Sicilia").
+station(s08856, "BALSORANO", "Abruzzo").
+station(s09830, "BALVANO R.", "Basilicata").
+station(s00178, "BALZOLA", "Piemonte").
+station(s00732, "BANDITO", "Piemonte").
+station(s09832, "BARAGIANO", "Basilicata").
+station(s09458, "BARANELLO", "Molise").
+station(n00027, "BARASSO - COMERIO", "Unavailable").
+station(s06806, "BARBERINO VAL D`ELSA", "Unavailable").
+station(s01932, "BARBIANELLO", "Lombardia").
+station(s05905, "BARBIANO", "Emilia Romagna").
+station(s12971, "BARBUSI", "Sardegna").
+station(s12041, "BARCELLONA", "Sicilia").
+station(s00202, "BARDONECCHIA", "Piemonte").
+station(s06303, "BARGA GALLICANO", "Toscana").
+station(s11118, "BARI PALESE MACCHIE", "Puglia").
+station(s11148, "BARI PARCO NORD", "Puglia").
+station(s11149, "BARI PARCO NORD FASCIO TARANTO", "Unavailable").
+station(s11125, "BARI PARCO SUD", "Puglia").
+station(s11116, "BARI S. SPIRITO", "Puglia").
+station(s11513, "BARI S.ANDREA", "Puglia").
+station(s11150, "BARI S.GIORGIO", "Puglia").
+station(s11126, "BARI TORRE A MARE", "Puglia").
+station(s05419, "BARICETTA", "Veneto").
+station(s11208, "BARILE", "Basilicata").
+station(s01926, "BARLASSINA", "Unavailable").
+station(s11108, "BARLETTA", "Puglia").
+station(s09520, "BARONISSI", "Campania").
+station(s01929, "BARRUCCANA", "Unavailable").
+station(s08204, "BASCHI-MONTECCHIO", "Umbria").
+station(s02832, "BASILIANO", "Friuli Venezia Giulia").
+station(s02520, "BASSANO DEL GRAPPA", "Veneto").
+station(s08208, "BASSANO IN TEVERINA", "Umbria").
+station(s08312, "BASSANO ROMANO", "Lazio").
+station(s07007, "BASTIA", "Umbria").
+station(s00908, "BASTIA MONDOVI`", "Piemonte").
+station(s05702, "BATTAGLIA TERME", "Veneto").
+station(s09823, "BATTIPAGLIA", "Campania").
+station(s12875, "BAULADU MILIS", "Sardegna").
+station(s01015, "BAVENO", "Piemonte").
+station(s00807, "BAZZANA", "Piemonte").
+station(s00203, "BEAULARD", "Piemonte").
+station(s07422, "BEFFI", "Abruzzo").
+station(s00901, "BEINETTE", "Piemonte").
+station(s01864, "BELGIOIOSO", "Lombardia").
+station(s01017, "BELGIRATE", "Piemonte").
+station(s09831, "BELLA MURO", "Basilicata").
+station(s01409, "BELLANO TARTAVELLE TERME", "Lombardia").
+station(s07902, "BELLANTE RIPATTONE", "Abruzzo").
+station(s05817, "BELLARIA", "Emilia Romagna").
+station(s11512, "BELLAVISTA", "Puglia").
+station(s00985, "BELLINZAGO", "Piemonte").
+station(s00300, "BELLINZONA", "Unavailable").
+station(s07061, "BELLISIO SOLFARE", "Marche").
+station(s02559, "BELLUNO", "Veneto").
+station(s11743, "BELMONTE CALABRO", "Calabria").
+station(s11732, "BELVEDERE MARITTIMO", "Calabria").
+station(s09311, "BENEVENTO", "Campania").
+station(s09472, "BENEVENTO ACQUAFREDDA", "Unavailable").
+station(s09011, "BENEVENTO APPIA", "Unavailable").
+station(s09530, "BENEVENTO ARCO TRAIANO", "Campania").
+station(s09509, "BENEVENTO PORTA RUFINA", "Campania").
+station(s09012, "BENEVENTO RIONE LIBERTA'", "Unavailable").
+station(s06158, "BERCETO", "Emilia Romagna").
+station(s12859, "BERCHIDDA", "Sardegna").
+station(s00838, "BERGAMASCO", "Piemonte").
+station(s01529, "BERGAMO", "Lombardia").
+station(s11460, "BERNALDA", "Basilicata").
+station(s01488, "BESANA", "Lombardia").
+station(s01145, "BESNATE", "Lombardia").
+station(s01141, "BESOZZO", "Lombardia").
+station(s01007, "BEURA CARDEZZA", "Piemonte").
+station(s04482, "BEVERA", "Liguria").
+station(s02391, "BEVILACQUA", "Veneto").
+station(s05119, "BIAGIONI LAGACCI", "Emilia Romagna").
+station(s11855, "BIANCO", "Calabria").
+station(s00238, "BIANZE`", "Piemonte").
+station(s01438, "BIANZONE", "Lombardia").
+station(s01483, "BIASSONO-LESMO PARCO", "Lombardia").
+station(s06076, "BIBBIENA", "Unavailable").
+station(s06077, "BIBBIENA CORSALONE", "Unavailable").
+station(s00522, "BIBIANA", "Piemonte").
+station(s12338, "BICOCCA", "Sicilia").
+station(s00970, "BIELLA CHIAVAZZA", "Piemonte").
+station(s00070, "BIELLA S.PAOLO", "Piemonte").
+station(s06611, "BIFORCO", "Toscana").
+station(s06950, "BINARIO S.MARCO VECCHIO", "Toscana").
+station(s11113, "BISCEGLIE", "Puglia").
+station(s00870, "BISTAGNO", "Piemonte").
+station(s01202, "BISUSCHIO VIGGIU", "Lombardia").
+station(s11501, "BITETTO PALO DEL COLLE", "Puglia").
+station(s03313, "BIVIO D`AURISINA", "Friuli Venezia Giulia").
+station(n00221, "BOARIO TERME", "Unavailable").
+station(s09763, "BOCCIA AL MAURO", "Campania").
+station(s04709, "BOGLIASCO", "Liguria").
+station(s09453, "BOIANO", "Molise").
+station(s06028, "BOLGHERI", "Toscana").
+station(s01071, "BOLLATE CENTRO", "Unavailable").
+station(s01072, "BOLLATE NORD", "Unavailable").
+station(s05100, "BOLOGNA BORGO PANIGALE", "Emilia Romagna").
+station(s05046, "BOLOGNA C.LE/AV", "Emilia Romagna").
+station(s05725, "BOLOGNA CORTICELLA", "Emilia Romagna").
+station(s05020, "BOLOGNA FIERE", "Emilia Romagna").
+station(s05140, "BOLOGNA MAZZINI", "Emilia Romagna").
+station(s05042, "BOLOGNA RAVONE", "Emilia Romagna").
+station(s05130, "BOLOGNA S.RUFFILLO", "Emilia Romagna").
+station(s05081, "BOLOGNA SAN VITALE", "Unavailable").
+station(s02026, "BOLZANO ", "Trentino Alto Adige").
+station(s00014, "BOLZANO NOVARESE", "Piemonte").
+station(s02226, "BOLZANO SUD ", "Trentino Alto Adige").
+station(s07993, "BOMBA TORRICELLA", "Unavailable").
+station(s04730, "BONASSOLA", "Liguria").
+station(s05165, "BONDENO", "Unavailable").
+station(s09464, "BONEFRO S.CROCE", "Molise").
+station(s02383, "BONFERRARO", "Veneto").
+station(s12867, "BONORVA", "Sardegna").
+station(s04503, "BORDIGHERA", "Liguria").
+station(s00086, "BORGARO", "Unavailable").
+station(s02051, "BORGHETTO", "Trentino Alto Adige").
+station(s06100, "BORGHETTO PARMENSE", "Emilia Romagna").
+station(s04518, "BORGHETTO SANTO SPIRITO", "Liguria").
+station(s04521, "BORGIO VEREZZI", "Liguria").
+station(s09526, "BORGO", "Campania").
+station(s06410, "BORGO A BUGGIANO", "Toscana").
+station(s06309, "BORGO A MOZZANO", "Toscana").
+station(s04214, "BORGO FORNARI PER VOLTAGGIO", "Liguria").
+station(s00032, "BORGO LAVEZZARO", "Piemonte").
+station(s00171, "BORGO REVEL", "Piemonte").
+station(n00202, "BORGO S. GIOVANNI", "Unavailable").
+station(s06604, "BORGO S. LORENZO", "Toscana").
+station(s06704, "BORGO S.L.RIMORELLI", "Toscana").
+station(s00315, "BORGO S.MARTINO", "Piemonte").
+station(s00613, "BORGO SAN DALMAZZO", "Piemonte").
+station(s00981, "BORGO TICINO", "Piemonte").
+station(s06161, "BORGO VAL DI TARO", "Emilia Romagna").
+station(s02313, "BORGO VALSUGANA CENTRO", "Emilia Romagna").
+station(s02314, "BORGO VALSUGANA EST", "Trentino Alto Adige").
+station(s00246, "BORGO VERCELLI", "Piemonte").
+station(s02338, "BORGOFORTE", "Lombardia").
+station(s00152, "BORGOFRANCO", "Piemonte").
+station(s01830, "BORGOLOMBARDO", "Lombardia").
+station(s00016, "BORGOMANERO", "Piemonte").
+station(n00208, "BORGONATO - ADRO", "Unavailable").
+station(s00210, "BORGONE", "Piemonte").
+station(s05152, "BORGONUOVO", "Unavailable").
+station(s00860, "BORGORATTO", "Piemonte").
+station(s00104, "BORGOSESIA", "Piemonte").
+station(n00207, "BORNATO - CALINO", "Lombardia").
+station(s12872, "BORORE", "Sardegna").
+station(s02390, "BOSCHI S.ANNA", "Veneto").
+station(s09452, "BOSCO REDOLE", "Molise").
+station(s00882, "BOSCONERO", "Unavailable").
+station(s09754, "BOSCOREALE", "Campania").
+station(s11829, "BOTRICELLO", "Calabria").
+station(s03057, "BOTTENICCHIO Z.I.", "Unavailable").
+station(s11860, "BOVA MARINA", "Calabria").
+station(s11854, "BOVALINO", "Calabria").
+station(s09321, "BOVINO DELICETO", "Puglia").
+station(s01085, "BOVISO MASCIAGO - MOMBELLO", "Unavailable").
+station(s02363, "BOVOLONE", "Veneto").
+station(s01920, "BOZZOLO", "Lombardia").
+station(s00821, "BRA", "Piemonte").
+station(s08315, "BRACCIANO", "Lazio").
+station(s04803, "BRAGNO", "Liguria").
+station(s11857, "BRANCALEONE", "Calabria").
+station(s00231, "BRANDIZZO", "Piemonte").
+station(s00622, "BREIL SUR ROYA", "Piemonte").
+station(s01452, "BRENNA-ALZATE", "Lombardia").
+station(s02001, "BRENNERO", "Trentino Alto Adige").
+station(n00226, "BRENO", "Unavailable").
+station(s01717, "BRESCIA", "Lombardia").
+station(s01930, "BRESSANA ARGINE", "Lombardia").
+station(s01805, "BRESSANA BOTTARONE", "Lombardia").
+station(s02014, "BRESSANONE", "Trentino Alto Adige").
+station(s11757, "BRIATICO", "Calabria").
+station(s00521, "BRICHERASIO", "Piemonte").
+station(s11136, "BRINDISI", "Puglia").
+station(s11451, "BRINDISI DI MONTAGNA", "Basilicata").
+station(s11137, "BRINDISI MARITTIMA", "Puglia").
+station(s00113, "BRIONA", "Piemonte").
+station(s06614, "BRISIGHELLA", "Emilia Romagna").
+station(s12031, "BROLO FICARRA", "Sicilia").
+station(s01944, "BRONI", "Lombardia").
+station(s02030, "BRONZOLO ", "Trentino Alto Adige").
+station(s00424, "BROZOLO", "Piemonte").
+station(s02107, "BRUNICO ", "Trentino Alto Adige").
+station(s02018, "BRUNICO NORD", "Unavailable").
+station(s00837, "BRUNO", "Piemonte").
+station(s00209, "BRUZOLO", "Piemonte").
+station(s09828, "BUCCINO S.", "Campania").
+station(s06911, "BUCINE", "Toscana").
+station(s03088, "BUDOIA POLCENIGO", "Friuli Venezia Giulia").
+station(s08538, "BUGNARA", "Abruzzo").
+station(s06874, "BUONCONVENTO", "Toscana").
+station(s12016, "BUONFORNELLO", "Sicilia").
+station(s00054, "BURONZO", "Piemonte").
+station(s04215, "BUSALLA", "Liguria").
+station(s00704, "BUSCA", "Piemonte").
+station(s02563, "BUSCHE LENTIAI MEL", "Veneto").
+station(s01963, "BUSSETO", "Emilia Romagna").
+station(s07704, "BUSSI", "Abruzzo").
+station(s00208, "BUSSOLENO", "Piemonte").
+station(s01031, "BUSTO ARSIZIO", "Lombardia").
+station(s01137, "BUSTO ARSIZIO N.", "Unavailable").
+station(n00107, "BUSTO ARSIZIO RFI", "Unavailable").
+station(s01482, "BUTTAFAVA", "Lombardia").
+station(s05301, "BUTTAPIETRA", "Veneto").
+station(s03029, "BUTTRIO", "Friuli Venezia Giulia").
+station(s05048, "Biv. Venezia", "Unavailable").
+station(s01088, "CABIATE", "Unavailable").
+station(s05006, "CADEO", "Emilia Romagna").
+station(n00038, "CADORAGO", "Unavailable").
+station(s12891, "CAGLIARI", "Sardegna").
+station(s12890, "CAGLIARI ELMAS", "Sardegna").
+station(s09025, "CAIAZZO", "Unavailable").
+station(s00879, "CAIRO MONTENOTTE", "Liguria").
+station(s12851, "CALA SABINA", "Sardegna").
+station(s02550, "CALALZO PIEVE CADORE CORTINA", "Veneto").
+station(s00833, "CALAMANDRANA", "Piemonte").
+station(s12321, "CALATABIANO", "Sicilia").
+station(s12151, "CALATAFIMI", "Sicilia").
+station(s06080, "CALBEZANO", "Unavailable").
+station(s02307, "CALCERANICA", "Trentino Alto Adige").
+station(s11455, "CALCIANO", "Basilicata").
+station(s01712, "CALCIO", "Lombardia").
+station(s01117, "CALDE`", "Lombardia").
+station(s02437, "CALDIERO", "Veneto").
+station(s02308, "CALDONAZZO", "Trentino Alto Adige").
+station(s06417, "CALENZANO", "Toscana").
+station(s09620, "CALITRI PESCOPAGANO", "Campania").
+station(s02041, "CALLIANO", "Unavailable").
+station(s01524, "CALOLZIOCORTE OLGINATE", "Lombardia").
+station(s11815, "CALOPEZZATI", "Calabria").
+station(s12270, "CALTAGIRONE", "Sicilia").
+station(s12381, "CALTANISSETTA CENTRALE", "Sicilia").
+station(s12380, "CALTANISSETTA XIRBI", "Sicilia").
+station(s00020, "CALTIGNAGA", "Piemonte").
+station(s01503, "CALUSCO", "Lombardia").
+station(s00158, "CALUSO", "Piemonte").
+station(s01843, "CALVISANO", "Lombardia").
+station(s06043, "CAMAIORE LIDO CAPEZZANO", "Toscana").
+station(s06804, "CAMBIANO", "Toscana").
+station(s00456, "CAMBIANO SANTENA", "Piemonte").
+station(s07021, "CAMERANO ASPIO", "Unavailable").
+station(s12207, "CAMMARATA S.GIOVANNI GEMINI", "Sicilia").
+station(s01316, "CAMNAGO-LENTATE", "Lombardia").
+station(s04716, "CAMOGLI SAN FRUTTUOSO", "Liguria").
+station(s09825, "CAMPAGNA SERRE PERSANO", "Campania").
+station(s07219, "CAMPELLO", "Umbria").
+station(s06031, "CAMPIGLIA MARITTIMA", "Toscana").
+station(s08706, "CAMPO DI CARNE", "Lazio").
+station(s08903, "CAMPO DI GIOVE", "Abruzzo").
+station(s08919, "CAMPO DI GIOVE-MONTE MAIELLA", "Abruzzo").
+station(s09626, "CAMPO DI NUSCO", "Campania").
+station(s02007, "CAMPO DI TRENS ", "Trentino Alto Adige").
+station(s09459, "CAMPOBASSO", "Molise").
+station(s12112, "CAMPOBELLO DI MAZARA", "Sicilia").
+station(s12385, "CAMPOBELLO RAVANUSA", "Sicilia").
+station(s02527, "CAMPODARSEGO", "Veneto").
+station(s12017, "CAMPOFELICE", "Sicilia").
+station(s12211, "CAMPOFRANCO", "Sicilia").
+station(s09505, "CAMPOLATTARO", "Campania").
+station(s08602, "CAMPOLEONE", "Lazio").
+station(s09462, "CAMPOLIETO MONACILIONI", "Molise").
+station(s04105, "CAMPOLIGURE MASONE", "Liguria").
+station(s11454, "CAMPOMAGGIORE", "Basilicata").
+station(s11020, "CAMPOMARINO", "Molise").
+station(s12815, "CAMPOMELA", "Sardegna").
+station(s06659, "CAMPOMIGLIAIO", "Toscana").
+station(s11745, "CAMPORA S.GIOV. SERRA AIELLO", "Calabria").
+station(s00889, "CAMPORE", "Unavailable").
+station(s06324, "CAMPORGIANO", "Toscana").
+station(s02525, "CAMPOSAMPIERO", "Veneto").
+station(s05314, "CAMPOSANTO", "Emilia Romagna").
+station(s06921, "CAMUCIA CORTONA", "Toscana").
+station(s07232, "CANCELLI DI FABRIANO", "Unavailable").
+station(s08735, "CANCELLIERA", "Lazio").
+station(s09213, "CANCELLO", "Campania").
+station(s09002, "CANCELLO ARNONE", "Campania").
+station(s11204, "CANDELA", "Puglia").
+station(s00071, "CANDELO", "Piemonte").
+station(s00157, "CANDIA CANAVESE", "Piemonte").
+station(s00333, "CANDIA LOMELLINA", "Lombardia").
+station(s11105, "CANDIDA", "Puglia").
+station(s00512, "CANDIOLO", "Piemonte").
+station(s01011, "CANDOGLIA ORNAVASSO", "Piemonte").
+station(s01034, "CANEGRATE", "Lombardia").
+station(s00832, "CANELLI", "Piemonte").
+station(s07429, "CANETRA", "Lazio").
+station(s12375, "CANICATTI`", "Sicilia").
+station(s12812, "CANIGA", "Sardegna").
+station(s08812, "CANISTRO", "Unavailable").
+station(s07009, "CANNARA", "Umbria").
+station(s11406, "CANNE DELLA BATTAGLIA", "Puglia").
+station(s01848, "CANNETO SULL`OGLIO", "Lombardia").
+station(s11402, "CANOSA DI PUGLIA", "Puglia").
+station(s09451, "CANTALUPO DEL SANNIO", "Molise").
+station(s01451, "CANTU`", "Lombardia").
+station(s01313, "CANTU`- CERMENATE", "Lombardia").
+station(s01099, "CANZO", "Unavailable").
+station(s01970, "CAORSO", "Emilia Romagna").
+station(s11702, "CAPACCIO ROCCADASPIDE", "Campania").
+station(s12128, "CAPACI", "Unavailable").
+station(s08006, "CAPALBIO", "Toscana").
+station(s08672, "CAPANNELLE", "Lazio").
+station(s08850, "CAPISTRELLO", "Abruzzo").
+station(s11734, "CAPO BONIFATI", "Calabria").
+station(n00229, "CAPO DI PONTE", "Unavailable").
+station(s12030, "CAPO D`ORLANDO-NASO", "Sicilia").
+station(s11858, "CAPO SPARTIVENTO", "Calabria").
+station(s08804, "CAPOCROCE", "Unavailable").
+station(s07215, "CAPODACQUA PIEVE FANONICA", "Umbria").
+station(s06083, "CAPOLONA", "Unavailable").
+station(s08525, "CAPPELLE-MAGLIANO", "Abruzzo").
+station(s01603, "CAPRALBA", "Lombardia").
+station(s08311, "CAPRANICA", "Lazio").
+station(s08110, "CAPRAROLA", "Lazio").
+station(s09061, "CAPRIATI AL VOLTURNO", "Molise").
+station(s01622, "CAPRIOLO", "Lombardia").
+station(s03301, "CAPRIVA", "Friuli Venezia Giulia").
+station(s09208, "CAPUA", "Campania").
+station(s01486, "CARATE-CALO`", "Lombardia").
+station(s01602, "CARAVAGGIO", "Lombardia").
+station(s05120, "CARBONA", "Emilia Romagna").
+station(s04300, "CARBONARA SCRIVIA", "Piemonte").
+station(s12818, "CARBONIA SERBARIU", "Sardegna").
+station(s12972, "CARBONIA STATO", "Unavailable").
+station(s12140, "CARDILLO ZEN", "Sicilia").
+station(s00839, "CARENTINO", "Piemonte").
+station(s11818, "CARIATI", "Calabria").
+station(s01315, "CARIMATE", "Lombardia").
+station(s12127, "CARINI", "Sicilia").
+station(s12799, "CARINI TORRE CIACHEA", "Sicilia").
+station(s00055, "CARISIO", "Piemonte").
+station(s00601, "CARMAGNOLA", "Piemonte").
+station(s02532, "CARMIGNANO DI BRENTA", "Veneto").
+station(s01511, "CARNATE USMATE", "Lombardia").
+station(s03016, "CARNIA", "Friuli Venezia Giulia").
+station(s12025, "CARONIA", "Sicilia").
+station(s01076, "CARONNO PERTUSELLA", "Unavailable").
+station(s11133, "CAROVIGNO", "Puglia").
+station(s08914, "CAROVILLI-ROCCASICURA", "Molise").
+station(s02502, "CARPANE`VALSTAGNA", "Veneto").
+station(s02349, "CARPI", "Emilia Romagna").
+station(s00971, "CARPIGNANO SESIA", "Piemonte").
+station(s09050, "CARPINONE", "Molise").
+station(s06005, "CARRARA AVENZA", "Toscana").
+station(s08533, "CARRITO-ORTONA", "Abruzzo").
+station(s12326, "CARRUBA", "Sicilia").
+station(s00738, "CARRU` CLAVESANA", "Piemonte").
+station(s08519, "CARSOLI", "Abruzzo").
+station(s01091, "CARUGO - GIUSSANO", "Unavailable").
+station(s08730, "CASABIANCA", "Lazio").
+station(s09465, "CASACALENDA GUARDIALFIERA", "Molise").
+station(s11309, "CASAL SABINI", "Puglia").
+station(s07821, "CASALBORDINO POLLUTRI", "Abruzzo").
+station(s09910, "CASALBUONO", "Campania").
+station(s01609, "CASALBUTTANO", "Lombardia").
+station(s00314, "CASALE MONFERRATO", "Piemonte").
+station(s00179, "CASALE POPOLO", "Piemonte").
+station(s05101, "CASALECCHIO DI RENO", "Emilia Romagna").
+station(s05111, "CASALECCHIO GARIBALDI", "Emilia Romagna").
+station(s00972, "CASALEGGIO", "Piemonte").
+station(s09922, "CASALETTO", "Unavailable").
+station(s01604, "CASALETTO VAPRIO", "Lombardia").
+station(s01850, "CASALMAGGIORE", "Lombardia").
+station(s09216, "CASALNUOVO", "Campania").
+station(s01827, "CASALPUSTERLENGO", "Lombardia").
+station(s02059, "CASANOVA KAISERAU", "Unavailable").
+station(s02830, "CASARSA", "Friuli Venezia Giulia").
+station(s06505, "CASCINA", "Toscana").
+station(s00087, "CASELLE", "Unavailable").
+station(s00088, "CASELLE AEROPORTO", "Unavailable").
+station(s09211, "CASERTA", "Campania").
+station(s06751, "CASINO DI TERRA", "Toscana").
+station(s01457, "CASLETTO-ROGENO", "Lombardia").
+station(n00037, "CASLINO AL PIANO", "Unavailable").
+station(s01098, "CASLINO D'ERBA", "Unavailable").
+station(s07991, "CASOLI", "Unavailable").
+station(s01029, "CASORATE SEMPIONE", "Lombardia").
+station(s09009, "CASORIA", "Campania").
+station(s01490, "CASSAGO-NIBIONNO-BULCIAGO", "Lombardia").
+station(s11900, "CASSANO ALL`IONIO", "Calabria").
+station(s01707, "CASSANO D`ADDA", "Lombardia").
+station(s09611, "CASSANO IRPINO", "Campania").
+station(s00864, "CASSINE", "Piemonte").
+station(s08671, "CASSINO", "Lazio").
+station(s02506, "CASSOLA", "Veneto").
+station(s02368, "CASTAGNARO", "Veneto").
+station(s06029, "CASTAGNETO CARDUCCI", "Toscana").
+station(s05122, "CASTAGNO", "Toscana").
+station(s00828, "CASTAGNOLE DELLE LANZE", "Piemonte").
+station(n00050, "CASTANO PRIMO", "Unavailable").
+station(s01942, "CASTEGGIO", "Lombardia").
+station(n00204, "CASTEGNATO", "Unavailable").
+station(s08114, "CASTEL BAGNOLO DI ORTE", "Lazio").
+station(s08910, "CASTEL DI SANGRO", "Abruzzo").
+station(s02382, "CASTEL D`ARIO", "Lombardia").
+station(s07987, "CASTEL FRENTANO", "Unavailable").
+station(s08703, "CASTEL GANDOLFO", "Lazio").
+station(s11212, "CASTEL LAGOPESOLE", "Basilicata").
+station(s08510, "CASTEL MADAMA", "Lazio").
+station(s07407, "CASTEL S.ANGELO", "Lazio").
+station(s09704, "CASTEL S.GIORGIO ROCCAPIEMONTE", "Campania").
+station(s01948, "CASTEL S.GIOVANNI", "Emilia Romagna").
+station(s05053, "CASTEL S.PIETRO TERME", "Emilia Romagna").
+station(s02208, "CASTELBELLO", "Trentino Alto Adige").
+station(s05056, "CASTELBOLOGNESE", "Emilia Romagna").
+station(s12020, "CASTELBUONO", "Sicilia").
+station(s12010, "CASTELDACCIA", "Sicilia").
+station(s02105, "CASTELDARNE ", "Trentino Alto Adige").
+station(s05102, "CASTELDEBOLE", "Emilia Romagna").
+station(s07200, "CASTELFERRETTI", "Marche").
+station(s06802, "CASTELFIORENTINO", "Toscana").
+station(s09609, "CASTELFRANCI", "Campania").
+station(s05037, "CASTELFRANCO D'EMILIA", "Emilia Romagna").
+station(s09323, "CASTELFRANCO IN MISCANO", "Unavailable").
+station(s02537, "CASTELFRANCO VENETO", "Veneto").
+station(s05012, "CASTELGUELFO", "Emilia Romagna").
+station(s07901, "CASTELLALTO CANZANO", "Abruzzo").
+station(s12120, "CASTELLAMMARE DEL GOLFO", "Sicilia").
+station(s09756, "CASTELLAMMARE DI STABIA", "Campania").
+station(s11507, "CASTELLANETA", "Unavailable").
+station(s11463, "CASTELLANETA MARINA", "Puglia").
+station(s01136, "CASTELLANZA", "Unavailable").
+station(s04000, "CASTELLAZZO CASALCERMELLI", "Piemonte").
+station(s01606, "CASTELLEONE", "Lombardia").
+station(s00720, "CASTELLETTO BUSCA", "Piemonte").
+station(s01123, "CASTELLETTO TICINO", "Piemonte").
+station(s06808, "CASTELLINA CH", "Toscana").
+station(s06024, "CASTELLINA MARITTIMA", "Toscana").
+station(s00741, "CASTELLINO TANARO", "Piemonte").
+station(s02507, "CASTELLO DI GODEGO", "Veneto").
+station(s00465, "CASTELLO D`ANNONE", "Piemonte").
+station(s01923, "CASTELLUCCHIO", "Lombardia").
+station(s09920, "CASTELLUCCIO", "Unavailable").
+station(s00343, "CASTELL`ALFERO", "Piemonte").
+station(s05724, "CASTELMAGGIORE", "Emilia Romagna").
+station(s02093, "CASTELNUOVO", "Veneto").
+station(s00836, "CASTELNUOVO BELBO", "Piemonte").
+station(s06812, "CASTELNUOVO BERARDENGA", "Toscana").
+station(s06300, "CASTELNUOVO DI GARFAGNANA", "Toscana").
+station(s07204, "CASTELPLANIO CUPRAMONTANA", "Marche").
+station(s07302, "CASTELRAIMONDO CAMERINO", "Marche").
+station(s00233, "CASTELROSSO", "Piemonte").
+station(s04001, "CASTELSPINA PORTANOVA", "Piemonte").
+station(s06302, "CASTELVECCHIO PASCOLI", "Toscana").
+station(s09608, "CASTELVETERE", "Campania").
+station(s12113, "CASTELVETRANO", "Sicilia").
+station(s01960, "CASTELVETRO", "Emilia Romagna").
+station(s06923, "CASTIGLION DEL LAGO", "Umbria").
+station(s06920, "CASTIGLION FIORENTINO", "Toscana").
+station(s06729, "CASTIGLIONCELLO", "Toscana").
+station(s11909, "CASTIGLIONE COSENTINO", "Calabria").
+station(s12362, "CASTIGLIONE DI SICILIA", "Sicilia").
+station(s08205, "CASTIGLIONE IN TEVERINA", "Umbria").
+station(s01429, "CASTIONE ANDEVENNO", "Lombardia").
+station(s01964, "CASTIONE DEI MARCHESI", "Emilia Romagna").
+station(s08663, "CASTRO-POFI", "Lazio").
+station(s01208, "CASTRONNO", "Lombardia").
+station(s12337, "CATANIA ACQUICELLA", "Sicilia").
+station(s12332, "CATANIA CENTRALE", "Sicilia").
+station(s12331, "CATANIA OGNINA", "Unavailable").
+station(s11956, "CATANZARO", "Calabria").
+station(s11833, "CATANZARO LIDO", "Calabria").
+station(s12244, "CATENANUOVA", "Sicilia").
+station(s07102, "CATTOLICA S.GIOVANNI GABICCE", "Emilia Romagna").
+station(s11846, "CAULONIA", "Calabria").
+station(s00279, "CAVA CARBONARA", "Lombardia").
+station(s09816, "CAVA DEI TIRRENI", "Campania").
+station(s01804, "CAVA MANARA", "Lombardia").
+station(s01914, "CAVA TIGOZZI", "Lombardia").
+station(s00423, "CAVAGNOLO BRUSASCO", "Piemonte").
+station(s09113, "CAVALLEGGERI AOSTA", "Campania").
+station(s00603, "CAVALLERMAGGIORE", "Piemonte").
+station(s05425, "CAVANELLA D`ADIGE", "Veneto").
+station(s05422, "CAVANELLA PO", "Veneto").
+station(s01210, "CAVARIA OGGIONA JERAGO", "Lombardia").
+station(s02147, "CAVAZZALE", "Veneto").
+station(s04724, "CAVI", "Liguria").
+station(n00238, "CAZZAGO S. MARTINO", "Unavailable").
+station(s06044, "CA` DI BOSCHETTI", "Liguria").
+station(s08664, "CECCANO", "Lazio").
+station(s08732, "CECCHINA", "Lazio").
+station(s06026, "CECINA", "Toscana").
+station(n00231, "CEDEGOLO", "Unavailable").
+station(s12019, "CEFALU`", "Sicilia").
+station(s02665, "CEGGIA", "Veneto").
+station(s08528, "CELANO-OVINDOLI", "Abruzzo").
+station(s04530, "CELLE", "Liguria").
+station(s11716, "CELLE BULGHERIA ROCCAGLORIOSA", "Campania").
+station(s00745, "CENGIO", "Liguria").
+station(s00608, "CENTALLO", "Piemonte").
+station(s11715, "CENTOLA", "Campania").
+station(s08666, "CEPRANO-FALVATERRA", "Lazio").
+station(s78500, "CERBERE", "Unavailable").
+station(s00541, "CERCENASCO", "Piemonte").
+station(s08530, "CERCHIO", "Abruzzo").
+station(s06956, "CERCINA", "Toscana").
+station(s12200, "CERDA", "Sicilia").
+station(s02364, "CEREA", "Veneto").
+station(s05417, "CEREGNANO", "Veneto").
+station(s04517, "CERIALE", "Liguria").
+station(n00248, "CERIANO LAGHETTO SOLARO", "Unavailable").
+station(s11103, "CERIGNOLA", "Puglia").
+station(s01934, "CERLANO LAGHETTO", "Unavailable").
+station(s01513, "CERNUSCO-MERATE", "Lombardia").
+station(s07300, "CERRETO D`ESI", "Marche").
+station(s06803, "CERTALDO", "Toscana").
+station(s01803, "CERTOSA DI PAVIA", "Lombardia").
+station(s11200, "CERVARO", "Puglia").
+station(s05814, "CERVIA-MILANO MARITTIMA", "Emilia Romagna").
+station(s03207, "CERVIGNANO A.G.", "Friuli Venezia Giulia").
+station(s00546, "CERVIGNASCO", "Piemonte").
+station(s09015, "CERVINARA", "Unavailable").
+station(s04512, "CERVO SAN BARTOLOMEO", "Liguria").
+station(s01112, "CESANO BOSCONE", "Unavailable").
+station(s08319, "CESANO DI ROMA", "Lazio").
+station(s01086, "CESANO MADERNO", "Unavailable").
+station(s01075, "CESATE", "Unavailable").
+station(s09473, "CESE", "Campania").
+station(s05066, "CESENA", "Emilia Romagna").
+station(s05815, "CESENATICO", "Emilia Romagna").
+station(n00228, "CETO - CERVENO", "Unavailable").
+station(s11735, "CETRARO", "Calabria").
+station(s00742, "CEVA", "Piemonte").
+station(s00141, "CHAMBAVE", "Valle d'Aosta").
+station(s00142, "CHATILLON SAINT VINCENT", "Valle d'Aosta").
+station(s00733, "CHERASCO", "Piemonte").
+station(s09510, "CHIANCHE CEPPALONI", "Campania").
+station(s07201, "CHIARAVALLE", "Marche").
+station(s01713, "CHIARI", "Lombardia").
+station(s08007, "CHIARONE", "Toscana").
+station(s01301, "CHIASSO", "Lombardia").
+station(s04722, "CHIAVARI", "Liguria").
+station(s01400, "CHIAVENNA", "Lombardia").
+station(s00500, "CHIERI", "Piemonte").
+station(s07712, "CHIETI", "Abruzzo").
+station(s11021, "CHIEUTI SERRACAPRIOLA", "Puglia").
+station(s01868, "CHIGNOLO PO", "Lombardia").
+station(s05428, "CHIOGGIA", "Veneto").
+station(s00206, "CHIOMONTE", "Piemonte").
+station(s12899, "CHIRIALZA", "Sardegna").
+station(s01536, "CHIUDUNO", "Lombardia").
+station(s01435, "CHIURO", "Lombardia").
+station(s02017, "CHIUSA ", "Trentino Alto Adige").
+station(s00429, "CHIUSANO COSSOMBRONE", "Piemonte").
+station(s06925, "CHIUSI C.T.", "Toscana").
+station(s00232, "CHIVASSO", "Piemonte").
+station(s08650, "CIAMPINO", "Lazio").
+station(s02209, "CIARDES", "Trentino Alto Adige").
+station(s12126, "CINISI TERRASINI", "Sicilia").
+station(s00090, "CIRE'", "Unavailable").
+station(s11730, "CIRELLA MAJERA`", "Calabria").
+station(s11820, "CIRO'", "Calabria").
+station(s01525, "CISANO CAPRINO BERGAMASCO", "Lombardia").
+station(n00015, "CISLAGO", "Unavailable").
+station(s02500, "CISMON DEL GRAPPA", "Veneto").
+station(s08603, "CISTERNA DI LATINA", "Lazio").
+station(s11131, "CISTERNINO", "Puglia").
+station(s06154, "CITERNA TARO", "Emilia Romagna").
+station(s02535, "CITTADELLA", "Veneto").
+station(s07406, "CITTADUCALE", "Lazio").
+station(s08200, "CITTA` DELLA PIEVE", "Umbria").
+station(n00032, "CITTIGLIO", "Unavailable").
+station(s01462, "CIVATE", "Lombardia").
+station(s03056, "CIVIDALE", "Unavailable").
+station(n00225, "CIVIDATE - MALEGNO", "Unavailable").
+station(s08211, "CIVITA CASTELLANA", "Lazio").
+station(s08853, "CIVITA D`ANTINO-MORINO", "Abruzzo").
+station(s07506, "CIVITANOVA MARCHE", "Marche").
+station(s08010, "CIVITAVECCHIA", "Lazio").
+station(s08012, "CIVITAVECCHIA M.MA", "Lazio").
+station(s08024, "CIVITAVECCHIA VIALE DELLA VITTORIA", "Lazio").
+station(s06066, "CIVITELLA - BADIA AL PINO", "Unavailable").
+station(s06822, "CIVITELLA PAGANICO", "Toscana").
+station(s08852, "CIVITELLA ROVETO", "Abruzzo").
+station(s12970, "CIXERRI", "Sardegna").
+station(s05812, "CLASSE", "Emilia Romagna").
+station(s01540, "COCCAGLIO", "Lombardia").
+station(s00425, "COCCONATO", "Piemonte").
+station(n00030, "COCQUIO - TREVISAGO", "Unavailable").
+station(s08534, "COCULLO", "Abruzzo").
+station(s05799, "CODIGORO", "Unavailable").
+station(s01828, "CODOGNO", "Lombardia").
+station(s09703, "CODOLA", "Campania").
+station(s02831, "CODROIPO", "Friuli Venezia Giulia").
+station(n00224, "COGNO - ESINE", "Unavailable").
+station(s04532, "COGOLETO", "Liguria").
+station(s02206, "COLDRANO-MARTELLO", "Trentino Alto Adige").
+station(s08820, "COLFELICE", "Unavailable").
+station(s01420, "COLICO", "Lombardia").
+station(s08548, "COLLARMELE", "Unavailable").
+station(s02005, "COLLE ISARCO ", "Trentino Alto Adige").
+station(s08651, "COLLE MATTIA", "Lazio").
+station(s06840, "COLLE VAL D`ELSA", "Toscana").
+station(s06151, "COLLECCHIO", "Emilia Romagna").
+station(s07994, "COLLEDIMEZZO", "Unavailable").
+station(s08657, "COLLEFERRO-SEGNI-PALIANO", "Lazio").
+station(s00217, "COLLEGNO", "Piemonte").
+station(s06018, "COLLESALVETTI", "Toscana").
+station(s08221, "COLLEVECCHIO", "Lazio").
+station(s08520, "COLLI DI MONTE BOVE", "Abruzzo").
+station(s01111, "COLMEGNA", "Unavailable").
+station(s01539, "COLOGNE", "Lombardia").
+station(s08653, "COLONNA GALLERIA", "Unavailable").
+station(s01852, "COLORNO", "Emilia Romagna").
+station(s00050, "COMIGNAGO", "Piemonte").
+station(s12411, "COMISO", "Sicilia").
+station(n00043, "COMO NORD BORGHI", "Unavailable").
+station(n00042, "COMO NORD CAMERLATA", "Unavailable").
+station(n00044, "COMO NORD LAGO", "Unavailable").
+station(s01307, "COMO S. GIOVANNI", "Lombardia").
+station(s06902, "COMPIOBBI", "Toscana").
+station(s08816, "COMPRE S.VINCENZO", "Unavailable").
+station(s05169, "CONA F. C.", "Unavailable").
+station(s11861, "CONDOFURI", "Calabria").
+station(s00212, "CONDOVE", "Piemonte").
+station(s02706, "CONEGLIANO", "Veneto").
+station(s05950, "CONSELICE", "Emilia Romagna").
+station(s06702, "CONTEA LONDA", "Toscana").
+station(s12355, "CONTESSE", "Sicilia").
+station(s07404, "CONTIGLIANO", "Lazio").
+station(s09826, "CONTURSI TERME", "Campania").
+station(s09618, "CONZA ANDRETTA CAIRANO", "Unavailable").
+station(s01041, "CORBETTA S. STEFANO", "Lombardia").
+station(s05115, "CORBEZZI", "Toscana").
+station(s08112, "CORCHIANO", "Lazio").
+station(s02661, "CORDOVADO SESTO", "Friuli Venezia Giulia").
+station(s11812, "CORIGLIANO CALABRO", "Calabria").
+station(n00058, "CORMANO - BRUSUGLIO", "Unavailable").
+station(s01080, "CORMANO - BRUSUGLIO", "Unavailable").
+station(s03300, "CORMONS", "Friuli Venezia Giulia").
+station(s04734, "CORNIGLIA", "Liguria").
+station(s03053, "CORNINO", "Friuli Venezia Giulia").
+station(s02569, "CORNUDA", "Veneto").
+station(s05719, "CORONELLA", "Unavailable").
+station(s07308, "CORRIDONIA MOGLIANO", "Marche").
+station(s09324, "CORSANO", "Campania").
+station(s01064, "CORSICO", "Lombardia").
+station(s01865, "CORTEOLONA", "Lombardia").
+station(s11910, "COSENZA", "Calabria").
+station(s01424, "COSIO TRAONA", "Lombardia").
+station(s00973, "COSSATO", "Piemonte").
+station(s02375, "COSTA", "Veneto").
+station(s01491, "COSTA MASNAGA", "Lombardia").
+station(s00348, "COSTIGLIOLE (MOTTA DI)", "Piemonte").
+station(s00829, "COSTIGLIOLE D`ASTI", "Piemonte").
+station(s00702, "COSTIGLIOLE SALUZZO", "Piemonte").
+station(s05956, "COTIGNOLA", "Emilia Romagna").
+station(s07432, "COTILIA", "Lazio").
+station(s00888, "COURGNE'", "Unavailable").
+station(s11151, "COZZE", "Puglia").
+station(s00332, "COZZO", "Lombardia").
+station(s01605, "CREMA", "Lombardia").
+station(s01915, "CREMONA", "Lombardia").
+station(s00172, "CRESCENTINO", "Piemonte").
+station(s06607, "CRESPINO DEL LAMONE", "Unavailable").
+station(s00017, "CRESSA FONTANETO", "Piemonte").
+station(s05316, "CREVALCORE", "Emilia Romagna").
+station(s07988, "CROCETTA", "Unavailable").
+station(s08317, "CROCICCHIE", "Lazio").
+station(s11830, "CROPANI", "Calabria").
+station(s11823, "CROTONE", "Calabria").
+station(s11819, "CRUCOLI", "Calabria").
+station(s01312, "CUCCIAGO", "Lombardia").
+station(s00610, "CUNEO", "Piemonte").
+station(s00611, "CUNEO GESSO", "Piemonte").
+station(s00427, "CUNICO SCANDELUZZA", "Piemonte").
+station(s08810, "CUPONE", "Abruzzo").
+station(s07511, "CUPRAMARITTIMA", "Marche").
+station(s00051, "CUREGGIO", "Piemonte").
+station(s11972, "CURINGA", "Unavailable").
+station(s02700, "CUSANO", "Friuli Venezia Giulia").
+station(s11826, "CUTRO", "Calabria").
+station(s01010, "CUZZAGO", "Piemonte").
+station(s01006, "DARFO-CORNA", "Unavailable").
+station(s12888, "DECIMOMANNU", "Sardegna").
+station(s00877, "DEGO", "Liguria").
+station(s04728, "DEIVA MARINA", "Liguria").
+station(s01422, "DELEBIO", "Lombardia").
+station(s00162, "DERBY", "Valle d'Aosta").
+station(s01408, "DERVIO", "Lombardia").
+station(s02084, "DESENZANO", "Lombardia").
+station(s01320, "DESIO", "Lombardia").
+station(s11731, "DIAMANTE BUONVICINO", "Calabria").
+station(s04511, "DIANO MARINA", "Unavailable").
+station(s06701, "DICOMANO", "Toscana").
+station(s06310, "DIECIMO - PESCAGLIA", "Toscana").
+station(s12240, "DITTAINO", "Sicilia").
+station(s44200, "DIVACA", "Unavailable").
+station(s02113, "DOBBIACO ", "Trentino Alto Adige").
+station(s05174, "DOGATO", "Unavailable").
+station(s71341, "DOLE VILLE", "Unavailable").
+station(s02587, "DOLO", "Veneto").
+station(s02055, "DOMEGLIARA", "Veneto").
+station(s01003, "DOMODOSSOLA", "Piemonte").
+station(s04202, "DONNA", "Piemonte").
+station(s12412, "DONNAFUGATA", "Sicilia").
+station(s00148, "DONNAZ", "Valle d'Aosta").
+station(s01407, "DORIO", "Lombardia").
+station(s01025, "DORMELLETTO", "Piemonte").
+station(s00980, "DORMELLETTO PAESE", "Piemonte").
+station(s02330, "DOSSOBUONO", "Veneto").
+station(s09021, "DRAGONI", "Unavailable").
+station(s00722, "DRONERO", "Piemonte").
+station(s01405, "DUBINO", "Lombardia").
+station(s02146, "DUEVILLE", "Veneto").
+station(s72517, "DUGO SELO", "Unavailable").
+station(s09819, "DUOMO VIA VERNIERI", "Unavailable").
+station(s08220, "Dev.Int. DD/AV", "Lazio").
+station(s09824, "EBOLI", "Campania").
+station(s00926, "ECA NASAGO`", "Piemonte").
+station(s11788, "ECCELLENTE", "Calabria").
+station(n00235, "EDOLO", "Lombardia").
+station(s02032, "EGNA-TERMENO ", "Trentino Alto Adige").
+station(s11154, "EGNAZIA", "Puglia").
+station(s07003, "ELLERA CORCIANO", "Umbria").
+station(s12819, "ELMAS AEROPORTO", "Unavailable").
+station(s06510, "EMPOLI", "Toscana").
+station(s12856, "ENAS", "Sardegna").
+station(s12238, "ENNA", "Sicilia").
+station(s11041, "ENZITETO/CATINO", "Unavailable").
+station(s06226, "EQUI TERME", "Toscana").
+station(s01096, "ERBA", "Unavailable").
+station(n00222, "ERBANNO - ANGONE", "Unavailable").
+station(s02396, "ESTE", "Veneto").
+station(s00251, "EXILLES", "Piemonte").
+station(s06421, "FIRENZE S.M.N.", "Toscana").
+station(s07208, "FABRIANO", "Marche").
+station(s07059, "FABRIANO CA` MAIANO", "Marche").
+station(s08111, "FABRICA DI ROMA", "Lazio").
+station(s08201, "FABRO-FICULLE", "Umbria").
+station(s05058, "FAENZA", "Emilia Romagna").
+station(s02557, "FAE`FORTOGNA", "Veneto").
+station(s02762, "FAGARE", "Veneto").
+station(s07420, "FAGNANO CAMPANA", "Abruzzo").
+station(s09001, "FALCIANO MONDRAGONE CAR.", "Campania").
+station(s12405, "FALCONARA", "Sicilia").
+station(s12440, "FALCONARA IBLEA", "Unavailable").
+station(s07111, "FALCONARA MARITTIMA", "Marche").
+station(s07117, "FALCONARA STADIO", "Marche").
+station(s12038, "FALCONE", "Sicilia").
+station(s11747, "FALERNA", "Calabria").
+station(s03083, "FANNA - CAVASSO", "Friuli Venezia Giulia").
+station(s07105, "FANO", "Marche").
+station(s02575, "FANZOLO", "Veneto").
+station(s00112, "FARA", "Piemonte").
+station(s08214, "FARA SABINA", "Lazio").
+station(s00737, "FARIGLIANO", "Piemonte").
+station(s11130, "FASANO", "Puglia").
+station(s06021, "FAUGLIA - LORENZANA", "Toscana").
+station(s11771, "FAVAZZINA", "Calabria").
+station(s00885, "FAVRIA", "Unavailable").
+station(s12136, "FEDERICO", "Sicilia").
+station(s06103, "FELEGARA - S.ANDREA BAGNI", "Emilia Romagna").
+station(s00883, "FELETTO", "Unavailable").
+station(s00468, "FELIZZANO", "Piemonte").
+station(s05162, "FELONICA PO", "Unavailable").
+station(s02564, "FELTRE", "Veneto").
+station(s08661, "FERENTINO-SUPINO", "Lazio").
+station(s01138, "FERNO LONATE POZZOLO", "Unavailable").
+station(s11952, "FEROLETO ANTICA PIANOPOLI", "Calabria").
+station(s11458, "FERRANDINA", "Basilicata").
+station(s04804, "FERRANIA", "Liguria").
+station(s05712, "FERRARA", "Emilia Romagna").
+station(s05167, "FERRARA ALEOTTI", "Unavailable").
+station(s05168, "FERRARA P. RENO", "Unavailable").
+station(s00404, "FERRERA LOMELLINA", "Lombardia").
+station(s11856, "FERRUZZANO", "Calabria").
+station(s06901, "FI ROVEZZANO", "Toscana").
+station(s08235, "FIDENE", "Lazio").
+station(s05009, "FIDENZA", "Emilia Romagna").
+station(s12137, "FIERA", "Sicilia").
+station(s06953, "FIESOLE CALDINE", "Toscana").
+station(s06908, "FIGLINE VALDARNO", "Toscana").
+station(s06165, "FILATTIERA", "Toscana").
+station(s12277, "FILDIDONNA", "Sicilia").
+station(s11211, "FILIANO", "Basilicata").
+station(s04522, "FINALE LIGURE MARINA", "Liguria").
+station(n00039, "FINO MORNASCO", "Unavailable").
+station(s05007, "FIORENZUOLA", "Emilia Romagna").
+station(s06900, "FIRENZE CAMPO MARTE", "Toscana").
+station(s06419, "FIRENZE CASTELLO", "Toscana").
+station(s06420, "FIRENZE RIFREDI", "Toscana").
+station(s06430, "FIRENZE STATUTO", "Toscana").
+station(s09519, "FISCIANO", "Campania").
+station(s11741, "FIUMEFREDDO BRUZIO", "Calabria").
+station(s12322, "FIUMEFREDDO DI SICILIA", "Sicilia").
+station(s01412, "FIUMELATTE", "Lombardia").
+station(s12015, "FIUMETORTO", "Sicilia").
+station(s08411, "FIUMICINO AEROPORTO", "Lazio").
+station(s06223, "FIVIZZANO - GASSANO", "Toscana").
+station(s06222, "FIVIZZANO ROMETTA - SOLIERA", "Toscana").
+station(s11100, "FOGGIA", "Puglia").
+station(s06618, "FOGNANO", "Unavailable").
+station(s07217, "FOLIGNO", "Umbria").
+station(s06033, "FOLLONICA", "Toscana").
+station(s08606, "FONDI - SPERLONGA", "Lazio").
+station(s00621, "FONTAN SAORGE", "Unavailable").
+station(s08818, "FONTANA LIRI", "Unavailable").
+station(s08819, "FONTANA LIRI INFERIORE", "Unavailable").
+station(s02702, "FONTANAFREDDA", "Friuli Venezia Giulia").
+station(s09199, "FONTANAROSA", "Unavailable").
+station(s00174, "FONTANETTO PO", "Piemonte").
+station(s02534, "FONTANIVA", "Veneto").
+station(s06619, "FONTEBUONA", "Toscana").
+station(s07421, "FONTECCHIO", "Abruzzo").
+station(s03491, "FONYOD", "Unavailable").
+station(s11210, "FORENZA", "Basilicata").
+station(s03054, "FORGARIA BAGNI ANDUINS", "Friuli Venezia Giulia").
+station(s05065, "FORLIMPOPOLI", "Emilia Romagna").
+station(s05059, "FORLI`", "Emilia Romagna").
+station(s08640, "FORMIA-GAETA", "Lazio").
+station(s06304, "FORNACI DI BARGA", "Toscana").
+station(n00232, "FORNO ALLIONE", "Unavailable").
+station(s06153, "FORNOVO", "Emilia Romagna").
+station(s06011, "FORTE DEI MARMI SERRAVEZZA Q.", "Toscana").
+station(s02011, "FORTEZZA ", "Trentino Alto Adige").
+station(s06301, "FOSCIANDORA - CESERANA", "Toscana").
+station(s07819, "FOSSACESIA", "Abruzzo").
+station(s07018, "FOSSACESIA - TORINO DI SANGRO", "Abruzzo").
+station(s02667, "FOSSALTA DI PIAVE", "Veneto").
+station(s03201, "FOSSALTA DI PORTOGRUARO", "Veneto").
+station(s00606, "FOSSANO", "Piemonte").
+station(s07209, "FOSSATO DI VICO GUBBIO", "Umbria").
+station(s09506, "FRAGNETO MONFORTE", "Campania").
+station(s04729, "FRAMURA", "Liguria").
+station(s12361, "FRANCAVILLA", "Sicilia").
+station(s07813, "FRANCAVILLA AL MARE", "Abruzzo").
+station(s11752, "FRANCAVILLA ANGITOLA F.", "Calabria").
+station(s11603, "FRANCAVILLA FONTANA", "Puglia").
+station(s12139, "FRANCIA", "Sicilia").
+station(s09842, "FRANCIOSA", "Unavailable").
+station(s08751, "FRASCATI", "Lazio").
+station(s08806, "FRASSO", "Unavailable").
+station(s09305, "FRASSO T. DUGENTA", "Campania").
+station(s02374, "FRATTA", "Veneto").
+station(s09008, "FRATTAMAGGIORE", "Campania").
+station(s11053, "FRATTAROLO", "Puglia").
+station(s09522, "FRATTE", "Campania").
+station(s02524, "FRATTE CENTRO", "Veneto").
+station(s09524, "FRATTE VILLA COMUNALE", "Campania").
+station(s08662, "FROSINONE", "Lazio").
+station(s04200, "FRUGAROLO BOSCOMARENGO", "Piemonte").
+station(s07478, "FRUTIGEN", "Unavailable").
+station(s05726, "FUNO CENTERGROSS", "Emilia Romagna").
+station(s12313, "FURCI", "Sicilia").
+station(s11738, "FUSCALDO", "Calabria").
+station(s04700, "GENOVA P.PRINCIPE", "Liguria").
+station(s11871, "GABELLA GRANDE", "Calabria").
+station(s12358, "GAGGI", "Sicilia").
+station(s01063, "GAGGIANO", "Lombardia").
+station(s02671, "GAGGIO", "Veneto").
+station(s07311, "GAGLIOLE", "Marche").
+station(s05800, "GAIBANELLA", "Emilia Romagna").
+station(s07212, "GAIFANA", "Umbria").
+station(s12305, "GALATI", "Sicilia").
+station(s09900, "GALDO", "Campania").
+station(s01030, "GALLARATE", "Lombardia").
+station(s08113, "GALLESE BASSANELLO", "Lazio").
+station(s08210, "GALLESE IN TEVERINA", "Lazio").
+station(n00054, "GALLIATE", "Unavailable").
+station(s05721, "GALLIERA", "Emilia Romagna").
+station(s02541, "GALLIERA VENETA TOMBOLO", "Veneto").
+station(s00861, "GAMALERO", "Piemonte").
+station(s07997, "GAMBERALE-S.ANGELO P.", "Unavailable").
+station(s05067, "GAMBETTOLA", "Emilia Romagna").
+station(s00274, "GAMBOLO`REMONDO`", "Lombardia").
+station(s00030, "GARBAGNA", "Piemonte").
+station(s00924, "GARESSIO", "Piemonte").
+station(s02218, "GARGAZZONE ", "Unavailable").
+station(n00090, "GARIBALDI", "Unavailable").
+station(s00276, "GARLASCO", "Lombardia").
+station(s05816, "GATTEO A MARE", "Emilia Romagna").
+station(s00052, "GATTINARA", "Piemonte").
+station(s08241, "GAVIGNANO", "Unavailable").
+station(n00028, "GAVIRATE", "Unavailable").
+station(n00029, "GAVIRATE VERBANO", "Unavailable").
+station(s06036, "GAVORRANO", "Toscana").
+station(s01207, "GAZZADA SCHIANNO MORAZZONE", "Lombardia").
+station(s02381, "GAZZO DI BIGARELLO", "Lombardia").
+station(s01917, "GAZZO PIEVE S. GIACOMO", "Lombardia").
+station(s12407, "GELA", "Sicilia").
+station(s08326, "GEMELLI", "Lazio").
+station(s03019, "GEMONA DEL FRIULI", "Friuli Venezia Giulia").
+station(n00031, "GEMONIO", "Unavailable").
+station(s07206, "GENGA S.VITTORE TERME", "Marche").
+station(s04107, "GENOVA ACQUASANTA", "Liguria").
+station(s04218, "GENOVA BOLZANETO", "Liguria").
+station(s04109, "GENOVA BORZOLI", "Liguria").
+station(s04702, "GENOVA BRIGNOLE", "Liguria").
+station(s04538, "GENOVA CORNIGLIANO", "Liguria").
+station(s04110, "GENOVA COSTA DI SESTRI PONENTE", "Liguria").
+station(s04108, "GENOVA GRANARA", "Liguria").
+station(s04603, "GENOVA MARITTIMA S. LIMBANIA", "Liguria").
+station(s04707, "GENOVA NERVI", "Liguria").
+station(s04701, "GENOVA P. PRINCIPE SOTTERRANEA", "Liguria").
+station(s04536, "GENOVA PEGLI", "Liguria").
+station(s04217, "GENOVA PONTEDECIMO", "Liguria").
+station(s04535, "GENOVA PRA", "Liguria").
+station(s04704, "GENOVA QUARTO DEI MILLE", "Liguria").
+station(s04705, "GENOVA QUINTO AL MARE", "Liguria").
+station(s04219, "GENOVA RIVAROLO", "Liguria").
+station(s04222, "GENOVA S.BIAGIO", "Liguria").
+station(s04220, "GENOVA SAMPIERDARENA", "Liguria").
+station(s04213, "GENOVA SAN QUIRICO", "Unavailable").
+station(s04537, "GENOVA SESTRI PONENTE", "Liguria").
+station(s04703, "GENOVA STURLA", "Liguria").
+station(s04540, "GENOVA VESIMA", "Liguria").
+station(s04223, "GENOVA VIA DI FRANCIA", "Liguria").
+station(s04534, "GENOVA VOLTRI", "Liguria").
+station(s04541, "GENOVA VOLTRI MARE", "Unavailable").
+station(n00014, "GERENZANO - TURATE", "Unavailable").
+station(s00096, "GERMAGNANO", "Unavailable").
+station(s01841, "GHEDI", "Lombardia").
+station(s00110, "GHEMME", "Piemonte").
+station(s00974, "GHISLARENGO", "Piemonte").
+station(s06306, "GHIVIZZANO - COREGLIA", "Toscana").
+station(s12138, "GIACHERY", "Sicilia").
+station(s12308, "GIAMPILIERI", "Sicilia").
+station(s00316, "GIAROLE", "Piemonte").
+station(s12324, "GIARRE RIPOSTO", "Sicilia").
+station(s12866, "GIAVE", "Sardegna").
+station(s11462, "GINOSA", "Puglia").
+station(s11505, "GIOIA DEL COLLE", "Puglia").
+station(s11766, "GIOIA TAURO", "Calabria").
+station(s11848, "GIOIOSA JONICA", "Calabria").
+station(s12033, "GIOJOSA MAREA", "Sicilia").
+station(s06084, "GIOVI", "Unavailable").
+station(s11115, "GIOVINAZZO", "Puglia").
+station(s00850, "GIUBIASCO", "Unavailable").
+station(s09100, "GIUGLIANO QUALIANO", "Campania").
+station(s07802, "GIULIANOVA", "Abruzzo").
+station(s07225, "GIUNCANO", "Umbria").
+station(s06037, "GIUNCARICO", "Toscana").
+station(s11748, "GIZZERIA LIDO", "Calabria").
+station(s05809, "GLORIE", "Emilia Romagna").
+station(s05904, "GODO", "Emilia Romagna").
+station(s12366, "GOLE DI ALCANTARA", "Sicilia").
+station(s12852, "GOLFO ARANCI", "Sardegna").
+station(s02344, "GONZAGA-REGGIOLO", "Lombardia").
+station(s07474, "GOPPESTEIN", "Unavailable").
+station(s02766, "GORGO AL MONTICANO", "Veneto").
+station(s08535, "GORIANO SICOLI", "Abruzzo").
+station(s03304, "GORIZIA CENTRALE", "Friuli Venezia Giulia").
+station(s00015, "GOZZANO", "Piemonte").
+station(s09758, "GRAGNANO", "Campania").
+station(s06224, "GRAGNOLA", "Toscana").
+station(s12272, "GRAMMICHELE", "Sicilia").
+station(s06801, "GRANAIOLO", "Toscana").
+station(s05955, "GRANAROLO", "Emilia Romagna").
+station(n00041, "GRANDATE - BRECCIA", "Unavailable").
+station(s12359, "GRANITI", "Sicilia").
+station(s11456, "GRASSANO", "Basilicata").
+station(s00007, "GRAVELLONA TOCE", "Piemonte").
+station(s11306, "GRAVINA IN PUGLIA", "Puglia").
+station(s07403, "GRECCIO", "Lazio").
+station(s09300, "GRICIGNANO", "Campania").
+station(s03315, "GRIGNANO", "Friuli Venezia Giulia").
+station(s00106, "GRIGNASCO", "Piemonte").
+station(s02317, "GRIGNO", "Trentino Alto Adige").
+station(s02579, "GRISIGNANO DI ZOCCO", "Veneto").
+station(s11729, "GRISOLIA S.MARIA", "Calabria").
+station(s05133, "GRIZZANA", "Emilia Romagna").
+station(s01927, "GROANE", "Unavailable").
+station(s00277, "GROPELLO CAIROLI", "Lombardia").
+station(s06039, "GROSSETO", "Toscana").
+station(s11602, "GROTTAGLIE", "Puglia").
+station(s07512, "GROTTAMMARE", "Marche").
+station(s12372, "GROTTE", "Sicilia").
+station(s08301, "GROTTE S.STEFANO", "Lazio").
+station(s01537, "GRUMELLO DEL MONTE", "Lombardia").
+station(s11502, "GRUMO APPULA", "Puglia").
+station(s07211, "GUALDO TADINO", "Umbria").
+station(s11843, "GUARDAVALLE", "Calabria").
+station(s12327, "GUARDIA MANGANO SANTA VENERINA", "Sicilia").
+station(s11737, "GUARDIA PIEMONTESE TERME", "Calabria").
+station(s09456, "GUARDIAREGIA", "Molise").
+station(s08506, "GUIDONIA-MONTECELLO-S.ANGELO", "Lazio").
+station(s00125, "GYEKENYES", "Unavailable").
+station(s00147, "HONE BARD", "Valle d'Aosta").
+station(s29399, "HORB", "Unavailable").
+station(s05818, "IGEA MARINA", "Emilia Romagna").
+station(s12950, "IGLESIAS", "Sardegna").
+station(s06958, "IL CIONFO", "Unavailable").
+station(s06957, "IL CIONFO BIN. LE CURE", "Toscana").
+station(s06951, "IL CIONFO BIN. SALVIATI", "Toscana").
+station(s06424, "IL NETO", "Toscana").
+station(s05054, "IMOLA", "Emilia Romagna").
+station(s04510, "IMPERIA ONEGLIA", "Unavailable").
+station(s04509, "IMPERIA PORTO MAURIZIO", "Unavailable").
+station(s06907, "INCISA", "Toscana").
+station(s00835, "INCISA SCAPACCINO", "Piemonte").
+station(s11101, "INCORONATA", "Puglia").
+station(s06914, "INDICATORE", "Toscana").
+station(s01204, "INDUNO OLONA", "Lombardia").
+station(s01093, "INVERIGO", "Unavailable").
+station(s08330, "IPOGEO DEGLI OTTAVI", "Lazio").
+station(s01952, "ISELLE DI TRASQUERA", "Unavailable").
+station(n00210, "ISEO", "Lombardia").
+station(s09053, "ISERNIA", "Molise").
+station(s11825, "ISOLA CAPO RIZZUTO", "Calabria").
+station(s04210, "ISOLA DEL CANTONE", "Liguria").
+station(s05307, "ISOLA DELLA SCALA", "Veneto").
+station(s12129, "ISOLA DELLE FEMMINE", "Sicilia").
+station(s00347, "ISOLA D`ASTI", "Piemonte").
+station(s08858, "ISOLA LIRI", "Lazio").
+station(s08665, "ISOLETTA-S.GIOVANNI I.", "Lazio").
+station(s12421, "ISPICA", "Sicilia").
+station(s01121, "ISPRA", "Lombardia").
+station(s02539, "ISTRANA", "Veneto").
+station(s08607, "ITRI", "Lazio").
+station(s00154, "IVREA", "Piemonte").
+station(s01176, "JENBACH", "Unavailable").
+station(s07202, "JESI", "Marche").
+station(s11763, "JOPPOLO", "Calabria").
+station(s07475, "KANDERSTEG", "Unavailable").
+station(s01800, "KARLSRUHE HBF", "Unavailable").
+station(s03612, "KNITTEFELD", "Unavailable").
+station(s02100, "KOELN HBF", "Unavailable").
+station(s73107, "KRIZEVCI", "Unavailable").
+station(s00634, "LA BRIGUE", "Unavailable").
+station(s08808, "LA FIORA", "Lazio").
+station(s08321, "LA GIUSTINIANA", "Lazio").
+station(s08514, "LA RUSTICA UIR", "Unavailable").
+station(s00132, "LA SALLE", "Valle d'Aosta").
+station(s06000, "LA SPEZIA CENTRALE", "Liguria").
+station(s06004, "LA SPEZIA MIGLIARINA", "Liguria").
+station(s08320, "LA STORTA", "Lazio").
+station(s08654, "LABICO", "Unavailable").
+station(s07427, "LABRO MOGGIO", "Lazio").
+station(s02207, "LACES", "Trentino Alto Adige").
+station(s08021, "LADISPOLI-CERVETERI", "Lazio").
+station(s09911, "LAGONEGRO", "Basilicata").
+station(s04514, "LAIGUEGLIA", "Liguria").
+station(s02029, "LAIVES ", "Trentino Alto Adige").
+station(s05418, "LAMA", "Veneto").
+station(s05121, "LAMA DI RENO", "Emilia Romagna").
+station(s01869, "LAMBRINIA", "Lombardia").
+station(s01094, "LAMBRUGO - LURAGO D'ERBA", "Unavailable").
+station(s11749, "LAMEZIA TERME CENTRALE", "Calabria").
+station(s11951, "LAMEZIA TERME NICASTRO", "Calabria").
+station(s11950, "LAMEZIA TERME SAMBIASE", "Calabria").
+station(s02219, "LANA-POSTAL ", "Trentino Alto Adige").
+station(s02710, "LANCENIGO", "Veneto").
+station(n00092, "LANCETTI", "Unavailable").
+station(s07986, "LANCIANO", "Unavailable").
+station(s08733, "LANUVIO", "Lazio").
+station(s09707, "LANZARA FIMIANI", "Campania").
+station(s00095, "LANZO", "Unavailable").
+station(s09604, "LAPIO", "Unavailable").
+station(s09466, "LARINO", "Molise").
+station(s02204, "LASA", "Trentino Alto Adige").
+station(s12018, "LASCARI", "Sicilia").
+station(s06912, "LATERINA", "Toscana").
+station(s11606, "LATIANO", "Puglia").
+station(s08608, "LATINA", "Lazio").
+station(s03202, "LATISANA LIGNANO B.", "Friuli Venezia Giulia").
+station(s00421, "LAURIANO", "Piemonte").
+station(s04723, "LAVAGNA", "Liguria").
+station(s01118, "LAVENO MOMBELLO", "Lombardia").
+station(s05806, "LAVEZZOLA", "Emilia Romagna").
+station(s05041, "LAVINO", "Emilia Romagna").
+station(s02037, "LAVIS", "Trentino Alto Adige").
+station(s09708, "LAVORATE", "Campania").
+station(s02009, "LE CAVE", "Unavailable").
+station(s06516, "LE PIAGGE", "Toscana").
+station(s11145, "LECCE", "Puglia").
+station(s01520, "LECCO", "Lombardia").
+station(s01522, "LECCO MAGGIANICO", "Lombardia").
+station(s01120, "LEGGIUNO MONVALLE", "Lombardia").
+station(s02366, "LEGNAGO", "Veneto").
+station(s01033, "LEGNANO", "Lombardia").
+station(s02373, "LENDINARA", "Veneto").
+station(s12341, "LENTINI", "Sicilia").
+station(s12340, "LENTINI DIRAMAZIONE", "Sicilia").
+station(s11219, "LEONESSA", "Basilicata").
+station(s12239, "LEONFORTE-PIRATO", "Sicilia").
+station(s12205, "LERCARA BASSA", "Sicilia").
+station(s02578, "LERINO", "Veneto").
+station(s01018, "LESA", "Piemonte").
+station(s00954, "LESEGNO", "Piemonte").
+station(s01501, "LESMO", "Lombardia").
+station(s12316, "LETOJANNI", "Sicilia").
+station(s02568, "LEVADA", "Veneto").
+station(s04731, "LEVANTO", "Liguria").
+station(s02019, "LEVATA", "Unavailable").
+station(s02309, "LEVICO", "Trentino Alto Adige").
+station(n00075, "LEZZA - CARPESINO", "Unavailable").
+station(s12400, "LICATA", "Sicilia").
+station(s05813, "LIDO DI CLASSE-LIDO DI SAVIO", "Emilia Romagna").
+station(s08708, "LIDO DI LAVINIO", "Lazio").
+station(n00052, "LIDO DI TURBIGO", "Unavailable").
+station(s01413, "LIERNA", "Lombardia").
+station(s00617, "LIMONE", "Piemonte").
+station(s09616, "LIONI", "Campania").
+station(s09628, "LIONI VALLE DELLE VITI", "Campania").
+station(s11124, "LISIDE", "Unavailable").
+station(s02530, "LISIERA", "Veneto").
+station(s02663, "LISON", "Veneto").
+station(s01321, "LISSONE-MUGGIO`", "Lombardia").
+station(s06725, "LIVORNO CENTRALE", "Toscana").
+station(s00237, "LIVORNO FERRARIS", "Piemonte").
+station(s04519, "LOANO", "Liguria").
+station(s01801, "LOCATE TRIULZI", "Lombardia").
+station(n00017, "LOCATE V. - CARBONATE", "Unavailable").
+station(s11851, "LOCRI", "Calabria").
+station(s01825, "LODI", "Lombardia").
+station(n00036, "LOMAZZO", "Unavailable").
+station(s00405, "LOMELLO", "Lombardia").
+station(s02083, "LONATO", "Lombardia").
+station(s02556, "LONGARONE ZOLDO", "Veneto").
+station(s11742, "LONGOBARDI", "Calabria").
+station(s02441, "LONIGO", "Veneto").
+station(s05423, "LOREO", "Veneto").
+station(s07503, "LORETO", "Marche").
+station(s06404, "LUCCA", "Toscana").
+station(s06069, "LUCIGNANO - MARCIANO - POZZO", "Unavailable").
+station(s05951, "LUGO", "Emilia Romagna").
+station(s01113, "LUINO", "Lombardia").
+station(s03125, "LUMIGNACCO", "Friuli Venezia Giulia").
+station(s01806, "LUNGAVILLA", "Lombardia").
+station(s08503, "LUNGHEZZA", "Lazio").
+station(s06003, "LUNI", "Unavailable").
+station(s09606, "LUOGOSANO", "Campania").
+station(s00523, "LUSERNA S. GIOVANNI", "Piemonte").
+station(s76290, "LYON ST EXUPERY", "Unavailable").
+station(s07414, "L`AQUILA", "Abruzzo").
+station(s01700, "MILANO CENTRALE", "Lombardia").
+station(s13653, "MACCAGNO", "Unavailable").
+station(s08020, "MACCARESE", "Lazio").
+station(s07307, "MACERATA", "Marche").
+station(s07313, "MACERATA FONTESCODELLA", "Marche").
+station(s01500, "MACHERIO SOVICO", "Lombardia").
+station(s01484, "MACHERIO-CANONICA", "Lombardia").
+station(s12869, "MACOMER", "Sardegna").
+station(s00607, "MADDALENE", "Piemonte").
+station(s09212, "MADDALONI INFERIORE", "Campania").
+station(s09303, "MADDALONI SUPERIORE", "Campania").
+station(s01610, "MADIGNANO", "Lombardia").
+station(s08108, "MADONNA DEL PIANO", "Lazio").
+station(s00820, "MADONNA DEL PILONE", "Piemonte").
+station(s00501, "MADONNA DELLA SCALA", "Piemonte").
+station(s09773, "MADONNA DELLE GRAZIE", "Unavailable").
+station(s00083, "MADONNA DI CAMPAGNA", "Unavailable").
+station(s12853, "MADONNA DI CASTRO", "Sardegna").
+station(s02512, "MAERNE DI MARTELLAGO", "Veneto").
+station(s01040, "MAGENTA", "Lombardia").
+station(s07002, "MAGIONE", "Umbria").
+station(s08404, "MAGLIANA", "Lazio").
+station(s00951, "MAGLIANO CRAVA MOROZZO", "Piemonte").
+station(s11042, "MAGNA GRECIA", "Unavailable").
+station(s05159, "MAGNACAVALLO", "Unavailable").
+station(s02033, "MAGRE`- CORTACCIA", "Trentino Alto Adige").
+station(s03051, "MAJANO", "Friuli Venezia Giulia").
+station(s01910, "MALEO", "Lombardia").
+station(s02200, "MALLES VENOSTA", "Trentino Alto Adige").
+station(n00023, "MALNATE", "Unavailable").
+station(n00233, "MALONNO", "Unavailable").
+station(s01139, "MALPENSA", "Unavailable").
+station(s07555, "MALTIGNANO DEL TRONTO", "Marche").
+station(s04735, "MANAROLA", "Liguria").
+station(s11817, "MANDATORICCIO CAMPANA", "Calabria").
+station(s08512, "MANDELA-SAMBUCI", "Lazio").
+station(s01415, "MANDELLO DEL LARIO", "Lombardia").
+station(n00203, "MANDOLOSSA", "Unavailable").
+station(s12898, "MANDRAS", "Unavailable").
+station(s01902, "MANERBIO", "Lombardia").
+station(s11054, "MANFREDONIA", "Puglia").
+station(s03084, "MANIAGO", "Friuli Venezia Giulia").
+station(s07710, "MANOPPELLO", "Abruzzo").
+station(s00700, "MANTA", "Piemonte").
+station(s02336, "MANTOVA", "Lombardia").
+station(s02380, "MANTOVA FRASSINE", "Lombardia").
+station(s03030, "MANZANO", "Friuli Venezia Giulia").
+station(s08314, "MANZIANA-CANALE MONTERANO", "Lazio").
+station(s02142, "MARANO", "Veneto").
+station(s00983, "MARANO TICINO", "Piemonte").
+station(s11723, "MARATEA", "Basilicata").
+station(s12104, "MARAUSA", "Sicilia").
+station(s01921, "MARCARIA", "Lombardia").
+station(s11728, "MARCELLINA VERBICARO ORSOMARSO", "Calabria").
+station(s08507, "MARCELLINA-PALOMBARA", "Lazio").
+station(s11953, "MARCELLINARA", "Calabria").
+station(s09301, "MARCIANISE", "Campania").
+station(s11121, "MARCONI", "Unavailable").
+station(s11800, "MARCONIA", "Basilicata").
+station(s08716, "MARECHIARO", "Lazio").
+station(s00902, "MARGARITA", "Piemonte").
+station(s11107, "MARGHERITA DI SAV./OFANTINO", "Puglia").
+station(s01089, "MARIANO COMENSE", "Lombardia").
+station(s12234, "MARIANOPOLI", "Sicilia").
+station(s09750, "MARIGLIANO", "Campania").
+station(s08022, "MARINA DI CERVETERI", "Lazio").
+station(s11724, "MARINA DI MARATEA", "Basilicata").
+station(s11862, "MARINA DI SAN LORENZO", "Calabria").
+station(s12854, "MARINELLA", "Sardegna").
+station(s08701, "MARINO", "Lazio").
+station(s07556, "MARINO DEL TRONTO FOLIGNANO", "Marche").
+station(s02214, "MARLENGO", "Trentino Alto Adige").
+station(s07401, "MARMORE", "Umbria").
+station(n00214, "MARONE - ZONE", "Unavailable").
+station(s07107, "MAROTTA MONDOLFO", "Marche").
+station(s06610, "MARRADI", "Toscana").
+station(s12879, "MARRUBIU TERRALBA ARBOREA", "Sardegna").
+station(s12107, "MARSALA", "Sicilia").
+station(s05105, "MARZABOTTO", "Emilia Romagna").
+station(s12444, "MARZAMEMI", "Sicilia").
+station(s07109, "MARZOCCA", "Marche").
+station(s12323, "MASCALI", "Sicilia").
+station(s04811, "MASCHIO", "Liguria").
+station(s05171, "MASI TORELLO", "Unavailable").
+station(s06009, "MASSA CENTRO", "Toscana").
+station(s05179, "MASSAFISCAGLIA", "Unavailable").
+station(s11510, "MASSAFRA", "Puglia").
+station(s05952, "MASSALOMBARDA", "Emilia Romagna").
+station(s06350, "MASSAROSA BOZZANO", "Toscana").
+station(s07301, "MATELICA", "Marche").
+station(s00093, "MATHI", "Unavailable").
+station(s02263, "MATREI", "Unavailable").
+station(s09461, "MATRICE MONTAGANO", "Molise").
+station(s02040, "MATTARELLO", "Unavailable").
+station(s12110, "MAZARA DEL VALLO", "Sicilia").
+station(s01087, "MEDA", "Unavailable").
+station(s00406, "MEDE", "Lombardia").
+station(s06102, "MEDESANO", "Emilia Romagna").
+station(s03082, "MEDUNO", "Friuli Venezia Giulia").
+station(s01019, "MEINA", "Piemonte").
+station(s07065, "MELANO MARISCHIO", "Marche").
+station(s04106, "MELE", "Liguria").
+station(s01822, "MELEGNANO", "Lombardia").
+station(s11206, "MELFI", "Basilicata").
+station(s11863, "MELITO DI PORTO SALVO", "Calabria").
+station(s01705, "MELZO", "Lombardia").
+station(s02215, "MELZO SCALO", "Unavailable").
+station(s06075, "MEMMENANO", "Unavailable").
+station(s75648, "MENTON", "Unavailable").
+station(s02668, "MEOLO", "Veneto").
+station(s00875, "MERANA", "Piemonte").
+station(s02216, "MERANO", "Trentino Alto Adige").
+station(s02217, "MERANO MAIA BASSA", "Trentino Alto Adige").
+station(s09706, "MERCATO SAN SEVERINO", "Campania").
+station(s00156, "MERCENASCO", "Piemonte").
+station(s01012, "MERGOZZO", "Piemonte").
+station(s01454, "MERONE", "Lombardia").
+station(s11607, "MESAGNE", "Puglia").
+station(s12301, "MESSINA CENTRALE", "Sicilia").
+station(s12300, "MESSINA MARITTIMA", "Sicilia").
+station(s02580, "MESTRINO", "Veneto").
+station(s11461, "METAPONTO", "Basilicata").
+station(s01851, "MEZZANI RONDANI", "Emilia Romagna").
+station(s05810, "MEZZANO", "Emilia Romagna").
+station(s02035, "MEZZOCORONA", "Trentino Alto Adige").
+station(s01647, "MI P.GAR.SOTT.", "Lombardia").
+station(s01631, "MI.P.GENOVA", "Lombardia").
+station(s05176, "MIGLIARINO", "Unavailable").
+station(s05178, "MIGLIARO", "Unavailable").
+station(s04212, "MIGNANEGO", "Liguria").
+station(s09201, "MIGNANO DI MONTE LUNGO", "Campania").
+station(s01078, "MILANO AFFORI", "Unavailable").
+station(s01642, "MILANO BOVISA FNM", "Lombardia").
+station(s01079, "MILANO BRUZZANO", "Unavailable").
+station(s01640, "MILANO CERTOSA", "Lombardia").
+station(s01650, "MILANO DATEO", "Lombardia").
+station(s01644, "MILANO FARINI", "Unavailable").
+station(s01326, "MILANO GRECO PIRELLI", "Lombardia").
+station(s01701, "MILANO LAMBRATE", "Lombardia").
+station(s01643, "MILANO LANCETTI", "Lombardia").
+station(s01066, "MILANO NORD CADORNA", "Unavailable").
+station(s01067, "MILANO NORD DOMODOSSOLA", "Unavailable").
+station(s01069, "MILANO NORD QUARTO OGGIARO ", "Unavailable").
+station(s01645, "MILANO PORTA GARIBALDI", "Lombardia").
+station(s01632, "MILANO PORTA ROMANA", "Lombardia").
+station(s01633, "MILANO PORTA VITTORIA", "Lombardia").
+station(s01648, "MILANO REPUBBLICA", "Unavailable").
+station(s01820, "MILANO ROGOREDO", "Lombardia").
+station(s01032, "MILANO ROMOLO", "Lombardia").
+station(s01630, "MILANO S. CRISTOFORO", "Lombardia").
+station(s01649, "MILANO VENEZIA", "Lombardia").
+station(s01639, "MILANO VILLAPIZZONE", "Unavailable").
+station(s12042, "MILAZZO", "Sicilia").
+station(s11790, "MILETO", "Calabria").
+station(s12276, "MILITELLO", "Sicilia").
+station(s06954, "MIMMOLE", "Toscana").
+station(s12275, "MINEO", "Sicilia").
+station(s11403, "MINERVINO MURGE", "Puglia").
+station(s09150, "MINTURNO", "Lazio").
+station(s06227, "MINUCCIANO - PIEVE - CASOLA", "Toscana").
+station(s02588, "MIRA MIRANO", "Veneto").
+station(s01867, "MIRADOLO TERME", "Lombardia").
+station(s03311, "MIRAMARE", "Unavailable").
+station(s05311, "MIRANDOLA", "Emilia Romagna").
+station(s11814, "MIRTO CROSIA", "Calabria").
+station(s07119, "MISANO ADRIATICO", "Emilia Romagna").
+station(s00201, "MODANE", "Unavailable").
+station(s00190, "MODANE FX", "Unavailable").
+station(s05032, "MODENA", "Emilia Romagna").
+station(s12417, "MODICA", "Sicilia").
+station(s11500, "MODUGNO", "Unavailable").
+station(s11515, "MODUGNO CITTA`", "Puglia").
+station(s02717, "MOGLIANO VENETO", "Veneto").
+station(s01456, "MOIANA", "Lombardia").
+station(s03058, "MOIMACCO", "Unavailable").
+station(s12363, "MOJO-ALCANTARA MALVAGNA", "Sicilia").
+station(s11127, "MOLA DI BARI", "Puglia").
+station(s04102, "MOLARE", "Piemonte").
+station(s11114, "MOLFETTA", "Puglia").
+station(s07424, "MOLINA CASTEL VECCHIO SUBAQUEO", "Abruzzo").
+station(s05112, "MOLINO DEL PALLONE", "Emilia Romagna").
+station(s01458, "MOLTENO", "Lombardia").
+station(s00873, "MOMBALDONE ROCCAVERANO", "Piemonte").
+station(s00808, "MOMBARUZZO", "Piemonte").
+station(s00019, "MOMO", "Piemonte").
+station(s11844, "MONASTERACE STILO", "Calabria").
+station(s00721, "MONASTERO PRATAVECCHI", "Piemonte").
+station(s00453, "MONCALIERI", "Piemonte").
+station(s00510, "MONCALIERI SANGONE", "Piemonte").
+station(s00340, "MONCALVO", "Piemonte").
+station(s00735, "MONCHIERO DOGLIANI", "Piemonte").
+station(s00952, "MONDOVI`", "Piemonte").
+station(s04727, "MONEGLIA", "Liguria").
+station(s03310, "MONFALCONE", "Friuli Venezia Giulia").
+station(s00801, "MONGARDINO", "Piemonte").
+station(s11905, "MONGRASSANO CERVICATI", "Calabria").
+station(s02111, "MONGUELFO VALLE DI CASIES", "Trentino Alto Adige").
+station(s11129, "MONOPOLI", "Puglia").
+station(s07553, "MONSAMPOLO DEL TRONTO", "Marche").
+station(s05703, "MONSELICE", "Veneto").
+station(s02392, "MONTAGNANA", "Veneto").
+station(s09319, "MONTAGUTO PANNI", "Campania").
+station(s06415, "MONTALE AGLIANA", "Toscana").
+station(s06856, "MONTALLESE", "Toscana").
+station(s08008, "MONTALTO DI CASTRO", "Lazio").
+station(s00153, "MONTALTO DORA", "Piemonte").
+station(s11908, "MONTALTO ROSE", "Calabria").
+station(s00160, "MONTANARO", "Piemonte").
+station(s06818, "MONTE AMIATA", "Unavailable").
+station(s06820, "MONTE ANTICO", "Toscana").
+station(s12973, "MONTE ARCAU", "Sardegna").
+station(s11805, "MONTE GIORDANO", "Calabria").
+station(s07014, "MONTE MELINO", "Umbria").
+station(s06068, "MONTE S. SAVINO", "Unavailable").
+station(s08605, "MONTE S.BIAGIO", "Lazio").
+station(s02443, "MONTEBELLO", "Veneto").
+station(s02570, "MONTEBELLUNA", "Veneto").
+station(s09315, "MONTECALVO BUONALBERGO CASALB.", "Campania").
+station(s06408, "MONTECARLO SAN SALVATORE", "Toscana").
+station(s07203, "MONTECAROTTO CASTELBELLINO", "Marche").
+station(s06412, "MONTECATINI CENTRO", "Toscana").
+station(s06411, "MONTECATINI TERME", "Toscana").
+station(s00872, "MONTECHIARO DENICE", "Piemonte").
+station(s00428, "MONTECHIARO D`ASTI", "Piemonte").
+station(s09822, "MONTECORVINO", "Campania").
+station(s07310, "MONTECOSARO", "Marche").
+station(s09602, "MONTEFALCIONE", "Campania").
+station(s08303, "MONTEFIASCONE", "Lazio").
+station(s09529, "MONTEFREDANE", "Campania").
+station(s00803, "MONTEGROSSO", "Piemonte").
+station(s11601, "MONTEIASI", "Puglia").
+station(s09612, "MONTELLA", "Campania").
+station(s01535, "MONTELLO GORLAGO", "Lombardia").
+station(s06511, "MONTELUPO CAPRAIA", "Toscana").
+station(s12203, "MONTEMAGGIORE", "Sicilia").
+station(s09610, "MONTEMARANO", "Campania").
+station(s07110, "MONTEMARCIANO", "Marche").
+station(s09603, "MONTEMILETTO", "Campania").
+station(s07825, "MONTENERO PETACCIATO", "Molise").
+station(s11836, "MONTEPAONE - MONTAURO", "Calabria").
+station(s06038, "MONTEPESCALI", "Toscana").
+station(s07554, "MONTEPRANDONE", "Marche").
+station(s06855, "MONTEPULCIANO", "Toscana").
+station(s03085, "MONTEREALE VALCELLINA", "Friuli Venezia Giulia").
+station(s09057, "MONTERODUNI", "Molise").
+station(s06871, "MONTERONI D`ARBIA", "Toscana").
+station(s04732, "MONTEROSSO", "Liguria").
+station(s07062, "MONTEROSSO MARCHE", "Marche").
+station(s08215, "MONTEROTONDO", "Lazio").
+station(s09909, "MONTESANO BUONABITACOLO", "Campania").
+station(s05801, "MONTESANTO", "Emilia Romagna").
+station(s07808, "MONTESILVANO", "Abruzzo").
+station(s00422, "MONTEU DA PO", "Piemonte").
+station(s06910, "MONTEVARCHI TERRANUOVA", "Toscana").
+station(s09624, "MONTEVERDE", "Basilicata").
+station(s12857, "MONTI TELTI", "Sardegna").
+station(s09622, "MONTICCHIO", "Basilicata").
+station(s01971, "MONTICELLI D`ONGINA", "Emilia Romagna").
+station(s00823, "MONTICELLO D`ALBA", "Piemonte").
+station(s00426, "MONTIGLIO MURISENGO", "Piemonte").
+station(s01840, "MONTIRONE", "Lombardia").
+station(s00144, "MONTJOVET", "Valle d'Aosta").
+station(s09518, "MONTORO FORINO", "Campania").
+station(s09517, "MONTORO SUPERIORE", "Campania").
+station(s09528, "MONTORSI", "Campania").
+station(s06601, "MONTORSOLI", "Toscana").
+station(s01235, "MONTREUX", "Unavailable").
+station(s01322, "MONZA", "Lombardia").
+station(s01480, "MONZA SOBBORGHI", "Lombardia").
+station(s06225, "MONZONE-M.DEI BANCHI-ISOLANO", "Toscana").
+station(s05132, "MONZUNO", "Emilia Romagna").
+station(s00177, "MORANO SUL PO", "Piemonte").
+station(s01425, "MORBEGNO", "Lombardia").
+station(s09503, "MORCONE", "Campania").
+station(s01710, "MORENGO BARIANO", "Lombardia").
+station(s12864, "MORES ITTIREDDU", "Sardegna").
+station(s00544, "MORETTA", "Piemonte").
+station(s00131, "MORGEX", "Valle d'Aosta").
+station(s02046, "MORI", "Trentino Alto Adige").
+station(s01144, "MORNAGO CIMBRO", "Lombardia").
+station(s08660, "MOROLO", "Lazio").
+station(n00026, "MOROSOLO - CASCIAGO", "Unavailable").
+station(s09617, "MORRA DE SANCTIS TEORA", "Campania").
+station(s08813, "MORREA-CASTRONOVO-RENDINARA", "Unavailable").
+station(s07309, "MORROVALLE MONTE S.GIUSTO", "Marche").
+station(s00034, "MORTARA", "Lombardia").
+station(s07904, "MOSCIANO S. ANGELO", "Abruzzo").
+station(s03302, "MOSSA", "Friuli Venezia Giulia").
+station(s12360, "MOTTA CAMASTRA", "Sicilia").
+station(s02767, "MOTTA DI LIVENZA", "Veneto").
+station(s01862, "MOTTA S. DAMIANO", "Lombardia").
+station(s11865, "MOTTA SAN GIOVANNI LAZZARO", "Calabria").
+station(s02339, "MOTTEGGIANA", "Lombardia").
+station(s12105, "MOZIA-BIRGI", "Sicilia").
+station(n00016, "MOZZATE", "Unavailable").
+station(s02332, "MOZZECANE", "Veneto").
+station(s04713, "MULINETTI", "Liguria").
+station(s08400, "MURATELLA", "Lazio").
+station(s06876, "MURLO", "Toscana").
+station(s12953, "MUSEI", "Sardegna").
+station(s05139, "MUSIANO-PIAN DI MACINA", "Emilia Romagna").
+station(s00824, "MUSSOTTO", "Piemonte").
+station(s03204, "MUZZANA DEL TURGNANO", "Friuli Venezia Giulia").
+station(s09218, "NAPOLI CENTRALE", "Campania").
+station(s03624, "NAGYKANIZSA", "Unavailable").
+station(s09103, "NAPOLI CAMPI FLEGREI", "Campania").
+station(s09110, "NAPOLI GIANTURCO", "Campania").
+station(s09105, "NAPOLI MERGELLINA", "Campania").
+station(s09107, "NAPOLI MONTESANTO", "Campania").
+station(s09109, "NAPOLI PIAZZA GARIBALDI", "Campania").
+station(s09104, "NAPOLI PIAZZA LEOPARDI", "Campania").
+station(s09800, "NAPOLI S.GIOV.BARRA", "Campania").
+station(s09010, "NAPOLI SCALO MERCI", "Unavailable").
+station(s09220, "NAPOLI TRACCIA", "Unavailable").
+station(s07230, "NARNI AMELIA", "Umbria").
+station(s00734, "NARZOLE", "Piemonte").
+station(s11600, "NASISI", "Puglia").
+station(s02211, "NATURNO", "Trentino Alto Adige").
+station(s06502, "NAVACCHIO", "Toscana").
+station(s00827, "NEIVE", "Piemonte").
+station(s07229, "NERA MONTORO", "Umbria").
+station(s08710, "NETTUNO", "Lazio").
+station(n00227, "NIARDO - LOSINE", "Unavailable").
+station(s00976, "NIBBIA", "Piemonte").
+station(s00511, "NICHELINO", "Piemonte").
+station(s00273, "NICORVO", "Lombardia").
+station(s11764, "NICOTERA", "Calabria").
+station(s00739, "NIELLA", "Piemonte").
+station(s12392, "NISCEMI", "Sicilia").
+station(s12311, "NIZZA DI SICILIA", "Sicilia").
+station(s00834, "NIZZA MONFERRATO", "Piemonte").
+station(s02510, "NOALE SCORZE`", "Veneto").
+station(s09814, "NOCERA INFERIORE", "Campania").
+station(s09709, "NOCERA INFERIORE MERCATO", "Campania").
+station(s09815, "NOCERA SUPERIORE", "Campania").
+station(s11746, "NOCERA TIRINESE", "Calabria").
+station(s07213, "NOCERA UMBRA", "Umbria").
+station(s06101, "NOCETO", "Emilia Romagna").
+station(s05310, "NOGARA", "Veneto").
+station(s09700, "NOLA", "Campania").
+station(s09699, "NOLA INTERPORTO", "Unavailable").
+station(s00091, "NOLE", "Unavailable").
+station(s00513, "NONE", "Piemonte").
+station(s07903, "NOTARESCO", "Abruzzo").
+station(s12424, "NOTO", "Sicilia").
+station(s12446, "NOTO BAGNI", "Unavailable").
+station(s03303, "NOVA GORICA", "Unavailable").
+station(s11803, "NOVA SIRI ROTONDELLA", "Basilicata").
+station(s00248, "NOVARA", "Piemonte").
+station(s00023, "NOVARA FERROVIA NORD MILANO", "Unavailable").
+station(s12039, "NOVARA MONTALBANO FURNARI", "Sicilia").
+station(n00055, "NOVARA NORD", "Unavailable").
+station(s01070, "NOVATE MILANESE", "Unavailable").
+station(s01403, "NOVATE-MEZZOLA", "Lombardia").
+station(s02734, "NOVE", "Veneto").
+station(s04203, "NOVI LIGURE", "Piemonte").
+station(s06351, "NOZZANO", "Toscana").
+station(s00920, "NUCETTO", "Piemonte").
+station(s08231, "NUOVO SALARIO", "Lazio").
+station(s00140, "NUS", "Valle d'Aosta").
+station(s09614, "NUSCO", "Campania").
+station(s05710, "OCCHIOBELLO", "Veneto").
+station(s02765, "ODERZO", "Veneto").
+station(s11968, "OFFICINE G.R. SALINE JONICHE", "Unavailable").
+station(s07551, "OFFIDA CASTEL DI LAMA", "Marche").
+station(s01460, "OGGIONO", "Lombardia").
+station(s12855, "OLBIA", "Sardegna").
+station(s12901, "OLBIA MARITTIMA ISOLA BIANCA", "Sardegna").
+station(s00244, "OLCENENGO", "Piemonte").
+station(s01414, "OLCIO", "Lombardia").
+station(s00984, "OLEGGIO", "Piemonte").
+station(s00036, "OLEVANO", "Lombardia").
+station(s08333, "OLGIATA", "Lazio").
+station(s01514, "OLGIATE-CALCO-BRIVIO", "Lombardia").
+station(s12037, "OLIVERI TINDARI", "Sicilia").
+station(s04480, "OLIVETTA SAN MICHELE", "Liguria").
+station(s01905, "OLMENETA", "Lombardia").
+station(s02760, "OLMI SPERCENIGO", "Veneto").
+station(s01150, "OLTEN", "Unavailable").
+station(s00010, "OMEGNA", "Piemonte").
+station(s00008, "OMEGNA CRUSINALLO", "Piemonte").
+station(s11708, "OMIGNANO SALENTO", "Campania").
+station(s02031, "ORA", "Trentino Alto Adige").
+station(s08004, "ORBETELLO", "Toscana").
+station(s06022, "ORCIANO", "Toscana").
+station(s11202, "ORDONA", "Puglia").
+station(s11605, "ORIA", "Puglia").
+station(s08518, "ORICOLA-PERETO", "Abruzzo").
+station(s01870, "ORIO LITTA", "Lombardia").
+station(s08313, "ORIOLO", "Lazio").
+station(s02203, "ORIS", "Trentino Alto Adige").
+station(s12878, "ORISTANO", "Sardegna").
+station(s00927, "ORMEA", "Unavailable").
+station(s00006, "ORNAVASSO", "Piemonte").
+station(s12121, "ORSA", "Sicilia").
+station(s02704, "ORSAGO", "Veneto").
+station(s09320, "ORSARA DI PUGLIA", "Puglia").
+station(s00012, "ORTA MIASINO", "Piemonte").
+station(s11102, "ORTANOVA", "Puglia").
+station(s08209, "ORTE", "Lazio").
+station(s07815, "ORTONA", "Abruzzo").
+station(s08203, "ORVIETO", "Umbria").
+station(s12860, "OSCHIRI", "Sardegna").
+station(s07502, "OSIMO CASTELFIDARDO", "Marche").
+station(s01512, "OSNAGO", "Lombardia").
+station(s02395, "OSPEDALETTO EUGANEO", "Veneto").
+station(s01871, "OSPEDALETTO LODIGIANO", "Lombardia").
+station(s07012, "OSPEDALICCHIO", "Umbria").
+station(s02554, "OSPITALE DI CADORE", "Veneto").
+station(s01922, "OSPITALETTO MANTOVANO", "Lombardia").
+station(s01716, "OSPITALETTO TRAVAGLIATO", "Lombardia").
+station(s05175, "OSTELLATO", "Unavailable").
+station(s05302, "OSTERIA NUOVA", "Emilia Romagna").
+station(s06160, "OSTIA PARMENSE", "Emilia Romagna").
+station(s05304, "OSTIGLIA", "Lombardia").
+station(s11132, "OSTUNI", "Puglia").
+station(s08324, "OTTAVIA", "Unavailable").
+station(s09751, "OTTAVIANO", "Campania").
+station(s00204, "OULX CESANA CLAVIERE SESTRIERE", "Piemonte").
+station(s04103, "OVADA", "Piemonte").
+station(s04007, "OVADA NORD", "Piemonte").
+station(s00840, "OVIGLIO", "Piemonte").
+station(s12862, "OZIERI CHILIVANI", "Sardegna").
+station(s12861, "OZIERI FRAIGAS", "Sardegna").
+station(s05055, "OZZANO DELL'EMILIA", "Emilia Romagna").
+station(s00337, "OZZANO MONFERRATO", "Piemonte").
+station(s06152, "OZZANO TARO", "Emilia Romagna").
+station(s12002, "PALERMO CENTRALE", "Sicilia").
+station(s05709, "P.C.CANARO", "Veneto").
+station(s06826, "P.M. BADESSE", "Toscana").
+station(s05047, "P.M. RENO", "Unavailable").
+station(s09717, "P.M.TORRICCHIO", "Unavailable").
+station(s03032, "P.M.VAT", "Friuli Venezia Giulia").
+station(s12881, "PABILLONIS", "Sardegna").
+station(s12045, "PACE DEL MELA", "Sicilia").
+station(s12103, "PACECO", "Sicilia").
+station(s12445, "PACHINO", "Sicilia").
+station(n00205, "PADERNO", "Unavailable").
+station(s01082, "PADERNO DUGNANO", "Unavailable").
+station(s01502, "PADERNO ROBBIATE", "Lombardia").
+station(s08707, "PADIGLIONE", "Lazio").
+station(s02581, "PADOVA", "Veneto").
+station(s02650, "PADOVA CAMPO MARTE", "Unavailable").
+station(s09908, "PADULA", "Campania").
+station(s09313, "PADULI", "Campania").
+station(s02540, "PAESE", "Veneto").
+station(s02602, "PAESE CASTAGNOLE", "Veneto").
+station(s11703, "PAESTUM", "Campania").
+station(s09813, "PAGANI", "Campania").
+station(s07416, "PAGANICA", "Abruzzo").
+station(s11508, "PALAGIANELLO", "Puglia").
+station(s11464, "PALAGIANO CHIATONA", "Puglia").
+station(s11509, "PALAGIANO MOTTOLA", "Puglia").
+station(s12279, "PALAGONIA", "Sicilia").
+station(s12130, "PALAZZO REALE-ORLEANS", "Sicilia").
+station(s11303, "PALAZZO S.GERVASIO - MONTEMIL.", "Basilicata").
+station(s01083, "PALAZZOLO", "Unavailable").
+station(s03203, "PALAZZOLO DELLO STELLA", "Friuli Venezia Giulia").
+station(s01538, "PALAZZOLO SULL`OGLIO", "Lombardia").
+station(s00175, "PALAZZOLO VERCELLESE", "Piemonte").
+station(s08904, "PALENA", "Abruzzo").
+station(s12055, "PALERMO BRANCACCIO", "Sicilia").
+station(s12134, "PALERMO NOTARBARTOLO", "Sicilia").
+station(s00271, "PALESTRO", "Lombardia").
+station(s02343, "PALIDANO", "Lombardia").
+station(s11859, "PALIZZI", "Calabria").
+station(s00002, "PALLANZENO", "Piemonte").
+station(s06220, "PALLERONE", "Toscana").
+station(s09701, "PALMA S.GENNARO", "Campania").
+station(s03122, "PALMANOVA", "Friuli Venezia Giulia").
+station(s11769, "PALMI", "Calabria").
+station(s08018, "PALO LAZIALE", "Lazio").
+station(s07112, "PALOMBINA", "Marche").
+station(s06605, "PANICAGLIA", "Toscana").
+station(s08699, "PANTANELLA", "Unavailable").
+station(s07234, "PANTIERE DI CASTELBELLINO", "Marche").
+station(s11739, "PAOLA", "Calabria").
+station(s01035, "PARABIAGO", "Lombardia").
+station(s01620, "PARATICO SARNICO", "Lombardia").
+station(s08412, "PARCO LEONARDO", "Lazio").
+station(s08495, "PARCO PRENESTINO", "Unavailable").
+station(s08498, "PARCO PRENESTINO BIN. ESTERNI", "Unavailable").
+station(s11759, "PARGHELIA", "Calabria").
+station(s05014, "PARMA", "Emilia Romagna").
+station(s01060, "PARONA LOMELLINA", "Lombardia").
+station(s12124, "PARTINICO", "Sicilia").
+station(s07001, "PASSIGNANO SUL TRASIMENO", "Umbria").
+station(n00206, "PASSIRANO", "Unavailable").
+station(s09607, "PATERNOPOLI", "Campania").
+station(s12036, "PATTI-SAN PIERO PATTI", "Sicilia").
+station(s12874, "PAULILATINO", "Sardegna").
+station(s01860, "PAVIA", "Lombardia").
+station(s01861, "PAVIA PORTA GARIBALDI", "Lombardia").
+station(s08731, "PAVONA", "Lazio").
+station(s07510, "PEDASO", "Marche").
+station(s02567, "PEDEROBBA CAVASO POSSAGNO", "Veneto").
+station(s05154, "PEGOGNAGA", "Unavailable").
+station(s09521, "PELLEZZANO", "Campania").
+station(s00341, "PENANGO", "Piemonte").
+station(s02553, "PERAROLO DI CADORE", "Veneto").
+station(s02060, "PERCA", "Unavailable").
+station(s09627, "PERCIANTI ARIANELLO", "Unavailable").
+station(s02305, "PERGINE", "Trentino Alto Adige").
+station(s07060, "PERGOLA", "Marche").
+station(s02052, "PERI", "Veneto").
+station(s78400, "PERPIGNAN", "Unavailable").
+station(s00311, "PERTENGO", "Piemonte").
+station(s09921, "PERTOSA", "Unavailable").
+station(s07004, "PERUGIA", "Umbria").
+station(s07005, "PERUGIA PONTE S.GIOVANNI", "Umbria").
+station(s07013, "PERUGIA SILVESTRINI", "Unavailable").
+station(s07006, "PERUGIA UNIVERSITA'", "Unavailable").
+station(s07104, "PESARO", "Marche").
+station(s02057, "PESCANTINA", "Unavailable").
+station(s07810, "PESCARA", "Abruzzo").
+station(s07811, "PESCARA PORTA NUOVA", "Abruzzo").
+station(s07017, "PESCARA S. MARCO", "Abruzzo").
+station(s02088, "PESCHIERA DEL GARDA", "Veneto").
+station(s06409, "PESCIA", "Toscana").
+station(s08532, "PESCINA", "Abruzzo").
+station(s08811, "PESCOCANALE", "Abruzzo").
+station(s08915, "PESCOLANCIANO-CHIAUCI", "Molise").
+station(s09507, "PESCOSANNITA FRAGNETO L`ABATE", "Campania").
+station(s00457, "PESSIONE", "Piemonte").
+station(s09901, "PETINA", "Campania").
+station(s12109, "PETROSINO STRASATTI", "Sicilia").
+station(s00011, "PETTENASCO", "Piemonte").
+station(s08901, "PETTORANO SUL GIZIO", "Abruzzo").
+station(s05000, "PIACENZA", "Emilia Romagna").
+station(s01919, "PIADENA", "Lombardia").
+station(s06952, "PIAN DEL MUGNONE", "Toscana").
+station(n00223, "PIAN DI BORNO", "Unavailable").
+station(s05114, "PIAN DI VENOLA", "Emilia Romagna").
+station(s00876, "PIANA", "Liguria").
+station(s08222, "PIANA BELLA MONTELIBRETTI", "Lazio").
+station(s12394, "PIANA DEL SIGNORE", "Sicilia").
+station(s09026, "PIANA DI M.VERNA", "Unavailable").
+station(n00218, "PIANCAMUNO - GRATACASOLO", "Unavailable").
+station(s09317, "PIANEROTTOLO DI ARIANO", "Campania").
+station(s00903, "PIANFEI", "Piemonte").
+station(s07990, "PIANIBBIE", "Unavailable").
+station(s07714, "PIANO D`ORTA BOLOGNANO", "Abruzzo").
+station(s04216, "PIANO ORIZZONTALE DEI GIOVI", "Liguria").
+station(s05131, "PIANORO", "Emilia Romagna").
+station(s02705, "PIANZANO", "Veneto").
+station(s06325, "PIAZZA AL SERCHIO", "Toscana").
+station(s09106, "PIAZZA AMEDEO", "Campania").
+station(s09108, "PIAZZA CAVOUR", "Campania").
+station(s09833, "PICERNO", "Basilicata").
+station(s09999, "PIEDIMONTE MATESE", "Unavailable").
+station(s08680, "PIEDIMONTE-V.S.L.-AQUINO", "Unavailable").
+station(s00003, "PIEDIMULERA", "Piemonte").
+station(s04520, "PIETRA LIGURE", "Liguria").
+station(s04209, "PIETRABISSARA", "Liguria").
+station(s11213, "PIETRAGALLA", "Basilicata").
+station(s11816, "PIETRAPAOLA", "Calabria").
+station(s09801, "PIETRARSA", "Campania").
+station(s06012, "PIETRASANTA", "Toscana").
+station(s09508, "PIETRELCINA", "Campania").
+station(s00402, "PIEVE ALBIGNOLA", "Lombardia").
+station(s01104, "PIEVE EMANUELE", "Unavailable").
+station(s04711, "PIEVE LIGURE", "Liguria").
+station(s00004, "PIEVE VERGONTE", "Piemonte").
+station(s00922, "PIEVETTA", "Piemonte").
+station(s09207, "PIGNATARO MAGGIORE", "Campania").
+station(n00211, "PILZONE", "Unavailable").
+station(s01931, "PINAROLO PO", "Lombardia").
+station(s00517, "PINEROLO", "Piemonte").
+station(s00082, "PINEROLO OLIMPICA", "Piemonte").
+station(s08334, "PINETO", "Lazio").
+station(s07806, "PINETO ATRI", "Abruzzo").
+station(s13966, "PINO CONFINE", "Unavailable").
+station(s01110, "PINO T.", "Unavailable").
+station(s03055, "PINZANO", "Friuli Venezia Giulia").
+station(s01703, "PIOLTELLO LIMITO", "Lombardia").
+station(s06770, "PIOMBINO", "Toscana").
+station(s06775, "PIOMBINO BINARI MARE", "Toscana").
+station(s02509, "PIOMBINO DESE", "Veneto").
+station(s01406, "PIONA", "Lombardia").
+station(s05106, "PIOPPE DI SALVARO", "Emilia Romagna").
+station(s02598, "PIOVE DI SACCO", "Unavailable").
+station(s12125, "PIRAINETO", "Sicilia").
+station(s06450, "PISA BINARI AEROPORTO", "Toscana").
+station(s06500, "PISA CENTRALE", "Toscana").
+station(s06501, "PISA SAN ROSSORE", "Toscana").
+station(s00515, "PISCINA DI PINEROLO", "Piemonte").
+station(s09625, "PISCIOLO", "Basilicata").
+station(s11712, "PISCIOTTA PALINURO", "Campania").
+station(n00217, "PISOGNE", "Unavailable").
+station(s11459, "PISTICCI", "Basilicata").
+station(s06414, "PISTOIA", "Toscana").
+station(s05151, "PISTOIA OVEST", "Unavailable").
+station(s05116, "PITECCIO", "Toscana").
+station(s44100, "PIVKA", "Unavailable").
+station(s01911, "PIZZIGHETTONE", "Lombardia").
+station(s11753, "PIZZO", "Calabria").
+station(s02212, "PLAUS", "Trentino Alto Adige").
+station(s12816, "PLOAGHE", "Sardegna").
+station(s11514, "PM GROTTALUPARA", "Unavailable").
+station(s00842, "POCAPAGLIA", "Piemonte").
+station(s06805, "POGGIBONSI", "Toscana").
+station(s06323, "POGGIO - CAREGGINE - VAGLI", "Toscana").
+station(s07428, "POGGIO FIDONI", "Lazio").
+station(s11023, "POGGIO IMPERIALE", "Puglia").
+station(s08213, "POGGIO MIRTETO", "Lazio").
+station(s05720, "POGGIO RENATICO", "Emilia Romagna").
+station(s05308, "POGGIO RUSCO", "Lombardia").
+station(s11305, "POGGIORSINI", "Puglia").
+station(s01433, "POGGIRIDENTI-TRESIVIO-PIATEDA", "Lombardia").
+station(s00904, "POGLIOLA", "Piemonte").
+station(s05708, "POLESELLA", "Veneto").
+station(s11718, "POLICASTRO BUSSENTINO", "Campania").
+station(s11802, "POLICORO TURSI", "Basilicata").
+station(s11128, "POLIGNANO A MARE", "Puglia").
+station(s09903, "POLLA", "Campania").
+station(s07305, "POLLENZA", "Marche").
+station(s12021, "POLLINA", "Sicilia").
+station(s01125, "POMBIA", "Piemonte").
+station(s08601, "POMEZIA - S.PALOMBA", "Lazio").
+station(s09810, "POMPEI", "Campania").
+station(s00890, "PONT", "Liguria").
+station(s00149, "PONT SAINT MARTIN", "Valle d'Aosta").
+station(s06904, "PONTASSIEVE", "Toscana").
+station(s06807, "PONTE A ELSA", "Toscana").
+station(s06312, "PONTE A MORIANO", "Toscana").
+station(s06869, "PONTE A TRESSA", "Toscana").
+station(s09325, "PONTE ALBANITO", "Puglia").
+station(s09309, "PONTE CASALDUNI", "Campania").
+station(s05123, "PONTE DELLA VENTURINA", "Emilia Romagna").
+station(s02585, "PONTE DI BRENTA", "Veneto").
+station(s02763, "PONTE DI PIAVE", "Veneto").
+station(s01912, "PONTE D`ADDA", "Lombardia").
+station(s02225, "PONTE D`ADIGE", "Trentino Alto Adige").
+station(s08403, "PONTE GALERIA", "Lazio").
+station(s02020, "PONTE GARDENA", "Trentino Alto Adige").
+station(s06752, "PONTE GINORI", "Toscana").
+station(s01434, "PONTE IN VALTELLINA", "Lombardia").
+station(s02558, "PONTE NELLE ALPI POLPET", "Veneto").
+station(s07233, "PONTE PARRANO DI NOCERA UMBRA", "Umbria").
+station(s09841, "PONTE S. CONO", "Unavailable").
+station(s02082, "PONTE S.MARCO - CALCINATO", "Lombardia").
+station(s01528, "PONTE S.PIETRO", "Lombardia").
+station(n00053, "PONTE TICINO", "Unavailable").
+station(s03010, "PONTEBBA", "Friuli Venezia Giulia").
+station(s09821, "PONTECAGNANO", "Campania").
+station(s05103, "PONTECCHIO MARCONI", "Emilia Romagna").
+station(s01809, "PONTECURONE", "Piemonte").
+station(s06506, "PONTEDERA CASCIANA TERME", "Toscana").
+station(s05711, "PONTELAGOSCURO", "Emilia Romagna").
+station(s01097, "PONTELAMBRO - CASTELMARTE", "Unavailable").
+station(s09504, "PONTELANDOLFO", "Campania").
+station(s09027, "PONTELATONE", "Unavailable").
+station(s05005, "PONTENURE", "Emilia Romagna").
+station(s04710, "PONTETTO", "Liguria").
+station(s00871, "PONTI", "Piemonte").
+station(s06913, "PONTICINO", "Toscana").
+station(s01526, "PONTIDA", "Lombardia").
+station(s06163, "PONTREMOLI", "Toscana").
+station(s00247, "PONZANA", "Piemonte").
+station(s06200, "PONZANO MAGRA", "Liguria").
+station(s06612, "POPOLANO", "Toscana").
+station(s07703, "POPOLI VITTORITO", "Abruzzo").
+station(s06074, "POPPI", "Unavailable").
+station(s06773, "POPULONIA", "Toscana").
+station(s06406, "PORCARI", "Toscana").
+station(s02701, "PORDENONE", "Friuli Venezia Giulia").
+station(s06073, "PORRENA - STRADA - MONTEM.", "Unavailable").
+station(s05110, "PORRETTA  TERME", "Emilia Romagna").
+station(n00094, "PORTA VENEZIA", "Unavailable").
+station(s00344, "PORTACOMARO", "Piemonte").
+station(n00040, "PORTICHETTO - LUISAGO", "Unavailable").
+station(s09802, "PORTICI- ERCOLANO", "Campania").
+station(s01200, "PORTO CERESIO", "Lombardia").
+station(s07822, "PORTO DI VASTO", "Abruzzo").
+station(s07514, "PORTO D`ASCOLI", "Marche").
+station(s12214, "PORTO EMPEDOCLE", "Sicilia").
+station(s07504, "PORTO RECANATI", "Marche").
+station(s07507, "PORTO S. ELPIDIO", "Marche").
+station(s07508, "PORTO S. GIORGIO FERMO", "Marche").
+station(s12802, "PORTO TORRES", "Sardegna").
+station(s01116, "PORTO VALTRAVAGLIA", "Lombardia").
+station(s01124, "PORTO VARALLO POMBIA", "Piemonte").
+station(s03200, "PORTOGRUARO CAORLE", "Veneto").
+station(s05802, "PORTOMAGGIORE", "Emilia Romagna").
+station(s11220, "POSSIDENTE", "Basilicata").
+station(s02601, "POSTIOMA", "Veneto").
+station(s02053, "POSTO COMUNICAZIONE DOLCE`", "Veneto").
+station(s00750, "POSTOJNA", "Unavailable").
+station(s11420, "POTENZA INFERIORE", "Basilicata").
+station(s11215, "POTENZA MACCHIA ROMANA", "Unavailable").
+station(s07505, "POTENZA PICENA MONTELUPONE", "Marche").
+station(s11217, "POTENZA SUPERIORE", "Basilicata").
+station(s02505, "POVE DEL GRAPPA CAMPESE", "Veneto").
+station(s02301, "POVO", "Unavailable").
+station(s12420, "POZZALLO", "Sicilia").
+station(s04330, "POZZOLO FORMIGARO", "Piemonte").
+station(s09101, "POZZUOLI SOLFATARA", "Campania").
+station(s01722, "POZZUOLO MARTESANA", "Lombardia").
+station(s05113, "PRACCHIA", "Toscana").
+station(s11725, "PRAJA AJETA TORTORA", "Calabria").
+station(s04101, "PRASCO CREMOLINO", "Piemonte").
+station(s01417, "PRATA CAMPORTACCIO", "Unavailable").
+station(s09513, "PRATA PRATOLA", "Campania").
+station(s06423, "PRATIGNONE", "Toscana").
+station(s06426, "PRATO BORGONUOVO", "Toscana").
+station(s06416, "PRATO CENTRALE", "Toscana").
+station(s06422, "PRATO PORTA AL SERRAGLIO", "Toscana").
+station(s00108, "PRATO SESIA", "Piemonte").
+station(s02024, "PRATO TIRES", "Unavailable").
+station(s07700, "PRATOLA PELIGNA", "Abruzzo").
+station(s07601, "PRATOLA PELIGNA SUPERIORE", "Abruzzo").
+station(s06072, "PRATOVECCHIO", "Unavailable").
+station(s06071, "PRATOVECCHIO STIA", "Unavailable").
+station(s04003, "PREDOSA", "Piemonte").
+station(s02715, "PREGANZIOL", "Veneto").
+station(s01058, "PREGNANA MILANESE", "Lombardia").
+station(s01009, "PREMOSELLO CHIOVENDA", "Piemonte").
+station(s08536, "PREZZA", "Abruzzo").
+station(s00130, "PRE` SAINT DIDIER", "Valle d'Aosta").
+station(s02319, "PRIMOLANO", "Veneto").
+station(s00923, "PRIOLA", "Piemonte").
+station(s12347, "PRIOLO MELILLI", "Sicilia").
+station(s12393, "PRIOLO SOPRANO", "Sicilia").
+station(s08604, "PRIVERNO FOSSANOVA", "Lazio").
+station(s03551, "PROSECCO", "Unavailable").
+station(n00209, "PROVAGLIO - TIMOLINE", "Unavailable").
+station(s06085, "PUGLIA - CECILIANO", "Unavailable").
+station(s12133, "PUNTA RAISI", "Sicilia").
+station(s05299, "PdE 2AV", "Unavailable").
+station(s07996, "QUADRI-BORELLO", "Unavailable").
+station(s00102, "QUARONA", "Piemonte").
+station(s00138, "QUART", "Valle d'Aosta").
+station(s05170, "QUARTESANA", "Unavailable").
+station(s09111, "QUARTO DI MARANO", "Campania").
+station(s02670, "QUARTO D`ALTINO", "Veneto").
+station(s08005, "QUATTRO VENTI", "Lazio").
+station(s06728, "QUERCIANELLA", "Toscana").
+station(s02565, "QUERO VAS", "Veneto").
+station(s04527, "QUILIANO VADO", "Liguria").
+station(s00150, "QUINCINETTO", "Piemonte").
+station(s05156, "QUISTELLO", "Unavailable").
+station(s08409, "ROMA TERMINI", "Lazio").
+station(s11866, "R.C.AEROPORTO", "Calabria").
+station(s12373, "RACALMUTO", "Sicilia").
+station(s00602, "RACCONIGI", "Piemonte").
+station(n00181, "RACCORDO  X", "Unavailable").
+station(s12414, "RAGUSA", "Sicilia").
+station(s12416, "RAGUSA IBLA", "Sicilia").
+station(s07600, "RAIANO", "Abruzzo").
+station(s12365, "RANDAZZO", "Sicilia").
+station(s04720, "RAPALLO", "Liguria").
+station(s06850, "RAPOLANO TERME", "Toscana").
+station(s11207, "RAPOLLA - LAVELLO", "Unavailable").
+station(s09621, "RAPONE RUVO S.FELE", "Basilicata").
+station(s06078, "RASSINA", "Unavailable").
+station(s05138, "RASTIGNANO", "Emilia Romagna").
+station(s05811, "RAVENNA", "Emilia Romagna").
+station(s09302, "RECALE", "Campania").
+station(s04714, "RECCO", "Liguria").
+station(s03308, "REDIPUGLIA", "Friuli Venezia Giulia").
+station(s11781, "REGGIO CALABRIA CENTRALE", "Calabria").
+station(s11780, "REGGIO CALABRIA LIDO", "Calabria").
+station(s11973, "REGGIO DI CALABRIA ARCHI", "Unavailable").
+station(s11969, "REGGIO DI CALABRIA BOCALE", "Unavailable").
+station(s11776, "REGGIO DI CALABRIA CATONA", "Calabria").
+station(s11777, "REGGIO DI CALABRIA GALLICO", "Calabria").
+station(s11970, "REGGIO DI CALABRIA OMECA", "Unavailable").
+station(s11867, "REGGIO DI CALABRIA PELLARO", "Calabria").
+station(s11975, "REGGIO DI CALABRIA S.CATERINA", "Unavailable").
+station(s11868, "REGGIO DI CALABRIA S.GREGORIO", "Calabria").
+station(s05023, "REGGIO EMILIA", "Emilia Romagna").
+station(s05254, "REGGIO EMILIA AV", "Emilia Romagna").
+station(s01410, "REGOLEDO", "Lombardia").
+station(s03059, "REMANZACCO", "Unavailable").
+station(s01845, "REMEDELLO SOPRA", "Lombardia").
+station(s01846, "REMEDELLO SOTTO", "Lombardia").
+station(s01489, "RENATE-VEDUGGIO", "Lombardia").
+station(n00095, "REPUBBLICA", "Unavailable").
+station(s02508, "RESANA", "Veneto").
+station(s01135, "RESCALDINA", "Unavailable").
+station(s05305, "REVERE", "Lombardia").
+station(s09762, "REVIGLIONE DI SOMMA VESUVIANA", "Campania").
+station(s01037, "RHO", "Lombardia").
+station(s01039, "RHO FIERA MILANO", "Unavailable").
+station(s11845, "RIACE", "Calabria").
+station(s09204, "RIARDO", "Campania").
+station(s11761, "RICADI", "Calabria").
+station(s07101, "RICCIONE", "Emilia Romagna").
+station(s08815, "RIDOTTI-COLLEPIANO", "Unavailable").
+station(s07405, "RIETI", "Lazio").
+station(s11028, "RIGNANO GARGANICO", "Puglia").
+station(s06906, "RIGNANO SULL`ARNO REGGELLO", "Toscana").
+station(s00084, "RIGOLA - STADIO", "Unavailable").
+station(s06401, "RIGOLI", "Toscana").
+station(s06851, "RIGOMAGNO", "Toscana").
+station(s04208, "RIGOROSO", "Piemonte").
+station(s05071, "RIMINI", "Emilia Romagna").
+station(s07100, "RIMINI MIRAMARE", "Emilia Romagna").
+station(s05819, "RIMINI TORRE PEDRERA", "Emilia Romagna").
+station(s05820, "RIMINI VISERBA", "Emilia Romagna").
+station(s05057, "RIMINIFIERA", "Unavailable").
+station(s02102, "RIO DI PUSTERIA", "Trentino Alto Adige").
+station(s04004, "RIO SECCO", "Piemonte").
+station(s08517, "RIOFREDDO", "Lazio").
+station(s05108, "RIOLA", "Emilia Romagna").
+station(s04736, "RIOMAGGIORE", "Liguria").
+station(s11209, "RIONERO ATELLA RIPACANDITA", "Basilicata").
+station(s09463, "RIPABOTTONI S.ELIA", "Molise").
+station(s06402, "RIPAFRATTA", "Toscana").
+station(s06750, "RIPARBELLA", "Toscana").
+station(s03120, "RISANO", "Friuli Venezia Giulia").
+station(s04726, "RIVA TRIGOSO", "Liguria").
+station(s04331, "RIVALTA SCRIVIA", "Piemonte").
+station(s00884, "RIVAROLO", "Unavailable").
+station(s08905, "RIVISONDOLI-PESCOCOSTANZO", "Abruzzo").
+station(s00272, "ROBBIO", "Lombardia").
+station(s01904, "ROBECCO-PONTEVICO", "Lombardia").
+station(s00615, "ROBILANTE", "Piemonte").
+station(s07410, "ROCCA DI CORNO", "Abruzzo").
+station(s07409, "ROCCA DI FONDI", "Lazio").
+station(s09200, "ROCCA D`EVANDRO", "Lazio").
+station(s11804, "ROCCA IMPERIALE", "Calabria").
+station(s09058, "ROCCA RAVINDOLA", "Molise").
+station(s11828, "ROCCABERNARDA", "Calabria").
+station(s00740, "ROCCACIGLIE`", "Piemonte").
+station(s00905, "ROCCADEBALDI", "Piemonte").
+station(s04006, "ROCCAGRIMALDA", "Piemonte").
+station(s12312, "ROCCALUMERA MANDANICI", "Sicilia").
+station(s06159, "ROCCAMURATA", "Emilia Romagna").
+station(s12204, "ROCCAPALUMBA-ALIA", "Sicilia").
+station(s08906, "ROCCARASO", "Abruzzo").
+station(s08668, "ROCCASECCA", "Lazio").
+station(s06823, "ROCCASTRADA", "Toscana").
+station(s12046, "ROCCAVALDINA", "Unavailable").
+station(s00614, "ROCCAVIONE", "Piemonte").
+station(s08814, "ROCCAVIVI", "Unavailable").
+station(s11847, "ROCCELLA JONICA", "Calabria").
+station(s00878, "ROCCHETTA CAIRO", "Liguria").
+station(s11205, "ROCCHETTA S.ANT.LAC.", "Puglia").
+station(s00466, "ROCCHETTA TANARO CERRO", "Piemonte").
+station(s00159, "RODALLO", "Piemonte").
+station(s01423, "ROGOLO", "Lombardia").
+station(s02346, "ROLO NOVI FABBRICO", "Emilia Romagna").
+station(s08025, "ROMA AURELIA", "Lazio").
+station(s08327, "ROMA BALDUINA", "Unavailable").
+station(s08674, "ROMA CASILINA", "Lazio").
+station(s08322, "ROMA MONTE MARIO", "Lazio").
+station(s08236, "ROMA NOMENTANA L.L.", "Lazio").
+station(s08232, "ROMA NOMENTANA LM", "Unavailable").
+station(s08406, "ROMA OSTIENSE", "Lazio").
+station(s08500, "ROMA PRENESTINA", "Lazio").
+station(s08325, "ROMA S.FILIPPO NERI", "Lazio").
+station(s08323, "ROMA S.PIETRO", "Lazio").
+station(s08217, "ROMA TIBURTINA", "Lazio").
+station(s08226, "ROMA TIBURTINA PIAZZALE EST", "Lazio").
+station(s08405, "ROMA TRASTEVERE", "Lazio").
+station(s08408, "ROMA TUSCOLANA", "Lazio").
+station(s00109, "ROMAGNANO SESIA", "Piemonte").
+station(s09829, "ROMAGNANO V.", "Campania").
+station(s01711, "ROMANO", "Lombardia").
+station(s02337, "ROMANORE", "Lombardia").
+station(s12049, "ROMETTA MESSINESE", "Sicilia").
+station(s05303, "RONCANOVA DI GAZZO VER.", "Veneto").
+station(s02312, "RONCEGNO BAGNI-MARTER", "Trentino Alto Adige").
+station(s03309, "RONCHI DEI LEGIONARI NORD", "Friuli Venezia Giulia").
+station(s08109, "RONCIGLIONE", "Lazio").
+station(s04211, "RONCO SCR.", "Liguria").
+station(s06606, "RONTA", "Toscana").
+station(s11765, "ROSARNO", "Calabria").
+station(s02521, "ROSA`", "Veneto").
+station(s03600, "ROSENHEIM", "Unavailable").
+station(s11806, "ROSETO CAPO SPULICO", "Calabria").
+station(s07804, "ROSETO DEGLI ABRUZZI", "Abruzzo").
+station(s06730, "ROSIGNANO", "Toscana").
+station(s05424, "ROSOLINA", "Veneto").
+station(s12422, "ROSOLINI", "Sicilia").
+station(s11813, "ROSSANO", "Calabria").
+station(s02522, "ROSSANO VENETO", "Veneto").
+station(s04104, "ROSSIGLIONE", "Liguria").
+station(s00215, "ROSTA", "Piemonte").
+station(s09016, "ROTONDI-PAOLISI", "Unavailable").
+station(s29411, "ROTTEWEIL", "Unavailable").
+station(s01950, "ROTTOFRENO", "Emilia Romagna").
+station(s00053, "ROVASENDA", "Piemonte").
+station(s00056, "ROVASENDA ALTA", "Piemonte").
+station(s01714, "ROVATO", "Lombardia").
+station(n00237, "ROVATO CITTA", "Unavailable").
+station(n00035, "ROVELLASCA - MANERA", "Unavailable").
+station(n00034, "ROVELLO PORRO", "Unavailable").
+station(s02333, "ROVERBELLA", "Lombardia").
+station(s02044, "ROVERETO", "Lombardia").
+station(s05173, "ROVERETO - S.V. - MEDELANA", "Unavailable").
+station(s12442, "ROVETO BIMMISCA", "Unavailable").
+station(s08515, "ROVIANO", "Lazio").
+station(s09771, "ROVIGLIANO", "Unavailable").
+station(s05706, "ROVIGO", "Veneto").
+station(s05031, "RUBIERA", "Emilia Romagna").
+station(s12895, "RUDALZA", "Sardegna").
+station(s06703, "RUFINA", "Toscana").
+station(s05903, "RUSSI", "Emilia Romagna").
+station(s11707, "RUTINO", "Campania").
+station(s11838, "S SOSTENE", "Unavailable").
+station(s00213, "S. AMBROGIO", "Piemonte").
+station(s06819, "S. ANGELO CINIGIANO", "Unavailable").
+station(s09030, "S. ANGELO IN FOR.", "Unavailable").
+station(s00236, "S. ANTONINO DI SALUGGIA", "Piemonte").
+station(s00211, "S. ANTONINO VAIE", "Piemonte").
+station(s00881, "S. BENIGNO", "Unavailable").
+station(s01401, "S. CASSIANO VALCHIAVENNA", "Lombardia").
+station(s01866, "S. CRISTINA E BISSONE", "Lombardia").
+station(s00461, "S. DAMIANO D`ASTI", "Piemonte").
+station(s02666, "S. DONA` DI PIAVE", "Veneto").
+station(s08739, "S. EUROSIA", "Lazio").
+station(s09019, "S. FELICE A CANCELLO-ARIENZO", "Unavailable").
+station(s08737, "S. GENNARO", "Unavailable").
+station(s00243, "S. GERMANO VERCELLESE", "Piemonte").
+station(s01436, "S. GIACOMO DI TEGLIO", "Lombardia").
+station(s01849, "S. GIOVANNI IN CROCE", "Lombardia").
+station(s01821, "S. GIULIANO MILANESE", "Lombardia").
+station(s01961, "S. GIULIANO PIACENTINO", "Emilia Romagna").
+station(s09029, "S. IORIO", "Unavailable").
+station(s06079, "S. MAMA", "Unavailable").
+station(s09022, "S. MARCO", "Unavailable").
+station(s04718, "S. MARGHERITA LIGURE PORTOFINO", "Liguria").
+station(s09018, "S. MARIA A VICO", "Unavailable").
+station(s08738, "S. MARIA DELLE MOLE", "Lazio").
+station(s09014, "S. MARTINO V.C.-M.SARCHIO-P.RANO", "Unavailable").
+station(s11300, "S. NICOLA DI MELFI", "Basilicata").
+station(s00463, "S. PAOLO SOLBRITO", "Piemonte").
+station(s06313, "S. PIETRO A VICO", "Toscana").
+station(s08912, "S. PIETRO AVELLANA-CAPRACOTTA", "Molise").
+station(s01428, "S. PIETRO BERBENNO", "Lombardia").
+station(s11141, "S. PIETRO VERNOTICO", "Puglia").
+station(s06170, "S. STEFANO DI MAGRA", "Liguria").
+station(s02664, "S. STINO DI LIVENZA", "Veneto").
+station(s06030, "S. VINCENZO", "Toscana").
+station(s07985, "S. VITO CHIETINO", "Unavailable").
+station(s01900, "S. ZENO FOLZANO", "Lombardia").
+station(s01823, "S. ZENONE AL LAMBRO", "Lombardia").
+station(s09056, "S.AGAPITO LONGANO", "Unavailable").
+station(s12027, "S.AGATA M.", "Sicilia").
+station(s05954, "S.AGATA SUL SANTERNO", "Emilia Romagna").
+station(s12315, "S.ALESSIO SICULO FORZA D`AGRO`", "Sicilia").
+station(s11840, "S.ANDREA DELL`JONIO", "Calabria").
+station(s09615, "S.ANGELO DEI LOMBARDI", "Campania").
+station(s05411, "S.ANNA DI CHIOGGIA", "Unavailable").
+station(s00434, "S.ANNA ROBELLA", "Piemonte").
+station(s09007, "S.ANTIMO S.ARPINO", "Campania").
+station(s02334, "S.ANTONIO MANTOVANO", "Lombardia").
+station(s05069, "S.ARCANGELO DI ROMAGNA", "Emilia Romagna").
+station(s07513, "S.BENEDETTO DEL TRONTO", "Marche").
+station(s00609, "S.BENIGNO DI CUNEO", "Piemonte").
+station(s05805, "S.BIAGIO", "Emilia Romagna").
+station(s02761, "S.BIAGIO DI CALLALTA", "Veneto").
+station(s02114, "S.CANDIDO", "Trentino Alto Adige").
+station(s06615, "S.CASSIANO", "Emilia Romagna").
+station(s12382, "S.CATALDO", "Sicilia").
+station(s11842, "S.CATERINA DELL`JONIO", "Calabria").
+station(s07312, "S.CLAUDIO", "Marche").
+station(s02306, "S.CRISTOFORO AL LAGO-ISCHIA", "Trentino Alto Adige").
+station(s02735, "S.CROCE DEL LAGO", "Veneto").
+station(s09502, "S.CROCE DEL SANNIO", "Campania").
+station(s07418, "S.DEMETRIO DE` VESTINI", "Abruzzo").
+station(s01624, "S.DONATO MILANESE", "Unavailable").
+station(s06514, "S.DONNINO BADIA", "Toscana").
+station(s05704, "S.ELENA - ESTE", "Veneto").
+station(s06905, "S.ELLERO", "Toscana").
+station(s06616, "S.EUFEMIA DI BRISIGHELLA", "Unavailable").
+station(s07989, "S.EUSANIO DEL SANGRO", "Unavailable").
+station(s05313, "S.FELICE SP", "Emilia Romagna").
+station(s07557, "S.FILIPPO", "Marche").
+station(s12044, "S.FILIPPO-S.LUCIA", "Sicilia").
+station(s12009, "S.FLAVIA", "Sicilia").
+station(s06504, "S.FREDIANO A SETTIMO", "Toscana").
+station(s07220, "S.GIACOMO DI SPOLETO", "Umbria").
+station(s00336, "S.GIORGIO CASALE", "Piemonte").
+station(s02526, "S.GIORGIO DELLE PERTICHE", "Veneto").
+station(s05723, "S.GIORGIO P.", "Emilia Romagna").
+station(s03031, "S.GIOVANNI AL NATISONE", "Friuli Venezia Giulia").
+station(s03199, "S.GIOVANNI DI CASARSA", "Friuli Venezia Giulia").
+station(s06816, "S.GIOVANNI D`ASSO", "Toscana").
+station(s06909, "S.GIOVANNI VALDARNO", "Toscana").
+station(s01943, "S.GIULETTA", "Lombardia").
+station(s09476, "S.GIULIANO DEL SANNIO", "Unavailable").
+station(s01941, "S.GIULIANO PIEMONTE", "Piemonte").
+station(s06400, "S.GIULIANO TERME", "Toscana").
+station(s09752, "S.GIUSEPPE VESUVIANO", "Campania").
+station(s02562, "S.GIUSTINA CESIO", "Veneto").
+station(s05021, "S.ILARIO", "Emilia Romagna").
+station(s07235, "S.LIBERATO", "Umbria").
+station(s12132, "S.LORENZO COLLI", "Sicilia").
+station(s12443, "S.LORENZO LO VECCHIO", "Unavailable").
+station(s09308, "S.LORENZO MAGGIORE", "Campania").
+station(s11740, "S.LUCIDO MARINA", "Calabria").
+station(s09005, "S.MARCELLINO FRIGNANO", "Campania").
+station(s11904, "S.MARCO ROGGIANO", "Calabria").
+station(s09209, "S.MARIA CAPUA VETERE", "Campania").
+station(s09474, "S.MARIA COLLE SERRA", "Unavailable").
+station(s09804, "S.MARIA LA BRUNA", "Campania").
+station(s03121, "S.MARIA LA LONGA", "Friuli Venezia Giulia").
+station(s09059, "S.MARIA OLIVETO", "Molise").
+station(s02501, "S.MARINO", "Veneto").
+station(s08307, "S.MARTINO AL CIMINO", "Lazio").
+station(s02435, "S.MARTINO BUON ALBERGO", "Veneto").
+station(s02536, "S.MARTINO DI LUPARI", "Veneto").
+station(s06613, "S.MARTINO IN GATTARA", "Emilia Romagna").
+station(s09468, "S.MARTINO IN PENSILIS", "Molise").
+station(s09523, "S.MICHELE DI SERINO", "Campania").
+station(s01924, "S.MICHELE IN BOSCO", "Lombardia").
+station(s06509, "S.MINIATO FUCECCHIO", "Toscana").
+station(s02503, "S.NAZARIO", "Veneto").
+station(s11726, "S.NICOLA ARCELLA", "Calabria").
+station(s12012, "S.NICOLA T.", "Sicilia").
+station(s01951, "S.NICOLO'", "Emilia Romagna").
+station(s05953, "S.PATRIZIO", "Unavailable").
+station(s06603, "S.PIERO A SIEVE", "Toscana").
+station(s11750, "S.PIETRO A MAIDA", "Calabria").
+station(s05722, "S.PIETRO IN CASALE", "Emilia Romagna").
+station(s02531, "S.PIETRO IN GU`", "Veneto").
+station(s06508, "S.ROMANO MONTOPOLI S.CROCE", "Toscana").
+station(s00420, "S.SEBASTIANO PO", "Piemonte").
+station(s07303, "S.SEVERINO MARCHE", "Marche").
+station(s00173, "S.SILVESTRO", "Piemonte").
+station(s00831, "S.STEFANO BELBO", "Piemonte").
+station(s01829, "S.STEFANO LODIGIANO", "Lombardia").
+station(s03124, "S.STEFANO UDINESE", "Friuli Venezia Giulia").
+station(s09630, "S.TOMMASO DEL PIANO", "Basilicata").
+station(s08855, "S.VINCENZO V.R.", "Abruzzo").
+station(s02660, "S.VITO AL TAGLIAMENTO", "Friuli Venezia Giulia").
+station(s11135, "S.VITO DEI NORMANNI", "Puglia").
+station(s07817, "S.VITO LANCIANO", "Abruzzo").
+station(s00822, "S.VITTORIA", "Piemonte").
+station(s01754, "SACCONAGO", "Unavailable").
+station(n00150, "SACCONAGO", "Unavailable").
+station(s02703, "SACILE", "Friuli Venezia Giulia").
+station(s03089, "SACILE SAN LIBERALE", "Friuli Venezia Giulia").
+station(s03307, "SAGRADO", "Friuli Venezia Giulia").
+station(s00161, "SAINT PIERRE", "Valle d'Aosta").
+station(s00408, "SAIRANO", "Lombardia").
+station(s00400, "SAIRANO ZINASCO", "Lombardia").
+station(s01461, "SALA AL BARRO-GALBIATE", "Lombardia").
+station(s09906, "SALA CONSILINA", "Campania").
+station(s11457, "SALANDRA", "Basilicata").
+station(s00886, "SALASSA", "Unavailable").
+station(s00205, "SALBERTRAND", "Piemonte").
+station(s00743, "SALE LANGHE", "Piemonte").
+station(n00213, "SALE MARASINO", "Unavailable").
+station(s12114, "SALEMI GIBELLINA", "Sicilia").
+station(s09818, "SALERNO", "Campania").
+station(s09799, "SALERNO IRNO", "Unavailable").
+station(s02394, "SALETTO", "Veneto").
+station(s00744, "SALICETO", "Piemonte").
+station(s11864, "SALINE DI REGGIO", "Calabria").
+station(s08502, "SALONE", "Lazio").
+station(s02034, "SALORNO", "Trentino Alto Adige").
+station(s05090, "SALSOMAGGIORE T.", "Emilia Romagna").
+station(s00235, "SALUGGIA", "Piemonte").
+station(s00074, "SALUSSOLA", "Piemonte").
+station(s00547, "SALUZZO", "Unavailable").
+station(s09600, "SALZA IRPINA", "Campania").
+station(s02511, "SALZANO ROBEGANO", "Veneto").
+station(s12885, "SAMASSI SERRENTI", "Sardegna").
+station(s05039, "SAMOGGIA", "Emilia Romagna").
+station(s01402, "SAMOLACO", "Lombardia").
+station(s12419, "SAMPIERI", "Sicilia").
+station(s05155, "SAN BENEDETTO PO", "Unavailable").
+station(s05134, "SAN BENEDETTO SAMBRO-CAST.PEPOLI", "Emilia Romagna").
+station(s02440, "SAN BONIFACIO", "Veneto").
+station(s12882, "SAN GAVINO", "Sardegna").
+station(s04005, "SAN GIACOMO", "Piemonte").
+station(s12034, "SAN GIORGIO", "Sicilia").
+station(s03205, "SAN GIORGIO DI NOGARO", "Friuli Venezia Giulia").
+station(s12804, "SAN GIOVANNI", "Sardegna").
+station(s05319, "SAN GIOVANNI IN PERSICETO", "Emilia Romagna").
+station(s06065, "SAN GIULIANO D'AREZZO", "Unavailable").
+station(s04805, "SAN GIUSEPPE DI CAIRO", "Liguria").
+station(s11827, "SAN LEONARDO DI CUTRO", "Calabria").
+station(s12028, "SAN MARCO D`ALUNZIO T.", "Sicilia").
+station(s00089, "SAN MAURIZIO", "Unavailable").
+station(s11714, "SAN MAURO LA BRUCA", "Campania").
+station(s05118, "SAN MOMME`", "Toscana").
+station(s11700, "SAN NICOLA VARCO DI EBOLI", "Campania").
+station(s09210, "SAN PIETRO INFINE", "Unavailable").
+station(s04505, "SAN REMO", "Liguria").
+station(s05157, "SAN ROCCO MANTOVANO", "Unavailable").
+station(s11025, "SAN SEVERO", "Puglia").
+station(s00072, "SANDIGLIANO", "Piemonte").
+station(s00731, "SANFRE`", "Piemonte").
+station(s01140, "SANGIANO", "Lombardia").
+station(s11733, "SANGINETO", "Calabria").
+station(s02384, "SANGUINETTO", "Veneto").
+station(s12883, "SANLURI STATO", "Sardegna").
+station(s00403, "SANNAZZARO", "Lombardia").
+station(s11503, "SANNICANDRO DI BARI", "Puglia").
+station(s11786, "SANTA DOMENICA", "Calabria").
+station(s06023, "SANTA LUCE", "Toscana").
+station(s11957, "SANTA MARIA DI CATANZARO", "Calabria").
+station(s08015, "SANTA MARINELLA", "Lazio").
+station(s08016, "SANTA SEVERA", "Lazio").
+station(s12314, "SANTA TERESA DI RIVA", "Sicilia").
+station(s08521, "SANTE MARIE", "Abruzzo").
+station(s11310, "SANTERAMO", "Puglia").
+station(s00240, "SANTHIA`", "Piemonte").
+station(s12024, "SANTO STEFANO DI CAMASTRA", "Sicilia").
+station(s08817, "SANTOPADRE", "Unavailable").
+station(s04802, "SANTUARIO", "Liguria").
+station(s11201, "SANTUARIO INCORONATA", "Puglia").
+station(s12897, "SANT`ANNA", "Sardegna").
+station(s12806, "SANT`ORSOLA", "Sardegna").
+station(s09629, "SANZANO OCCHINO", "Campania").
+station(s11721, "SAPRI", "Campania").
+station(s01949, "SARMATO", "Emilia Romagna").
+station(s09702, "SARNO", "Campania").
+station(s01933, "SARONNO", "Lombardia").
+station(s01077, "SARONNO SUD", "Unavailable").
+station(s00136, "SARRE", "Valle d'Aosta").
+station(s00038, "SARTIRANA", "Lombardia").
+station(s06007, "SARZANA", "Liguria").
+station(s07413, "SASSA TORNIMPARTE", "Abruzzo").
+station(s09907, "SASSANO TEGGIANO", "Campania").
+station(s12807, "SASSARI", "Sardegna").
+station(s09475, "SASSINORO", "Unavailable").
+station(s05104, "SASSO MARCONI", "Emilia Romagna").
+station(s07063, "SASSOFERRATO ARCEVIA", "Marche").
+station(s08712, "SASSONE", "Lazio").
+station(s00604, "SAVIGLIANO", "Piemonte").
+station(s09318, "SAVIGNANO GRECI", "Campania").
+station(s05068, "SAVIGNANO SUL RUBICONE", "Emilia Romagna").
+station(s04801, "SAVONA", "Liguria").
+station(s04800, "SAVONA MARITTIMA", "Liguria").
+station(s07707, "SCAFA S.VALENTINO CARAMANICO T", "Abruzzo").
+station(s09811, "SCAFATI", "Campania").
+station(s12814, "SCALA DI GIOCCA", "Sardegna").
+station(s11727, "SCALEA S.DOMENICA TALAO", "Calabria").
+station(s00540, "SCALENGHE", "Piemonte").
+station(s12309, "SCALETTA ZANCLEA", "Sicilia").
+station(s07216, "SCANZANO BELFIORE", "Umbria").
+station(s11801, "SCANZANO J. MONTALBANO J.", "Basilicata").
+station(s06035, "SCARLINO", "Toscana").
+station(s07805, "SCERNE DI PINETO", "Abruzzo").
+station(s03424, "SCHAFFHAUSEN", "Unavailable").
+station(s02140, "SCHIO", "Veneto").
+station(s05158, "SCHIVENOGLIA", "Unavailable").
+station(s01179, "SCHWAZ", "Unavailable").
+station(s12418, "SCICLI", "Sicilia").
+station(s11772, "SCILLA", "Calabria").
+station(s06705, "SCOPETI", "Toscana").
+station(s06164, "SCORCETOLI", "Toscana").
+station(s12278, "SCORDIA", "Sicilia").
+station(s08524, "SCURCOLA MARSICANA", "Abruzzo").
+station(s01826, "SECUGNAGO", "Lombardia").
+station(s02560, "SEDICO BRIBANO", "Veneto").
+station(s12152, "SEGESTA TEMPIO", "Sicilia").
+station(s05326, "SEGNALE DI CONF. RENO EST", "Unavailable").
+station(s05325, "SEGNALE DI CONF. RENO OVEST", "Unavailable").
+station(s01715, "SEGRATE", "Lombardia").
+station(s07411, "SELLA DI CORNO", "Abruzzo").
+station(n00230, "SELLERO", "Unavailable").
+station(s11831, "SELLIA MARINA", "Calabria").
+station(s06155, "SELVA DEL BOCCHETTO", "Emilia Romagna").
+station(s02210, "SENALES", "Unavailable").
+station(s07108, "SENIGALLIA", "Marche").
+station(s09501, "SEPINO", "Molise").
+station(s01318, "SEREGNO", "Lombardia").
+station(s01073, "SERENELLA", "Unavailable").
+station(s01533, "SERIATE", "Lombardia").
+station(s09515, "SERINO", "Campania").
+station(s05161, "SERMIDE", "Unavailable").
+station(s07205, "SERRA S.QUIRICO", "Marche").
+station(s12383, "SERRADIFALCO", "Sicilia").
+station(s00338, "SERRALUNGA CERESETO", "Piemonte").
+station(s12886, "SERRAMANNA NURAMINIS", "Sardegna").
+station(s02048, "SERRAVALLE", "Trentino Alto Adige").
+station(s00431, "SERRAVALLE D`ASTI", "Piemonte").
+station(s06413, "SERRAVALLE PISTOIESE", "Toscana").
+station(s04206, "SERRAVALLE SCRIVIA", "Piemonte").
+station(s06857, "SERRE DI RAPOLANO", "Toscana").
+station(s09000, "SESSA AURUNCA R.", "Campania").
+station(s08917, "SESSANO DEL MOLISE", "Molise").
+station(s01026, "SESTO CALENDE", "Lombardia").
+station(s09062, "SESTO CAMPANO", "Molise").
+station(s06418, "SESTO FIORENTINO", "Toscana").
+station(s01325, "SESTO S. GIOVANNI", "Lombardia").
+station(s04725, "SESTRI LEVANTE", "Liguria").
+station(s08216, "SETTE BAGNI", "Lazio").
+station(s02224, "SETTEQUERCE", "Trentino Alto Adige").
+station(s00430, "SETTIME CINAGLIO MOMBARONE", "Piemonte").
+station(s00229, "SETTIMO", "Piemonte").
+station(s00151, "SETTIMO TAVAGNASCO", "Piemonte").
+station(s11954, "SETTINGIANO", "Calabria").
+station(s03151, "SEVEGLIANO", "Friuli Venezia Giulia").
+station(s01925, "SEVESO", "Lombardia").
+station(s42100, "SEVNICA", "Unavailable").
+station(s01000, "SEZANA", "Unavailable").
+station(s08609, "SEZZE ROMANO", "Lazio").
+station(s08659, "SGURGOLA", "Lazio").
+station(s11811, "SIBARI", "Calabria").
+station(s09827, "SICIGNANO DEGLI ALBURNI", "Campania").
+station(s11850, "SIDERNO", "Calabria").
+station(s06903, "SIECI", "Toscana").
+station(s06809, "SIENA", "Toscana").
+station(s06867, "SIENA ZONA INDUSTRIALE", "Toscana").
+station(s01509, "SIERRE SIDERS", "Unavailable").
+station(s06513, "SIGNA", "Toscana").
+station(s02205, "SILANDRO", "Trentino Alto Adige").
+station(s12954, "SILIQUA", "Sardegna").
+station(s05109, "SILLA", "Emilia Romagna").
+station(s00978, "SILLAVENGO", "Piemonte").
+station(s07807, "SILVI", "Abruzzo").
+station(s11832, "SIMERI CRICHI", "Calabria").
+station(s06852, "SINALUNGA", "Toscana").
+station(s03700, "SINGEN", "Unavailable").
+station(s03350, "SIOFOK", "Unavailable").
+station(s01225, "SION", "Unavailable").
+station(s08300, "SIPICCIANO", "Lazio").
+station(s08302, "SIPICCIANO S.NICOLA", "Unavailable").
+station(s11056, "SIPONTO", "Puglia").
+station(s12349, "SIRACUSA", "Sicilia").
+station(s12351, "SIRACUSA M.", "Sicilia").
+station(s03312, "SISTIANA", "Friuli Venezia Giulia").
+station(s00111, "SIZZANO", "Piemonte").
+station(s02201, "SLUDERNO-GLORENZA", "Trentino Alto Adige").
+station(s02732, "SOFFRATTA", "Veneto").
+station(s02504, "SOLAGNA", "Veneto").
+station(s05900, "SOLAROLO", "Emilia Romagna").
+station(s12876, "SOLARUSSA", "Sardegna").
+station(s00469, "SOLERO", "Piemonte").
+station(s02351, "SOLIERA MODENESE", "Emilia Romagna").
+station(s06156, "SOLIGNANO", "Emilia Romagna").
+station(s09516, "SOLOFRA", "Campania").
+station(s09307, "SOLOPACA", "Campania").
+station(s01028, "SOMMA LOMBARDO", "Lombardia").
+station(s02094, "SOMMACAMPAGNA-SONA", "Unavailable").
+station(s00730, "SOMMARIVA BOSCO", "Piemonte").
+station(s01430, "SONDRIO", "Lombardia").
+station(n00234, "SONICO", "Unavailable").
+station(s08857, "SORA", "Lazio").
+station(s01607, "SORESINA", "Lombardia").
+station(s07434, "SORGENTI DEL PESCHIERA", "Lazio").
+station(s04712, "SORI", "Liguria").
+station(s11837, "SOVERATO", "Calabria").
+station(s12048, "SPADAFORA", "Sicilia").
+station(s12106, "SPAGNUOLA", "Sicilia").
+station(s09206, "SPARANISE", "Campania").
+station(s09761, "SPARTIMENTO DI SCISCIANO", "Campania").
+station(s07010, "SPELLO", "Umbria").
+station(s11901, "SPEZZANO ALBANESE TERME", "Calabria").
+station(s07483, "SPIEZ", "Unavailable").
+station(s00874, "SPIGNO", "Piemonte").
+station(s11304, "SPINAZZOLA", "Puglia").
+station(s07552, "SPINETOLI COLLI", "Marche").
+station(s01940, "SPINETTA", "Piemonte").
+station(s07221, "SPOLETO", "Umbria").
+station(s02202, "SPONDIGNA-PRATO VENOSTA", "Trentino Alto Adige").
+station(s04526, "SPOTORNO NOLI", "Liguria").
+station(s02709, "SPRESIANO", "Veneto").
+station(s11835, "SQUILLACE", "Calabria").
+station(s11142, "SQUINZANO", "Puglia").
+station(s03633, "ST VEIT GLAN", "Unavailable").
+station(s00620, "ST.DALMAS DE TENDE", "Unavailable").
+station(s06810, "STAGGIA", "Unavailable").
+station(s05705, "STANGHELLA", "Veneto").
+station(s02736, "STAZIONE PER L`ALPAGO", "Veneto").
+station(s02264, "STEINACH TIROL", "Unavailable").
+station(s05164, "STELLATA FICAROLO", "Unavailable").
+station(s06824, "STICCIANO", "Toscana").
+station(s08212, "STIMIGLIANO", "Lazio").
+station(s06617, "STRADA CASALE", "Emilia Romagna").
+station(s01945, "STRADELLA", "Lombardia").
+station(s00155, "STRAMBINO", "Piemonte").
+station(s03150, "STRASSOLDO", "Friuli Venezia Giulia").
+station(s01016, "STRESA", "Piemonte").
+station(s00866, "STREVI", "Piemonte").
+station(s02315, "STRIGNO", "Trentino Alto Adige").
+station(s07400, "STRONCONE", "Umbria").
+station(s11822, "STRONGOLI", "Calabria").
+station(s03800, "STUTTGART HBF", "Unavailable").
+station(s12896, "SU CANALE", "Sardegna").
+station(s06082, "SUBBIANO", "Unavailable").
+station(s08539, "SULMONA", "Abruzzo").
+station(s08900, "SULMONA-INTRODACQUA", "Abruzzo").
+station(n00212, "SULZANO", "Unavailable").
+station(s00018, "SUNO", "Piemonte").
+station(s11144, "SURBO", "Unavailable").
+station(s11134, "SURBO FASCIO MERCI", "Unavailable").
+station(s00260, "SUSA", "Piemonte").
+station(s02708, "SUSEGANA", "Veneto").
+station(s02340, "SUZZARA", "Lombardia").
+station(s05153, "SUZZARA V.N.", "Unavailable").
+station(s03269, "SZEKESFEHERVAR", "Unavailable").
+station(s00219, "TORINO P.NUOVA", "Piemonte").
+station(s04506, "TAGGIA ARMA", "Liguria").
+station(s08522, "TAGLIACOZZO", "Abruzzo").
+station(s01122, "TAINO ANGERA", "Lombardia").
+station(s01426, "TALAMONA", "Lombardia").
+station(s08002, "TALAMONE", "Toscana").
+station(s12317, "TAORMINA", "Sicilia").
+station(s11465, "TARANTO", "Puglia").
+station(s03022, "TARCENTO", "Friuli Venezia Giulia").
+station(s12353, "TARGIA", "Sicilia").
+station(s08009, "TARQUINIA", "Lazio").
+station(s11903, "TARSIA", "Calabria").
+station(s03015, "TARVISIO BOSCOVERDE", "Friuli Venezia Giulia").
+station(s06405, "TASSIGNANO", "Toscana").
+station(s09605, "TAURASI", "Campania").
+station(s01824, "TAVAZZANO", "Lombardia").
+station(s09205, "TEANO", "Campania").
+station(s02662, "TEGLIO VENETO", "Veneto").
+station(s02213, "TEL", "Unavailable").
+station(s09326, "TELESE CERRETO", "Campania").
+station(s12215, "TEMPIO DI VULCANO", "Unavailable").
+station(s00619, "TENDE", "Unavailable").
+station(s07900, "TERAMO", "Abruzzo").
+station(s02223, "TERLANO-ANDRIANO", "Trentino Alto Adige").
+station(s05701, "TERME EUGANEE-ABANO-MONTEGR.", "Veneto").
+station(s12040, "TERME VIGLIATORE", "Sicilia").
+station(s12014, "TERMINI IMERESE", "Sicilia").
+station(s11019, "TERMOLI", "Molise").
+station(s01143, "TERNATE VARANO BORGHI", "Lombardia").
+station(s07226, "TERNI", "Umbria").
+station(s07430, "TERNI COSPEA", "Umbria").
+station(s01504, "TERNO", "Lombardia").
+station(s06922, "TERONTOLA CORTONA", "Toscana").
+station(s08809, "TERRACINA", "Lazio").
+station(s06167, "TERRAROSSA - TRESANA", "Toscana").
+station(s12108, "TERRENOVE", "Sicilia").
+station(s07425, "TERRIA", "Lazio").
+station(s09753, "TERZIGNO", "Campania").
+station(s00869, "TERZO MONTABONE", "Piemonte").
+station(s02318, "TEZZE DI GRIGNO", "Trentino Alto Adige").
+station(s02143, "THIENE", "Veneto").
+station(s01250, "THUN", "Unavailable").
+station(s11869, "THURIO", "Calabria").
+station(s11216, "TIERA", "Basilicata").
+station(s07426, "TIONE DEGLI ABRUZZI", "Abruzzo").
+station(s01440, "TIRANO", "Lombardia").
+station(s12813, "TISSI USINI", "Sardegna").
+station(s09834, "TITO", "Basilicata").
+station(s08508, "TIVOLI", "Lazio").
+station(s07705, "TOCCO CASTIGLIONE", "Abruzzo").
+station(s07304, "TOLENTINO", "Marche").
+station(n00216, "TOLINE", "Unavailable").
+station(s07814, "TOLLO CANOSA SANNITA", "Abruzzo").
+station(s06720, "TOMBOLO", "Toscana").
+station(s12131, "TOMMASO NATALE", "Sicilia").
+station(s00342, "TONCO ALFIANO", "Piemonte").
+station(s08501, "TOR SAPIENZA", "Lazio").
+station(s08655, "TOR VERGATA", "Lazio").
+station(s09202, "TORA PRESENZANO", "Campania").
+station(s11906, "TORANO LATTARICO", "Calabria").
+station(s11706, "TORCHIARA", "Campania").
+station(s00224, "TORINO DORA", "Piemonte").
+station(s00452, "TORINO LINGOTTO", "Piemonte").
+station(s00035, "TORINO PORTA SUSA", "Piemonte").
+station(s00060, "TORINO REBAUDENGO FOSSATA", "Unavailable").
+station(s00223, "TORINO S. PAOLO", "Piemonte").
+station(s00228, "TORINO STURA", "Piemonte").
+station(s12865, "TORRALBA", "Sardegna").
+station(s00234, "TORRAZZA P.", "Piemonte").
+station(s09806, "TORRE ANNUNZIATA CENTRALE", "Campania").
+station(s09805, "TORRE ANNUNZIATA CITTA'", "Campania").
+station(s07706, "TORRE DEI PASSERI", "Abruzzo").
+station(s09803, "TORRE DEL GRECO", "Campania").
+station(s06015, "TORRE DEL LAGO PUCCINI", "Toscana").
+station(s01918, "TORRE DE` PICENARDI", "Lombardia").
+station(s08019, "TORRE IN PIETRA-PALIDORO", "Lazio").
+station(s11821, "TORRE MELISSA", "Calabria").
+station(s11717, "TORRE ORSAIA", "Campania").
+station(s00524, "TORRE PELLICE", "Piemonte").
+station(s00545, "TORRE S.GIORGIO", "Piemonte").
+station(s00039, "TORREBERETTI", "Lombardia").
+station(s11971, "TORREMEZZO DI FALCONARA", "Unavailable").
+station(s06817, "TORRENIERI", "Toscana").
+station(s07011, "TORRICELLA", "Umbria").
+station(s08600, "TORRICOLA", "Lazio").
+station(s01853, "TORRILE S. POLO", "Lombardia").
+station(s06854, "TORRITA DI SIENA", "Toscana").
+station(s01810, "TORTONA", "Piemonte").
+station(s07801, "TORTORETO LIDO", "Abruzzo").
+station(s03206, "TORVISCOSA", "Friuli Venezia Giulia").
+station(s11961, "TOSCANO", "Unavailable").
+station(s12013, "TRABIA", "Sicilia").
+station(n00019, "TRADATE", "Unavailable").
+station(s11112, "TRANI", "Puglia").
+station(s12100, "TRAPANI", "Sicilia").
+station(s00925, "TRAPPA", "Piemonte").
+station(s12123, "TRAPPETO", "Sicilia").
+station(s01142, "TRAVEDONA BIANDRONNO", "Lombardia").
+station(s03081, "TRAVESIO", "Friuli Venezia Giulia").
+station(s08308, "TRE CROCI", "Lazio").
+station(s02514, "TREBASELEGHE", "Veneto").
+station(s11808, "TREBISACCE", "Calabria").
+station(s00252, "TRECATE", "Lombardia").
+station(s01706, "TRECELLA", "Lombardia").
+station(s12303, "TREMESTIERI", "Sicilia").
+station(s02038, "TRENTO", "Sicilia").
+station(s11143, "TREPUZZI", "Puglia").
+station(s06821, "TREQUANDA", "Unavailable").
+station(s01437, "TRESENDA-APRICA-TEGLIO", "Lombardia").
+station(s05172, "TRESIGALLO - CORREGGI", "Unavailable").
+station(s07218, "TREVI", "Umbria").
+station(s01708, "TREVIGLIO", "Lombardia").
+station(s01601, "TREVIGLIO OVEST", "Lombardia").
+station(s02600, "TREVIGNANO SIGNORESSA", "Veneto").
+station(s02712, "TREVISO C.", "Veneto").
+station(s01065, "TREZZANO S.N.", "Lombardia").
+station(s03023, "TRICESIMO - SAN PELAGIO", "Unavailable").
+station(s03856, "TRIESTE AQUILINIA", "Friuli Venezia Giulia").
+station(s03317, "TRIESTE CENTRALE", "Friuli Venezia Giulia").
+station(s03854, "TRIESTE SERVOLA", "Unavailable").
+station(s09028, "TRIFLISCO", "Unavailable").
+station(s11106, "TRINITAPOLI S.FERDIN. DI P.", "Puglia").
+station(s00950, "TRINITA` BENE VAGIENNA", "Piemonte").
+station(s00176, "TRINO VERCELLESE", "Piemonte").
+station(s01485, "TRIUGGIO-PONTE ALBIATE", "Lombardia").
+station(s11452, "TRIVIGNO", "Basilicata").
+station(s00455, "TROFARELLO", "Piemonte").
+station(s09322, "TROIA CASTELLUCCIO SAURI", "Puglia").
+station(s00275, "TROMELLO", "Lombardia").
+station(s00239, "TRONZANO", "Piemonte").
+station(s11760, "TROPEA", "Calabria").
+station(s09013, "TUFARA VALLE", "Unavailable").
+station(s09512, "TUFO", "Campania").
+station(s07000, "TUORO SUL TRASIMENO", "Umbria").
+station(n00051, "TURBIGO", "Unavailable").
+station(s12022, "TUSA", "Sicilia").
+station(s02901, "TUTTINGEN", "Unavailable").
+station(s11140, "TUTURANO", "Puglia").
+station(s03026, "UDINE", "Friuli Venezia Giulia").
+station(s03006, "UGOVIZZA VALBRUNA", "Friuli Venezia Giulia").
+station(s12880, "URAS MOGORO", "Sardegna").
+station(s07306, "URBISAGLIA SFORZACOSTA", "Marche").
+station(s09467, "URURI ROTELLO", "Molise").
+station(s02593, "VENEZIA SANTA LUCIA", "Veneto").
+station(s02430, "VERONA PORTA NUOVA", "Veneto").
+station(s08304, "VITERBO PORTA FIORENTINA", "Lazio").
+station(s06025, "VADA", "Toscana").
+station(s06602, "VAGLIA", "Toscana").
+station(s11450, "VAGLIO BASILICATA", "Basilicata").
+station(s05136, "VAIANO", "Toscana").
+station(s09203, "VAIRANO", "Campania").
+station(s05177, "VALCESURA", "Unavailable").
+station(s02110, "VALDAORA - ANTERSELVA", "Trentino Alto Adige").
+station(s05117, "VALDIBRANA", "Toscana").
+station(s00041, "VALENZA", "Piemonte").
+station(s05160, "VALLAZZA - CARBONARA PO", "Unavailable").
+station(s08329, "VALLE AURELIA", "Lazio").
+station(s09304, "VALLE DI MADDALONI", "Campania").
+station(s09705, "VALLE DI MERCATO S.SEVERINO", "Campania").
+station(s00037, "VALLE LOMELLINA", "Lombardia").
+station(s04502, "VALLECROSIA", "Liguria").
+station(s12231, "VALLEDOLMO", "Sicilia").
+station(s12232, "VALLELUNGA", "Sicilia").
+station(s11709, "VALLO DELLA LUC. CASTELNUOVO", "Campania").
+station(s01103, "VALLORBE", "Unavailable").
+station(s00042, "VALMADONNA", "Piemonte").
+station(s01463, "VALMADRERA", "Lombardia").
+station(s08656, "VALMONTONE", "Lazio").
+station(s00887, "VALPERGA", "Unavailable").
+station(s07214, "VALTOPINA", "Umbria").
+station(s02103, "VANDOIES", "Trentino Alto Adige").
+station(n00049, "VANZAGHELLO - MAGNAGO", "Unavailable").
+station(s01036, "VANZAGO POGLIANO", "Lombardia").
+station(s00022, "VAPRIO D`AGOGNA", "Piemonte").
+station(s00982, "VARALLO POMBIA", "Piemonte").
+station(s00100, "VARALLO SESIA", "Piemonte").
+station(s07500, "VARANO", "Marche").
+station(s04531, "VARAZZE", "Liguria").
+station(s01084, "VAREDO", "Unavailable").
+station(s01411, "VARENNA ESINO", "Lombardia").
+station(s01205, "VARESE", "Lombardia").
+station(n00025, "VARESE CASBENO", "Unavailable").
+station(n00024, "VARESE NORD", "Unavailable").
+station(s05052, "VARIGNANA", "Emilia Romagna").
+station(s07824, "VASTO S.SALVO", "Abruzzo").
+station(s08913, "VASTOGIRARDI", "Molise").
+station(s02513, "VE ASSEGGIANO", "Veneto").
+station(n00022, "VEDANO", "Unavailable").
+station(s08734, "VELLETRI", "Lazio").
+station(n00215, "VELLO", "Unavailable").
+station(s09060, "VENAFRO", "Molise").
+station(s00085, "VENARIA", "Unavailable").
+station(n00020, "VENEGONO INF.", "Unavailable").
+station(n00021, "VENEGONO SUP. - CASTIGLIO", "Unavailable").
+station(s12047, "VENETICO", "Sicilia").
+station(s02672, "VENEZIA CARPENEDO", "Veneto").
+station(s02515, "VENEZIA MARGHERA SCALO", "Unavailable").
+station(s02594, "VENEZIA MARITTIMA", "Veneto").
+station(s02589, "VENEZIA MESTRE", "Veneto").
+station(s02592, "VENEZIA PORTO MARGHERA", "Veneto").
+station(s11302, "VENOSA - MASCHITO", "Basilicata").
+station(s04501, "VENTIMIGLIA", "Liguria").
+station(s03018, "VENZONE", "Friuli Venezia Giulia").
+station(s01013, "VERBANIA-PALLANZA", "Piemonte").
+station(s01404, "VERCEIA", "Lombardia").
+station(s00245, "VERCELLI", "Piemonte").
+station(s01523, "VERCURAGO S.GIROLAMO", "Lombardia").
+station(s01600, "VERDELLO DALMINE", "Lombardia").
+station(s05107, "VERGATO", "Emilia Romagna").
+station(s01027, "VERGIATE", "Lombardia").
+station(s00073, "VERGNASCO", "Piemonte").
+station(s00616, "VERNANTE", "Piemonte").
+station(s04733, "VERNAZZA", "Liguria").
+station(s05135, "VERNIO MONTEPIANO CANTAGALLO", "Toscana").
+station(s01903, "VEROLANUOVA", "Lombardia").
+station(s00170, "VEROLENGO", "Piemonte").
+station(s02061, "VERONA CA` DI DAVID", "Veneto").
+station(s02058, "VERONA PARONA", "Unavailable").
+station(s02433, "VERONA PORTA VESCOVO", "Veneto").
+station(s00145, "VERRES", "Valle d'Aosta").
+station(s00701, "VERZUOLO", "Piemonte").
+station(s00031, "VESPOLATE", "Piemonte").
+station(s12135, "VESPRI", "Sicilia").
+station(s08309, "VETRALLA", "Lazio").
+station(s06171, "VEZZANO LIGURE", "Liguria").
+station(s09114, "VIA CAMPANA", "Unavailable").
+station(s06064, "VIA CHIARI", "Unavailable").
+station(s01842, "VIADANA BRESCIANA", "Lombardia").
+station(s06040, "VIAREGGIO", "Toscana").
+station(s11754, "VIBO MARINA", "Calabria").
+station(s11789, "VIBO VALENZIA PIZZO", "Calabria").
+station(s06017, "VICARELLO", "Toscana").
+station(s06700, "VICCHIO", "Toscana").
+station(s02446, "VICENZA", "Veneto").
+station(s08310, "VICO MATRINO", "Lazio").
+station(s06150, "VICOFERTILE", "Emilia Romagna").
+station(s00953, "VICOFORTE SAN MICHELE", "Piemonte").
+station(s08511, "VICOVARO", "Lazio").
+station(s01709, "VIDALENGO", "Lombardia").
+station(s09817, "VIETRI SUL MARE", "Campania").
+station(s00618, "VIEVOLA", "Unavailable").
+station(s05166, "VIGARANO PIEVE", "Unavailable").
+station(s01061, "VIGEVANO", "Lombardia").
+station(s00977, "VIGLIANO CANDELO", "Piemonte").
+station(s07412, "VIGLIANO D`ABRUZZO", "Abruzzo").
+station(s00802, "VIGLIANO D`ASTI", "Piemonte").
+station(s08316, "VIGNA DI VALLE", "Lazio").
+station(s00021, "VIGNALE", "Piemonte").
+station(s06032, "VIGNALE RIOTORTO", "Toscana").
+station(s01704, "VIGNATE", "Lombardia").
+station(s02528, "VIGODARZERE", "Veneto").
+station(s00542, "VIGONE", "Piemonte").
+station(s02586, "VIGONZA PIANIGA", "Veneto").
+station(s08399, "VILLA BONELLI", "Lazio").
+station(s05022, "VILLA CADE`", "Emilia Romagna").
+station(s11608, "VILLA CASTELLI", "Puglia").
+station(s08714, "VILLA CLAUDIA", "Lazio").
+station(s02523, "VILLA DEL CONTE", "Veneto").
+station(s01439, "VILLA DI TIRANO", "Lombardia").
+station(s09003, "VILLA LITERNO", "Campania").
+station(s03466, "VILLA OPICINA", "Friuli Venezia Giulia").
+station(s09024, "VILLA ORTENSIA", "Unavailable").
+station(s01487, "VILLA RAVERIO", "Lombardia").
+station(s11773, "VILLA S.G.CANNITELLO", "Calabria").
+station(s07995, "VILLA S.MARIA", "Unavailable").
+station(s11774, "VILLA SAN GIOVANNI", "Calabria").
+station(s08555, "VILLA SAN MICHELE", "Unavailable").
+station(s08523, "VILLA SAN SEBASTIANO", "Abruzzo").
+station(s02367, "VILLABARTOLOMEA", "Veneto").
+station(s02112, "VILLABASSA - BRAIES", "Trentino Alto Adige").
+station(s12006, "VILLABATE", "Sicilia").
+station(s00001, "VILLADOSSOLA", "Piemonte").
+station(s06166, "VILLAFRANCA - BAGNONE", "Toscana").
+station(s00459, "VILLAFRANCA C.", "Piemonte").
+station(s02331, "VILLAFRANCA DI VERONA", "Veneto").
+station(s00543, "VILLAFRANCA P.", "Piemonte").
+station(s12050, "VILLAFRANCA TIRRENA", "Sicilia").
+station(s12233, "VILLALBA", "Sicilia").
+station(s01802, "VILLAMAGGIORE", "Lombardia").
+station(s12952, "VILLAMASSARGIA DOMUSNOVAS", "Sardegna").
+station(s00458, "VILLANOVA", "Piemonte").
+station(s00092, "VILLANOVA - GROSSO", "Unavailable").
+station(s02345, "VILLANOVA DI REGGIOLO", "Emilia Romagna").
+station(s01962, "VILLANOVA D`ARDA", "Emilia Romagna").
+station(s00278, "VILLANOVA D`ARDENGHI", "Lombardia").
+station(s11809, "VILLAPIANA LIDO", "Calabria").
+station(s11810, "VILLAPIANA TORRE CERCHIARA", "Calabria").
+station(s12237, "VILLAROSA", "Sicilia").
+station(s01481, "VILLASANTA", "Lombardia").
+station(s12887, "VILLASOR", "Sardegna").
+station(s12956, "VILLASPECIOSA UTA", "Sardegna").
+station(s00600, "VILLASTELLONE", "Piemonte").
+station(s02145, "VILLAVERLA MONTECCHIO", "Veneto").
+station(s02300, "VILLAZZANO", "Trentino Alto Adige").
+station(s00135, "VILLENEUVE", "Valle d'Aosta").
+station(s08711, "VILLETTA", "Lazio").
+station(s01916, "VILLETTA MALAGNINO", "Lombardia").
+station(s06322, "VILLETTA S. ROMANO", "Toscana").
+station(s02222, "VILPIANO-NALLES", "Trentino Alto Adige").
+station(s09457, "VINCHIATURO", "Molise").
+station(s02006, "VIPITENO", "Trentino Alto Adige").
+station(s01844, "VISANO", "Lombardia").
+station(s04100, "VISONE", "Piemonte").
+station(s08306, "VITERBO PORTA ROMANA", "Lazio").
+station(s12410, "VITTORIA", "Sicilia").
+station(s02733, "VITTORIO VENETO", "Veneto").
+station(s01042, "VITTUONE ARLUNO", "Lombardia").
+station(s09310, "VITULANO FOGLIANISE", "Campania").
+station(s12391, "VITUSO", "Sicilia").
+station(s12273, "VIZZINI", "Sicilia").
+station(s01807, "VOGHERA", "Lombardia").
+station(s01008, "VOGOGNA OSSOLA", "Piemonte").
+station(s00880, "VOLPIANO", "Unavailable").
+station(s05807, "VOLTANA", "Emilia Romagna").
+station(s06753, "VOLTERRA SALINE - POMARANCE", "Toscana").
+station(s73110, "VRBOVEC", "Unavailable").
+station(s03299, "VRTOJBA", "Unavailable").
+station(s00000, "X", "Unavailable").
+station(s99999, "Y", "Unavailable").
+station(s08652, "ZAGAROLO", "Lazio").
+station(s03392, "ZAMARDI", "Unavailable").
+station(s06425, "ZAMBRA", "Toscana").
+station(s11758, "ZAMBRONE", "Calabria").
+station(s12029, "ZAPPULLA", "Sicilia").
+station(s05163, "ZERBINATE", "Unavailable").
+station(s00401, "ZINASCO NUOVO", "Lombardia").
+station(s04721, "ZOAGLI", "Liguria").
+station(s03001, "ZURICH ALTSTETTEN", "Unavailable").
