@@ -4,7 +4,7 @@ import pandas as pd
 f = open("Knowledge base/station.pl", "w+")
 df = pd.read_csv('Dataset/stazioni_regioni.csv')
 
-f.write("%\station(stationID, station_name, region_name).")
+f.write("%station(stationID, station_name, region_name).")
 
 for i in df.index:
     stationID = df["idStazione"][i]
