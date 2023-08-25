@@ -1,7 +1,7 @@
 import requests
 
-f = open("Knowledge base/trenitalia.pl", "a")
-f.write("%train(trainID, train_type, originID, arrivalID, departure_time, arrival_time, train_stops).")
+f = open("Knowledge base/trenitalia.pl", "w+")
+f.write("%train(trainID, train_type, originID, arrivalID, departure_time, arrival_time, train_stops).\n")
 for trainID in range(36967):
     x = requests.get(f'http://www.viaggiatreno.it/infomobilita/resteasy/viaggiatreno/cercaNumeroTreno/{trainID}')
     # Check the existence of a train with that id 
@@ -21,9 +21,10 @@ for trainID in range(36967):
 
             for stops in range(len(train_route_info["fermate"])):
                 train_stops.append(((train_route_info["fermate"])[stops])["id"])
-
-            # Save selected info in a csv file
-            string = f"train({trainID}, {train_type}, {originID}, {arrivalID}, {departure_time}, {arrival_time}, {train_stops}).\n".lower().replace("\'", "")
+            train_stops = str(train_stops).replace("\'", "")
+            # Save selected info in a prolog file
+            string = f"train({trainID}, {train_type}, {originID}, {arrivalID}, \'{departure_time}\', \'{arrival_time}\', {train_stops}).\n".lower()
             f.write(string)
+            print(string)
         except:
             print("Error") 

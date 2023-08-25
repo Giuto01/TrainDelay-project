@@ -1,11 +1,13 @@
 import requests
 from datetime import date
 
+LAST_TRAIN_ID = 36967
+
 detection_date = date.today()
-f = open("Dataset/trains_18_08_2023.csv", "w+")
+f = open("Dataset/trains_24_08_2023.csv", "w+")
 f.write("train_ID,origin,arrival,departure_time,arrival_time,delay,train_type,detection_date\n")
 
-for trainID in range(36967):
+for trainID in range(LAST_TRAIN_ID):
     x = requests.get(f'http://www.viaggiatreno.it/infomobilita/resteasy/viaggiatreno/cercaNumeroTreno/{trainID}')
     # Check the existence of a train with that id 
     if x.status_code == 200:

@@ -1,4 +1,6 @@
-%station(stationID, station_name, region_name).
+% Train Station Information
+% Format: station(StationCode, "StationName", "Region").
+
 station(s05700, "ABANO TERME", "Veneto").
 station(s01416, "ABBADIA LARIANA", "Lombardia").
 station(s12873, "ABBASANTA", "Sardegna").
@@ -84,7 +86,7 @@ station(s04513, "ANDORA", "Unavailable").
 station(s09031, "ANFITEATRO", "Unavailable").
 station(s09812, "ANGRI", "Campania").
 station(s08318, "ANGUILLARA", "Lazio").
-station(s11870, "ANNA'", "Unavailable").
+station(s11870, "ANNA", "Unavailable").
 station(s02769, "ANNONE VENETO", "Veneto").
 station(s06727, "ANTIGNANO", "Toscana").
 station(s07408, "ANTRODOCO BORGO VELINO", "Lazio").
@@ -94,9 +96,9 @@ station(s01453, "ANZANO DEL PARCO", "Lombardia").
 station(s08709, "ANZIO", "Lazio").
 station(s08713, "ANZIO COLONIA", "Lazio").
 station(s05386, "ANZOLA", "Unavailable").
-station(s00137, "AOSTA", "Valle d'Aosta").
-station(s00143, "AOSTA ISTITUTO", "Valle d'Aosta").
-station(s00146, "AOSTA VIALE EUROPA", "Valle d'Aosta").
+station(s00137, "AOSTA", "Valle d Aosta").
+station(s00143, "AOSTA ISTITUTO", "Valle d Aosta").
+station(s00146, "AOSTA VIALE EUROPA", "Valle d Aosta").
 station(s09314, "APICE S.ARCANGELO BONITO", "Campania").
 station(s08328, "APPIANO", "Lazio").
 station(s11024, "APRICENA", "Puglia").
@@ -128,7 +130,7 @@ station(s05707, "ARQUA`", "Veneto").
 station(s08516, "ARSOLI", "Lazio").
 station(s03021, "ARTEGNA", "Friuli Venezia Giulia").
 station(n00219, "ARTOGNE - GIANICO", "Unavailable").
-station(s00134, "ARVIER", "Valle d'Aosta").
+station(s00134, "ARVIER", "Valle d Aosta").
 station(s11711, "ASCEA", "Campania").
 station(s06813, "ASCIANO", "Toscana").
 station(s06825, "ASCIANO MONTE OLIVETO MAGGIORE", "Toscana").
@@ -154,7 +156,7 @@ station(s03087, "AVIANO", "Friuli Venezia Giulia").
 station(s00214, "AVIGLIANA", "Piemonte").
 station(s11214, "AVIGLIANO LUCANIA", "Basilicata").
 station(s02050, "AVIO", "Trentino Alto Adige").
-station(s00133, "AVISE", "Valle d'Aosta").
+station(s00133, "AVISE", "Valle d Aosta").
 station(s12426, "AVOLA", "Sicilia").
 station(s11119, "BARI CENTRALE", "Puglia").
 station(s05043, "BOLOGNA C.LE", "Emilia Romagna").
@@ -241,7 +243,7 @@ station(s09472, "BENEVENTO ACQUAFREDDA", "Unavailable").
 station(s09011, "BENEVENTO APPIA", "Unavailable").
 station(s09530, "BENEVENTO ARCO TRAIANO", "Campania").
 station(s09509, "BENEVENTO PORTA RUFINA", "Campania").
-station(s09012, "BENEVENTO RIONE LIBERTA'", "Unavailable").
+station(s09012, "BENEVENTO RIONE LIBERTA", "Unavailable").
 station(s06158, "BERCETO", "Emilia Romagna").
 station(s12859, "BERCHIDDA", "Sardegna").
 station(s00838, "BERGAMASCO", "Piemonte").
@@ -556,7 +558,7 @@ station(s09211, "CASERTA", "Campania").
 station(s06751, "CASINO DI TERRA", "Toscana").
 station(s01457, "CASLETTO-ROGENO", "Lombardia").
 station(n00037, "CASLINO AL PIANO", "Unavailable").
-station(s01098, "CASLINO D'ERBA", "Unavailable").
+station(s01098, "CASLINO D ERBA", "Unavailable").
 station(s07991, "CASOLI", "Unavailable").
 station(s01029, "CASORATE SEMPIONE", "Lombardia").
 station(s09009, "CASORIA", "Campania").
@@ -594,7 +596,7 @@ station(s05102, "CASTELDEBOLE", "Emilia Romagna").
 station(s07200, "CASTELFERRETTI", "Marche").
 station(s06802, "CASTELFIORENTINO", "Toscana").
 station(s09609, "CASTELFRANCI", "Campania").
-station(s05037, "CASTELFRANCO D'EMILIA", "Emilia Romagna").
+station(s05037, "CASTELFRANCO D EMILIA", "Emilia Romagna").
 station(s09323, "CASTELFRANCO IN MISCANO", "Unavailable").
 station(s02537, "CASTELFRANCO VENETO", "Veneto").
 station(s05012, "CASTELGUELFO", "Emilia Romagna").
@@ -705,8 +707,8 @@ station(s05815, "CESENATICO", "Emilia Romagna").
 station(n00228, "CETO - CERVENO", "Unavailable").
 station(s11735, "CETRARO", "Calabria").
 station(s00742, "CEVA", "Piemonte").
-station(s00141, "CHAMBAVE", "Valle d'Aosta").
-station(s00142, "CHATILLON SAINT VINCENT", "Valle d'Aosta").
+station(s00141, "CHAMBAVE", "Valle d Aosta").
+station(s00142, "CHATILLON SAINT VINCENT", "Valle d Aosta").
 station(s00733, "CHERASCO", "Piemonte").
 station(s09510, "CHIANCHE CEPPALONI", "Campania").
 station(s07201, "CHIARAVALLE", "Marche").
@@ -731,9 +733,9 @@ station(s00232, "CHIVASSO", "Piemonte").
 station(s08650, "CIAMPINO", "Lazio").
 station(s02209, "CIARDES", "Trentino Alto Adige").
 station(s12126, "CINISI TERRASINI", "Sicilia").
-station(s00090, "CIRE'", "Unavailable").
+station(s00090, "CIRE", "Unavailable").
 station(s11730, "CIRELLA MAJERA`", "Calabria").
-station(s11820, "CIRO'", "Calabria").
+station(s11820, "CIRO", "Calabria").
 station(s01525, "CISANO CAPRINO BERGAMASCO", "Lombardia").
 station(n00015, "CISLAGO", "Unavailable").
 station(s02500, "CISMON DEL GRAPPA", "Veneto").
@@ -830,7 +832,7 @@ station(s00829, "COSTIGLIOLE D`ASTI", "Piemonte").
 station(s00702, "COSTIGLIOLE SALUZZO", "Piemonte").
 station(s05956, "COTIGNOLA", "Emilia Romagna").
 station(s07432, "COTILIA", "Lazio").
-station(s00888, "COURGNE'", "Unavailable").
+station(s00888, "COURGNE", "Unavailable").
 station(s11151, "COZZE", "Puglia").
 station(s00332, "COZZO", "Lombardia").
 station(s01605, "CREMA", "Lombardia").
@@ -860,7 +862,7 @@ station(s12888, "DECIMOMANNU", "Sardegna").
 station(s00877, "DEGO", "Liguria").
 station(s04728, "DEIVA MARINA", "Liguria").
 station(s01422, "DELEBIO", "Lombardia").
-station(s00162, "DERBY", "Valle d'Aosta").
+station(s00162, "DERBY", "Valle d Aosta").
 station(s01408, "DERVIO", "Lombardia").
 station(s02084, "DESENZANO", "Lombardia").
 station(s01320, "DESIO", "Lombardia").
@@ -878,7 +880,7 @@ station(s02055, "DOMEGLIARA", "Veneto").
 station(s01003, "DOMODOSSOLA", "Piemonte").
 station(s04202, "DONNA", "Piemonte").
 station(s12412, "DONNAFUGATA", "Sicilia").
-station(s00148, "DONNAZ", "Valle d'Aosta").
+station(s00148, "DONNAZ", "Valle d Aosta").
 station(s01407, "DORIO", "Lombardia").
 station(s01025, "DORMELLETTO", "Piemonte").
 station(s00980, "DORMELLETTO PAESE", "Piemonte").
@@ -1160,7 +1162,7 @@ station(s11737, "GUARDIA PIEMONTESE TERME", "Calabria").
 station(s09456, "GUARDIAREGIA", "Molise").
 station(s08506, "GUIDONIA-MONTECELLO-S.ANGELO", "Lazio").
 station(s00125, "GYEKENYES", "Unavailable").
-station(s00147, "HONE BARD", "Valle d'Aosta").
+station(s00147, "HONE BARD", "Valle d Aosta").
 station(s29399, "HORB", "Unavailable").
 station(s05818, "IGEA MARINA", "Emilia Romagna").
 station(s12950, "IGLESIAS", "Sardegna").
@@ -1205,7 +1207,7 @@ station(s00634, "LA BRIGUE", "Unavailable").
 station(s08808, "LA FIORA", "Lazio").
 station(s08321, "LA GIUSTINIANA", "Lazio").
 station(s08514, "LA RUSTICA UIR", "Unavailable").
-station(s00132, "LA SALLE", "Valle d'Aosta").
+station(s00132, "LA SALLE", "Valle d Aosta").
 station(s06000, "LA SPEZIA CENTRALE", "Liguria").
 station(s06004, "LA SPEZIA MIGLIARINA", "Liguria").
 station(s08320, "LA STORTA", "Lazio").
@@ -1219,7 +1221,7 @@ station(s02029, "LAIVES ", "Trentino Alto Adige").
 station(s05418, "LAMA", "Veneto").
 station(s05121, "LAMA DI RENO", "Emilia Romagna").
 station(s01869, "LAMBRINIA", "Lombardia").
-station(s01094, "LAMBRUGO - LURAGO D'ERBA", "Unavailable").
+station(s01094, "LAMBRUGO - LURAGO D ERBA", "Unavailable").
 station(s11749, "LAMEZIA TERME CENTRALE", "Calabria").
 station(s11951, "LAMEZIA TERME NICASTRO", "Calabria").
 station(s11950, "LAMEZIA TERME SAMBIASE", "Calabria").
@@ -1569,7 +1571,7 @@ station(s01971, "MONTICELLI D`ONGINA", "Emilia Romagna").
 station(s00823, "MONTICELLO D`ALBA", "Piemonte").
 station(s00426, "MONTIGLIO MURISENGO", "Piemonte").
 station(s01840, "MONTIRONE", "Lombardia").
-station(s00144, "MONTJOVET", "Valle d'Aosta").
+station(s00144, "MONTJOVET", "Valle d Aosta").
 station(s09518, "MONTORO FORINO", "Campania").
 station(s09517, "MONTORO SUPERIORE", "Campania").
 station(s09528, "MONTORSI", "Campania").
@@ -1585,7 +1587,7 @@ station(s09503, "MORCONE", "Campania").
 station(s01710, "MORENGO BARIANO", "Lombardia").
 station(s12864, "MORES ITTIREDDU", "Sardegna").
 station(s00544, "MORETTA", "Piemonte").
-station(s00131, "MORGEX", "Valle d'Aosta").
+station(s00131, "MORGEX", "Valle d Aosta").
 station(s02046, "MORI", "Trentino Alto Adige").
 station(s01144, "MORNAGO CIMBRO", "Lombardia").
 station(s08660, "MOROLO", "Lazio").
@@ -1667,7 +1669,7 @@ station(s04203, "NOVI LIGURE", "Piemonte").
 station(s06351, "NOZZANO", "Toscana").
 station(s00920, "NUCETTO", "Piemonte").
 station(s08231, "NUOVO SALARIO", "Lazio").
-station(s00140, "NUS", "Valle d'Aosta").
+station(s00140, "NUS", "Valle d Aosta").
 station(s09614, "NUSCO", "Campania").
 station(s05710, "OCCHIOBELLO", "Veneto").
 station(s02765, "ODERZO", "Veneto").
@@ -1732,7 +1734,7 @@ station(s04007, "OVADA NORD", "Piemonte").
 station(s00840, "OVIGLIO", "Piemonte").
 station(s12862, "OZIERI CHILIVANI", "Sardegna").
 station(s12861, "OZIERI FRAIGAS", "Sardegna").
-station(s05055, "OZZANO DELL'EMILIA", "Emilia Romagna").
+station(s05055, "OZZANO DELL EMILIA", "Emilia Romagna").
 station(s00337, "OZZANO MONFERRATO", "Piemonte").
 station(s06152, "OZZANO TARO", "Emilia Romagna").
 station(s12002, "PALERMO CENTRALE", "Sicilia").
@@ -1819,7 +1821,7 @@ station(s09921, "PERTOSA", "Unavailable").
 station(s07004, "PERUGIA", "Umbria").
 station(s07005, "PERUGIA PONTE S.GIOVANNI", "Umbria").
 station(s07013, "PERUGIA SILVESTRINI", "Unavailable").
-station(s07006, "PERUGIA UNIVERSITA'", "Unavailable").
+station(s07006, "PERUGIA UNIVERSITA", "Unavailable").
 station(s07104, "PESARO", "Marche").
 station(s02057, "PESCANTINA", "Unavailable").
 station(s07810, "PESCARA", "Abruzzo").
@@ -1929,7 +1931,7 @@ station(s01125, "POMBIA", "Piemonte").
 station(s08601, "POMEZIA - S.PALOMBA", "Lazio").
 station(s09810, "POMPEI", "Campania").
 station(s00890, "PONT", "Liguria").
-station(s00149, "PONT SAINT MARTIN", "Valle d'Aosta").
+station(s00149, "PONT SAINT MARTIN", "Valle d Aosta").
 station(s06904, "PONTASSIEVE", "Toscana").
 station(s06807, "PONTE A ELSA", "Toscana").
 station(s06312, "PONTE A MORIANO", "Toscana").
@@ -2026,7 +2028,7 @@ station(s02715, "PREGANZIOL", "Veneto").
 station(s01058, "PREGNANA MILANESE", "Lombardia").
 station(s01009, "PREMOSELLO CHIOVENDA", "Piemonte").
 station(s08536, "PREZZA", "Abruzzo").
-station(s00130, "PRE` SAINT DIDIER", "Valle d'Aosta").
+station(s00130, "PRE` SAINT DIDIER", "Valle d Aosta").
 station(s02319, "PRIMOLANO", "Veneto").
 station(s00923, "PRIOLA", "Piemonte").
 station(s12347, "PRIOLO MELILLI", "Sicilia").
@@ -2039,7 +2041,7 @@ station(s12133, "PUNTA RAISI", "Sicilia").
 station(s05299, "PdE 2AV", "Unavailable").
 station(s07996, "QUADRI-BORELLO", "Unavailable").
 station(s00102, "QUARONA", "Piemonte").
-station(s00138, "QUART", "Valle d'Aosta").
+station(s00138, "QUART", "Valle d Aosta").
 station(s05170, "QUARTESANA", "Unavailable").
 station(s09111, "QUARTO DI MARANO", "Campania").
 station(s02670, "QUARTO D`ALTINO", "Veneto").
@@ -2321,7 +2323,7 @@ station(s06509, "S.MINIATO FUCECCHIO", "Toscana").
 station(s02503, "S.NAZARIO", "Veneto").
 station(s11726, "S.NICOLA ARCELLA", "Calabria").
 station(s12012, "S.NICOLA T.", "Sicilia").
-station(s01951, "S.NICOLO'", "Emilia Romagna").
+station(s01951, "S.NICOLO", "Emilia Romagna").
 station(s05953, "S.PATRIZIO", "Unavailable").
 station(s06603, "S.PIERO A SIEVE", "Toscana").
 station(s11750, "S.PIETRO A MAIDA", "Calabria").
@@ -2345,7 +2347,7 @@ station(n00150, "SACCONAGO", "Unavailable").
 station(s02703, "SACILE", "Friuli Venezia Giulia").
 station(s03089, "SACILE SAN LIBERALE", "Friuli Venezia Giulia").
 station(s03307, "SAGRADO", "Friuli Venezia Giulia").
-station(s00161, "SAINT PIERRE", "Valle d'Aosta").
+station(s00161, "SAINT PIERRE", "Valle d Aosta").
 station(s00408, "SAIRANO", "Lombardia").
 station(s00400, "SAIRANO ZINASCO", "Lombardia").
 station(s01461, "SALA AL BARRO-GALBIATE", "Lombardia").
@@ -2382,7 +2384,7 @@ station(s12034, "SAN GIORGIO", "Sicilia").
 station(s03205, "SAN GIORGIO DI NOGARO", "Friuli Venezia Giulia").
 station(s12804, "SAN GIOVANNI", "Sardegna").
 station(s05319, "SAN GIOVANNI IN PERSICETO", "Emilia Romagna").
-station(s06065, "SAN GIULIANO D'AREZZO", "Unavailable").
+station(s06065, "SAN GIULIANO D AREZZO", "Unavailable").
 station(s04805, "SAN GIUSEPPE DI CAIRO", "Liguria").
 station(s11827, "SAN LEONARDO DI CUTRO", "Calabria").
 station(s12028, "SAN MARCO D`ALUNZIO T.", "Sicilia").
@@ -2423,7 +2425,7 @@ station(s01949, "SARMATO", "Emilia Romagna").
 station(s09702, "SARNO", "Campania").
 station(s01933, "SARONNO", "Lombardia").
 station(s01077, "SARONNO SUD", "Unavailable").
-station(s00136, "SARRE", "Valle d'Aosta").
+station(s00136, "SARRE", "Valle d Aosta").
 station(s00038, "SARTIRANA", "Lombardia").
 station(s06007, "SARZANA", "Liguria").
 station(s07413, "SASSA TORNIMPARTE", "Abruzzo").
@@ -2668,7 +2670,7 @@ station(s00228, "TORINO STURA", "Piemonte").
 station(s12865, "TORRALBA", "Sardegna").
 station(s00234, "TORRAZZA P.", "Piemonte").
 station(s09806, "TORRE ANNUNZIATA CENTRALE", "Campania").
-station(s09805, "TORRE ANNUNZIATA CITTA'", "Campania").
+station(s09805, "TORRE ANNUNZIATA CITTA", "Campania").
 station(s07706, "TORRE DEI PASSERI", "Abruzzo").
 station(s09803, "TORRE DEL GRECO", "Campania").
 station(s06015, "TORRE DEL LAGO PUCCINI", "Toscana").
@@ -2817,7 +2819,7 @@ station(s00170, "VEROLENGO", "Piemonte").
 station(s02061, "VERONA CA` DI DAVID", "Veneto").
 station(s02058, "VERONA PARONA", "Unavailable").
 station(s02433, "VERONA PORTA VESCOVO", "Veneto").
-station(s00145, "VERRES", "Valle d'Aosta").
+station(s00145, "VERRES", "Valle d Aosta").
 station(s00701, "VERZUOLO", "Piemonte").
 station(s00031, "VESPOLATE", "Piemonte").
 station(s12135, "VESPRI", "Sicilia").
@@ -2892,7 +2894,7 @@ station(s12956, "VILLASPECIOSA UTA", "Sardegna").
 station(s00600, "VILLASTELLONE", "Piemonte").
 station(s02145, "VILLAVERLA MONTECCHIO", "Veneto").
 station(s02300, "VILLAZZANO", "Trentino Alto Adige").
-station(s00135, "VILLENEUVE", "Valle d'Aosta").
+station(s00135, "VILLENEUVE", "Valle d Aosta").
 station(s08711, "VILLETTA", "Lazio").
 station(s01916, "VILLETTA MALAGNINO", "Lombardia").
 station(s06322, "VILLETTA S. ROMANO", "Toscana").
