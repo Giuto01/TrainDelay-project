@@ -1,14 +1,13 @@
 % Rule for search the station name from ID
-station_name_by_ID(StationID, StationName) :-
-    findall(StationName, station(StationID, StationName, _)
-).
+station_name_by_ID(StationID) :-
+    station(StationID, StationName, _).
 
 % Rule for converting a time in HH:MM format to total minutes
 time_in_minutes(Time, Minutes) :-
     split_string(Time, ":", "", [HourString, MinutesString]),
-    number_string(Time, HourString),
+    number_string(Hour, HourString),
     number_string(Min, MinutesString),
-    Minutes is Time * 60 + Min.
+    Minutes is Hour * 60 + Min.
 
 % Rule for checking whether one time is greater than or equal to another time
 equal_major_time(Time1, Time2) :-
@@ -37,20 +36,20 @@ travel_time(DepartureTime, ArrivalTime, Duration) :-
     Duration is Minutes2 - Minutes1.
 
 % Rule for finding all trains departing from a station
-trains_departure_from_station_name(StationName, Stations) :-
-    findall(TrainID, (station(StationID, StationName, _), train(TrainID, _, DepartureStationID, _, _, _, _)), Stations).
+trains_departure_from_station_name(StationName, Trains) :-
+    findall(TrainID, (station(DepartureStationID, StationName, _), train(TrainID, _, DepartureStationID, _, _, _, _)), Trains).
 
 % Rule for finding all trains leaving a station after a specific time (HH:MM) 
-trains_departure_from_station_name_at_time(StationName, Departure, Stations) :-
-    findall(TrainID, (station(StationID, StationName, _), train(TrainID, _, DepartureStationID, _, DepartureTime, _, _), equal_major_time(DepartureTime, Departure)), Stations).
+trains_departure_from_station_name_at_time(StationName, Departure, Trains) :-
+    findall(TrainID, (station(DepartureStationID, StationName, _), train(TrainID, _, DepartureStationID, _, DepartureTime, _, _), equal_major_time(DepartureTime, Departure)), Trains).
 
 % Rule for finding all trains between two stations after a specific time (HH:MM)
-trains_departure_between_stations_name_at_time(DepartureStationName, ArrivalStationName, Time, Stations) :-
+trains_departure_between_stations_name_at_time(DepartureStationName, ArrivalStationName, Time, Trains) :-
     findall(TrainID, (station(DepartureStationID, DepartureStationName, _), 
         station(ArrivalStationID, ArrivalStationName, _), 
         train(TrainID, _, DepartureStationID, ArrivalStationID, DepartureTime, _, _), 
         equal_major_time(DepartureTime, Time)), 
-        Stations).
+        Trains).
 
 % Rule for getting all the information about a train given the ID
 get_train_fact(TrainID, Type, DepartureID, ArrivalID, DepartureTime, ArrivalTime) :-
