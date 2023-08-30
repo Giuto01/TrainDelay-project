@@ -1,33 +1,52 @@
-from pyswip import Prolog
-
-prolog = Prolog()
-
-prolog.consult("Knowledge base/trenitalia.pl")
-prolog.consult("Knowledge base/rules.pl")
-prolog.consult("Knowledge base/station.pl")
-#s = input("Inserisci il nome della stazione di partenza: ").upper()
-#v = input("Inserisci il nome della stazione di arrivo: ").upper()
-#o = input("Inserisci l'orario (hh:mm): ").replace(".", ":").replace(" ", "") 
-l = list(prolog.query("cerca_nome_stazione_da_a_ora(\"BARI CENTRALE\", \"LECCE\", \"07:00\", Stazioni)."))
-
-#l = list(prolog.query(f"cerca_nome_stazione_da_a_ora(\"{s}\", \"{v}\", \"{o}\", Stazione)."))
-
-list_trainsID = l[0]["Stazioni"]
+import PrologEngine
+from prettytable import PrettyTable
+import re
 
 
-DepartureID = "DepartureID"
-ArrivalID = "ArrivalID"
-DepartureTime = "DepartureTime"
-ArrivalTime = "ArrivalTime"
+def search(engine, departure, arrival, time):
 
-for trainID in list_trainsID:
-    print("*******************************************************")
-    a = list(prolog.query(f"get_train_fact({trainID}, Type, DepartureID, ArrivalID, DepartureTime, ArrivalTime)."))
-    print(f"ID : {trainID} \nPartenza : {a[0][DepartureID]} ({a[0][DepartureTime]}) \nArrivo : {a[0][ArrivalID]} ({a[0][ArrivalTime]})")
-    print("*******************************************************")
+    stations = engine.trains_departure_between_stations_name_at_time(departure, arrival, time)
 
+    # Creazione dell'oggetto PrettyTable
+    table = PrettyTable()
+    table.border = True
+    table.padding_width = 3
+    # Definizione delle colonne
+    table.field_names = ["TrainID", "TrainType", "DepartureStation", "ArrivalStation", "DepartureTime", "ArrivalTime"]
+    table.sortby = "ArrivalTime"
+    for station in stations:
+        train = engine.get_train_fact_by_ID(station)
+        trainID = station
+        trainType = train["Type"]
+        departureStationName = engine.station_name_by_ID(train["DepartureID"])
+        arrivalStationName = engine.station_name_by_ID(train["ArrivalID"])
+        departureTime = train["DepartureTime"]
+        arrivalTime = train["ArrivalTime"]
+        table.add_row([trainID, trainType, re.sub("(b|')", "", str(departureStationName)),  re.sub("(b|')", "", str(arrivalStationName)), departureTime, arrivalTime], divider=True)
 
-#print(l[0]["Stazioni"])
+    print(table)
 
+def main():
+    engine = PrologEngine.PrologEngine("Knowledge base/trenitalia.pl", "Knowledge base/rules.pl","Knowledge base/station.pl")
+    print("Benvenuto nel sistema di ricerca treni!")
 
-# s11119, s11145, '12:20', '14:13'
+    while True:
+        departure_station = input("Inserisci la stazione di partenza: ").upper()
+        arrival_station = input("Inserisci la stazione di destinazione: ").upper()
+        departure_time = input("Inserisci l'ora di partenza (HH:MM): ").replace(".", ":").replace(" ", "") 
+
+        available_trains = search(engine, departure_station, arrival_station, departure_time)
+
+        if available_trains:
+            print("Treni disponibili:")
+
+        else:
+            print("Nessun treno disponibile per la tua ricerca.")
+
+        cont = input("Vuoi effettuare un'altra ricerca? (s/n): ")
+        if cont.lower() != 's':
+            print("Grazie per aver utilizzato il nostro sistema.")
+            break
+
+if __name__ == "__main__":
+    main()
