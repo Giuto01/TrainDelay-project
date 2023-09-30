@@ -18,14 +18,13 @@ def get_stops(departureStationID):
     '''
 
     prolog = Prolog()
-    prolog.consult("Knowledge base/trenitalia.pl")
+    prolog.consult("Knowledge base/trenitalia_schedule.pl")
     stops = []
     for solution in prolog.query(f"train(_, _, {departureStationID}, _, _, _, Stops)."):
         stops = solution["Stops"]
     return stops
 
-
-# Crea un grafo vuoto
+# Create empty graph
 station_graph = nx.Graph()
 
 data = pd.read_csv("Dataset/stazioni_regioni.csv")
@@ -44,4 +43,4 @@ for node in G_copy.nodes():
             station_graph.add_edge(node, stop)
 
 # Save graph
-nx.write_gexf(station_graph, "station_graph.gexf")
+nx.write_gexf(station_graph, "graphs/station_graph.gexf")

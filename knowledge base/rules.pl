@@ -1,7 +1,3 @@
-% Rule for search the station name from ID
-station_name_by_ID(StationID) :-
-    station(StationID, StationName, _).
-
 % Rule for converting a time in HH:MM format to total minutes
 time_in_minutes(Time, Minutes) :-
     split_string(Time, ":", "", [HourString, MinutesString]),
@@ -49,6 +45,13 @@ trains_departure_between_stations_name_at_time(DepartureStationName, ArrivalStat
         station(ArrivalStationID, ArrivalStationName, _), 
         train(TrainID, _, DepartureStationID, ArrivalStationID, DepartureTime, _, _), 
         equal_major_time(DepartureTime, Time)), 
+        Trains).
+
+% Rule for finding all trains between two stations after a specific time (HH:MM)
+trains_departure_between_stations_name(DepartureStationName, ArrivalStationName, Trains) :-
+    findall(TrainID, (station(DepartureStationID, DepartureStationName, _), 
+        station(ArrivalStationID, ArrivalStationName, _), 
+        train(TrainID, _, DepartureStationID, ArrivalStationID, _, _, _)), 
         Trains).
 
 % Rule for getting all the information about a train given the ID

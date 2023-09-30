@@ -1,0 +1,187 @@
+\documentclass[italian,12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathtools}
+\usepackage{blkarray, bigstrut} %
+\usepackage{babel}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{colortbl}
+\usepackage{pgf-pie}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{algorithmicx}
+\usepackage{placeins}
+\usepackage{fancyvrb}
+\usepackage{svg}
+\usepackage{tabularx}
+\title{Università degli studi di Bari facoltà di scienze MM.FF.NN}
+\date{} % clear date
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	filecolor=magenta,      
+	urlcolor=cyan,
+	pdfpagemode=FullScreen,
+}
+\graphicspath{ {./img/} }
+\RequirePackage[subfigure]{tocloft}
+
+\cftsetindents{section}{0em}{2em}
+\cftsetindents{subsection}{0em}{2em}
+
+\renewcommand\cfttoctitlefont{\hfill\Large\bfseries}
+\renewcommand\cftaftertoctitle{\hfill\mbox{}}
+
+\algrenewcommand\algorithmicrequire{\textbf{Input:}}
+\algrenewcommand\algorithmicensure{\textbf{Output:}}
+
+
+\setcounter{tocdepth}{2}
+\begin{document}
+	\maketitle
+	\thispagestyle{empty}
+	\begin{center}
+		\huge	\textbf{Progetto ingegneria della conoscenza}
+		\linebreak
+		\linebreak
+		\Large \textbf{TrainDelay-project}
+	\end{center}
+	
+	
+	
+	\begin{center}
+		by \\
+		\Large \textbf{Vito Proscia mat. 735975}
+	\end{center}
+
+	
+	\begin{figure}[hb]
+		\centering
+		\includegraphics[width=5cm]{image.png}
+	\end{figure}
+	
+	\vfill
+	\begin{center}
+		Anno accadenico 2022-2023
+	\end{center}
+	
+	\newpage
+	
+	\tableofcontents
+
+	\newpage
+
+	
+	\section{Introduzione}
+
+	\subsection{Contesto}
+	
+	TrainDelay-project è 
+
+	
+	\subsection{Definizione obiettivo principale}
+	
+	L'obiettivo principale del progetto è la creazione di un motore di ricerca che trova i migliori itinerari di viaggio in treno sulla base della stazione di partenza e di arrivo e che, per ogni viaggio, mostra una predizione del probabile ritardo.\\
+	Questo sistema non solo potrà far risparmiare del tempo a chi organizza dei viaggi valutando ogni singola tratta in tremini di stazioni e orari di partenza e di arrivo, ma garantirà un risparmio econimico ai viaggiatori garantendo che la tratta scelta dal sistema sia la minima e necessaria per arrivare alla destinazione. 
+	
+	
+	\subsection{Tool utilizzati}
+	Per la sperimentazione sono stati usati diversi stumenti/librerie, quali:
+	
+		\begin{itemize}
+			\item \textbf{PySWIP}, libreria Python che fornisce un'interfaccia per utilizzare SWI-Prolog, usato per la rappreesentazione formale della schedul dei treni
+			\item \textbf{NetworkX}, libreria Python utilizzata per la creazione, l'analisi e la manipolazione di reti complesse. Questa libreria fornisce un insieme di strumenti per la rappresentazione di reti e grafi, oltre a un'ampia gamma di algoritmi e funzioni per eseguire diverse operazioni su di essi.
+		\end{itemize}
+
+	\section{Rappresentazione formale della conoscenza}
+	La parte iniziale del progetto si è concentarta sulla rappresentazione formale attraverso fatti e regole Prolog della schedul dei treni e delle stazioni, in particolare ogni treno è caratterizzato da:
+	
+		\begin{enumerate}
+			\item ID treno, identificatore univoco del treno
+			\item Tipo di treno, regionale o nazionale
+			\item ID stazione di partenza
+			\item ID stazione di arrivo
+			\item Orario di partenza (HH:MM)
+			\item Orario di arrivo (HH:MM)
+			\item Lista delle fermate
+		\end{enumerate}
+		Esempio:
+		
+\begin{small}
+
+\begin{verbatim}
+	train(320, nazionale, s01700, s01301, "15:10", "15:58", [s01700, s01307, s01301]).
+	train(321, nazionale, s01301, s01700, "18:02", "18:50", [s01301, s01307, s01700]).
+	train(322, nazionale, s01700, s01301, "17:10", "17:58", [s01700, s01307, s01301]).
+	train(323, nazionale, s01301, s01700, "20:02", "20:50", [s01301, s01307, s01700]).
+	train(324, nazionale, s01700, s01301, "19:10", "19:58", [s01700, s01307, s01301]).
+	train(325, nazionale, s01301, s01700, "22:02", "22:50", [s01301, s01307, s01700]).
+\end{verbatim}
+\end{small}
+	Mentre ogni stazione è caratterizzata da:
+	
+			\begin{enumerate}
+				\item ID stazione, identificatore univoco delle stazioni
+				\item Nome stazione
+				\item Regione stazione
+			\end{enumerate}
+		Esempio:
+
+\begin{small}
+	
+	\begin{verbatim}
+		station(s11504, "ACQUAVIVA DELLE FONTI", "Puglia").
+		station(s12026, "ACQUEDOLCI-S.FRATELLO", "Sicilia").
+		station(s00867, "ACQUI TERME", "Piemonte").
+		station(s11907, "ACRI BISIGNANO LUZZI", "Calabria").
+		station(s05420, "ADRIA", "Veneto").
+	\end{verbatim}
+\end{small}
+	
+	Tutte le informazioni relative
+
+
+	\section{Analisi del dataset}
+	
+	\subsection{Descrizione features}
+
+	
+	\subsection{Preparazione dati}
+	
+	\subsubsection{Analisi delle input features}
+
+	
+	\subsubsection{Analisi della target feature}
+
+	
+	\section{Machine Learning}
+	
+	\section{Valutazione dei modelli}
+
+	
+	\subsection{Metriche scelte}
+
+
+	\section{Risultati}
+
+
+	
+	\subsubsection{Considerazioni}
+	
+	\section{Sviluppi futuri}
+	Il sistema presentato è aperto a sviluppi futuri che possano rendere il sistema ancora più efficiente e all'avanguardia. \\
+	Di seguito sono descritti alcuni dei possibili sviluppi futuri che intendiamo esplorare:
+	
+	\begin{enumerate}
+		\item Espansione della copertura ferroviaria andando a completare le informazioni relative a treni e staziono ed integrazione con altri servizi ferroviari (Italo, Frecciarossa, ...)
+		\item Implementazione di una vera e propria interfaccia grafica
+		\item Miglioramento della ricerca andando a suggerire all'utente, sulla base dei caratteri inseriti, le stazioni che iniziano con quei caratteri
+		\item Integrazione di dati in tempo reale andando a fornire all'utente informazioni in \textit{real time}
+
+	\end{enumerate}
+	
+	
+\end{document}
