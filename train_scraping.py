@@ -27,7 +27,6 @@ for trainID in range(LAST_TRAIN_ID):
             # Save selected info in a csv file
             string = f"{trainID},{origin},{arrival},{departure_time},{arrival_time},{delay},{train_type},{detection_date}\n"
             f.write(string)
-            print(string) # ELIMINAAAA RIGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa
         except:
             print("Error")
 f.close()

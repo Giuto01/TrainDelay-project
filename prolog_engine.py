@@ -22,6 +22,7 @@ class PrologEngine:
     trains_departure_between_stations_name_at_time(departureStationName, arrivalStationName, time)
     get_train_fact_by_ID(trainID)
     station_name_by_ID(stationID)
+    station_ID_by_name(stationName)
     '''
 
     prolog = None
@@ -79,6 +80,21 @@ class PrologEngine:
         '''
 
         return list(self.prolog.query(f"trains_departure_between_stations_name_at_time(\"{departureStationName}\", \"{arrivalStationName}\", \"{time}\", Trains)."))[0]["Trains"]
+    
+    def trains_departure_between_stations_name(self, departureStationName, arrivalStationName):
+        '''
+        Get a list of trains departing between two specified stations at a specific time.
+
+        Parameters:
+        departureStationName (str): The name of the departure station.
+        arrivalStationName (str): The name of the arrival station.
+        time (str): The departure time.
+
+        Returns:
+        list: A list of train information departing between the specified stations at the specified time.
+        '''
+
+        return list(self.prolog.query(f"trains_departure_between_stations_name(\"{departureStationName}\", \"{arrivalStationName}\", Trains)."))[0]["Trains"]
 
     def get_train_fact_by_ID(self, trainID):
         '''
@@ -105,3 +121,16 @@ class PrologEngine:
         '''
 
         return list(self.prolog.query(f"station({stationID}, StationName, _)."))[0]["StationName"]
+    
+    def station_ID_by_name(self, stationName):
+        '''
+        Get the station ID by its Name.
+
+        Parameters:
+        Name (str): The name of the station.
+
+        Returns:
+        str: The ID of the station with the specified Name.
+        '''
+
+        return list(self.prolog.query(f"station(StationID, \"{stationName}\", _)."))[0]["StationID"]
