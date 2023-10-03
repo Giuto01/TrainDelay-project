@@ -47,7 +47,7 @@ trains_departure_between_stations_name_at_time(DepartureStationName, ArrivalStat
         equal_major_time(DepartureTime, Time)), 
         Trains).
 
-% Rule for finding all trains between two stations after a specific time (HH:MM)
+% Rule for finding all trains between two stations
 trains_departure_between_stations_name(DepartureStationName, ArrivalStationName, Trains) :-
     findall(TrainID, (station(DepartureStationID, DepartureStationName, _), 
         station(ArrivalStationID, ArrivalStationName, _), 

@@ -18,6 +18,7 @@
 \usepackage{fancyvrb}
 \usepackage{svg}
 \usepackage{tikz}
+\usepackage{enumitem}
 \usepackage{tabularx}
 \usepackage[backend=bibtex]{biblatex}
 \addbibresource{citations.bib}
@@ -80,11 +81,6 @@
 
 	
 	\section{Introduzione}
-
-	\subsection{Contesto}
-	
-	TrainDelay-project è 
-
 	
 	\subsection{Definizione obiettivo principale}
 	
@@ -102,6 +98,9 @@
 		\end{itemize}
 
 	\section{Rappresentazione formale della conoscenza}
+	
+	La rappresentazione formale della conoscenza è importante per consentire l'espressione della conoscenza in modo preciso, organizzato e interpretabile da parte di sistemi informatici.\\
+	Per gestire formalmente la conoscenza, facilitando la ricerca e l'accesso a informazioni specifiche, si costruisce una \textbf{knowledge base} (base di conoscenza), una raccolta strutturata di informazioni o dati che rappresenta la conoscenza su un determinato dominio o argomento, utilizzate per immagazzinare e organizzare la conoscenza in modo che sia accessibile e utilizzabile da sistemi informatici. Le knowledge base possono includere fatti, regole, concetti e relazioni tra concetti. \\
 	
 	\subsection{Origine dei dati}
 	Tutte le informazioni relative allo schedul dei treni sono state reperite per mezzo dell'interrogazione alle API messe a disposizione dal sito \href{http://www.viaggiatreno.it/infomobilita/index.jsp}{viaggiatreno}, mentre le informazioni relative alle stazioni sono state recuperate dal repository "trenitalia: scraping di viaggiatreno" \cite{dati_stazioni}
@@ -151,37 +150,96 @@
 	\end{verbatim}
 \end{small}
 
-\subsection{Costruzione grafo}
-	Per
-	
-	\begin{figure}[ht]
+\subsection{Grafo}
+
+\subsubsection{Costruzione grafo}
+	Per la possibilità di ricercare l'itinerario di viaggio mugliore, cioè con il numero minimo di stazioni, si è pensato di costruire un grafo delle stazioni, dove ogni nodo rappresenta una stazione diversa (\texttt{idStazione}) e la presenza di un arco tra due nodi si traduce in un collegamento ferroviario tra le due stazioni.
+	\\
+	\begin{figure}[!h]
 		\centering
-		\includegraphics[width=0.5\linewidth]{img/stations_graph}
-		\caption{}
+		\includegraphics[width=0.55\linewidth]{img/stations}
+		\caption{Grafo delle stazioni}
 		\label{fig:stationsgraph}
 	\end{figure}
 	
+\subsubsection{Ricerca grafo}
 	
+		Per la ricerca del percorso più breve tra due stazioni si è utilizzato \textbf{l'algoritmo di Dijkstra}, un algoritmo di ricerca del cammino più breve in un grafo pesato con pesi non negativi, in questo caso specifico il peso di ogni arco è 1, quindi l'algortmo cercherà il percorso con il più piccolo numero di nodi.\\
+		\linebreak
+		Inizia da un nodo sorgente e calcola le distanze minime da esso a tutti gli altri nodi, mantenendo una coda di priorità, durante l'esecuzione, visita i nodi adiacenti al nodo corrente e aggiorna le distanze minime se trova un cammino più breve. Implementato dalla libreria \textbf{NetworkX}.
+		
+	\begin{algorithm}
+		\caption{Algoritmo di Dijkstra}
+		\begin{algorithmic}[1]
+			\Procedure{Dijkstra}{$G, s$}
+			\State $dist \gets$ array di distanze inizializzato a $\infty$ per tutti i nodi
+			\State $dist[s] \gets 0$
+			\State $S \gets$ insieme vuoto dei nodi visitati
+			\While{$S$ non contiene tutti i nodi}
+			\State $u \gets$ nodo non visitato con la minima distanza in $dist$
+			\State Aggiungi $u$ a $S$
+			\ForAll{nodi adiacenti $v$ di $u$}
+			\State $alt \gets dist[u] +$ peso dell'arco tra $u$ e $v$
+			\If{$alt < dist[v]$}
+			\State $dist[v] \gets alt$
+			\EndIf
+			\EndFor
+			\EndWhile
+			\State \textbf{return} $dist$ 
+			\EndProcedure
+		\end{algorithmic}
+	\end{algorithm}
 
-	\section{Analisi del dataset}
-	
-	\subsection{Descrizione features}
+	\textbf{Commento sull'algoritmo} \\
+	'''Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat tempus dictum. Vivamus dolor velit, condimentum nec scelerisque nec, blandit at ipsum. Maecenas venenatis sapien vitae rhoncus ultrices. Etiam blandit enim a aliquet sollicitudin. Curabitur ac ligula ac elit dignissim efficitur sed vitae nisi. Aenean porta magna sed pulvinar pretium. Curabitur gravida dolor quis arcu malesuada sodales. Nunc tortor sem, luctus et erat vel, bibendum vestibulum arcu. Integer in tellus mollis, aliquam ipsum vitae, consectetur tortor. Sed vehicula magna ac tristique porttitor. In vel pharetra tellus. Nulla facilisi. '''
 
+	\subsection{Query Knowledge base}
+	Per andare ad interagire un Knowledge base vengono eseguite delle \textbf{query}, interrogazioni alla KB, che permettono di estrapolare informazioni specifiche, in questo caso sono state messe a disposizioni delle query predefinite per poter recuperare le informazioni relative ai treni secondo l'esigenze dell'utente. \\
+	\linebreak
+	In particolare sono state pensate quattro query principali che che verranno eseguite in base alle esigenze dell'utente in base alla ricerca specifica che andrà a fare.\\
+	\linebreak
+	Query messe a disposizione dal sistema: \\
 	
-	\subsection{Preparazione dati}
-	
-	\subsubsection{Analisi delle input features}
+	\textbf{1)} Ricerca di tutti i treni che partono da una determinata stazione
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=1.1\linewidth]{img/code1}
+	\end{figure}
 
-	
-	\subsubsection{Analisi della target feature}
+	\textbf{2)} Ricerca di tutti i treni che partono da una determinata stazione da un determinato orario
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=1.1\linewidth]{img/code2}
+	\end{figure}
 
+	\textbf{4)} Ricerca di tutti i treni disponibili tra due stazioni
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=1.1\linewidth]{img/code3}
+	\end{figure}	
 	
+	\textbf{3)} Ricerca di tutti i treni disponibili tra due stazioni dopo un determinato orario
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=1.1\linewidth]{img/code4}
+	\end{figure}
+\linebreak
+	Oltre queste query sono state prodotte altre regole, di supporto, per il funzionamento interno di queste principali, come quella per convertire le stringhe che rappresentano gli orari dal formato \textit{"HH:MM"} in minuti, quella per reperire tutte le info dei treni dall'id, etc\dots
+
 	\section{Machine Learning}
+
+	\subsection{Analisi del dataset}
 	
-	\section{Valutazione dei modelli}
+	\subsubsection{Descrizione features}
 
 	
-	\subsection{Metriche scelte}
+	\subsubsection{Preparazione dati}
+	
+	
+	\subsection{Valutazione dei modelli}
+
+	
+	\subsubsection{Metriche scelte}
 
 
 	\section{Risultati}
