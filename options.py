@@ -1,6 +1,6 @@
 import networkx as nx
-import re
-import prolog_engine
+import re 
+from knowledge_base import knowledge_engine
 from prettytable import PrettyTable
 
 
@@ -18,7 +18,7 @@ def search(departure, arrival, time):
         or None if no trains are available.
     '''
 
-    engine = prolog_engine.PrologEngine("knowledge base/trenitalia_schedule.pl", "knowledge base/rules.pl","knowledge base/stations.pl")
+    engine = knowledge_engine.PrologEngine("knowledge_base/trenitalia_schedule.pl", "knowledge_base/rules.pl","knowledge_base/stations.pl")
 
     trainsList = engine.trains_departure_between_stations_name_at_time(departure, arrival, time)
 
@@ -60,7 +60,7 @@ def searchItinerary(graph, departure, arrival):
         None: The function prints tables with details of trains for each leg of the journey.
     '''
 
-    engine = prolog_engine.PrologEngine("knowledge base/trenitalia_schedule.pl", "knowledge base/rules.pl","knowledge base/stations.pl")
+    engine = knowledge_engine.PrologEngine("knowledge_base/trenitalia_schedule.pl", "knowledge_base/rules.pl","knowledge_base/stations.pl")
 
     departureID = engine.station_ID_by_name(departure)
     arrivalID = engine.station_ID_by_name(arrival)
