@@ -1,8 +1,8 @@
 import requests
 import pandas as pd
 
-f = open("Knowledge base/stations.pl", "w+")
-df = pd.read_csv('Dataset/stazioni_regioni.csv')
+f = open(".stations.pl", "w+")
+df = pd.read_csv('../Dataset/stazioni_regioni.csv')
 
 f.write("%station(stationID, station_name, region_name).\n")
 

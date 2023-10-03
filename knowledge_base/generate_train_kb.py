@@ -1,6 +1,6 @@
 import requests
 
-f = open("Knowledge base/trenitalia_schedule.pl", "w+")
+f = open("trenitalia_schedule.pl", "w+")
 f.write("%train(trainID, train_type, originID, arrivalID, departure_time, arrival_time, train_stops).\n")
 for trainID in range(36967):
     x = requests.get(f'http://www.viaggiatreno.it/infomobilita/resteasy/viaggiatreno/cercaNumeroTreno/{trainID}')

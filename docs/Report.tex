@@ -9,6 +9,7 @@
 \usepackage{hyperref}
 \usepackage{tikz}
 \usepackage{colortbl}
+\usepackage{svg}
 \usepackage{pgf-pie}
 \usepackage{algorithm}
 \usepackage{algpseudocode}
@@ -16,7 +17,10 @@
 \usepackage{placeins}
 \usepackage{fancyvrb}
 \usepackage{svg}
+\usepackage{tikz}
 \usepackage{tabularx}
+\usepackage[backend=bibtex]{biblatex}
+\addbibresource{citations.bib}
 \title{Università degli studi di Bari facoltà di scienze MM.FF.NN}
 \date{} % clear date
 \hypersetup{
@@ -94,19 +98,25 @@
 		\begin{itemize}
 			\item \textbf{PySWIP}, libreria Python che fornisce un'interfaccia per utilizzare SWI-Prolog, usato per la rappreesentazione formale della schedul dei treni
 			\item \textbf{NetworkX}, libreria Python utilizzata per la creazione, l'analisi e la manipolazione di reti complesse. Questa libreria fornisce un insieme di strumenti per la rappresentazione di reti e grafi, oltre a un'ampia gamma di algoritmi e funzioni per eseguire diverse operazioni su di essi.
+			\item \dots
 		\end{itemize}
 
 	\section{Rappresentazione formale della conoscenza}
-	La parte iniziale del progetto si è concentarta sulla rappresentazione formale attraverso fatti e regole Prolog della schedul dei treni e delle stazioni, in particolare ogni treno è caratterizzato da:
+	
+	\subsection{Origine dei dati}
+	Tutte le informazioni relative allo schedul dei treni sono state reperite per mezzo dell'interrogazione alle API messe a disposizione dal sito \href{http://www.viaggiatreno.it/infomobilita/index.jsp}{viaggiatreno}, mentre le informazioni relative alle stazioni sono state recuperate dal repository "trenitalia: scraping di viaggiatreno" \cite{dati_stazioni}
+	
+	\subsection{Descrizione dei dati}
+	La parte iniziale del progetto si è concentarta sulla rappresentazione formale attraverso fatti e regole Prolog (linguaggio di programmazione logica utilizzato per definire relazioni tra fatti e regole attraverso la logica dei predicati) dello schedul dei treni e delle stazioni, in particolare ogni treno si è ritenuto opportuno caratterizzarlo da:
 	
 		\begin{enumerate}
-			\item ID treno, identificatore univoco del treno
-			\item Tipo di treno, regionale o nazionale
-			\item ID stazione di partenza
-			\item ID stazione di arrivo
-			\item Orario di partenza (HH:MM)
-			\item Orario di arrivo (HH:MM)
-			\item Lista delle fermate
+			\item \textit{ID treno}, identificatore univoco del treno
+			\item \textit{Tipo di treno}, regionale o nazionale
+			\item \textit{ID stazione di partenza}
+			\item \textit{ID stazione di arrivo}
+			\item\textit{ Orario di partenza} (HH:MM)
+			\item \textit{Orario di arrivo} (HH:MM)
+			\item \textit{Lista delle fermate}
 		\end{enumerate}
 		Esempio:
 		
@@ -121,12 +131,12 @@
 	train(325, nazionale, s01301, s01700, "22:02", "22:50", [s01301, s01307, s01700]).
 \end{verbatim}
 \end{small}
-	Mentre ogni stazione è caratterizzata da:
+	Mentre ogni stazione si è pensato caratterizzarla da:
 	
 			\begin{enumerate}
-				\item ID stazione, identificatore univoco delle stazioni
-				\item Nome stazione
-				\item Regione stazione
+				\item \textit{ID stazione}, identificatore univoco delle stazioni
+				\item \textit{Nome stazione}
+				\item \textit{Regione stazione}
 			\end{enumerate}
 		Esempio:
 
@@ -140,9 +150,18 @@
 		station(s05420, "ADRIA", "Veneto").
 	\end{verbatim}
 \end{small}
-	
-	Tutte le informazioni relative
 
+\subsection{Costruzione grafo}
+	Per
+	
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width=0.5\linewidth]{img/stations_graph}
+		\caption{}
+		\label{fig:stationsgraph}
+	\end{figure}
+	
+	
 
 	\section{Analisi del dataset}
 	
@@ -182,6 +201,6 @@
 		\item Integrazione di dati in tempo reale andando a fornire all'utente informazioni in \textit{real time}
 
 	\end{enumerate}
-	
+	\printbibliography
 	
 \end{document}
