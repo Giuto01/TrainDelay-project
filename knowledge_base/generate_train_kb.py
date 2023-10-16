@@ -3,10 +3,10 @@ import requests
 f = open("trenitalia_schedule.pl", "w+")
 f.write("%train(trainID, train_type, originID, arrivalID, departure_time, arrival_time, train_stops).\n")
 for trainID in range(36967):
-    x = requests.get(f'http://www.viaggiatreno.it/infomobilita/resteasy/viaggiatreno/cercaNumeroTreno/{trainID}')
+    response = requests.get(f'http://www.viaggiatreno.it/infomobilita/resteasy/viaggiatreno/cercaNumeroTreno/{trainID}')
     # Check the existence of a train with that id 
-    if x.status_code == 200:
-        train_info = x.json()
+    if response.status_code == 200:
+        train_info = response.json()
         origin_stationID = train_info["codLocOrig"]
         temp = train_info["dataPartenza"]
         try:

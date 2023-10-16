@@ -2,16 +2,16 @@ import requests
 import pandas as pd
 
 f = open(".stations.pl", "w+")
-df = pd.read_csv('../Dataset/stazioni_regioni.csv')
+df = pd.read_csv('../Dataset/stations.csv')
 
 f.write("%station(stationID, station_name, region_name).\n")
 
 for i in df.index:
     stationID = df["idStazione"][i]
     station_name = df["stazione"][i]
-    x = requests.get(f"http://www.viaggiatreno.it/infomobilita/resteasy/viaggiatreno/regione/{stationID}")
-    if x.status_code == 200:
-        region_code = x.json()
+    response = requests.get(f"http://www.viaggiatreno.it/infomobilita/resteasy/viaggiatreno/regione/{stationID}")
+    if response.status_code == 200:
+        region_code = response.json()
         # Replace region code with the name of region
         if region_code == 0:
             region_name = "Ita"
