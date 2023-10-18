@@ -9,12 +9,15 @@
 \contentsline {subsubsection}{\numberline {2.3.1}Costruzione grafo}{5}{subsubsection.2.3.1}%
 \contentsline {subsubsection}{\numberline {2.3.2}Ricerca grafo}{6}{subsubsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.4}Query Knowledge base}{7}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Machine Learning}{9}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Analisi del dataset}{9}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Descrizione features}{9}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Preparazione dati}{9}{subsubsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.2}Valutazione dei modelli}{9}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Metriche scelte}{9}{subsubsection.3.2.1}%
-\contentsline {section}{\numberline {4}Risultati}{9}{section.4}%
-\contentsline {subsubsection}{\numberline {4.0.1}Considerazioni}{9}{subsubsection.4.0.1}%
-\contentsline {section}{\numberline {5}Sviluppi futuri}{9}{section.5}%
+\contentsline {section}{\numberline {3}Machine Learning}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Origine dataset}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Analisi del dataset}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Preparazione dati}{9}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Analisi input features}{10}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Analisi target feature}{10}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Apprendimento automatico}{11}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Valutazione dei modelli}{12}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Metriche scelte}{12}{subsubsection.3.5.1}%
+\contentsline {section}{\numberline {4}Risultati}{12}{section.4}%
+\contentsline {subsubsection}{\numberline {4.0.1}Considerazioni}{12}{subsubsection.4.0.1}%
+\contentsline {section}{\numberline {5}Sviluppi futuri}{12}{section.5}%

@@ -113,9 +113,9 @@
 			\item \textit{Tipo di treno}, regionale o nazionale
 			\item \textit{ID stazione di partenza}
 			\item \textit{ID stazione di arrivo}
-			\item\textit{ Orario di partenza} (HH:MM)
+			\item\textit{Orario di partenza} (HH:MM)
 			\item \textit{Orario di arrivo} (HH:MM)
-			\item \textit{Lista delle fermate}
+			\item \textit{Lista delle fermate}.
 		\end{enumerate}
 		Esempio:
 		
@@ -204,36 +204,116 @@
 	\begin{figure}[!h]
 		\centering
 		\includegraphics[width=1.1\linewidth]{img/code1}
+		\caption{aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa}
 	\end{figure}
 
 	\textbf{2)} Ricerca di tutti i treni che partono da una determinata stazione da un determinato orario
 	\begin{figure}[!h]
 		\centering
 		\includegraphics[width=1.1\linewidth]{img/code2}
+		\caption{aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa}
 	\end{figure}
 
 	\textbf{4)} Ricerca di tutti i treni disponibili tra due stazioni
 	\begin{figure}[!h]
 		\centering
 		\includegraphics[width=1.1\linewidth]{img/code3}
+		\caption{aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa}
 	\end{figure}	
 	
 	\textbf{3)} Ricerca di tutti i treni disponibili tra due stazioni dopo un determinato orario
 	\begin{figure}[!h]
 		\centering
 		\includegraphics[width=1.1\linewidth]{img/code4}
+		\caption{aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa}
 	\end{figure}
 \linebreak
 	Oltre queste query sono state prodotte altre regole, di supporto, per il funzionamento interno di queste principali, come quella per convertire le stringhe che rappresentano gli orari dal formato \textit{"HH:MM"} in minuti, quella per reperire tutte le info dei treni dall'id, etc\dots
 
 	\section{Machine Learning}
-
+	
+	\subsection{Origine dataset}
+		Il dataset di addestramento e test è stato recuperato per mezzo dell'interrogazione tramite API al serivio 	\href{http://www.viaggiatreno.it/infomobilita/index.jsp}{viaggiotreno.it}, in particolare si sono recuperate le informazoni giornaliere circa i treni (ID, tipo di treno, ...) ed in più il ritardo effettuato della corsa specifica.
+		
 	\subsection{Analisi del dataset}
+		Il dataset ottenuto è composto da 101169 osservazioni per otto features che, come già detto sopra, vanno a descrivere una serie di caratteristiche legate all'andamento giornaliero dei treni, abbiamo:
+		
+		\begin{enumerate}
+			\item \textit{train\_id}[numeric]: identificatore univoco del treno,
+			\item \textit{origin}[string]: nome della stazione di partenza,
+			\item \textit{arrival}[string]: nome della stazione di arrivo,
+			\item \textit{departure\_time}[string]: orario di partenza (HH:MM),
+			\item \textit{arrival\_time}[string]: orario di arrivo (HH:MM),
+			\item \textit{delay}[numeric]: ritardo registrato,
+			\item \textit{train\_type}[string]: tipo di treno, regionale o nazionale,
+			\item \textit{detection\_date}[date]: data della corsa.
+		\end{enumerate}
+		Ecco un esempio:
+		
+			\begin{figure}[!h]
+				\centering
+				\includegraphics[width=1.1\linewidth]{img/dataset}
+				\caption{aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa}
+			\end{figure}
 	
-	\subsubsection{Descrizione features}
 
+	\subsection{Preparazione dati}
+		Prendedo il dataset così descritto ci sono una serie di problematiche da risolvere per poter usare i dati, in particolare andando a considerare le osservazioni notiamo che per i valori nominali, in questo caso quelli che esprimono il nome della stazione di partenza e di arrivo, ci sono dei caratteri che andrebbero modificati per formattare meglio il dataset, in particolare si sono andati a sostituire i punti, le virgole, gli accenti e le doppie virgolette con degli underscore per poter meglio gestire il dataset.
+		
+		\subsubsection{Analisi input features}
+			Considerando le feature di input, cioè quelle sulle quali il modello andrà ad imparare, non tutte sono importanti per per il raggiongimento del nostro scopo, in particolare si sono escluse:
+			
+			\begin{itemize}
+				\item \textit{origin} (il modello scelto non accetta dati di tipo string),
+				\item \textit{arrival} (il modello scelto non accetta dati di tipo string),
+				\item \textit{detection\_date} (nessuna correlazione sulle feature su cui fare predizione).
+			\end{itemize}
+			Per quanto riguarda le feature rimanenti si è optato per una trasformazionde dei valori per adattarli al modello, specificatamente i valori di \textit{departure\_time} e \textit{arrival\_time} da stringhe nel formato HH:MM si è passati a valori numerici che rappresentano i minuti ($hour*60+minutes$), inoltre si è operato anche su \textit{train\_type} eseguendo una binarizzazione:
+			\begin{equation*}
+				\begin{cases}
+					1 \quad \text{per } train\_type(i) = regionale \\
+					0 \quad \text{per } train\_type(i) = nazionale
+				\end{cases}
+			\end{equation*}
+			
+		\subsubsection{Analisi target feature}
+			La target feature rappresenta l'biettivo sella notra predizione, in questo caso \textit{delay} che rappresenta il ritardo di una detrminata corsa, essendo un task di classificazione, cioè prevedere se un determinato treno farà ritardo o meno, anche in questo caso si è eseguita una binarizzazione:
+			
+			\begin{equation*}
+				\begin{cases}
+					1 \quad \text{per } delay(i) > 0  \\
+					0 \quad \text{otherwise}
+				\end{cases}
+			\end{equation*}
+			\linebreak
+			\\
+			Nel dataset abbiamo una distribuzione abbastanza bilanciata dei valori per la feature \textit{delay}
+			
+			\begin{figure}[!h]
+				\centering
+				\includegraphics[width=270px]{img/delay_graph}
+				\caption{Distribuzione dei treni con e senza ritardo}
+			\end{figure}
+			
+	\subsection{Apprendimento automatico}
+	Per produrre un modello che va predire se un treno farà ritardo o meno di ricorre all'apprendimento automatico o \textit{machine learning} che consiste nell'addestrare i computer a imparare dai dati e a migliorare le proprie prestazioni nei compiti specifici senza essere esplicitamente programmanti.\\
+	\linebreak
+	Per questo caso speficico si è usata la \textbf{Random forest}, modello di apprendimento automatico che combina molteplici alberi decisionali (decision trees), ulteriore modello, per migliorare la previsione e la generalizzazione.\\
+	La random forest fa parte della gamma dei modelli di \textbf{apprendimento supervisionato}, cioè viene addestrato su un insieme di dati di addestramento che includono sia le caratteristiche (input features) che le risposte corrette (output features). 
+	Il modello impara a fare previsioni basate su questi esempi etichettati. \\
+	\linebreak
+	In particolare la Random Forest funziona creando un insieme di alberi decisionali, ognuno addestrato su un subset casuale dei dati di addestramento e su un subset casuale delle caratteristiche.\\
+	Questo processo introduce variabilità e riduce il rischio di sovradattamento (overfitting). Quando si effettua una previsione, ciascun albero fornisce una previsione, e la Random Forest combina queste previsioni per ottenere un risultato finale più accurato e stabile. 
 	
-	\subsubsection{Preparazione dati}
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=270px]{img/random-forest-diagram}
+		\caption{Esempio di random forest}
+	\end{figure}
+	
+
+		\footnote{Fonte: \href{https://www.spotfire.com/glossary/what-is-a-random-forest}{www.spotfire.com}}
+
 	
 	
 	\subsection{Valutazione dei modelli}
