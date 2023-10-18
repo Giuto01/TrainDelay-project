@@ -16,8 +16,11 @@
 \contentsline {subsubsection}{\numberline {3.3.1}Analisi input features}{10}{subsubsection.3.3.1}%
 \contentsline {subsubsection}{\numberline {3.3.2}Analisi target feature}{10}{subsubsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.4}Apprendimento automatico}{11}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Valutazione dei modelli}{12}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Metriche scelte}{12}{subsubsection.3.5.1}%
-\contentsline {section}{\numberline {4}Risultati}{12}{section.4}%
-\contentsline {subsubsection}{\numberline {4.0.1}Considerazioni}{12}{subsubsection.4.0.1}%
-\contentsline {section}{\numberline {5}Sviluppi futuri}{12}{section.5}%
+\contentsline {subsection}{\numberline {3.5}Random forest}{11}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Funzionamento}{12}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Configurazione scelta}{12}{subsubsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.6}Valutazione dei modelli}{13}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Metriche scelte}{13}{subsubsection.3.6.1}%
+\contentsline {section}{\numberline {4}Risultati}{13}{section.4}%
+\contentsline {subsubsection}{\numberline {4.0.1}Considerazioni}{13}{subsubsection.4.0.1}%
+\contentsline {section}{\numberline {5}Sviluppi futuri}{13}{section.5}%

@@ -21,45 +21,86 @@ Database file #1: Report-blx.bib
 Database file #2: citations.bib
 Biblatex version: 3.17
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Too many commas in name 1 of "D. Cournapeau, O. Grisel, G. Varoquaux, A. Gramfort and A. Mueller" for entry scikit_learn
+while executing---line 2699 of file biblatex.bst
+Too many commas in name 1 of "D. Cournapeau, O. Grisel, G. Varoquaux, A. Gramfort and A. Mueller" for entry scikit_learn
+while executing---line 2699 of file biblatex.bst
+Too many commas in name 1 of "D. Cournapeau, O. Grisel, G. Varoquaux, A. Gramfort and A. Mueller" for entry scikit_learn
+while executing---line 2699 of file biblatex.bst
+Too many commas in name 1 of "D. Cournapeau, O. Grisel, G. Varoquaux, A. Gramfort and A. Mueller" for entry scikit_learn
+while executing---line 2699 of file biblatex.bst
+Too many commas in name 1 of "D. Cournapeau, O. Grisel, G. Varoquaux, A. Gramfort and A. Mueller" for entry scikit_learn
+while executing---line 2703 of file biblatex.bst
+Too many commas in name 1 of "D. Cournapeau, O. Grisel, G. Varoquaux, A. Gramfort and A. Mueller" for entry scikit_learn
+while executing---line 2709 of file biblatex.bst
+Too many commas in name 1 of "D. Cournapeau, O. Grisel, G. Varoquaux, A. Gramfort and A. Mueller" for entry scikit_learn
+while executing---line 2713 of file biblatex.bst
+Too many commas in name 1 of "D. Cournapeau, O. Grisel, G. Varoquaux, A. Gramfort and A. Mueller" for entry scikit_learn
+while executing---line 2713 of file biblatex.bst
+Too many commas in name 1 of "D. Cournapeau, O. Grisel, G. Varoquaux, A. Gramfort and A. Mueller" for entry scikit_learn
+while executing---line 2717 of file biblatex.bst
+Too many commas in name 1 of "D. Cournapeau, O. Grisel, G. Varoquaux, A. Gramfort and A. Mueller" for entry scikit_learn
+while executing---line 2723 of file biblatex.bst
+Too many commas in name 1 of "D. Cournapeau, O. Grisel, G. Varoquaux, A. Gramfort and A. Mueller" for entry scikit_learn
+while executing---line 2727 of file biblatex.bst
+Too many commas in name 1 of "D. Cournapeau, O. Grisel, G. Varoquaux, A. Gramfort and A. Mueller" for entry scikit_learn
+while executing---line 2727 of file biblatex.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 2 entries,
+Too many commas in name 1 of "D. Cournapeau, O. Grisel, G. Varoquaux, A. Gramfort and A. Mueller" for entry scikit_learn
+while executing---line 2815 of file biblatex.bst
+Too many commas in name 1 of "D. Cournapeau, O. Grisel, G. Varoquaux, A. Gramfort and A. Mueller" for entry scikit_learn
+while executing---line 2815 of file biblatex.bst
+Too many commas in name 1 of "D. Cournapeau, O. Grisel, G. Varoquaux, A. Gramfort and A. Mueller" for entry scikit_learn
+while executing---line 2815 of file biblatex.bst
+Too many commas in name 1 of "D. Cournapeau, O. Grisel, G. Varoquaux, A. Gramfort and A. Mueller" for entry scikit_learn
+while executing---line 2815 of file biblatex.bst
+Too many commas in name 1 of "D. Cournapeau, O. Grisel, G. Varoquaux, A. Gramfort and A. Mueller" for entry scikit_learn
+while executing---line 2815 of file biblatex.bst
+Too many commas in name 1 of "D. Cournapeau, O. Grisel, G. Varoquaux, A. Gramfort and A. Mueller" for entry scikit_learn
+while executing---line 2815 of file biblatex.bst
+Too many commas in name 1 of "D. Cournapeau, O. Grisel, G. Varoquaux, A. Gramfort and A. Mueller" for entry scikit_learn
+while executing---line 2815 of file biblatex.bst
+Too many commas in name 1 of "D. Cournapeau, O. Grisel, G. Varoquaux, A. Gramfort and A. Mueller" for entry scikit_learn
+while executing---line 2815 of file biblatex.bst
+You've used 3 entries,
             6399 wiz_defined-function locations,
-            1208 strings with 9067 characters,
-and the built_in function-call counts, 4835 in all, are:
-= -- 237
-> -- 148
-< -- 26
-+ -- 102
-- -- 54
-* -- 237
-:= -- 631
+            1213 strings with 9232 characters,
+and the built_in function-call counts, 16511 in all, are:
+= -- 1337
+> -- 240
+< -- 39
++ -- 327
+- -- 91
+* -- 1216
+:= -- 1986
 add.period$ -- 0
-call.type$ -- 2
-change.case$ -- 9
+call.type$ -- 3
+change.case$ -- 13
 chr.to.int$ -- 42
-cite$ -- 2
-duplicate$ -- 410
-empty$ -- 454
-format.name$ -- 46
-if$ -- 1045
+cite$ -- 4
+duplicate$ -- 1169
+empty$ -- 1584
+format.name$ -- 107
+if$ -- 3479
 int.to.chr$ -- 0
-int.to.str$ -- 2
+int.to.str$ -- 4
 missing$ -- 0
-newline$ -- 40
-num.names$ -- 41
-pop$ -- 374
+newline$ -- 66
+num.names$ -- 76
+pop$ -- 737
 preamble$ -- 1
-purify$ -- 11
+purify$ -- 22
 quote$ -- 0
-skip$ -- 233
+skip$ -- 387
 stack$ -- 0
-substring$ -- 340
-swap$ -- 107
-text.length$ -- 45
-text.prefix$ -- 1
+substring$ -- 2954
+swap$ -- 209
+text.length$ -- 61
+text.prefix$ -- 0
 top$ -- 1
-type$ -- 56
+type$ -- 90
 warning$ -- 0
-while$ -- 99
+while$ -- 202
 width$ -- 0
-write$ -- 39
+write$ -- 64
+(There were 20 error messages)

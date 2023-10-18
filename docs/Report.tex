@@ -20,7 +20,7 @@
 \usepackage{tikz}
 \usepackage{enumitem}
 \usepackage{tabularx}
-\usepackage[backend=bibtex]{biblatex}
+\usepackage[backend=bibtex,sorting=none]{biblatex}
 \addbibresource{citations.bib}
 \title{Università degli studi di Bari facoltà di scienze MM.FF.NN}
 \date{} % clear date
@@ -29,6 +29,7 @@
 	linkcolor=black,
 	filecolor=magenta,      
 	urlcolor=cyan,
+	citecolor=cyan,
 	pdfpagemode=FullScreen,
 }
 \graphicspath{ {./img/} }
@@ -296,25 +297,36 @@
 			\end{figure}
 			
 	\subsection{Apprendimento automatico}
-	Per produrre un modello che va predire se un treno farà ritardo o meno di ricorre all'apprendimento automatico o \textit{machine learning} che consiste nell'addestrare i computer a imparare dai dati e a migliorare le proprie prestazioni nei compiti specifici senza essere esplicitamente programmanti.\\
-	\linebreak
-	Per questo caso speficico si è usata la \textbf{Random forest}, modello di apprendimento automatico che combina molteplici alberi decisionali (decision trees), ulteriore modello, per migliorare la previsione e la generalizzazione.\\
-	La random forest fa parte della gamma dei modelli di \textbf{apprendimento supervisionato}, cioè viene addestrato su un insieme di dati di addestramento che includono sia le caratteristiche (input features) che le risposte corrette (output features). 
-	Il modello impara a fare previsioni basate su questi esempi etichettati. \\
-	\linebreak
-	In particolare la Random Forest funziona creando un insieme di alberi decisionali, ognuno addestrato su un subset casuale dei dati di addestramento e su un subset casuale delle caratteristiche.\\
-	Questo processo introduce variabilità e riduce il rischio di sovradattamento (overfitting). Quando si effettua una previsione, ciascun albero fornisce una previsione, e la Random Forest combina queste previsioni per ottenere un risultato finale più accurato e stabile. 
+	Per produrre un sistema che va predire se un treno farà ritardo o meno di ricorre all'apprendimento automatico o \textit{machine learning} che consiste nell'addestrare un modello ad imparare dai dati e a migliorare le proprie prestazioni nei compiti specifici senza essere esplicitamente programmanti.
 	
+	\subsection{Random forest}
+	Per questo caso speficico si è usata la \textbf{Random forest}, modello di apprendimento automatico che combina molteplici alberi decisionali (\textit{decision trees}), entrando così nella categoria di modelli \textit{ensamble}, per migliorare la previsione e la generalizzazione.\\
+	La random forest fa parte della gamma dei modelli di \textbf{apprendimento supervisionato}, cioè viene addestrato su un insieme di dati di addestramento che includono sia le caratteristiche (input features) che le risposte corrette (output features). 
+	Il modello impara a fare previsioni basate su questi esempi etichettati.
+		
 	\begin{figure}[!h]
 		\centering
 		\includegraphics[width=270px]{img/random-forest-diagram}
-		\caption{Esempio di random forest}
+		\caption{Esempio di random forest \href{https://www.spotfire.com/glossary/what-is-a-random-forest}{www.spotfire.com}}
 	\end{figure}
-	
 
-		\footnote{Fonte: \href{https://www.spotfire.com/glossary/what-is-a-random-forest}{www.spotfire.com}}
-
-	
+	\subsubsection{Funzionamento}
+	In particolare la Random Forest funziona creando un insieme di alberi decisionali, ognuno addestrato su un subset casuale dei dati di addestramento e su un subset casuale delle caratteristiche.\\
+	Questo processo introduce variabilità e riduce il rischio di sovradattamento (\textit{overfitting}). Quando si effettua una previsione, ciascun albero fornisce una previsione, e la Random Forest combina queste previsioni per ottenere un risultato finale più accurato e stabile.
+	\subsubsection{Configurazione scelta}
+	Dopo varie sperimentazioni si riporta la migliore configurazione del modello, in particolare attraverso la libreria \texttt{scikit-learn} \cite{scikit_learn} si è definita una random forest le cui caratteristiche perculiari sono:
+		\begin{enumerate}
+			\item \texttt{'n\_estimators = 50}, che rappresenta il numero di alberi su cui lavorare
+			\item  \texttt{criterion = "gini"}, che rappresenta il criterio di \textit{split} degli alberi, in particolare il criterio punta a minimizzare l'impurità dei nodi, quindi per scegliere l'attributo che meglio divide i dati in base alla target feature per ogni nodo si calcola:
+				$$GINI(v) = 1-\sum_{i = 1}^{|c|}p_i^2$$
+			dove:
+				\begin{itemize}
+					\item $v$ è il nodo in esame,
+					\item $c$ rappresenta l'inseme delle classi,
+					\item $p_i$ è la probabilità che un campione nel nodo $v$ appartenga alla classe $i$.
+				\end{itemize}
+			infine vene scelto il nodo con minor impurità.
+		\end{enumerate}
 	
 	\subsection{Valutazione dei modelli}
 
