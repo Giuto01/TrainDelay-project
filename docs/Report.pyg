@@ -1,7 +1,20 @@
-			somePredicate(A, B) :-
-			arbitraryPredicate(A, _, 1, 2),
-			predicateWithAtom(someAtom),
-			anotherPredicate(B, someAtom, myPredicate(A, _)),
-			findall(X, ('testString'(X), myPredicate(A, X)), L1),
-			member(A, L1),
-			!.
+		mutation updateCheckoutShippingOptions(
+		$checkoutId: ID!
+		$shippingMethodId: ID!
+		) {
+			checkoutShippingMethodUpdate(
+			checkoutId: $checkoutId
+			shippingMethodId: $shippingMethodId
+			) {
+				errors {
+					field
+					message
+					__typename
+				}
+				checkout {
+					...Checkout
+					__typename
+				}
+				__typename
+			}
+		}
