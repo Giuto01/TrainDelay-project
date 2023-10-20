@@ -112,10 +112,10 @@
 	Per gestire formalmente la conoscenza, facilitando la ricerca e l'accesso a informazioni specifiche, si costruisce una \textbf{knowledge base} (base di conoscenza), una raccolta strutturata di informazioni o dati che rappresenta la conoscenza su un determinato dominio o argomento, utilizzate per immagazzinare e organizzare la conoscenza in modo che sia accessibile e utilizzabile da sistemi informatici.
 	
 	\subsection{Origine dei dati}
-	Tutte le informazioni relative allo schedul dei treni sono state reperite per mezzo dell'interrogazione alle API messe a disposizione dal sito \href{http://www.viaggiatreno.it/infomobilita/index.jsp}{viaggiatreno}, mentre le informazioni relative alle stazioni sono state recuperate dal repository "trenitalia: scraping di viaggiatreno" \cite{dati_stazioni}
+	Tutte le informazioni relative allo schedul dei treni sono state reperite per mezzo dell'interrogazione alle API messe a disposizione dal sito \href{http://www.viaggiatreno.it/infomobilita/index.jsp}{viaggiatreno}, mentre le informazioni relative alle stazioni sono state recuperate dal repository "trenitalia: scraping di viaggiatreno".\cite{dati_stazioni}
 	
 	\subsection{Descrizione dei dati}
-	La parte iniziale del progetto si è concentarta sulla rappresentazione formale attraverso fatti e regole Prolog (linguaggio di programmazione logica utilizzato per definire relazioni tra fatti e regole attraverso la logica dei predicati) dello schedul dei treni e delle stazioni, in particolare ogni treno si è ritenuto opportuno caratterizzarlo da:
+	La parte iniziale del progetto si è concentarta sulla rappresentazione formale attraverso fatti e regole Prolog (linguaggio di programmazione logica utilizzato per definire relazioni tra fatti e regole attraverso la logica dei predicati) dello schedule dei treni e delle stazioni, in particolare ogni treno si è ritenuto opportuno caratterizzarlo da:
 	
 		\begin{enumerate}
 			\item \textit{ID treno}, identificatore univoco del treno
@@ -125,21 +125,16 @@
 			\item\textit{Orario di partenza} (HH:MM)
 			\item \textit{Orario di arrivo} (HH:MM)
 			\item \textit{Lista delle fermate}.
-		\end{enumerate}
-		Esempio:
+		\end{enumerate} 
+		\vspace{20px}
+		Di seguito è riportato un esempio:
 		
-
-	\begin{small}
-		\begin{verbatim}
-			train(320, nazionale, s01700, s01301, "15:10", "15:58", [s01700, s01307, s01301]).
-			train(321, nazionale, s01301, s01700, "18:02", "18:50", [s01301, s01307, s01700]).
-			train(322, nazionale, s01700, s01301, "17:10", "17:58", [s01700, s01307, s01301]).
-			train(323, nazionale, s01301, s01700, "20:02", "20:50", [s01301, s01307, s01700]).
-			train(324, nazionale, s01700, s01301, "19:10", "19:58", [s01700, s01307, s01301]).
-			train(325, nazionale, s01301, s01700, "22:02", "22:50", [s01301, s01307, s01700]).
-		\end{verbatim}
-	\end{small}
-
+		\begin{figure}[!h]
+			\centering
+			\includegraphics[width=400px]{img/code_prolog1}
+			\caption{Esempio di rappresentazione formale dello shedule dei treni}
+		\end{figure}
+		\newpage
 	Mentre ogni stazione si è pensato caratterizzarla da:
 	
 		\begin{enumerate}
@@ -147,37 +142,39 @@
 			\item \textit{Nome stazione}
 			\item \textit{Regione stazione}
 		\end{enumerate}
-		Esempio:
+		Di seguito è riportato un esempio:
 	
-	\begin{small}
-		\begin{verbatim}
-			station(s11504, "ACQUAVIVA DELLE FONTI", "Puglia").
-			station(s12026, "ACQUEDOLCI-S.FRATELLO", "Sicilia").
-			station(s00867, "ACQUI TERME", "Piemonte").
-			station(s11907, "ACRI BISIGNANO LUZZI", "Calabria").
-			station(s05420, "ADRIA", "Veneto").
-		\end{verbatim}
-	\end{small}
+		\begin{figure}[!h]
+			\centering
+			\includegraphics[width=400px]{img/code_prolog2}
+			\caption{Esempio di rappresentazione formale delle stazioni}
+		\end{figure}
+		\vspace{10px}
+		\setlength{\parindent}{0cm}
+		Questa rappresentazione dei treni e delle stazioni nel linguaggio di programmazione logica ha fornito una base solida per la gestione e l'analisi dei dati ferroviari. \\
+		\linebreak
+		Con questa struttura dati, è stato possibile effettuare interrogazioni, trovare treni tra stazioni, e condurre altre operazioni analitiche necessarie per il progetto.
 
 \subsection{Grafo}
 
 \subsubsection{Costruzione grafo}
 	Per la possibilità di ricercare l'itinerario di viaggio mugliore, cioè con il numero minimo di stazioni, si è pensato di costruire un grafo delle stazioni, dove ogni nodo rappresenta una stazione diversa (\texttt{idStazione}) e la presenza di un arco tra due nodi si traduce in un collegamento ferroviario tra le due stazioni.
 	\\
-	\begin{figure}[!h]
+	\begin{figure}[t]
 		\centering
-		\includegraphics[width=0.55\linewidth]{img/stations}
+		\includegraphics[width=220px]{img/stations}
 		\caption{Grafo delle stazioni}
 		\label{fig:stationsgraph}
 	\end{figure}
 	
 \subsubsection{Ricerca grafo}
 	
-		Per la ricerca del percorso più breve tra due stazioni si è utilizzato \textbf{l'algoritmo di Dijkstra}, un algoritmo di ricerca del cammino più breve in un grafo pesato con pesi non negativi, in questo caso specifico il peso di ogni arco è 1, quindi l'algortmo cercherà il percorso con il più piccolo numero di nodi.\\
+		Per la ricerca del percorso più breve tra due stazioni si è utilizzato \textbf{l'algoritmo di Dijkstra}, un algoritmo di ricerca del cammino più breve in un grafo pesato con pesi non negativi, in questo caso specifico il peso di ogni arco è 1, quindi l'algortmo cercherà il percorso con il più breve numero di nodi.\\
+		Inizia da un nodo sorgente e calcola le distanze minime da esso a tutti gli altri nodi, mantenendo una coda di priorità, durante l'esecuzione, visita i nodi adiacenti al nodo corrente e aggiorna le distanze minime se trova un cammino più breve. Implementato dalla libreria \textbf{NetworkX} che restituisce il percorso più breve sotto forma di lista di nodi. \\
 		\linebreak
-		Inizia da un nodo sorgente e calcola le distanze minime da esso a tutti gli altri nodi, mantenendo una coda di priorità, durante l'esecuzione, visita i nodi adiacenti al nodo corrente e aggiorna le distanze minime se trova un cammino più breve. Implementato dalla libreria \textbf{NetworkX}.
+		Anche se il grao prodotto non è propriamente pesato, si è pensato di usare l'algoritmo di Dijkstra, per una possibile estensione e miglioramento del sistema convertendo il grafo attuale in uno pesato, magari andando ad impostare come pesi degli archi le distanze che intercorrono tra le stazioni collegate.
 		
-	\begin{algorithm}
+	\begin{algorithm}[h]
 		\caption{Algoritmo di Dijkstra}
 		\begin{algorithmic}[1]
 			\Procedure{Dijkstra}{$G, s$}
@@ -198,17 +195,31 @@
 			\EndProcedure
 		\end{algorithmic}
 	\end{algorithm}
-
-	\textbf{Commento sull'algoritmo} \\
-	'''Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat tempus dictum. Vivamus dolor velit, condimentum nec scelerisque nec, blandit at ipsum. Maecenas venenatis sapien vitae rhoncus ultrices. Etiam blandit enim a aliquet sollicitudin. Curabitur ac ligula ac elit dignissim efficitur sed vitae nisi. Aenean porta magna sed pulvinar pretium. Curabitur gravida dolor quis arcu malesuada sodales. Nunc tortor sem, luctus et erat vel, bibendum vestibulum arcu. Integer in tellus mollis, aliquam ipsum vitae, consectetur tortor. Sed vehicula magna ac tristique porttitor. In vel pharetra tellus. Nulla facilisi. '''
+	\vspace{200px}
+	
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|l|l|}
+			\hline
+			\textbf{Operazione} & \textbf{Complessità} \\ \hline
+			Inizializzazione & $O(V)$ \\ \hline
+			Inserimento di nodi nella coda & $O(V \log V)$ \\ \hline
+			Estrazione del nodo con distanza minima & $O(\log V)$ \\ \hline
+			Aggiornamento delle distanze & $O(E \log V)$ \\ \hline
+			Totale & $O((V + E) \log V)$ \\ \hline
+		\end{tabular}
+		\caption{Complessità dell'algoritmo di Dijkstra con heap binario}
+	\end{table}
+	
+	\vspace{20px}
 
 	\subsection{Query Knowledge base}
 	Per andare ad interagire un Knowledge base vengono eseguite delle \textbf{query}, interrogazioni alla KB, che permettono di estrapolare informazioni specifiche.\\
 	In questo caso sono state messe a disposizione delle query predefinite per poter recuperare le informazioni relative ai treni secondo le esigenze dell'utente. \\
-	\linebreak
 	In particolare sono state pensate quattro query principali, che che verranno eseguite in base alle esigenze dell'utente correlate alla ricerca specifica che andrà a fare.\\
 	\linebreak
-	Query messe a disposizione dal sistema: \\
+	\newpage
+	Query messe a disposizione per andare ad interagire, in maniere efficente, con la base di conoscenza da parte del sistema: \\
 	
 	\begin{enumerate}
 		\item Restituisce la lista di tutti i treni (\texttt{Trains}) che partono da una determinata stazione (\texttt{StationName})
@@ -216,7 +227,6 @@
 				\centering
 				\includegraphics[width=350px]{img/code1}
 				\caption{Regola n.1}
-
 			\end{figure}
 			
 		\item Restituisce la lista di treni (\texttt{Trains}) che partono da una stazione specifica (\texttt{StationName}) a un determinato orario di partenza (\texttt{Departure}). 
@@ -226,6 +236,7 @@
 				\caption{Regola n.2}
 
 			\end{figure}
+			\newpage
 		\item Restituisce la lista di treni (\texttt{Trains}) che collegano due stazioni specifiche, partendo dalla stazione \texttt{DepartureStationName} e arrivando \texttt{ArrivalStationName} dopo un orario specifico \texttt{Time} (nella forma HH:MM)
 			\begin{figure}[h]
 				\centering
@@ -306,7 +317,7 @@
 			\end{equation*}
 			\linebreak
 			\\
-			Nel dataset abbiamo una distribuzione abbastanza bilanciata dei valori per la feature \textit{delay}
+			Nel dataset abbiamo una distribuzione abbastanza bilanciata dei valori per la feature \textit{delay}.
 			
 			\begin{figure}[!h]
 				\centering
