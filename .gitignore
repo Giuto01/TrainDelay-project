@@ -1,0 +1,11 @@
+# File generati da LaTeX
+*.log
+*.aux
+*.toc
+*.out
+*.bbl
+*.bcf
+*.blg
+*.pyg
+*.run.*
+*.gz
