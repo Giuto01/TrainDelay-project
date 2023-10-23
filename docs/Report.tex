@@ -7,20 +7,10 @@
 \usepackage{graphicx}
 \usepackage{subfig}
 \usepackage{hyperref}
-\usepackage{tikz}
 \usepackage{colortbl}
-\usepackage{svg}
-\usepackage{pgf-pie}
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 \usepackage{algorithmicx}
-\usepackage{placeins}
-\usepackage{fancyvrb}
-\usepackage{svg}
-\usepackage{tikz}
-\usepackage{pgfplots}
-\pgfplotsset{compat=1.17}
-\usepackage{enumitem}
 \usepackage{tabularx}
 \usepackage[backend=bibtex,sorting=none]{biblatex}
 \addbibresource{citations.bib}
@@ -42,10 +32,6 @@
 
 \renewcommand\cfttoctitlefont{\hfill\Large\bfseries}
 \renewcommand\cftaftertoctitle{\hfill\mbox{}}
-
-\algrenewcommand\algorithmicrequire{\textbf{Input:}}
-\algrenewcommand\algorithmicensure{\textbf{Output:}}
-\usepackage{mdframed}
 
 \setcounter{tocdepth}{2}
 \begin{document}
@@ -101,8 +87,8 @@
 	Per la sperimentazione sono stati usati diversi stumenti/librerie, i principali sono:
 	
 		\begin{itemize}
-			\item \textbf{PySWIP}, libreria Python che fornisce un'interfaccia per utilizzare SWI-Prolog, usato per la rappreesentazione formale della schedul dei treni,
-			\item \textbf{NetworkX}, libreria Python utilizzata per la creazione, l'analisi e la manipolazione di reti complesse. Questa libreria fornisce un insieme di strumenti per la rappresentazione di reti e grafi, oltre a un'ampia gamma di algoritmi e funzioni per eseguire diverse operazioni su di essi,
+			\item \textbf{PySWIP}, libreria Python che fornisce un'interfaccia per utilizzare SWI-Prolog, usato per la rappreesentazione formale della schedul dei treni;
+			\item \textbf{NetworkX}, libreria Python utilizzata per la creazione, l'analisi e la manipolazione di reti complesse. Questa libreria fornisce un insieme di strumenti per la rappresentazione di reti e grafi, oltre a un'ampia gamma di algoritmi e funzioni per eseguire diverse operazioni su di essi;
 			\item \textbf{Scikit-learn}, libreria open-source che fornisce un vasto insieme di strumenti nell'ambito del machine learning e dell'apprendimento automatico.
 		\end{itemize}
 
@@ -112,18 +98,18 @@
 	Per gestire formalmente la conoscenza, facilitando la ricerca e l'accesso a informazioni specifiche, si costruisce una \textbf{knowledge base} (base di conoscenza), una raccolta strutturata di informazioni o dati che rappresenta la conoscenza su un determinato dominio o argomento, utilizzate per immagazzinare e organizzare la conoscenza in modo che sia accessibile e utilizzabile da sistemi informatici.
 	
 	\subsection{Origine dei dati}
-	Tutte le informazioni relative allo schedul dei treni sono state reperite per mezzo dell'interrogazione alle API messe a disposizione dal sito \href{http://www.viaggiatreno.it/infomobilita/index.jsp}{viaggiatreno}, mentre le informazioni relative alle stazioni sono state recuperate dal repository "trenitalia: scraping di viaggiatreno".\cite{dati_stazioni}
+	Tutte le informazioni relative allo schedul dei treni sono state reperite per mezzo dell'interrogazione alle API messe a disposizione dal sito \href{http://www.viaggiatreno.it/infomobilita/index.jsp}{www.viaggiatreno.it}, mentre le informazioni relative alle stazioni sono state recuperate dal repository "trenitalia: scraping di viaggiatreno".\cite{dati_stazioni}
 	
 	\subsection{Descrizione dei dati}
 	La parte iniziale del progetto si è concentarta sulla rappresentazione formale attraverso fatti e regole Prolog (linguaggio di programmazione logica utilizzato per definire relazioni tra fatti e regole attraverso la logica dei predicati) dello schedule dei treni e delle stazioni, in particolare ogni treno si è ritenuto opportuno caratterizzarlo da:
 	
 		\begin{enumerate}
-			\item \textit{ID treno}, identificatore univoco del treno
-			\item \textit{Tipo di treno}, regionale o nazionale
-			\item \textit{ID stazione di partenza}
-			\item \textit{ID stazione di arrivo}
-			\item\textit{Orario di partenza} (HH:MM)
-			\item \textit{Orario di arrivo} (HH:MM)
+			\item \textit{ID treno} identificatore univoco del treno;
+			\item \textit{Tipo di treno} regionale o nazionale;
+			\item \textit{ID stazione di partenza};
+			\item \textit{ID stazione di arrivo};
+			\item\textit{Orario di partenza} (HH:MM);
+			\item \textit{Orario di arrivo} (HH:MM);
 			\item \textit{Lista delle fermate}.
 		\end{enumerate} 
 		\vspace{20px}
@@ -138,9 +124,9 @@
 	Mentre ogni stazione si è pensato caratterizzarla da:
 	
 		\begin{enumerate}
-			\item \textit{ID stazione}, identificatore univoco delle stazioni
-			\item \textit{Nome stazione}
-			\item \textit{Regione stazione}
+			\item \textit{ID stazione}, identificatore univoco delle stazioni;
+			\item \textit{Nome stazione};
+			\item \textit{Regione stazione}.
 		\end{enumerate}
 		Di seguito è riportato un esempio:
 	
@@ -228,14 +214,14 @@
 	
 	
 	\begin{enumerate}
-		\item Restituisce la lista di tutti i treni (\texttt{Trains}) che partono da una determinata stazione (\texttt{StationName})
+		\item Restituisce la lista di tutti i treni (\texttt{Trains}) che partono da una determinata stazione (\texttt{StationName});
 			\begin{figure}[h]
 				\centering
 				\includegraphics[width=370px]{img/code1}
 				\caption{Regola n.1}
 			\end{figure}
 			
-		\item Restituisce la lista di treni (\texttt{Trains}) che partono da una stazione specifica (\texttt{StationName}) a un determinato orario di partenza (\texttt{Departure}). 
+		\item Restituisce la lista di treni (\texttt{Trains}) che partono da una stazione specifica (\texttt{StationName}) a un determinato orario di partenza (\texttt{Departure});
 			\begin{figure}[h]
 				\centering
 				\includegraphics[width=370px]{img/code2}
@@ -243,14 +229,14 @@
 
 			\end{figure}
 			\newpage
-		\item Restituisce la lista di treni (\texttt{Trains}) che collegano due stazioni specifiche, partendo dalla stazione \texttt{DepartureStationName} e arrivando \texttt{ArrivalStationName} dopo un orario specifico \texttt{Time} (nella foramto HH:MM)
+		\item Restituisce la lista di treni (\texttt{Trains}) che collegano due stazioni specifiche, partendo dalla stazione \texttt{DepartureStationName} e arrivando \texttt{ArrivalStationName} dopo un orario specifico \texttt{Time} (nella foramto HH:MM);
 			\begin{figure}[h]
 				\centering
 				\includegraphics[width=370px]{img/code4}
 				\caption{Regola n.3}
 
 			\end{figure}
-		\item Restituisce la lista di treni (Trains) che collegano due stazioni specifiche, partendo dalla stazione \texttt{DepartureStationName} e arrivando \texttt{ArrivalStationName}
+		\item Restituisce la lista di treni (Trains) che collegano due stazioni specifiche, partendo dalla stazione \texttt{DepartureStationName} e arrivando \texttt{ArrivalStationName};
 			\begin{figure}[h]
 				\centering
 				\includegraphics[width=370px]{img/code3}
@@ -276,13 +262,13 @@
 		Il dataset ottenuto è composto da circa 101169 osservazioni per otto features che, come già detto sopra, vanno a descrivere una serie di caratteristiche legate all'andamento giornaliero dei treni, abbiamo:
 		
 		\begin{enumerate}
-			\item \textit{train\_id}[numeric]: identificatore univoco del treno,
-			\item \textit{origin}[string]: nome della stazione di partenza,
-			\item \textit{arrival}[string]: nome della stazione di arrivo,
-			\item \textit{departure\_time}[string]: orario di partenza (HH:MM),
-			\item \textit{arrival\_time}[string]: orario di arrivo (HH:MM),
-			\item \textit{delay}[numeric]: ritardo registrato,
-			\item \textit{train\_type}[string]: tipo di treno, regionale o nazionale,
+			\item \textit{train\_id}[numeric]: identificatore univoco del treno;
+			\item \textit{origin}[string]: nome della stazione di partenza;
+			\item \textit{arrival}[string]: nome della stazione di arrivo;
+			\item \textit{departure\_time}[string]: orario di partenza (HH:MM);
+			\item \textit{arrival\_time}[string]: orario di arrivo (HH:MM);
+			\item \textit{delay}[numeric]: ritardo registrato;
+			\item \textit{train\_type}[string]: tipo di treno, regionale o nazionale;
 			\item \textit{detection\_date}[date]: data della corsa.
 		\end{enumerate}
 		
@@ -300,8 +286,8 @@
 			Considerando le feature di input, cioè quelle sulle quali il modello andrà ad imparare, non tutte sono funzionali per per il raggiongimento del nostro scopo, in particolare si sono escluse:
 			
 			\begin{itemize}
-				\item \textit{origin} (il modello scelto non accetta dati di tipo string),
-				\item \textit{arrival} (il modello scelto non accetta dati di tipo string),
+				\item \textit{origin} (il modello scelto non accetta dati di tipo string);
+				\item \textit{arrival} (il modello scelto non accetta dati di tipo string);
 				\item \textit{detection\_date} (nessuna correlazione sulle feature su cui fare predizione).
 			\end{itemize}
 			Per quanto riguarda le feature rimanenti si è optato per una trasformazionde dei valori per adattarli al modello, specificatamente i valori di \textit{departure\_time} e \textit{arrival\_time} da stringhe nel formato HH:MM si è passati a valori numerici che rappresentano i minuti ($hour*60+minutes$), inoltre si è operato anche su \textit{train\_type} eseguendo una binarizzazione:
@@ -323,7 +309,7 @@
 			\end{equation*}
 			\linebreak
 			\\
-			Nel dataset abbiamo una distribuzione abbastanza bilanciata dei valori per la feature \textit{delay} ($41.3\%$ per treni in ritardo e $58.7\%$ per treni in orario), questo evita stategie per come data augmentation, cost-sensitive learning, etc....
+			Nel dataset abbiamo una distribuzione abbastanza bilanciata dei valori per la feature \textit{delay} ($41.3\%$ per treni in ritardo e $58.7\%$ per treni in orario), questo evita stategie per come data augmentation, cost-sensitive learning, etc\dots.
 			
 			\begin{figure}[!h]
 				\centering
@@ -351,7 +337,7 @@
 	\subsubsection{Configurazione scelta}
 	Dopo varie sperimentazioni si riporta la migliore configurazione del modello, in particolare attraverso la libreria \texttt{scikit-learn} \cite{scikit_learn} si è definita una random forest le cui caratteristiche perculiari sono:
 		\begin{enumerate}
-			\item \texttt{n\_estimators = 50}, che rappresenta il numero di alberi su cui lavorare
+			\item \texttt{n\_estimators = 50}, che rappresenta il numero di alberi su cui lavorare;
 			\item  \texttt{criterion = "gini"}, che rappresenta il criterio di \textit{split} degli alberi, in particolare il criterio punta a minimizzare l'impurità dei nodi, quindi per scegliere l'attributo che meglio divide i dati in base alla target feature per ogni nodo si calcola:
 				$$GINI(v) = 1-\sum_{i = 1}^{|c|}p_i^2$$
 			dove:
@@ -381,9 +367,9 @@
 	
 		
 	\begin{itemize}
-		\item $f\beta-score$,  combinazione delle metriche classiche di $precision$ e $recall$ bilanciate da un parametro $\beta$ nella media armonica.
+		\item $f\beta-score$,  combinazione delle metriche classiche di $precision$ e $recall$ bilanciate da un parametro $\beta$ nella media armonica
 		$$f\beta-score = \frac{(1+ \beta^2) \cdot Precision \cdot Recall}{\beta^2 \cdot Precision + Recall}$$
-		\item $AUC-ROC$ (Area Under the Receiver Operating Characteristic Curve), area sotto la curva che rappresenta la relazione tra il tasso di veri positivi (True Positive Rate, TPR) e il tasso di falsi positivi (False Positive Rate, FPR) al variare della soglia di classificazione.
+		\item $AUC-ROC$ (Area Under the Receiver Operating Characteristic Curve), area sotto la curva che rappresenta la relazione tra il tasso di veri positivi (True Positive Rate, TPR) e il tasso di falsi positivi (False Positive Rate, FPR) al variare della soglia di classificazione
 		$$TPR = \frac{TP}{TP+FN} \quad FPR = \frac{FP}{FP+TN}$$
 	
 	\end{itemize} 
@@ -392,8 +378,8 @@
 		In questa sezione verranno riportati i risultati di tutte le metriche discusse precedentemente:
 	
 			\begin{itemize}
-				\item \textbf{Precision}: $0.9441$
-				\item \textbf{Recall}: $0.8664$
+				\item \textbf{Precision}: $0.9441$;
+				\item \textbf{Recall}: $0.8664$;
 				\item \textbf{Matrice di confusione}:
 					\begin{center}
 						\begin{blockarray}{*{2}{c} l}
@@ -406,8 +392,8 @@
 							\end{block}
 						\end{blockarray}		
 					\end{center}
-				\item \textbf{F2-score}: $0.9242$
-				\item \textbf{AUC-ROC}: $0.9154$
+				\item \textbf{F2-score}: $0.9242$;
+				\item \textbf{AUC-ROC}: $0.9154$.
 					\begin{figure}[h]
 					\centering
 					\includegraphics[width=245px]{img/roc_curve}
@@ -422,42 +408,55 @@
 	Per interagire andare ad interagire con il sistema, all'avvio viene mostrato un menù, navigabile con i tasti direzionali "$\uparrow$" e "$\downarrow$", con tre opzioni:
 	
 		\begin{enumerate}
-			\item \texttt{Cerca treno tra due stazioni}, per rintracciare tutti i treni tra la stazione di partenza e la stazione di arrivo dopo un determinato orario,
-			\item \texttt{Cerca itinerario}, fornice un itinerario, cioè tutti le informazioni relative ai treni da prendere (orario, tipo, etc...) tra due stazioni,
+			\item \texttt{Cerca treno tra due stazioni}, per rintracciare tutti i treni tra la stazione di partenza e la stazione di arrivo dopo un determinato orario;
+			\item \texttt{Cerca itinerario}, fornice un itinerario, cioè tutti le informazioni relative ai treni da prendere (orario, tipo, etc\dots) tra due stazioni;
 			\item \texttt{Uscire}, per terminare l'applicazione.
 		\end{enumerate} 
 		Di seguito verranno riportate alcune immagini relative alla UI del sistema, includendo il menù principale e le diverse funzionalità:
 		
 		\begin{figure}[!h]
 			\centering
-			\includegraphics[width=350px]{img/main_menu}
+			\includegraphics[width=400px]{img/main_menu}
 			\caption{Distribuzione dei treni con e senza ritardo}
 		\end{figure}
 
 		\begin{figure}[!h]
 			\centering
-			\includegraphics[width=390px]{img/search_train}
+			\includegraphics[width=400px]{img/search_train}
 			\caption{Distribuzione dei treni con e senza ritardo}
 		\end{figure}
 
 		\begin{figure}[!h]
 			\centering
-			\includegraphics[width=390px]{img/search_itin}
+			\includegraphics[width=400px]{img/search_itin}
 			\caption{Distribuzione dei treni con e senza ritardo}
 		\end{figure}
 		
 	\section{Conclusioni}
+	
+	L'obiettivo principale era sviluppare un sistema che potesse aiutare le persone a trovare la migliore soluzione per il viaggio in treno, andando a combinare la ricerca automatica di un itinerario che tenesse conto del numero di stazioni da percorrere e l'intelligenza artificiale per predire se il treno farà ritardo, andando così a limitare il disagio, in caso, da parte dei viaggiatori. \\
+	\subsection{Rappresentazione e ricerca}
+	Per la parte relativa alla ricerca, in primo luogo si sono reperiti i dati necessari attraverso chiamate API a vari servizi, successivamente si è andati a costruire una base di conoscenza (KB) per rappresentare formalmente la conoscenza ottenuta ed infine si è andati a progettare un grafo delle stazioni per applicare algoritmi di \textit{path-finding} in modo da minimizzare il numero di fermate.
+	\subsection{Apprendimento}
+	Per la seconda parte, relativa all'addestramento di un modello di machine learning con l'obiettivo di predire il ritardo di un treno, inizialmente si sono reperiti i dati relativi alle corse dei treni attraverso chiamate API giornaliere ai servizi precedentemente citati, successivamente si è analizzato il dataset formato, andando a eseguire una pre-eleborazione dei dati rimuovendo osservazioni problematiche per causa di dati mancanti, incoerenza e valori errati, eseguendo l'ingegnerizzazione delle feature separando le features di input da quelle di output, rimuovendone alcune e trasformandone i valori di altre.\\
+	Come modello per addestrare si è selto la Random Forest, che combina vari alberi decisionali per fornire una previsione. \\
+	I risultati ottenuti sono molto buoni avendo molti indicatori superiori al $90\%$, dimostrando la solidità del modello nel nostro contesto. \\
+	\linebreak
+	Consideando il tutto si piò dire di aver raggiunto l'obiettivo preposto, ottenendo un sistema efficente e soprattutto d'aiuto per noi viaggiatori.
+
+	
 	\section{Sviluppi futuri}
-	Il sistema presentato è aperto a sviluppi futuri che possano rendere il sistema ancora più efficiente e all'avanguardia. \\
-	Di seguito sono descritti alcuni dei possibili sviluppi futuri che intendiamo esplorare:
+	Nonostante il buon funzionamento ed risultati ottenuti, il sistema presentato è aperto a sviluppi futuri che possano rendere il tutto ancora più efficiente e all'avanguardia. \\
+	\linebreak
+	Di seguito sono descritti alcuni dei possibili sviluppi futuri da esplorare:
 	
 	\begin{enumerate}
-		\item Espansione della copertura ferroviaria andando a completare le informazioni relative a treni e staziono ed integrazione con altri servizi ferroviari (Italo, Frecciarossa, ...)
-		\item Implementazione di una vera e propria interfaccia grafica
-		\item Miglioramento della ricerca andando a suggerire all'utente, sulla base dei caratteri inseriti, le stazioni che iniziano con quei caratteri
-		\item Integrazione di dati in tempo reale andando a fornire all'utente informazioni in \textit{real time}
-
+		\item Espansione della copertura ferroviaria andando a completare le informazioni relative a treni e staziono ed integrazione con altri servizi ferroviari come Italo, Frecciarossa, etc\dots;
+		\item Miglioramento della ricerca andando a suggerire all'utente, sulla base dei caratteri inseriti, le stazioni che iniziano con quei caratteri;
+		\item Integrazione di dati in tempo reale andando a fornire all'utente informazioni in \textit{real time},
+		\item Creazione di client mobile per poter usare il sistema in mobilità.
 	\end{enumerate}
+	Queste sono alcune delle possibili migliorie/feature da poter implementare per rendere il sistema ancora più efficente e funzionale.
 	\printbibliography
 	
 \end{document}
