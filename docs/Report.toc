@@ -5,10 +5,11 @@
 \contentsline {section}{\numberline {2}Rappresentazione formale della conoscenza}{3}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Origine dei dati}{4}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Descrizione dei dati}{4}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Grafo}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.3}Rappresentazione basata su grafo}{5}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1}Costruzione grafo}{5}{subsubsection.2.3.1}%
 \contentsline {subsubsection}{\numberline {2.3.2}Ricerca grafo}{6}{subsubsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.4}Query Knowledge base}{7}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Query predefinite}{8}{subsubsection.2.4.1}%
 \contentsline {section}{\numberline {3}Machine Learning}{10}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Origine dataset}{10}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Analisi del dataset}{10}{subsection.3.2}%
@@ -24,4 +25,5 @@
 \contentsline {subsection}{\numberline {3.7}Risultati}{15}{subsection.3.7}%
 \contentsline {subsection}{\numberline {3.8}Considerazioni}{16}{subsection.3.8}%
 \contentsline {section}{\numberline {4}Interfaccia Grafica}{16}{section.4}%
-\contentsline {section}{\numberline {5}Sviluppi futuri}{17}{section.5}%
+\contentsline {section}{\numberline {5}Conclusioni}{17}{section.5}%
+\contentsline {section}{\numberline {6}Sviluppi futuri}{17}{section.6}%
