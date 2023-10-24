@@ -74,14 +74,16 @@ I dati necessari per la realizzazione di questo sistema, in particolare per la c
 ```
 TrainDelay-project/
 |
+├── data_preparation/
+│   └── data_pre-processing.ipynb
+|
 ├── data_retrive/
 │   └── scrape_train_data.py
 │
 ├── dataset/
-│   ├── stazioni_regioni.csv
-│   ├── trans_13_08_2023.csv
-│   ├── trans_17_08_2023.csv
-│   └── ...
+│   ├── stations.csv
+│   ├── trains.csv
+│   └── trains_refined.csv
 │
 ├── docs/
 │   ├── Report.tex
@@ -99,9 +101,14 @@ TrainDelay-project/
 │   ├── generate_station_kb.py
 │   ├── generate_train_kb.py
 │   └── knowledge_engine.py
+|
+├── machine_learning/
+│   ├── shallow_learning.ipynb
+│   └── train_delay_clf_v2.pkl
 │
 ├── app.py
 ├── options.py
+├── utils.py
 ├── README.md
 └── requirements.txt
 
