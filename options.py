@@ -27,8 +27,7 @@ def search(departure, arrival, time, model):
     table = PrettyTable()
     table.border = True
     table.padding_width = 3
-    table.field_names = ["TrainID", "TrainType", "DepartureStation",
-                         "ArrivalStation", "DepartureTime", "ArrivalTime", "Predicted delay (AI)"]
+    table.field_names = ["TrainID", "TrainType", "DepartureTime", "ArrivalTime", "Predicted delay (AI)"]
     table.sortby = "ArrivalTime"
     table.title = "\033[1m" + str(departure) + \
         " --> " + str(arrival) + "\033[0m"
@@ -39,17 +38,12 @@ def search(departure, arrival, time, model):
             trainInfo = engine.get_train_fact_by_ID(train)
             trainID = train
             trainType = trainInfo["Type"]
-            departureStationName = re.sub("(b|')", "", str(
-                engine.station_name_by_ID(trainInfo["DepartureID"])))
-            arrivalStationName = re.sub("(b|')", "", str(
-                engine.station_name_by_ID(trainInfo["ArrivalID"])))
             departureTime = trainInfo["DepartureTime"]
             arrivalTime = trainInfo["ArrivalTime"]
             # Make delay prediction
             prediction = utils.prediction_str(model.predict([[trainID, utils.time_to_minutes(
                 departureTime), utils.time_to_minutes(arrivalTime), utils.bin_train_type(trainType)]]))
-            table.add_row([trainID, trainType, departureStationName, arrivalStationName,
-                          departureTime, arrivalTime, prediction], divider=True)
+            table.add_row([trainID, trainType, departureTime, arrivalTime, prediction], divider=True)
 
         return table
     else:

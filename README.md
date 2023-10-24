@@ -5,6 +5,8 @@ Progetto per il corso ICON2223 [Uniba](https://www.uniba.it/it/ricerca/dipartime
 
 Creazione di un sistema di ricerca treni per ricerca di informazioni e la pianificazione automatica di itinerari, inoltre incorpora un modello di intelligenza artificiale per offrire predizioni del probabile ritardo di un determinato treno.
 
+**Documentazione completa**: [Report](docs/Report.pdf)
+
 ## Requisiti 📜
 
 - [**Prolog**](https://en.wikipedia.org/wiki/Prolog): Per la gestione e l'interrogazione nella knowledge base dei treni.
