@@ -278,7 +278,7 @@
 	
 
 	\subsection{Preparazione dati}
-		Prendedo il dataset così descritto ci sono una serie di problematiche da risolvere per poter usare i dati, in particolare andando a considerare le osservazioni notiamo che per i valori nominali, in questo caso quelli che esprimono il nome della stazione di partenza e di arrivo, ci sono dei caratteri che andrebbero modificati per formattare meglio il dataset, in particolare si sono andati a sostituire i punti, le virgole, gli accenti e le doppie virgolette con degli underscore per poter meglio gestire il dataset.
+		Prendendo il dataset così descritto ci sono una serie di problematiche da risolvere per poter usare i dati, in particolare andando a considerare le osservazioni notiamo che per i valori nominali, in questo caso quelli che esprimono il nome della stazione di partenza e di arrivo, ci sono dei caratteri che andrebbero modificati per formattare meglio il dataset, in particolare si sono andati a sostituire i punti, le virgole, gli accenti e le doppie virgolette con degli underscore per poter meglio gestire il dataset.
 		
 		\subsubsection{Analisi input features}
 			Considerando le feature di input, cioè quelle sulle quali il modello andrà ad imparare, non tutte sono funzionali per per il raggiongimento del nostro scopo, in particolare si sono escluse:
@@ -307,7 +307,7 @@
 			\end{equation*}
 			\linebreak
 			\\
-			Nel dataset abbiamo una distribuzione abbastanza bilanciata dei valori per la feature \textit{delay} ($41.3\%$ per treni in ritardo e $58.7\%$ per treni in orario), questo evita stategie per come data augmentation, cost-sensitive learning, etc\dots.
+			Nel dataset abbiamo una distribuzione abbastanza bilanciata dei valori per la feature \textit{delay} ($41.3\%$ per treni in ritardo e $58.7\%$ per treni in orario), questo evita stategie per bilanciare i dati come data augmentation, cost-sensitive learning, etc\dots.
 			
 			\begin{figure}[!h]
 				\centering
@@ -316,7 +316,7 @@
 			\end{figure}
 			
 	\subsection{Apprendimento automatico}
-	Per produrre un sistema che va predire se un treno farà ritardo o meno di ricorre all'apprendimento automatico o \textit{machine learning} che consiste nell'addestrare un modello ad imparare dai dati e a migliorare le proprie prestazioni nei compiti specifici senza essere esplicitamente programmanti.
+	Per produrre un sistema che va predire se un treno farà ritardo o meno si ricorre all'apprendimento automatico o \textit{machine learning} che consiste nell'addestrare un modello ad imparare dai dati e a migliorare le proprie prestazioni nei compiti specifici senza essere esplicitamente programmanti.
 	
 	\subsection{Random forest}
 	Per questo caso speficico si è usata la \textbf{Random forest}, modello di apprendimento automatico che combina molteplici alberi decisionali (\textit{decision trees}), entrando così nella categoria di modelli \textit{ensamble}, per migliorare la previsione e la generalizzazione.\\
@@ -400,7 +400,7 @@
 			\end{itemize}
 
 			\subsection{Considerazioni}
-				In generale il modello di classificazione mostra prestazioni solide, con un'accuratezza elevata, alta precisione e una buona capacità discriminativa. \\Tuttavia, il richiamo è leggermente inferiore al 90\%, suggerendo possibili aree di miglioramento. L'F2 score bilanciato fornisce un buon compromesso tra precisione e richiamo, indicando un equilibrio nel modello. 
+				In generale il modello di classificazione mostra prestazioni solide, con un'accuratezza elevata, alta precisione e una buona capacità discriminativa. \\Tuttavia, il \textit{recall} è leggermente inferiore al 90\%, suggerendo possibili aree di miglioramento. L'\textit{F2-score} bilanciato fornisce un buon compromesso tra \textit{precision} e \textit{recall}, indicando un equilibrio nel modello. 
 
 	\section{Interfaccia Grafica}
 	Per interagire andare ad interagire con il sistema, all'avvio viene mostrato un menù, navigabile con i tasti direzionali "$\uparrow$" e "$\downarrow$", con tre opzioni:
@@ -451,7 +451,7 @@
 	\begin{enumerate}
 		\item Espansione della copertura ferroviaria andando a completare le informazioni relative a treni e staziono ed integrazione con altri servizi ferroviari come Italo, Frecciarossa, etc\dots;
 		\item Miglioramento della ricerca andando a suggerire all'utente, sulla base dei caratteri inseriti, le stazioni che iniziano con quei caratteri;
-		\item Integrazione di dati in tempo reale andando a fornire all'utente informazioni in \textit{real time},
+		\item Integrazione di dati in tempo reale andando a fornire all'utente informazioni in \textit{real time};
 		\item Creazione di client mobile per poter usare il sistema in mobilità.
 	\end{enumerate}
 	Queste sono alcune delle possibili migliorie/feature da poter implementare per rendere il sistema ancora più efficente e funzionale.
