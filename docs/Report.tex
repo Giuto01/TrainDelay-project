@@ -251,7 +251,7 @@
 	\section{Machine Learning}
 		Una delle funzionalità cardine del sistema è quella di predire se un treno sarà in ritardo, per implementrala è stato necessario addestrare un modello di Machine larning che in base a certe caratteristiche dello specifico treno farà una previsione più o meno corretta sul suo andamento. \\
 		\linebreak
-		In particolare il task sarà di classificazione binaria, cioè verrà predetto se un treno farà ritardo o meno basandosi su un insieme di caratteristiche e dati.
+		In origine si è sperimentato con task di regressione, cioè, basandosi su un insieme di caratteristiche e dati, cercare di predire il valore esatto del ritardo, successivamente a causa di risultati non troppo ottmali ci si è spostati sul task di classificazione binaria, verrà predetto solo se un treno farà ritardo o meno.
 	
 	\subsection{Origine dataset}
 		Il dataset di addestramento e test è stato recuperato per mezzo dell'interrogazione tramite API al serivio 	\href{http://www.viaggiatreno.it/infomobilita/index.jsp}{viaggiotreno.it}, in particolare si sono recuperate le informazoni giornaliere circa i treni (ID, tipo di treno, ...) ed in più il ritardo effettuato della corsa specifica fornendo così un insieme di dati essenziali per l'addestramento e la valutazione del modello di classificazione.
@@ -288,7 +288,7 @@
 				\item \textit{arrival} (il modello scelto non accetta dati di tipo string);
 				\item \textit{detection\_date} (nessuna correlazione sulle feature su cui fare predizione).
 			\end{itemize}
-			Per quanto riguarda le feature rimanenti si è optato per una trasformazionde dei valori per adattarli al modello, specificatamente i valori di \textit{departure\_time} e \textit{arrival\_time} da stringhe nel formato HH:MM si è passati a valori numerici che rappresentano i minuti ($hour*60+minutes$), inoltre si è operato anche su \textit{train\_type} eseguendo una binarizzazione:
+			Per quanto riguarda le feature rimanenti si è ritenuto opportuno includere nel learning anche \textit{train\_id} perchè si è osservato che determinati treni facevano sempre ritardo, inoltre si è optato per una trasformazionde dei valori per adattarli al modello, specificatamente i valori di \textit{departure\_time} e \textit{arrival\_time} da stringhe nel formato HH:MM si è passati a valori numerici che rappresentano i minuti ($hour*60+minutes$), inoltre si è operato anche su \textit{train\_type} eseguendo una binarizzazione:
 			\begin{equation*}
 				\begin{cases}
 					1 \quad \text{if } train\_type(i) = regionale \\
@@ -297,7 +297,7 @@
 			\end{equation*}
 			
 		\subsubsection{Analisi target feature}
-			La target feature rappresenta l'biettivo sella notra predizione, in questo caso \textit{delay} che rappresenta il ritardo di una detrminata corsa, essendo un task di classificazione, cioè prevedere se un determinato treno farà ritardo o meno, anche in questo caso si è eseguita una binarizzazione:
+			La target feature rappresenta l'biettivo sella notra predizione, in questo caso \textit{delay} che rappresenta il ritardo di una detrminata corsa, per la regressione lasciamo il valore così come ci viene dato, mentre per la classificazione anche in questo caso si è eseguita una binarizzazione:
 			
 			\begin{equation*}
 				\begin{cases}
@@ -316,10 +316,11 @@
 			\end{figure}
 			
 	\subsection{Apprendimento automatico}
-	Per produrre un sistema che va predire se un treno farà ritardo o meno si ricorre all'apprendimento automatico o \textit{machine learning} che consiste nell'addestrare un modello ad imparare dai dati e a migliorare le proprie prestazioni nei compiti specifici senza essere esplicitamente programmanti.
-	
+	Per produrre un sistema che va predire se un treno farà ritardo o meno si ricorre all'apprendimento automatico o \textit{machine learning} che consiste nell'addestrare un modello ad imparare dai dati e a migliorare le proprie prestazioni nei compiti specifici senza essere esplicitamente programmanti.\\
+	Come già accennato si sono fatti esperimenti sia per la regressione che per la classificazione, in particolare per la prima si cerca di trovare una funzione $\hat{y}$, che meglio somiglia alla funzione "reale" che descrive i dati $y = f(X_1, X_2, \dots, X_n)$, mentre per la seconda si cerca di assegnare ad un'ovvervazione una certa categoria.
+
 	\subsection{Random forest}
-	Per questo caso speficico si è usata la \textbf{Random forest}, modello di apprendimento automatico che combina molteplici alberi decisionali (\textit{decision trees}), entrando così nella categoria di modelli \textit{ensamble}, per migliorare la previsione e la generalizzazione.\\
+	Per questo caso speficico, sia per la regressione che per la classificazione si è usata la \textbf{Random forest}, modello di apprendimento automatico che combina molteplici alberi decisionali (\textit{decision trees}), entrando così nella categoria di modelli \textit{ensamble}, per migliorare la previsione e la generalizzazione.\\
 	La random forest fa parte della gamma dei modelli di \textbf{apprendimento supervisionato}, cioè viene addestrato su un insieme di dati di addestramento che includono sia le caratteristiche (input features) che le risposte corrette (output features). 
 	Il modello impara a fare previsioni basate su questi esempi etichettati.
 		
@@ -330,20 +331,42 @@
 	\end{figure}
 
 	\subsubsection{Funzionamento}
-	In particolare la Random Forest funziona creando un insieme di alberi decisionali, ognuno addestrato su un subset casuale dei dati di addestramento e su un subset casuale delle caratteristiche.\\
-	Questo processo introduce variabilità e riduce il rischio di sovradattamento (\textit{overfitting}). Quando si effettua una previsione, ciascun albero fornisce una previsione, e la Random Forest combina queste previsioni per ottenere un risultato finale più accurato e stabile.
+	In particolare la Random Forest funziona creando un insieme di alberi decisionali (regressione/classificazione in base al task), ognuno addestrato su un subset casuale dei dati di addestramento e su un subset casuale delle caratteristiche.\\
+	Questo processo introduce variabilità e riduce il rischio di sovradattamento (\textit{overfitting}) cioè quando il modello si lega troppo ai dati di \textit{training} risultando inefficacie su dati mai visti.\\ Quando si effettua una previsione, ciascun albero fornisce una previsione, e la Random Forest combina queste previsioni per ottenere un risultato finale più accurato e stabile.\\
+	\linebreak
+	Nel nostro caso per la regressione si è optato per una media delle predizioni di ogni albero, mentre per la classificazione la classe più predetta.
 	\subsubsection{Configurazione scelta}
-	Dopo varie sperimentazioni si riporta la migliore configurazione del modello, in particolare attraverso la libreria \texttt{scikit-learn} \cite{scikit_learn} si è definita una random forest le cui caratteristiche perculiari sono:
+	Dopo varie sperimentazioni si riporta la migliore configurazione del modello, in particolare attraverso la libreria \texttt{scikit-learn} \cite{scikit_learn} si è definita una random forest le cui caratteristiche perculiari sono:\\
+	\linebreak
+	 \textbf{Regressione}
 		\begin{enumerate}
-			\item \texttt{n\_estimators = 50}, che rappresenta il numero di alberi su cui lavorare;
-			\item  \texttt{criterion = "gini"}, che rappresenta il criterio di \textit{split} degli alberi, in particolare il criterio punta a minimizzare l'impurità dei nodi, quindi per scegliere l'attributo che meglio divide i dati in base alla target feature per ogni nodo si calcola:
-				$$GINI(v) = 1-\sum_{i = 1}^{|c|}p_i^2$$
+			
+			\item \texttt{n\_estimators = 35}, che rappresenta il numero di alberi su cui lavorare;
+			\item  \texttt{criterion = "squared\_error"}, che rappresenta il criterio di \textit{split} degli alberi, in particolare il criterio è \textit{l'errore quadratico medio}, una misura che quantifica la differenza tra i valori previsti da un modello e i valori osservati o reali puntando a minimizzare la varianza, si calcola:
+				$$MSE = \frac{1}{n}\sum_{i = 1}^{n}(y_i - \hat{y_i})^2$$
 			dove:
 				\begin{itemize}
-					\item $v$ è il nodo in esame,
-					\item $c$ rappresenta l'inseme delle classi,
-					\item $p_i$ è la probabilità che un campione nel nodo $v$ appartenga alla classe $i$.
+					\item $n$ è il numero osservazioni;
+					\item $y_i$ rappresenta il valore osservato (reale);
+					\item $\hat{y_i}$ rappresenta il valore predetto.
 				\end{itemize}
+
+			Il criterio \texttt{squared\_error} è stato scelto per la sua efficacia e chiarezza di espressione, infatti è espresso nella stessa unità dei dati reali, in questo caso minuti di riatrdo, rendendo più comprensibile di quanto le previsioni del modello si discostano, in media, dai valori reali in termini di minuti.
+			
+		\end{enumerate}
+		
+		\textbf{Classificazione}
+		\begin{enumerate}
+			
+			\item \texttt{n\_estimators = 50}, che rappresenta il numero di alberi su cui lavorare;
+			\item  \texttt{criterion = "gini"},criterio di \textit{split} degli alberi, in particolare il criterio punta a minimizzare l'impurità dei nodi, quindi per scegliere l'attributo che meglio divide i dati in base alla target feature per ogni nodo si calcola:
+			$$GINI(v) = 1-\sum_{i = 1}^{|c|}p_i^2$$
+			dove:
+			\begin{itemize}
+				\item $v$ è il nodo in esame;
+				\item $c$ rappresenta l'inseme delle classi;
+				\item $p_i$ è la probabilità che un campione nel nodo $v$ appartenga alla classe $i$.
+			\end{itemize}
 			infine vene scelto il nodo con minor impurità. \\
 			\linebreak
 			L'indice \texttt{gini} è stato scelto per la sua efficenza, infatti la complessità per il calcolo dell'indice per uno nodo è dell'ordine di $O(c)$, dove c è il numero di classi.
@@ -353,31 +376,58 @@
 	\subsection{Valutazione dei modelli}
 	Per andare a valutare i modelli prodotti dopo l'addestramento si è usata la k-Fold-Cross-Validation, che esegue la riprtizione del dataset D in k sottoinsiemi (folds), $D_1, D_2, \dots , D_k$ prevede $k$ iterazioni ed all'$i$-esima iterazione il sottoinsieme $D_i$ sarà usato come dataset di test, metre l'unione degli altri sarà usata per allenare il modello. \\
 	\linebreak
-	Alla fine delle $k$ iterazioni, vengono raccolti i risultati delle valutazioni e calcolate le metriche di performance, come l'accuratezza o l'F1-score, per valutare quanto bene il modello si comporta in media su dati di test diversi.
+	Alla fine delle $k$ iterazioni, vengono raccolti i risultati delle valutazioni e calcolate le metriche di performance per valutare quanto bene il modello si comporta in media su dati di test diversi.
+	
+	\subsubsection{Metriche scelte regressione}
+	Ai fini della valutazione si hanno a disposizione moltissime metriche adatte per moltissime situazioni, in questo caso speficiso si sono scelte:
+	
+	\begin{enumerate}
+		\item Mean absolute error $(MEA)$ che misura la media degli errori assoluti tra le previsioni del modello e i valori osservati $$MAE = \frac{1}{n}\sum_{i = 1}^{n}|y_i - \hat{y_i}|$$
+		\item Mean squared error $(MSE)$ che calcola la media dei quadrati degli errori tra le previsioni del modello e i valori osservati $$MSE = \frac{1}{n}\sum_{i = 1}^{n}(y_i - \hat{y_i})^2$$
+		\item $R^2$-score, indica quanto il modello spiega le variazioni nei dati $$R^2 = 1 - \frac{\sum_{i=1}^{n}(y_i - \hat{y}_i)^2}{\sum_{i=1}^{n}(y_i - \bar{y})^2} $$
+	\end{enumerate}
+	
+	dove:
+	\begin{itemize}
+		\item $n$ è il numero osservazioni;
+		\item $y_i$ rappresenta il valore osservato (reale);
+		\item $\hat{y_i}$ rappresenta il valore predetto;
+		\item $\bar{y_i}$ rappresenta il valore medio.
+	\end{itemize}
 
 	
-	\subsubsection{Metriche scelte}
-	Ai fini della valutazione si hanno a disposizione moltissime metriche adatte per moltissime situazioni, le più comuni sono:
+	\subsubsection{Metriche scelte classificazione}
+	Per andare a valutare il modello prodotto si sono scelte le metriche più comuni:
 	
 	$$Precision = \frac{TP}{TP+FP} \quad Recall = \frac{TP}{TP+FN}$$
 
 	Inoltre per avere un quadro della situazione più dettagliato si presentano altre mertiche che mettono in correlazione le due precedenti, come:
 	
 		
-	\begin{itemize}
+	\begin{enumerate}
 		\item $f\beta-score$,  combinazione delle metriche classiche di $precision$ e $recall$ bilanciate da un parametro $\beta$ nella media armonica
 		$$f\beta-score = \frac{(1+ \beta^2) \cdot Precision \cdot Recall}{\beta^2 \cdot Precision + Recall}$$
 		\item $AUC-ROC$ (Area Under the Receiver Operating Characteristic Curve), area sotto la curva che rappresenta la relazione tra il tasso di veri positivi (True Positive Rate, TPR) e il tasso di falsi positivi (False Positive Rate, FPR) al variare della soglia di classificazione
 		$$TPR = \frac{TP}{TP+FN} \quad FPR = \frac{FP}{FP+TN}$$
 	
-	\end{itemize} 
+	\end{enumerate} 
 
 	\subsection{Risultati}
-		In questa sezione verranno riportati i risultati di tutte le metriche discusse precedentemente:
-	
+		In questa sezione verranno riportati i risultati migliori di tutte le metriche discusse precedentemente:\\
+		\linebreak
+		\textbf{Regressione}:
+		\begin{itemize}
+			\item  \textbf{MAE}: 1.27;
+			\item  \textbf{MSE}: 4.86;
+			\item  \textbf{R$^2$ score}: 0.58;
+		\end{itemize}
+		
+		\textbf{Classificazione}:
 			\begin{itemize}
-				\item \textbf{Precision}: $0.9441$;
-				\item \textbf{Recall}: $0.8664$;
+				\item \textbf{Precision}: 0.94;
+				\item \textbf{Recall}: 0.86;
+				\item \textbf{F2-score}: 0.92;
+				\item \textbf{AUC-ROC}: 0.91.
 				\item \textbf{Matrice di confusione}:
 					\begin{center}
 						\begin{blockarray}{*{2}{c} l}
@@ -390,8 +440,7 @@
 							\end{block}
 						\end{blockarray}		
 					\end{center}
-				\item \textbf{F2-score}: $0.9242$;
-				\item \textbf{AUC-ROC}: $0.9154$.
+
 					\begin{figure}[h]
 					\centering
 					\includegraphics[width=245px]{img/roc_curve}
