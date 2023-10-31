@@ -83,7 +83,9 @@ TrainDelay-project/
 ├── dataset/
 │   ├── stations.csv
 │   ├── trains.csv
-│   └── trains_refined.csv
+│   ├── trains_refined_classification.csv
+│   ├── trains_refined_regression.csv
+│   └── new_test_dataset.csv
 │
 ├── docs/
 │   ├── Report.tex
@@ -103,7 +105,9 @@ TrainDelay-project/
 │   └── knowledge_engine.py
 |
 ├── machine_learning/
-│   ├── shallow_learning.ipynb
+│   ├── classification.ipynb
+│   ├── regression.ipynb
+│   ├── train_delay_reg_v1.pkl
 │   └── train_delay_clf_v2.pkl
 │
 ├── app.py
