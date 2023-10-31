@@ -16,7 +16,6 @@ def time_to_minutes(time):
     hour, minutes = time.split(":")
     return int(hour) * 60 + int(minutes)
 
-
 def bin_train_type(trainType):
     '''
     Maps a train type string to a binary value.
@@ -36,7 +35,6 @@ def bin_train_type(trainType):
         return 1
     elif trainType == "nazionale":
         return 0
-
 
 def prediction_str(pred):
     '''
