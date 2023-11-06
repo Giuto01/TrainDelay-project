@@ -65,7 +65,7 @@
 	
 	\vfill
 	\begin{center}
-		Anno accadenico 2022-2023
+		Anno accademico 2022-2023
 	\end{center}
 	
 	\newpage
@@ -78,8 +78,8 @@
 	
 		\subsection{Definizione obiettivo principale}
 		
-		L'obiettivo principale del progetto è la creazione di un motore di ricerca che trova i migliori itinerari di viaggio in treno sulla base della stazione di partenza e di arrivo e che, per ogni viaggio, mostra una predizione del probabile ritardo.\\
-		Questo sistema non solo potrà far risparmiare del tempo a chi organizza dei viaggi valutando ogni singola tratta, ma garantirà un risparmio econimico ai viaggiatori garantendo che la tratta scelta dal sistema sia la minima e necessaria per arrivare alla destinazione, inoltre la predizione del ritardo andrà a ridurre in maniera significativa il disagio da parte dei viaggiatori. 
+		L'obiettivo principale del progetto è la creazione di un motore di ricerca che trova i migliori itinerari di viaggio in treno sulla base della stazione di partenza e di arrivo e che, per ogni corsa, mostra una predizione del probabile ritardo.\\
+		Questo sistema non solo potrà far risparmiare del tempo a chi organizza dei viaggi valutando ogni singola tratta, ma garantirà un risparmio econimico ai viaggiatori assicurando che la tratta scelta dal sistema sia la minima e necessaria per arrivare alla destinazione, inoltre la predizione del ritardo andrà a ridurre in maniera significativa il disagio da parte dei viaggiatori. 
 		
 	
 		\subsection{Tool utilizzati}
@@ -94,7 +94,7 @@
 	\section{Rappresentazione formale della conoscenza}
 	
 		La rappresentazione formale della conoscenza è importante per consentire l'espressione della conoscenza in modo preciso, organizzato ed interpretabile da parte di sistemi informatici.\\
-		Per gestire formalmente la conoscenza, facilitando la ricerca e l'accesso alle informazioni specifiche, si costruisce una \textbf{knowledge base} (base di conoscenza), cioè una raccolta strutturata di informazioni o dati che rappresenta la conoscenza su un determinato dominio o argomento, utilizzate per immagazzinare ed organizzare la conoscenza in modo che sia accessibile ed utilizzabile da sistemi informatici.
+		Per gestire formalmente la conoscenza, facilitando la ricerca e l'accesso alle informazioni specifiche, si costruisce una \textbf{knowledge base} (base di conoscenza), cioè una raccolta strutturata di informazioni o dati che rappresenta la conoscenza su un determinato dominio o argomento, utilizzate per immagazzinare ed organizzare la conoscenza in modo che sia accessibile da sistemi informatici.
 		
 		\subsection{Origine dei dati}
 			Tutte le informazioni relative alla schedule dei treni sono state reperite per mezzo dell'interrogazione alle API messe a disposizione dal sito \href{http://www.viaggiatreno.it/infomobilita/index.jsp}{www.viaggiatreno.it}, mentre le informazioni relative alle stazioni sono state recuperate dal repository "trenitalia: scraping di viaggiatreno".\cite{dati_stazioni}
@@ -199,7 +199,7 @@
 	\vspace{20px}
 
 			\subsection{Query Knowledge base}
-				Per andare ad interagire un Knowledge base vengono eseguite delle \textbf{query}, interrogazioni alla KB, che permettono di estrapolare informazioni specifiche.\\
+				Per andare ad interagire con una Knowledge base vengono eseguite delle \textbf{query}, interrogazioni alla KB, che permettono di estrapolare informazioni specifiche.\\
 				In questo caso sono state messe a disposizione delle query predefinite per poter recuperare le informazioni relative ai treni secondo le esigenze dell'utente. \\
 				In particolare sono state pensate quattro query principali, che verranno eseguite in base al tipo di ricerca che l'utente andrà ad effettuare.\\
 				\linebreak
@@ -207,7 +207,7 @@
 			\subsubsection{Query predefinite}
 				In questa sezione verranno presentate le principali \textbf{query} progettate e messe a disposizione e che il sistema userà per interagire, in maniere efficente, con la base di conoscenza (KB).\\
 				\linebreak
-				Si focalizzeranno sulle varie opzioni di ricerca progettate per il sistema, recuperando tutte le informazioni necessare ad un suo funzionamento. \\
+				Si focalizzeranno sulle varie opzioni di ricerca progettate per il sistema, recuperando tutte le informazioni necessare al suo funzionamento. \\
 				\linebreak
 				Query principali:
 				
@@ -228,7 +228,7 @@
 			
 						\end{figure}
 						\newpage
-					\item Restituisce la lista di treni (\texttt{Trains}) che collegano due stazioni specifiche, partendo dalla stazione \texttt{DepartureStationName} e arrivando \texttt{ArrivalStationName} dopo un orario specifico ()\texttt{Time} nel foramto HH:MM);
+					\item Restituisce la lista di treni (\texttt{Trains}) che collegano due stazioni specifiche, partendo dalla stazione \texttt{DepartureStationName} e arrivando \texttt{ArrivalStationName} dopo un orario specifico (\texttt{Time}) nel foramto HH:MM);
 						\begin{figure}[h]
 							\centering
 							\includegraphics[width=370px]{img/code4}
@@ -276,10 +276,10 @@
 				\end{figure}
 	
 		\subsection{Preparazione dati}
-			Prendendo il dataset così descritto ci sono una serie di problematiche da risolvere per poter usare i dati, in particolare andando a considerare le osservazioni notiamo che per i valori nominali, in questo caso quelli che esprimono il nome della stazione di partenza e di arrivo, ci sono dei caratteri che andrebbero modificati per formattare meglio il dataset, in particolare si sono andati a sostituire i punti, le virgole, gli accenti e le doppie virgolette con degli underscore per poter meglio gestire il dataset.
+			Prendendo il dataset così descritto ci sono una serie di problematiche da risolvere per poter usare i dati, in particolare andando a considerare le osservazioni notiamo che per i valori nominali, in questo caso quelli che esprimono il nome della stazione di partenza e di arrivo, ci sono dei caratteri che andrebbero modificati per formattare meglio il dataset, in particolare si sono andati a sostituire i punti, le virgole, gli accenti e le doppie virgolette con degli underscore per poter meglio gestire i dati.
 		
 			\subsubsection{Analisi input features}
-				Considerando le feature di input, cioè quelle sulle quali il modello andrà ad imparare, non tutte sono funzionali per per il raggiungimento del nostro scopo, in particolare si sono escluse:
+				Considerando le feature di input, cioè quelle sulle quali il modello andrà ad imparare, non tutte sono funzionali per il raggiungimento del nostro scopo, in particolare si sono escluse:
 				
 				\begin{itemize}
 					\item \textit{origin} (il modello scelto non accetta dati di tipo string);
@@ -332,7 +332,8 @@
 		
 			\subsubsection{Funzionamento}
 				In particolare la Random Forest funziona creando un insieme di alberi decisionali (regressione/classificazione in base al task), ognuno addestrato su un subset casuale dei dati e su un subset casuale delle caratteristiche.\\
-				Questo processo introduce variabilità e riduce il rischio di sovradattamento (\textit{overfitting}) cioè quando il modello si lega troppo ai dati di \textit{training} risultando inefficace su dati mai visti.\\ Quando si effettua una previsione, ciascun albero fornisce una previsione, la Random Forest combina queste previsioni per ottenere un risultato finale più accurato e stabile.\\
+				Questo processo introduce variabilità e riduce il rischio di sovradattamento (\textit{overfitting}) cioè quando il modello si lega troppo ai dati di \textit{training} risultando inefficace su dati mai visti.\\ 
+				Alla fine ogni albero fornisce una sua previsione, la Random Forest le combina in vari modi (media, moda, etc\dots) per ottenere un risultato finale più accurato e stabile.\\
 				\linebreak
 				Nel nostro caso per la regressione si è optato per una media delle predizioni di ogni albero, mentre per la classificazione viene scelta la classe più predetta.
 			\subsubsection{Configurazione usata}
@@ -347,7 +348,7 @@
 							$$MSE = \frac{1}{n}\sum_{i = 1}^{n}(y_i - \hat{y_i})^2$$
 						dove:
 							\begin{itemize}
-								\item $n$ è il numero osservazioni;
+								\item $n$ è il numero di osservazioni;
 								\item $y_i$ rappresenta il valore osservato (reale);
 								\item $\hat{y_i}$ rappresenta il valore predetto.
 							\end{itemize}
@@ -362,11 +363,11 @@
 					
 					\item \texttt{n\_estimators = 50}, rappresenta il numero di alberi su cui lavorare;
 					\item  \texttt{criterion = "gini"}, criterio di \textit{split} degli alberi, in particolare il criterio punta a minimizzare l'impurità dei nodi, quindi per scegliere l'attributo che meglio divide i dati in base alla target feature per ogni nodo si calcola:
-					$$GINI(v) = 1-\sum_{i = 1}^{|c|}p_i^2$$
+					$$GINI(v) = 1-\sum_{i = 1}^{|C|}p_i^2$$
 					dove:
 					\begin{itemize}
 						\item $v$ è il nodo in esame;
-						\item $c$ rappresenta l'inseme delle classi;
+						\item $C$ rappresenta l'inseme delle classi;
 						\item $p_i$ è la probabilità che un campione nel nodo $v$ appartenga alla classe $i$.
 					\end{itemize}
 					infine vene scelto il nodo con minor impurità. \\
@@ -384,14 +385,14 @@
 				Ai fini della valutazione si hanno a disposizione moltissime metriche adatte per moltissime situazioni, in questo caso speficiso si sono scelte:
 	
 				\begin{enumerate}
-					\item\textit{ Mean absolute error} $(MEA)$ che misura la media degli errori assoluti tra le previsioni del modello e i valori osservati; $$MAE = \frac{1}{n}\sum_{i = 1}^{n}|y_i - \hat{y_i}|$$
-					\item \textit{Mean squared error} $(MSE)$ che calcola la media dei quadrati degli errori tra le previsioni del modello e i valori osservati; $$MSE = \frac{1}{n}\sum_{i = 1}^{n}(y_i - \hat{y_i})^2$$
+					\item\textit{ Mean absolute error} $(MEA)$ che misura la media degli errori assoluti tra le previsioni del modello ed i valori osservati; $$MAE = \frac{1}{n}\sum_{i = 1}^{n}|y_i - \hat{y_i}|$$
+					\item \textit{Mean squared error} $(MSE)$ che calcola la media dei quadrati degli errori tra le previsioni del modello ed i valori osservati; $$MSE = \frac{1}{n}\sum_{i = 1}^{n}(y_i - \hat{y_i})^2$$
 					\item \textit{$R^2$-score} che indica quanto il modello spiega le variazioni nei dati. $$R^2 = 1 - \frac{\sum_{i=1}^{n}(y_i - \hat{y}_i)^2}{\sum_{i=1}^{n}(y_i - \bar{y})^2} $$
 				\end{enumerate}
 	
 				dove:
 				\begin{itemize}
-					\item $n$ è il numero osservazioni;
+					\item $n$ è il numero di osservazioni;
 					\item $y_i$ rappresenta il valore osservato (reale);
 					\item $\hat{y_i}$ rappresenta il valore predetto;
 					\item $\bar{y_i}$ rappresenta il valore medio.
@@ -511,7 +512,7 @@
 		\begin{figure}[!h]
 			\centering
 			\includegraphics[width=400px]{img/search_train}
-			\caption{Ricerca di un treno da tra due stazioni}
+			\caption{Ricerca di un treno tra due stazioni}
 		\end{figure}
 
 		\begin{figure}[!h]
@@ -528,9 +529,9 @@
 		
 		\subsection{Apprendimento}
 			Per la seconda parte, relativa all'addestramento di un modello di machine learning con l'obiettivo di predire il ritardo di un treno, inizialmente si sono reperiti i dati relativi alle corse dei treni attraverso chiamate API giornaliere ai servizi precedentemente citati, successivamente si è analizzato il dataset formato, andando a eseguire una pre-eleborazione dei dati rimuovendo osservazioni problematiche per causa di dati mancanti, incoerenza e valori errati, eseguendo l'ingegnerizzazione delle feature separando le features di input da quelle di output, rimuovendone alcune e trasformandone i valori di altre.\\
-			Di seguito si è provato ad addestrae un modello di regressione per cercare predire il ritardo effettivo che un treno avrebbe fatto, ma i risultati non ottimali non hanno permesso di inserire questo modello nel sistmea, mentre si è stati più fortunati con il task di classificazione andando a predire se il treno farà o meno ritardo, in entrambi i casi si è scelta la Random Forest come metodo, che combina vari alberi decisionali per fornire una previsione. \\
+			Di seguito si è provato ad addestrae un modello di regressione per cercare di predire il ritardo effettivo che un treno avrebbe fatto, ma i risultati non ottimali non hanno permesso di inserire questo modello nel sistema, mentre si è stati più fortunati con il task di classificazione andando a predire se il treno farà o meno ritardo, in entrambi i casi si è scelta la Random Forest come metodo, che combina vari alberi decisionali per fornire una previsione. \\
 			\linebreak
-			Consideando il tutto si piò dire di aver raggiunto l'obiettivo preposto, ottenendo un sistema efficente e soprattutto d'aiuto per noi viaggiatori.
+			Considerando il tutto si può dire di aver raggiunto l'obiettivo preposto, ottenendo un sistema efficente e soprattutto d'aiuto per noi viaggiatori.
 
 	
 	\section{Sviluppi futuri}
@@ -539,7 +540,7 @@
 		Di seguito sono descritti alcuni dei possibili sviluppi futuri da esplorare:
 		
 		\begin{enumerate}
-			\item Espansione della copertura ferroviaria andando a completare le informazioni relative a treni e staziono ed integrazione con altri servizi ferroviari come Italo, Frecciarossa, etc\dots;
+			\item Espansione della copertura ferroviaria andando a completare le informazioni relative a treni ed alle stazioni, integrando i dati di altri servizi ferroviari come Italo, Frecciarossa, etc\dots;
 			\item Miglioramento della ricerca andando a suggerire all'utente, sulla base dei caratteri inseriti, le stazioni che iniziano con quei caratteri;
 			\item Affinamento modello di regressione andando a sperimentare nuove tecniche sia di data processing, come data augmentation per gli outlier che tecniche di learning;
 			\item Integrazione di dati in tempo reale andando a fornire all'utente informazioni in \textit{real time};
