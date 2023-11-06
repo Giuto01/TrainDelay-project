@@ -1,16 +1,16 @@
 # TrainDelay-project
-Progetto per il corso ICON2223 [Uniba](https://www.uniba.it/it/ricerca/dipartimenti/informatica)
+Progetto finale per il corso ICON2223 [Uniba](https://www.uniba.it/it/ricerca/dipartimenti/informatica)
 
 ## Obiettivo 🎯
 
-Creazione di un sistema di ricerca treni per ricerca di informazioni e la pianificazione automatica di itinerari, inoltre incorpora un modello di intelligenza artificiale per offrire predizioni del probabile ritardo di un determinato treno.
+Creazione di un sistema di ricerca treni per la pianificazione automatica di itinerari, inoltre incorpora un modello di intelligenza artificiale per offrire predizioni del probabile ritardo di un determinato treno.
 
 **Documentazione completa**: [Report](docs/Report.pdf)
 
 ## Requisiti 📜
 
-- [**Prolog**](https://en.wikipedia.org/wiki/Prolog): Per la gestione e l'interrogazione nella knowledge base dei treni.
-- [**Python**](https://www.python.org/): Per eseguire l'applicazione
+- [**Prolog**](https://en.wikipedia.org/wiki/Prolog), per la gestione e l'interrogazione nella knowledge base dei treni;
+- [**Python**](https://www.python.org/), per eseguire l'applicazione.
 
 ## Installazione 🔩
 Avendo python installato sulla propria macchina:
@@ -26,7 +26,7 @@ Avendo python installato sulla propria macchina:
   2. Clona il repository:
 
       ```bash
-      git clone https://github.com/Giuto01/TrainDelay-project.git
+      git clone https://github.com/Giut0/TrainDelay-project.git
       cd TrainDelay-project/
       ```
   3. Creazione ambiente virtuale (opzionale):
@@ -51,7 +51,7 @@ Avendo python installato sulla propria macchina:
   
     
 ## Utilizzo 📍
-Eseguendo `app.py` Apparirà l'interfaccia utente a riga di comando:
+Eseguendo `app.py` apparirà l'interfaccia utente a riga di comando:
 
 ```bash
 [?] Scegli una opzione:
@@ -62,12 +62,12 @@ Eseguendo `app.py` Apparirà l'interfaccia utente a riga di comando:
 ```
 
 ### Possibili opzioni ⚙️
-1. `Cerca treno tra due stazioni`: Inserendo il nome di due stazioni e l'orario di partenza il sistema troverà tutti i treni disponibili tra le stazioni scelte e dopo l'orario selezionato
-2. `Cerca itinerario`: Inserendo la stazione di partenza e la stazione di arrivo il sistema troverà l'itinerario migliore in base al minor numero di stazioni del percorso
-3. `Uscire`: Termine del programma
+1. `Cerca treno tra due stazioni`: Inserendo il nome di due stazioni e l'orario di partenza il sistema troverà tutti i treni disponibili tra le stazioni scelte e dopo l'orario selezionato;
+2. `Cerca itinerario`: Inserendo la stazione di partenza e la stazione di arrivo il sistema troverà l'itinerario migliore in base al minor numero di stazioni del percorso;
+3. `Uscire`: Termine del programma.
 
 ### Origine dei dati 🗃️
-I dati necessari per la realizzazione di questo sistema, in particolare per la costruzione della _knowledge base_, sono stati recuperati attraverso l'utilizzo delle API fornite da **[viaggiatreno.it](http://www.viaggiatreno.it/infomobilita/index.jsp)** per lo schedule dei treni e **[sabas](https://github.com/sabas/trenitalia)** per i dati relativi alle stazioni.
+I dati necessari per la realizzazione di questo sistema, in particolare per la costruzione della _knowledge base_, sono stati recuperati attraverso l'interrogazione alle API fornite da **[viaggiatreno.it](http://www.viaggiatreno.it/infomobilita/index.jsp)** per la schedule dei treni e **[sabas](https://github.com/sabas/trenitalia)** per i dati relativi alle stazioni.
 
 
 ### Organizzazione repository 📐
@@ -107,13 +107,13 @@ TrainDelay-project/
 ├── machine_learning/
 │   ├── classification.ipynb
 │   ├── regression.ipynb
-│   ├── train_delay_reg_v1.pkl
 │   └── train_delay_clf_v2.pkl
 │
 ├── app.py
 ├── options.py
 ├── utils.py
 ├── README.md
+├── LICENSE
 └── requirements.txt
 
 ```
