@@ -50,7 +50,7 @@ Avendo python installato sulla propria macchina:
       ``` 
   
     
-## Utilizzo 📍
+## Utilizzo 💪
 Eseguendo `app.py` apparirà l'interfaccia utente a riga di comando:
 
 ```bash
